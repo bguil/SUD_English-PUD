@@ -136,10 +136,10 @@
 11	Endurance	Endurance	PROPN	NNP	Number=Sing	19	subj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	captained	captain	VERB	VBN	Tense=Past|VerbForm=Part	11	mod	_	_
-14	by	by	ADP	IN	_	16	flat	_	_
-15	Sir	Sir	PROPN	NNP	Number=Sing	17	compound	_	_
-16	Ernest	Ernest	PROPN	NNP	Number=Sing	13	udep	_	_
-17	Shackleton	Shackleton	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
+14	by	by	ADP	IN	_	13	comp:obl@agent	_	_
+15	Sir	Sir	PROPN	NNP	Number=Sing	14	comp:obj	_	_
+16	Ernest	Ernest	PROPN	NNP	Number=Sing	15	flat	_	_
+17	Shackleton	Shackleton	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	11	punct	_	_
 19	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 20	sail	sail	NOUN	NN	Number=Sing	19	comp:obj	_	_

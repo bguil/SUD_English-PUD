@@ -28,7 +28,7 @@
 24	Obama	Obama	PROPN	NNP	Number=Sing	26	compound	_	_
 25	special	special	ADJ	JJ	Degree=Pos	26	mod	_	_
 26	assistant	assistant	NOUN	NN	Number=Sing	29	subj	_	_
-27	Kori	Kori	PROPN	NNP	Number=Sing	26	flat	_	_
+27	Kori	Kori	PROPN	NNP	Number=Sing	26	:appos	_	_
 28	Schulman	Schulman	PROPN	NNP	Number=Sing	27	flat	_	_
 29	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	parataxis	_	_
 30	in	in	ADP	IN	_	29	udep	_	_
@@ -568,7 +568,7 @@
 2	killed	kill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Andre	Andre	PROPN	NNP	Number=Sing	2	comp:obj	_	_
 4	Price	Price	PROPN	NNP	Number=Sing	3	flat	_	_
-5	III	III	PROPN	NNP	Number=Sing	2	flat	_	_
+5	III	III	PROPN	NNP	Number=Sing	4	flat	_	_
 6	by	by	SCONJ	IN	_	2	mod	_	_
 7	pressing	press	VERB	VBG	VerbForm=Ger	6	comp:obj	_	_
 8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	mod@poss	_	_
@@ -1370,7 +1370,7 @@
 12	of	of	ADP	IN	_	11	udep	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	element	element	NOUN	NN	Number=Sing	12	comp:obj	_	_
-15	iridium	iridium	NOUN	NN	Number=Sing	14	flat	_	SpaceAfter=No
+15	iridium	iridium	NOUN	NN	Number=Sing	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	_	_
 
 # newdoc id = n01024
@@ -1764,10 +1764,10 @@
 15	martial	martial	ADJ	JJ	Degree=Pos	16	mod	_	_
 16	arts	art	NOUN	NNS	Number=Plur	17	compound	_	_
 17	school	school	NOUN	NN	Number=Sing	12	comp:obj	_	_
-18	in	in	ADP	IN	_	20	flat	_	_
+18	in	in	ADP	IN	_	12	mod	_	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
-20	capital	capital	NOUN	NN	Number=Sing	12	udep	_	_
-21	Belgrade	Belgrade	PROPN	NNP	Number=Sing	18	comp:obj	_	SpaceAfter=No
+20	capital	capital	NOUN	NN	Number=Sing	18	comp:obj	_	_
+21	Belgrade	Belgrade	PROPN	NNP	Number=Sing	20	conj:appos	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01030
@@ -2950,7 +2950,7 @@
 9	unlimited	unlimited	ADJ	JJ	Degree=Pos	10	mod	_	_
 10	data	data	NOUN	NN	Number=Sing	11	compound	_	_
 11	customer	customer	NOUN	NN	Number=Sing	7	subj	_	_
-12	Lindsay	Lindsay	PROPN	NNP	Number=Sing	11	flat	_	_
+12	Lindsay	Lindsay	PROPN	NNP	Number=Sing	11	conj:appos	_	_
 13	Gay	Gay	PROPN	NNP	Number=Sing	12	flat	_	_
 14	last	last	ADJ	JJ	Degree=Pos	15	mod	_	_
 15	month	month	NOUN	NN	Number=Sing	7	udep@tmod	_	SpaceAfter=No
@@ -3205,7 +3205,7 @@
 9	when	when	ADV	WRB	PronType=Int	20	mod	_	_
 10	expectant	expectant	ADJ	JJ	Degree=Pos	11	mod	_	_
 11	mother	mother	NOUN	NN	Number=Sing	20	subj@pass	_	_
-12	Margaret	Margaret	PROPN	NNP	Number=Sing	11	flat	_	_
+12	Margaret	Margaret	PROPN	NNP	Number=Sing	11	conj:appos	_	_
 13	Boemer	Boemer	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	11	punct	_	_
 15	of	of	ADP	IN	_	11	udep	_	_
@@ -6321,7 +6321,7 @@
 25	cost	cost	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
 26	chief	chief	NOUN	NN	Number=Sing	27	compound	_	_
 27	executive	executive	NOUN	NN	Number=Sing|Shared=No	25	comp:obl	_	_
-28	Martin	Martin	PROPN	NNP	Number=Sing	27	flat	_	_
+28	Martin	Martin	PROPN	NNP	Number=Sing	27	conj:appos	_	_
 29	Winterkorn	Winterkorn	PROPN	NNP	Number=Sing	28	flat	_	_
 30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	mod@poss	_	_
 31	job	job	NOUN	NN	Number=Sing|Shared=No	25	comp:obj	_	SpaceAfter=No
@@ -6370,7 +6370,7 @@
 11	and	and	CCONJ	CC	_	13	cc	_	_
 12	brand	brand	NOUN	NN	Number=Sing	13	compound	_	_
 13	chief	chief	NOUN	NN	Number=Sing	10	conj	_	_
-14	Herbert	Herbert	PROPN	NNP	Number=Sing|Shared=No	13	flat	_	_
+14	Herbert	Herbert	PROPN	NNP	Number=Sing|Shared=No	13	conj:appos	_	_
 15	Diess	Diess	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
 17	who	who	PRON	WP	PronType=Rel	18	subj	_	_
@@ -7341,7 +7341,7 @@
 7	commissioned	commission	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	interior	interior	NOUN	NN	Number=Sing	9	compound	_	_
 9	designer	designer	NOUN	NN	Number=Sing	7	comp:obj	_	_
-10	Rachel	Rachel	PROPN	NNP	Number=Sing	9	flat	_	_
+10	Rachel	Rachel	PROPN	NNP	Number=Sing	9	conj:appos	_	_
 11	Winham	Winham	PROPN	NNP	Number=Sing	10	flat	_	_
 12	to	to	PART	TO	_	7	comp:obl	_	_
 13	design	design	VERB	VB	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
