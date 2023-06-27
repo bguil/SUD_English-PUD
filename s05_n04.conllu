@@ -1,0 +1,607 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# newdoc id = n04001
+# sent_id = n04001002
+# text = Tina Anselmi was born on the 25th of March, 1927 in Castelfranco Veneto; she grew up in an anti-fascist Catholic family, which was marked by the persecution of her militant socialist father.
+1	Tina	Tina	PROPN	NNP	Number=Sing	3	subj@pass	_	_
+2	Anselmi	Anselmi	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+5	on	on	ADP	IN	_	4	udep	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	25th	25th	NOUN	NN	Number=Sing	5	comp:obj	_	_
+8	of	of	ADP	IN	_	7	udep	_	_
+9	March	March	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	1927	1927	NUM	CD	NumType=Card	9	mod@tmod	_	_
+12	in	in	ADP	IN	_	4	udep	_	_
+13	Castelfranco	Castelfranco	PROPN	NNP	Number=Sing	12	comp:obj	_	_
+14	Veneto	Veneto	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+15	;	;	PUNCT	:	_	3	punct	_	_
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
+17	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+18	up	up	ADP	RP	_	17	compound@prt	_	_
+19	in	in	ADP	IN	_	17	udep	_	_
+20	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+21	anti-fascist	anti-fascist	ADJ	JJ	Degree=Pos	23	mod	_	_
+22	Catholic	catholic	ADJ	JJ	Degree=Pos	23	mod	_	_
+23	family	family	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	23	punct	_	_
+25	which	which	PRON	WDT	PronType=Rel	26	subj@pass	_	_
+26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	mod@relcl	_	_
+27	marked	mark	VERB	VBN	Tense=Past|VerbForm=Part	26	comp:aux@pass	_	_
+28	by	by	ADP	IN	_	27	udep	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	persecution	persecution	NOUN	NN	Number=Sing	28	comp:obj	_	_
+31	of	of	ADP	IN	_	30	udep	_	_
+32	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	mod@poss	_	_
+33	militant	militant	ADJ	JJ	Degree=Pos	35	mod	_	_
+34	socialist	socialist	ADJ	JJ	Degree=Pos	35	mod	_	_
+35	father	father	NOUN	NN	Number=Sing	31	comp:obj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n04001013
+# text = Having always been close to the Catholic Union, Tina Anselmi attended particularly to the rights of textile workers and teachers.
+1	Having	have	AUX	VBG	VerbForm=Ger	12	mod	_	_
+2	always	always	ADV	RB	_	1	mod	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	1	comp:aux	_	_
+4	close	close	ADV	RB	Degree=Pos	3	comp:pred	_	_
+5	to	to	ADP	IN	_	4	udep	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	Catholic	Catholic	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Union	Union	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	Tina	Tina	PROPN	NNP	Number=Sing	12	subj	_	_
+11	Anselmi	Anselmi	PROPN	NNP	Number=Sing	10	flat	_	_
+12	attended	attend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	particularly	particularly	ADV	RB	_	14	mod	_	_
+14	to	to	ADP	IN	_	12	udep	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	rights	rights	NOUN	NNS	Number=Plur	14	comp:obj	_	_
+17	of	of	ADP	IN	_	16	udep	_	_
+18	textile	textile	NOUN	NN	Number=Sing|Shared=No	19	compound	_	_
+19	workers	worker	NOUN	NNS	Number=Plur	17	comp:obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	teachers	teacher	NOUN	NNS	Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
+
+# newdoc id = n04002
+# sent_id = n04002020
+# text = It is difficult to think that Italy has fewer km of underground line than Madrid.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	unk@expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	difficult	difficult	ADJ	JJ	Degree=Pos	2	comp:pred	_	_
+4	to	to	PART	TO	_	2	subj	_	_
+5	think	think	VERB	VB	VerbForm=Inf	4	comp:obj	_	_
+6	that	that	SCONJ	IN	_	5	comp:obj	_	_
+7	Italy	Italy	PROPN	NNP	Number=Sing	8	subj	_	_
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+9	fewer	fewer	ADJ	JJR	Degree=Cmp	10	mod	_	_
+10	km	km	NOUN	NNS	Number=Plur	8	comp:obj	_	_
+11	of	of	ADP	IN	_	10	udep	_	_
+12	underground	underground	ADJ	JJ	Degree=Pos	13	mod	_	_
+13	line	line	NOUN	NN	Number=Sing	11	comp:obj	_	_
+14	than	than	ADP	IN	_	9	udep	_	_
+15	Madrid	Madrid	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n04002027
+# text = It has been emphasised that we absolutely cannot continue with those who are completely against Italy.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp@expl	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	emphasised	emphasise	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+5	that	that	SCONJ	IN	_	2	subj@pass	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	subj	_	_
+7	absolutely	absolutely	ADV	RB	_	8	mod	_	_
+8	can	can	AUX	MD	VerbForm=Fin	5	comp:obj	_	SpaceAfter=No
+9	not	not	PART	RB	Polarity=Neg	8	mod	_	_
+10	continue	continue	VERB	VB	VerbForm=Inf	8	comp:aux	_	_
+11	with	with	ADP	IN	_	10	udep	_	_
+12	those	those	PRON	DT	Number=Plur|PronType=Dem	11	comp:obj	_	_
+13	who	who	PRON	WP	PronType=Rel	14	subj	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
+15	completely	completely	ADV	RB	_	14	mod	_	_
+16	against	against	ADP	IN	_	14	udep	_	_
+17	Italy	Italy	PROPN	NNP	Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n04002029
+# text = We will evaluate whether and how to continue onto the next section.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+3	evaluate	evaluate	VERB	VB	VerbForm=Inf	2	comp:aux	_	_
+4	whether	whether	SCONJ	IN	_	3	comp:obl	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	how	how	ADV	WRB	PronType=Int	4	conj	_	_
+7	to	to	PART	TO	Shared=Yes	6	comp:obj	_	_
+8	continue	continue	VERB	VB	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
+9	onto	onto	ADP	IN	_	8	udep	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	next	next	ADJ	JJ	Degree=Pos	12	mod	_	_
+12	section	section	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# newdoc id = n04003
+# sent_id = n04003043
+# text = The hit song is "Geronimo" by Sheppard.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	hit	hit	NOUN	NN	Number=Sing	3	compound	_	_
+3	song	song	NOUN	NN	Number=Sing	4	subj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	"	"	PUNCT	``	_	6	punct	_	SpaceAfter=No
+6	Geronimo	Geronimo	PROPN	NNP	Number=Sing	4	comp:pred	_	SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	by	by	ADP	IN	_	6	udep	_	_
+9	Sheppard	Sheppard	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# newdoc id = n04005
+# sent_id = n04005003
+# text = Those of age will be offered 500 euros by the state, to be spent by 31st December 2017.
+#  = # Checktree: relation 31st following email-enronsent13_01-0054
+1	Those	those	PRON	DT	Number=Plur|PronType=Dem	4	subj@pass	_	_
+2	of	of	ADP	IN	_	1	udep	_	_
+3	age	age	NOUN	NN	Number=Sing	2	comp:obj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+5	be	be	AUX	VB	VerbForm=Inf	4	comp:aux	_	_
+6	offered	offer	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
+7	500	500	NUM	CD	NumType=Card	8	mod	_	_
+8	euros	euro	NOUN	NNS	Number=Plur	6	comp:obj	_	_
+9	by	by	ADP	IN	_	6	udep	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	state	state	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	_	_
+13	to	to	PART	TO	_	4	mod	_	_
+14	be	be	AUX	VB	VerbForm=Inf	13	comp:obj	_	_
+15	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
+16	by	by	ADP	IN	_	18	compound	_	_
+17	31st	31st	NOUN	NN	Number=Sing	16	comp:obj	_	_
+18	December	December	PROPN	NNP	Number=Sing	15	udep	_	_
+19	2017	2017	NUM	CD	NumType=Card	18	mod@tmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = n04005016
+# text = A voucher is generated that can be saved on your smartphone, or presented at the till.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	voucher	voucher	NOUN	NN	Number=Sing	3	subj@pass	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	generated	generate	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	6	subj@pass	_	_
+6	can	can	AUX	MD	VerbForm=Fin	2	mod@relcl	_	_
+7	be	be	AUX	VB	VerbForm=Inf	6	comp:aux	_	_
+8	saved	save	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
+9	on	on	ADP	IN	_	8	udep	_	_
+10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	mod@poss	_	_
+11	smartphone	smartphone	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	or	or	CCONJ	CC	_	14	cc	_	_
+14	presented	present	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	_
+15	at	at	ADP	IN	Shared=No	14	udep	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	till	till	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# newdoc id = n04006
+# sent_id = n04006003
+# text = From the 1st of January there will be an increase in petrol and diesel.
+1	From	from	ADP	IN	_	7	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	1st	1st	NOUN	NN	Number=Sing	1	comp:obj	_	_
+4	of	of	ADP	IN	_	3	udep	_	_
+5	January	January	PROPN	NNP	Number=Sing	4	comp:obj	_	_
+6	there	there	PRON	EX	_	10	unk@expl	_	_
+7	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+8	be	be	AUX	VB	VerbForm=Inf	7	comp:aux	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	increase	increase	NOUN	NN	Number=Sing	8	comp:pred	_	_
+11	in	in	ADP	IN	_	10	udep	_	_
+12	petrol	petrol	NOUN	NN	Number=Sing	11	comp:obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	diesel	diesel	NOUN	NN	Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = n04006004
+# text = The CGI Mestre have stated in a note, that there will be no rise in VAT, for 2017 at least.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	CGI	CGI	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Mestre	Mestre	PROPN	NNP	Number=Sing	4	subj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	stated	state	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+6	in	in	ADP	IN	_	5	udep	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	note	note	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	5	punct	_	_
+10	that	that	SCONJ	IN	_	5	comp:obj	_	_
+11	there	there	PRON	EX	_	15	unk@expl	_	_
+12	will	will	AUX	MD	VerbForm=Fin	10	comp:obj	_	_
+13	be	be	AUX	VB	VerbForm=Inf	12	comp:aux	_	_
+14	no	no	DET	DT	Polarity=Neg	15	det	_	_
+15	rise	rise	NOUN	NN	Number=Sing	13	comp:pred	_	_
+16	in	in	ADP	IN	_	15	udep	_	_
+17	VAT	vat	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
+19	for	for	ADP	IN	_	15	udep	_	_
+20	2017	2017	NUM	CD	NumType=Card	19	comp:obj	_	_
+21	at	at	ADV	RB	_	20	udep	_	_
+22	least	least	ADV	RBS	Degree=Sup	21	comp:obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = n04006010
+# text = A level that in both cases is at the top of the EU.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	level	level	NOUN	NN	Number=Sing	0	root	_	_
+3	that	that	PRON	WDT	PronType=Rel	7	subj	_	_
+4	in	in	ADP	IN	_	7	udep	_	_
+5	both	both	DET	DT	_	6	det	_	_
+6	cases	case	NOUN	NNS	Number=Plur	4	comp:obj	_	_
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
+8	at	at	ADP	IN	_	7	udep	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	top	top	NOUN	NN	Number=Sing	8	comp:obj	_	_
+11	of	of	ADP	IN	_	10	udep	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	EU	EU	PROPN	NNP	Number=Sing	11	comp:obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n04006014
+# text = The latest figures relate to the 24th of October last year, and tell us that our diesel costs 1,335 euros per litre, compared with the eurozone average of 1,165 euros.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	latest	latest	ADJ	JJS	Degree=Sup	3	mod	_	_
+3	figures	figure	NOUN	NNS	Number=Plur|Shared=Yes	4	subj	_	_
+4	relate	relate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	4	udep	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	24th	24th	NOUN	NN	Number=Sing	5	comp:obj	_	_
+8	of	of	ADP	IN	_	7	udep	_	_
+9	October	October	PROPN	NNP	Number=Sing	8	comp:obj	_	_
+10	last	last	ADJ	JJ	Degree=Pos	11	mod	_	_
+11	year	year	NOUN	NN	Number=Sing	9	mod@tmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	tell	tell	VERB	VB	VerbForm=Inf	4	conj	_	_
+15	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Shared=No	14	comp:obl	_	_
+16	that	that	SCONJ	IN	Shared=No	14	comp:obj	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	mod@poss	_	_
+18	diesel	diesel	NOUN	NN	Number=Sing	19	subj	_	_
+19	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
+20	1,335	1,335	NUM	CD	NumType=Card	21	mod	_	_
+21	euros	euro	NOUN	NNS	Number=Plur	19	comp:obj	_	_
+22	per	per	ADP	IN	_	21	udep	_	_
+23	litre	litre	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	19	punct	_	_
+25	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	19	udep	_	_
+26	with	with	ADP	IN	_	25	comp:obj	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	eurozone	eurozone	PROPN	NNP	Number=Sing	29	mod	_	_
+29	average	average	NOUN	NN	Number=Sing	26	comp:obj	_	_
+30	of	of	ADP	IN	_	29	udep	_	_
+31	1,165	1,165	NUM	CD	NumType=Card	32	mod	_	_
+32	euros	euro	NOUN	NNS	Number=Plur	30	comp:obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = n04006016
+# text = A significantly higher cost which clearly exceeds the average of the countries that adopt the single currency, which is equal to 1,365 euros per litre.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+2	significantly	significantly	ADV	RB	_	3	mod	_	_
+3	higher	higher	ADJ	JJR	Degree=Cmp	4	mod	_	_
+4	cost	cost	NOUN	NN	Number=Sing	0	root	_	_
+5	which	which	PRON	WDT	PronType=Rel	7	subj	_	_
+6	clearly	clearly	ADV	RB	_	7	mod	_	_
+7	exceeds	exceed	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	average	average	NOUN	NN	Number=Sing	7	comp:obj	_	_
+10	of	of	ADP	IN	_	9	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	countries	country	NOUN	NNS	Number=Plur	10	comp:obj	_	_
+13	that	that	PRON	WDT	PronType=Rel	14	subj	_	_
+14	adopt	adopt	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	single	single	ADJ	JJ	Degree=Pos	17	mod	_	_
+17	currency	currency	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	9	punct	_	_
+19	which	which	PRON	WDT	PronType=Rel	20	subj	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+21	equal	equal	ADJ	JJ	Degree=Pos	20	comp:pred	_	_
+22	to	to	ADP	IN	_	21	udep	_	_
+23	1,365	1,365	NUM	CD	NumType=Card	24	mod	_	_
+24	euros	euro	NOUN	NNS	Number=Plur	22	comp:obj	_	_
+25	per	per	ADP	IN	_	24	udep	_	_
+26	litre	litre	NOUN	NN	Number=Sing	25	comp:obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# newdoc id = n04007
+# sent_id = n04007002
+# text = Corrado Passera withdraws the offer for Mps due to "the attitude of total closure that the Bank has shown to us".
+1	Corrado	Corrado	PROPN	NNP	Number=Sing	3	subj	_	_
+2	Passera	Passera	PROPN	NNP	Number=Sing	1	flat	_	_
+3	withdraws	withdraw	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	offer	offer	NOUN	NN	Number=Sing	3	comp:obj	_	_
+6	for	for	ADP	IN	_	5	udep	_	_
+7	Mps	Mps	PROPN	NNP	Number=Sing	6	comp:obj	_	_
+8	due	due	ADP	IN	_	3	udep	_	ExtPos=ADP|Idiom=Yes
+9	to	to	ADP	IN	_	8	unk	_	InIdiom=Yes
+10	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	attitude	attitude	NOUN	NN	Number=Sing	8	comp:obj	_	_
+13	of	of	ADP	IN	_	12	udep	_	_
+14	total	total	ADJ	JJ	Degree=Pos	15	mod	_	_
+15	closure	closure	NOUN	NN	Number=Sing	13	comp:obj	_	_
+16	that	that	DET	WDT	PronType=Rel	20	comp:obj	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Bank	bank	NOUN	NN	Number=Sing	19	subj	_	_
+19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
+20	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	19	comp:aux	_	_
+21	to	to	ADP	IN	_	20	udep	_	_
+22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	comp:obj	_	SpaceAfter=No
+23	"	"	PUNCT	''	_	12	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n04007015
+# text = As stated, the decision is the prerogative of the ECB and would appear inappropriate for the Bank to speak on its behalf by excluding the possibility of looking at other alternatives.
+1	As	as	SCONJ	IN	Shared=Yes	6	mod	_	_
+2	stated	state	VERB	VBN	Tense=Past|VerbForm=Part	1	comp:obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	Shared=Yes	6	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	decision	decision	NOUN	NN	Number=Sing|Shared=Yes	6	subj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	prerogative	prerogative	NOUN	NN	Number=Sing	6	comp:pred	_	_
+9	of	of	ADP	IN	_	8	udep	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	ECB	ECB	PROPN	NNP	Number=Sing	9	comp:obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	would	would	AUX	MD	VerbForm=Fin	6	conj	_	_
+14	appear	appear	VERB	VB	Shared=No|VerbForm=Inf	13	comp:aux	_	_
+15	inappropriate	inappropriate	ADJ	JJ	Degree=Pos	14	comp:pred	_	_
+16	for	for	ADP	IN	_	15	udep	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Bank	bank	NOUN	NN	Number=Sing	16	comp:obj	_	_
+19	to	to	PART	TO	_	15	comp:obl	_	_
+20	speak	speak	VERB	VB	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
+21	on	on	ADP	IN	_	20	udep	_	_
+22	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	mod@poss	_	_
+23	behalf	behalf	NOUN	NN	Number=Sing	21	comp:obj	_	_
+24	by	by	SCONJ	IN	_	20	mod	_	_
+25	excluding	exclude	VERB	VBG	VerbForm=Ger	24	comp:obj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	possibility	possibility	NOUN	NN	Number=Sing	25	comp:obj	_	_
+28	of	of	SCONJ	IN	_	27	udep	_	_
+29	looking	look	VERB	VBG	VerbForm=Ger	28	comp:obj	_	_
+30	at	at	ADP	IN	_	29	udep	_	_
+31	other	other	ADJ	JJ	Degree=Pos	32	mod	_	_
+32	alternatives	alternative	NOUN	NNS	Number=Plur	30	comp:obj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = n04007018
+# text = This is what has been written in a note to Mps after the decision of the ex-minister to leave the party.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	what	what	PRON	WP	PronType=Int	2	comp:pred	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+6	written	write	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
+7	in	in	ADP	IN	_	6	udep	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	note	note	NOUN	NN	Number=Sing	7	comp:obj	_	_
+10	to	to	ADP	IN	_	9	udep	_	_
+11	Mps	Mps	PROPN	NNP	Number=Sing	10	comp:obj	_	_
+12	after	after	ADP	IN	_	6	udep	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	decision	decision	NOUN	NN	Number=Sing	12	comp:obj	_	_
+15	of	of	ADP	IN	_	14	udep	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	ex-minister	ex-minister	NOUN	NN	Number=Sing	15	comp:obj	_	_
+18	to	to	PART	TO	_	14	udep	_	_
+19	leave	leave	VERB	VB	VerbForm=Inf	18	comp:obj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	party	party	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n04007023
+# text = It will go for assessment.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+3	go	go	VERB	VB	VerbForm=Inf	2	comp:aux	_	_
+4	for	for	ADP	IN	_	3	udep	_	_
+5	assessment	assessment	NOUN	NN	Number=Sing	4	comp:obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# newdoc id = n04008
+# sent_id = n04008007
+# text = Students at LUISS University were told during the course of a meeting which took place in Rome.
+1	Students	student	NOUN	NNS	Number=Plur	5	subj@pass	_	_
+2	at	at	ADP	IN	_	3	flat	_	_
+3	LUISS	LUISS	PROPN	NNP	Number=Sing	1	mod	_	_
+4	University	University	PROPN	NNP	Number=Sing	2	comp:obj	_	_
+5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
+7	during	during	ADP	IN	_	6	udep	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	course	course	NOUN	NN	Number=Sing	7	comp:obj	_	_
+10	of	of	ADP	IN	_	9	udep	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	meeting	meeting	NOUN	NN	Number=Sing	10	comp:obj	_	_
+13	which	which	PRON	WDT	PronType=Rel	14	subj	_	_
+14	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	mod@relcl	_	_
+15	place	place	NOUN	NN	Number=Sing	14	comp:obj	_	_
+16	in	in	ADP	IN	_	14	udep	_	_
+17	Rome	Rome	PROPN	NNP	Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = n04008016
+# text = This morning, Pope Francis met Mark Zuckerberg and his wife at Casa Santa Marta.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	morning	morning	NOUN	NN	Number=Sing	6	mod@tmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	Pope	Pope	PROPN	NNP	Number=Sing	6	subj	_	_
+5	Francis	Francis	PROPN	NNP	Number=Sing	4	flat	_	_
+6	met	meet	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	Mark	Mark	PROPN	NNP	Number=Sing	6	comp:obj	_	_
+8	Zuckerberg	Zuckerberg	PROPN	NNP	Number=Sing	7	flat	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	_
+11	wife	wife	NOUN	NN	Number=Sing	7	conj	_	_
+12	at	at	ADP	IN	_	6	udep	_	_
+13	Casa	Casa	PROPN	NNP	Number=Sing	12	comp:obj	_	_
+14	Santa	Santa	PROPN	NNP	Number=Sing	13	flat	_	_
+15	Marta	Marta	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# newdoc id = n04009
+# sent_id = n04009002
+# text = Four students at Roma Tre University have developed a motorcycle helmet that can 'read thoughts' by helping to anticipate drivers' actions.
+1	Four	four	NUM	CD	NumType=Card	2	mod	_	_
+2	students	student	NOUN	NNS	Number=Plur	7	subj	_	_
+3	at	at	ADP	IN	_	2	udep	_	_
+4	Roma	Roma	PROPN	NNP	Number=Sing	6	compound	_	_
+5	Tre	Tre	PROPN	NNP	Number=Sing	6	compound	_	_
+6	University	University	PROPN	NNP	Number=Sing	3	comp:obj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	motorcycle	motorcycle	NOUN	NN	Number=Sing	11	compound	_	_
+11	helmet	helmet	NOUN	NN	Number=Sing	8	comp:obj	_	_
+12	that	that	PRON	WDT	PronType=Rel	13	subj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	11	mod@relcl	_	_
+14	'	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+15	read	read	VERB	VB	VerbForm=Inf	13	comp:aux	_	_
+16	thoughts	thought	NOUN	NNS	Number=Plur	15	comp:obj	_	SpaceAfter=No
+17	'	'	PUNCT	''	_	15	punct	_	_
+18	by	by	SCONJ	IN	_	13	mod	_	_
+19	helping	help	VERB	VBG	VerbForm=Ger	18	comp:obj	_	_
+20	to	to	PART	TO	_	19	comp:obl	_	_
+21	anticipate	anticipate	VERB	VB	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
+22	drivers	driver	NOUN	NNS	Number=Plur	23	comp:obj	_	SpaceAfter=No
+23	'	'	PART	POS	_	24	udep@poss	_	_
+24	actions	action	NOUN	NNS	Number=Plur	21	comp:obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = n04009003
+# text = One of the examples of research applied under safety measures has also produced a humanoid robot to compete with Valentino Rossi.
+1	One	one	NUM	CD	NumType=Card	11	subj	_	_
+2	of	of	ADP	IN	_	1	udep	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	examples	example	NOUN	NNS	Number=Plur	2	comp:obj	_	_
+5	of	of	ADP	IN	_	4	udep	_	_
+6	research	research	NOUN	NN	Number=Sing	5	comp:obj	_	_
+7	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	6	mod	_	_
+8	under	under	ADP	IN	_	7	udep	_	_
+9	safety	safety	NOUN	NN	Number=Sing	10	compound	_	_
+10	measures	measure	NOUN	NNS	Number=Plur	8	comp:obj	_	_
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	also	also	ADV	RB	_	11	mod	_	_
+13	produced	produce	VERB	VBN	Tense=Past|VerbForm=Part	11	comp:aux	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	humanoid	humanoid	ADJ	JJ	Degree=Pos	16	mod	_	_
+16	robot	robot	NOUN	NN	Number=Sing	13	comp:obj	_	_
+17	to	to	SCONJ	TO	_	11	mod	_	_
+18	compete	compete	VERB	VB	VerbForm=Inf	17	comp:obj	_	_
+19	with	with	ADP	IN	_	18	udep	_	_
+20	Valentino	Valentino	PROPN	NNP	Number=Sing	19	comp:obj	_	_
+21	Rossi	Rossi	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# newdoc id = n04010
+# sent_id = n04010006
+# text = In return, Uber will receive a billion dollar investment and a seat on the board of directors of the Chinese company.
+1	In	in	ADP	IN	_	5	udep	_	_
+2	return	return	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	Uber	Uber	PROPN	NNP	Number=Sing	5	subj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+6	receive	receive	VERB	VB	VerbForm=Inf	5	comp:aux	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art|Shared=No	10	det	_	_
+8	billion	billion	NUM	CD	NumType=Card	9	mod	_	_
+9	dollar	dollar	NOUN	NN	Number=Sing|Shared=No	10	compound	_	_
+10	investment	investment	NOUN	NN	Number=Sing	6	comp:obj	_	_
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	seat	seat	NOUN	NN	Number=Sing	10	conj	_	_
+14	on	on	ADP	IN	Shared=No	13	udep	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	board	board	NOUN	NN	Number=Sing	14	comp:obj	_	_
+17	of	of	ADP	IN	_	16	udep	_	_
+18	directors	director	NOUN	NNS	Number=Plur	17	comp:obj	_	_
+19	of	of	ADP	IN	_	16	udep	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	Chinese	Chinese	ADJ	JJ	Degree=Pos	22	mod	_	Proper=True
+22	company	company	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = n04010016
+# text = More and more tech companies are calling the shots more than ever before on Wall Street, even more than in Silicon Valley.
+#  = # Checktree: 1, 18, 19, 20
+1	More	more	ADJ	JJR	Degree=Cmp	5	mod	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_
+3	more	more	ADJ	JJR	Degree=Cmp	1	conj	_	_
+4	tech	tech	NOUN	NN	Number=Sing	5	compound	_	_
+5	companies	company	NOUN	NNS	Number=Plur	6	subj	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	6	comp:aux	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	shots	shot	NOUN	NNS	Number=Plur	7	comp:obj	_	_
+10	more	more	ADV	RBR	_	7	mod	_	_
+11	than	than	SCONJ	IN	_	10	mod	_	_
+12	ever	ever	ADV	RB	_	13	mod	_	_
+13	before	before	ADV	RB	_	11	comp:obj	_	_
+14	on	on	ADP	IN	_	7	udep	_	_
+15	Wall	Wall	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Street	Street	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	6	punct	_	_
+18	even	even	ADV	RB	_	19	mod	_	_
+19	more	more	ADV	RBR	_	6	mod	_	_
+20	than	than	SCONJ	IN	_	19	udep	_	_
+21	in	in	ADP	IN	_	20	comp:obj	_	_
+22	Silicon	Silicon	PROPN	NNP	Number=Sing	23	compound	_	_
+23	Valley	Valley	PROPN	NNP	Number=Sing	21	comp:obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = n04010017
+# text = Amazon has become the fourth American company with the largest market capitalisation, surpassing ExxonMobil.
+1	Amazon	Amazon	PROPN	NNP	Number=Sing	2	subj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	become	become	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+5	fourth	fourth	ADJ	JJ	Degree=Pos|NumType=Ord	7	mod	_	_
+6	American	American	ADJ	JJ	Degree=Pos	7	mod	_	Proper=True
+7	company	company	NOUN	NN	Number=Sing	3	comp:pred	_	_
+8	with	with	ADP	IN	_	7	udep	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	largest	largest	ADJ	JJS	Degree=Sup	12	mod	_	_
+11	market	market	NOUN	NN	Number=Sing	12	compound	_	_
+12	capitalisation	capitalisation	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	7	punct	_	_
+14	surpassing	surpass	VERB	VBG	VerbForm=Ger	2	mod	_	_
+15	ExxonMobil	ExxonMobil	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n04010021
+# text = Leaders of companies such as Spotify, Tesla, Uber and Snapchat will attend a private event in addition to the Mountain View Summit.
+#  = # Checktree: in addition to -> fixed?
+1	Leaders	leader	NOUN	NNS	Number=Plur	13	subj	_	_
+2	of	of	ADP	IN	_	1	udep	_	_
+3	companies	company	NOUN	NNS	Number=Plur	2	comp:obj	_	_
+4	such	such	ADJ	JJ	Degree=Pos	3	udep	_	ExtPos=ADJ|Idiom=Yes
+5	as	as	ADP	IN	_	4	unk	_	InIdiom=Yes
+6	Spotify	Spotify	PROPN	NNP	Number=Sing	4	comp:obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	Tesla	Tesla	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	Uber	Uber	PROPN	NNP	Number=Sing	8	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	Snapchat	Snapchat	PROPN	NNP	Number=Sing	10	conj	_	_
+13	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+14	attend	attend	VERB	VB	VerbForm=Inf	13	comp:aux	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	private	private	ADJ	JJ	Degree=Pos	17	mod	_	_
+17	event	event	NOUN	NN	Number=Sing	14	comp:obj	_	_
+18	in	in	ADP	IN	_	14	udep	_	_
+19	addition	addition	NOUN	NN	Number=Sing	18	comp:obj	_	_
+20	to	to	ADP	IN	_	19	udep	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+22	Mountain	Mountain	PROPN	NNP	Number=Sing	24	compound	_	_
+23	View	View	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Summit	summit	PROPN	NN	Number=Sing	20	comp:obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	_	_
+

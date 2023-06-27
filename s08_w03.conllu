@@ -1,0 +1,650 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# newdoc id = w03001
+# sent_id = w03001037
+# text = The Viguier and La Conte districts contain the majority of the city's social housing, where the population is mainly made up of immigrants or those of immigrant origin.
+1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+2	Viguier	Viguier	PROPN	NNP	Number=Sing	6	compound	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	La	La	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Conte	Conte	PROPN	NNP	Number=Sing	2	conj	_	_
+6	districts	district	NOUN	NNS	Number=Plur	7	subj	_	_
+7	contain	contain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	majority	majority	NOUN	NN	Number=Sing	7	comp:obj	_	_
+10	of	of	ADP	IN	_	9	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	city	city	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
+13	's	's	PART	POS	_	15	udep@poss	_	_
+14	social	social	ADJ	JJ	Degree=Pos	15	mod	_	_
+15	housing	housing	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	15	punct	_	_
+17	where	where	ADV	WRB	PronType=Rel	20	mod	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	population	population	NOUN	NN	Number=Sing	20	subj@pass	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
+21	mainly	mainly	ADV	RB	_	20	mod	_	_
+22	made	make	VERB	VBN	Tense=Past|VerbForm=Part	20	comp:aux@pass	_	_
+23	up	up	ADP	RP	_	22	compound@prt	_	_
+24	of	of	ADP	IN	_	22	udep	_	_
+25	immigrants	immigrant	NOUN	NNS	Number=Plur	24	comp:obj	_	_
+26	or	or	CCONJ	CC	_	27	cc	_	_
+27	those	those	DET	DT	Number=Plur|PronType=Dem	24	conj	_	_
+28	of	of	ADP	IN	Shared=No	27	udep	_	_
+29	immigrant	immigrant	ADJ	JJ	Degree=Pos	30	mod	_	_
+30	origin	origin	NOUN	NN	Number=Sing	28	comp:obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = w03001058
+# text = The history of Carcassonne is directly linked to that of its fortified city.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	history	history	NOUN	NN	Number=Sing	5	subj@pass	_	_
+3	of	of	ADP	IN	_	2	udep	_	_
+4	Carcassonne	Carcassonne	PROPN	NNP	Number=Sing	3	comp:obj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	directly	directly	ADV	RB	_	5	mod	_	_
+7	linked	link	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
+8	to	to	ADP	IN	_	7	udep	_	_
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	comp:obj	_	_
+10	of	of	ADP	IN	_	9	udep	_	_
+11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	mod@poss	_	_
+12	fortified	fortify	VERB	VBN	Tense=Past|VerbForm=Part	13	mod	_	_
+13	city	city	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# newdoc id = w03002
+# sent_id = w03002048
+# text = In the early 2000s, there were five doctors per 100,000 inhabitants.
+1	In	in	ADP	IN	_	7	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	early	early	ADJ	JJ	Degree=Pos	4	mod	_	_
+4	2000s	2000	NUM	NNS	Number=Plur	1	comp:obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	there	there	DET	EX	_	7	unk@expl	_	_
+7	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	five	five	NUM	CD	NumType=Card	9	mod	_	_
+9	doctors	doctor	NOUN	NNS	Number=Plur	7	subj	_	_
+10	per	per	ADP	IN	_	9	udep	_	_
+11	100,000	100,000	NUM	CD	NumType=Card	12	mod	_	_
+12	inhabitants	inhabitant	NOUN	NNS	Number=Plur	10	comp:obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = w03002055
+# text = Amnesty International cites newspaper articles from 2008 describing the murder of fifty people accused of witchcraft.
+1	Amnesty	Amnesty	PROPN	NNP	Number=Sing	2	compound	_	_
+2	International	International	PROPN	NNP	Number=Sing	3	subj	_	_
+3	cites	cite	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	newspaper	newspaper	NOUN	NN	Number=Sing	5	compound	_	_
+5	articles	article	NOUN	NNS	Number=Plur	3	comp:obj	_	_
+6	from	from	ADP	IN	_	5	udep	_	_
+7	2008	2008	NUM	CD	NumType=Card	6	comp:obj	_	_
+8	describing	describe	VERB	VBG	VerbForm=Ger	5	mod	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	murder	murder	NOUN	NN	Number=Sing	8	comp:obj	_	_
+11	of	of	ADP	IN	_	10	udep	_	_
+12	fifty	fifty	NUM	CD	NumType=Card	13	mod	_	_
+13	people	people	NOUN	NNS	Number=Plur	11	comp:obj	_	_
+14	accused	accuse	VERB	VBN	Tense=Past|VerbForm=Part	13	mod	_	_
+15	of	of	ADP	IN	_	14	udep	_	_
+16	witchcraft	witchcraft	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# newdoc id = w03003
+# sent_id = w03003023
+# text = Von Bellingshausen sighted Antarctica on the 27th of January 1820, three days before Bransfield sighted land, and ten months before Palmer did so in November 1820.
+1	Von	Von	PROPN	NNP	Number=Sing	3	subj	_	_
+2	Bellingshausen	Bellingshausen	PROPN	NNP	Number=Sing	1	flat	_	_
+3	sighted	sight	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Antarctica	Antarctica	PROPN	NNP	Number=Sing	3	comp:obj	_	_
+5	on	on	ADP	IN	_	3	udep	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	27th	27th	NOUN	NN	Number=Sing	5	comp:obj	_	_
+8	of	of	ADP	IN	_	7	udep	_	_
+9	January	January	PROPN	NNP	Number=Sing	8	comp:obj	_	_
+10	1820	1820	NUM	CD	NumType=Card	9	mod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	_	_
+12	three	three	NUM	CD	NumType=Card	13	mod	_	_
+13	days	day	NOUN	NNS	Number=Plur	15	mod@npmod	_	_
+14	before	before	SCONJ	IN	_	3	mod	_	_
+15	Bransfield	Bransfield	PROPN	NNP	Number=Sing	16	subj	_	_
+16	sighted	sight	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
+17	land	land	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	ten	ten	NUM	CD	NumType=Card	21	mod	_	_
+21	months	month	NOUN	NNS	Number=Plur	23	mod@npmod	_	_
+22	before	before	ADP	IN	_	14	conj	_	_
+23	Palmer	Palmer	PROPN	NNP	Number=Sing	24	subj	_	_
+24	did	do	VERB	VBD	Mood=Ind|Shared=No|Tense=Past|VerbForm=Fin	22	comp:obj	_	_
+25	so	so	ADV	RB	_	24	mod	_	_
+26	in	in	ADP	IN	_	24	udep	_	_
+27	November	November	PROPN	NNP	Number=Sing	26	comp:obj	_	_
+28	1820	1820	NUM	CD	NumType=Card	27	mod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = w03003039
+# text = In the Endurance expedition in 1914, the British ship Endurance, captained by Sir Ernest Shackleton, set sail with twenty eight men to cross the Antarctic.
+1	In	in	ADP	IN	_	19	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	Endurance	Endurance	PROPN	NNP	Number=Sing	4	compound	_	_
+4	expedition	expedition	NOUN	NN	Number=Sing	1	comp:obj	_	_
+5	in	in	ADP	IN	_	4	udep	_	_
+6	1914	1914	NUM	CD	NumType=Card	5	comp:obj	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	19	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	British	British	ADJ	JJ	Degree=Pos	10	mod	_	_
+10	ship	ship	NOUN	NN	Number=Sing	11	compound	_	_
+11	Endurance	Endurance	PROPN	NNP	Number=Sing	19	subj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	_	_
+13	captained	captain	VERB	VBN	Tense=Past|VerbForm=Part	11	mod	_	_
+14	by	by	ADP	IN	_	16	flat	_	_
+15	Sir	Sir	PROPN	NNP	Number=Sing	17	compound	_	_
+16	Ernest	Ernest	PROPN	NNP	Number=Sing	13	udep	_	_
+17	Shackleton	Shackleton	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	11	punct	_	_
+19	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+20	sail	sail	NOUN	NN	Number=Sing	19	comp:obj	_	_
+21	with	with	ADP	IN	_	19	udep	_	_
+22	twenty	twenty	NUM	CD	NumType=Card	23	compound	_	_
+23	eight	eight	NUM	CD	NumType=Card	24	mod	_	_
+24	men	man	NOUN	NNS	Number=Plur	21	comp:obj	_	_
+25	to	to	PART	TO	_	19	comp:obl	_	_
+26	cross	cross	VERB	VB	VerbForm=Inf	25	comp:obj	_	Subject=SubjRaising
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	Antarctic	Antarctic	PROPN	NNP	Number=Sing	26	comp:obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	19	punct	_	_
+
+# newdoc id = w03004
+# sent_id = w03004037
+# text = This drawing up was the founding act of Roman law, the institutions of the Roman Republic and the mos maiorum.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	_
+2	drawing	draw	VERB	VBG	VerbForm=Ger	4	subj	_	_
+3	up	up	ADP	RP	_	2	compound@prt	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	founding	founding	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	act	act	NOUN	NN	Number=Sing	4	comp:pred	_	_
+8	of	of	ADP	IN	_	7	udep	_	_
+9	Roman	Roman	ADJ	JJ	Degree=Pos|Shared=No	10	compound	_	Proper=True
+10	law	law	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	institutions	institution	NOUN	NNS	Number=Plur	10	conj	_	_
+14	of	of	ADP	IN	_	13	udep	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	Roman	Roman	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Republic	Republic	PROPN	NNP	Number=Sing	14	comp:obj	_	_
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	mos	mos	X	FW	_	21	compound	_	_
+21	maiorum	maiorum	X	FW	_	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = w03004107
+# text = However, Pyrrhus was forced to leave Sicily in order to attend to business in southern Italy.
+1	However	however	ADV	RB	_	4	mod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	Pyrrhus	Pyrrhus	PROPN	NNP	Number=Sing	4	subj@pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	forced	force	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+6	to	to	PART	TO	_	5	comp:obl	_	_
+7	leave	leave	VERB	VB	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
+8	Sicily	Sicily	PROPN	NNP	Number=Sing	7	comp:obj	_	_
+9	in	in	ADP	IN	_	7	mod	_	ExtPos=ADP|Idiom=Yes
+10	order	order	NOUN	NN	Number=Sing	9	unk	_	InIdiom=Yes
+11	to	to	PART	TO	_	10	unk	_	InIdiom=Yes
+12	attend	attend	VERB	VB	VerbForm=Inf	9	comp:obj	_	_
+13	to	to	ADP	IN	_	12	udep	_	_
+14	business	business	NOUN	NN	Number=Sing	13	comp:obj	_	_
+15	in	in	ADP	IN	_	14	udep	_	_
+16	southern	southern	ADJ	JJ	Degree=Pos	17	mod	_	_
+17	Italy	Italy	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# newdoc id = w03005
+# sent_id = w03005012
+# text = In the 8th century BC, Greece began to emerge from the Dark Ages which followed the fall of the Mycenaean civilization.
+1	In	in	ADP	IN	_	8	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	8th	8th	ADJ	JJ	Degree=Pos|NumType=Ord	4	mod	_	_
+4	century	century	NOUN	NN	Number=Sing	1	comp:obj	_	_
+5	BC	bc	NOUN	RB	_	4	mod@tmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	_	_
+7	Greece	Greece	PROPN	NNP	Number=Sing	8	subj	_	_
+8	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	to	to	PART	TO	_	8	comp:obl	_	_
+10	emerge	emerge	VERB	VB	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
+11	from	from	ADP	IN	_	10	udep	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	Dark	Dark	PROPN	NNP	Degree=Pos	14	mod	_	Proper=True
+14	Ages	Ages	PROPN	NNPS	Number=Plur	11	comp:obj	_	_
+15	which	which	PRON	WDT	PronType=Rel	16	subj	_	_
+16	followed	follow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	mod@relcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	fall	fall	NOUN	NN	Number=Sing	16	comp:obj	_	_
+19	of	of	ADP	IN	_	18	udep	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	Mycenaean	mycenaean	ADJ	JJ	Degree=Pos	22	mod	_	Proper=True
+22	civilization	civilization	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = w03005013
+# text = Literacy had been lost and Mycenaean script forgotten, but the Greeks adopted the Phoenician alphabet, modifying it to create the Greek alphabet.
+1	Literacy	literacy	NOUN	NN	Number=Sing|Shared=No	2	subj@pass	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	Mycenaean	mycenaean	ADJ	JJ	Degree=Pos	7	mod	_	Proper=True
+7	script	script	NOUN	NN	Number=Sing	8	subj	_	_
+8	forgotten	forget	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	but	but	CCONJ	CC	_	13	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	Greeks	Greeks	PROPN	NNPS	Number=Plur	13	subj	_	_
+13	adopted	adopt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	Phoenician	phoenician	ADJ	JJ	Degree=Pos	16	mod	_	Proper=True
+16	alphabet	alphabet	NOUN	NN	Number=Sing|Shared=No	13	comp:obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	Shared=No	13	punct	_	_
+18	modifying	modify	VERB	VBG	Shared=No|VerbForm=Ger	13	mod	_	_
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	_
+20	to	to	PART	TO	_	18	comp:obl	_	_
+21	create	create	VERB	VB	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
+22	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+23	Greek	Greek	ADJ	JJ	Degree=Pos	24	mod	_	Proper=True
+24	alphabet	alphabet	NOUN	NN	Number=Sing	21	comp:obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = w03005014
+# text = From the 9th century BC, the first Greek texts began to appear.
+1	From	from	ADP	IN	_	11	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	9th	9th	ADJ	JJ	Degree=Pos|NumType=Ord	4	mod	_	_
+4	century	century	NOUN	NN	Number=Sing	1	comp:obj	_	_
+5	BC	BC	NOUN	NNP	Number=Sing	4	mod@tmod	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	10	mod	_	_
+9	Greek	Greek	ADJ	JJ	Degree=Pos	10	mod	_	Proper=True
+10	texts	text	NOUN	NNS	Number=Plur	11	subj	_	_
+11	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	to	to	PART	TO	_	11	comp:obl	_	_
+13	appear	appear	VERB	VB	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = w03005015
+# text = Greece was divided into many small, self-governing communities, a pattern largely dictated by Greek geography: every island, valley and plain is cut off from its neighbours by the sea or mountain ranges.
+1	Greece	Greece	PROPN	NNP	Number=Sing	2	subj@pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	divided	divide	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
+4	into	into	ADP	IN	_	3	udep	_	_
+5	many	many	ADJ	JJ	Degree=Pos	11	mod	_	_
+6	small	small	ADJ	JJ	Degree=Pos	11	mod	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	self	self	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
+10	governing	govern	VERB	VBG	VerbForm=Ger	11	mod	_	_
+11	communities	community	NOUN	NNS	Number=Plur	4	comp:obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	2	punct	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	pattern	pattern	NOUN	NN	Number=Sing	2	parataxis	_	_
+15	largely	largely	ADV	RB	_	16	mod	_	_
+16	dictated	dictate	VERB	VBN	Tense=Past|VerbForm=Part	14	mod	_	_
+17	by	by	ADP	IN	_	16	udep	_	_
+18	Greek	Greek	ADJ	JJ	Degree=Pos	19	mod	_	Proper=True
+19	geography	geography	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
+20	:	:	PUNCT	:	_	2	punct	_	_
+21	every	every	DET	DT	_	22	det	_	_
+22	island	island	NOUN	NN	Number=Sing	27	subj@pass	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	valley	valley	NOUN	NN	Number=Sing	22	conj	_	_
+25	and	and	CCONJ	CC	_	26	cc	_	_
+26	plain	plain	NOUN	NN	Number=Sing	24	conj	_	_
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+28	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part	27	comp:aux@pass	_	_
+29	off	off	ADV	RP	_	28	compound@prt	_	_
+30	from	from	ADP	IN	_	28	udep	_	_
+31	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	mod@poss	_	_
+32	neighbours	neighbour	NOUN	NNS	Number=Plur	30	comp:obj	_	_
+33	by	by	ADP	IN	_	28	udep	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	sea	sea	NOUN	NN	Number=Sing	33	comp:obj	_	_
+36	or	or	CCONJ	CC	_	38	cc	_	_
+37	mountain	mountain	NOUN	NN	Number=Sing	38	compound	_	_
+38	ranges	range	NOUN	NNS	Number=Plur	35	conj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = w03005016
+# text = From about the 8th century BC city states began to appear: small, self-governing territories with their own political systems.
+1	From	from	ADP	IN	_	9	udep	_	_
+2	about	about	ADV	IN	_	4	mod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	8th	8th	ADJ	JJ	Degree=Pos|NumType=Ord	5	mod	_	_
+5	century	century	NOUN	NN	Number=Sing	1	comp:obj	_	_
+6	BC	bc	NOUN	NN	Number=Sing	5	mod@tmod	_	_
+7	city	city	NOUN	NN	Number=Sing	8	compound	_	_
+8	states	state	NOUN	NNS	Number=Plur	9	subj	_	_
+9	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	PART	TO	_	9	comp:obl	_	_
+11	appear	appear	VERB	VB	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+12	:	:	PUNCT	:	_	10	punct	_	_
+13	small	small	ADJ	JJ	Degree=Pos	18	mod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	self	self	NOUN	NN	Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
+17	governing	govern	VERB	VBG	VerbForm=Ger	18	mod	_	_
+18	territories	territory	NOUN	NNS	Number=Plur	9	parataxis	_	_
+19	with	with	ADP	IN	_	18	udep	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	mod@poss	_	_
+21	own	own	ADJ	JJ	Degree=Pos	23	mod	_	_
+22	political	political	ADJ	JJ	Degree=Pos	23	mod	_	_
+23	systems	system	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# newdoc id = w03006
+# sent_id = w03006024
+# text = In the Middle Ages, most Christians did not have access to the Bible in their mother tongue.
+1	In	in	ADP	IN	_	8	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	Middle	Middle	PROPN	NNP	Degree=Pos	4	mod	_	_
+4	Ages	Ages	PROPN	NNPS	Number=Plur	1	comp:obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	most	most	ADJ	JJS	Degree=Sup	7	mod	_	_
+7	Christians	Christians	PROPN	NNPS	Number=Plur	8	subj	_	_
+8	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	not	not	ADV	RB	Polarity=Neg	8	mod	_	_
+10	have	have	VERB	VB	VerbForm=Inf	8	comp:aux	_	_
+11	access	access	NOUN	NN	Number=Sing	10	comp:obj	_	_
+12	to	to	ADP	IN	_	11	udep	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	Bible	Bible	PROPN	NNP	Number=Sing	12	comp:obj	_	_
+15	in	in	ADP	IN	_	14	udep	_	_
+16	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	mod@poss	_	_
+17	mother	mother	NOUN	NN	Number=Sing	18	compound	_	_
+18	tongue	tongue	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+
+# newdoc id = w03007
+# sent_id = w03007008
+# text = However, they did not expand until ships big enough to cross seas were built.
+1	However	however	ADV	RB	_	4	mod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
+4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	not	not	ADV	RB	Polarity=Neg	4	mod	_	_
+6	expand	expand	VERB	VB	VerbForm=Inf	4	comp:aux	_	_
+7	until	until	SCONJ	IN	_	4	mod	_	_
+8	ships	ship	NOUN	NNS	Number=Plur	14	subj@pass	_	_
+9	big	big	ADJ	JJ	Degree=Pos	10	mod	_	_
+10	enough	enough	ADJ	RB	_	8	mod	_	_
+11	to	to	PART	TO	_	10	mod	_	_
+12	cross	cross	VERB	VB	VerbForm=Inf	11	comp:obj	_	_
+13	seas	sea	NOUN	NNS	Number=Plur	12	comp:obj	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	comp:obj	_	_
+15	built	build	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux@pass	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = w03007039
+# text = Trade was developed by establishing commercial outposts throughout the Mediterranean, a technique that had not been used until then.
+1	Trade	trade	NOUN	NN	Number=Sing	2	subj@pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
+4	by	by	SCONJ	IN	_	2	mod	_	_
+5	establishing	establish	VERB	VBG	VerbForm=Ger	4	comp:obj	_	_
+6	commercial	commercial	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	outposts	outpost	NOUN	NNS	Number=Plur	5	comp:obj	_	_
+8	throughout	throughout	ADP	IN	_	5	udep	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Mediterranean	Mediterranean	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	technique	technique	NOUN	NN	Number=Sing	5	appos	_	_
+14	that	that	PRON	WDT	PronType=Rel	15	subj@pass	_	_
+15	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	mod@relcl	_	_
+16	not	not	ADV	RB	Polarity=Neg	15	mod	_	_
+17	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	comp:aux	_	_
+18	used	use	VERB	VBN	Tense=Past|VerbForm=Part	17	comp:aux@pass	_	_
+19	until	until	ADP	IN	_	18	udep	_	_
+20	then	then	ADV	RB	PronType=Dem	19	comp:obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# newdoc id = w03008
+# sent_id = w03008011
+# text = This affair can be seen as the starting point for his career as a radical revolutionary.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	affair	affair	NOUN	NN	Number=Sing	3	subj@pass	_	_
+3	can	can	AUX	MD	VerbForm=Fin	0	root	_	_
+4	be	be	AUX	VB	VerbForm=Inf	3	comp:aux	_	_
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+6	as	as	ADP	IN	_	5	udep	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	starting	starting	ADJ	JJ	Degree=Pos	9	mod	_	_
+9	point	point	NOUN	NN	Number=Sing	6	comp:obj	_	_
+10	for	for	ADP	IN	_	9	udep	_	_
+11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	_
+12	career	career	NOUN	NN	Number=Sing	10	comp:obj	_	_
+13	as	as	ADP	IN	_	9	udep	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	radical	radical	ADJ	JJ	Degree=Pos	16	mod	_	_
+16	revolutionary	revolutionary	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = w03008029
+# text = In Pluviose year III (January-February 1794), easing off the pressure of the Reign of Terror, he took various measures to liberate the suspects.
+1	In	in	ADP	IN	_	23	udep	_	_
+2	Pluviose	Pluviose	PROPN	NNP	Number=Sing	3	compound	_	_
+3	year	year	NOUN	NN	Number=Sing	1	comp:obj	_	_
+4	III	iii	NUM	CD	NumType=Card	3	mod	_	_
+5	(	(	PUNCT	-LRB-	_	8	punct	_	SpaceAfter=No
+6	January	January	PROPN	NNP	Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	February	February	PROPN	NNP	Number=Sing	3	appos	_	_
+9	1794	1794	NUM	CD	NumType=Card	8	mod@tmod	_	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	23	punct	_	_
+12	easing	ease	VERB	VBG	VerbForm=Ger	23	mod	_	_
+13	off	off	ADV	RP	_	12	compound@prt	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	pressure	pressure	NOUN	NN	Number=Sing	12	comp:obj	_	_
+16	of	of	ADP	IN	_	15	udep	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	Reign	reign	NOUN	NN	Number=Sing	16	comp:obj	_	_
+19	of	of	ADP	IN	_	18	udep	_	Proper=True
+20	Terror	terror	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	23	punct	_	_
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
+23	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	various	various	ADJ	JJ	Degree=Pos	25	mod	_	_
+25	measures	measure	NOUN	NNS	Number=Plur	23	comp:obj	_	_
+26	to	to	PART	TO	_	25	udep	_	_
+27	liberate	liberate	VERB	VB	VerbForm=Inf	26	comp:obj	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	suspects	suspect	NOUN	NNS	Number=Plur	27	comp:obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	23	punct	_	_
+
+# newdoc id = w03009
+# sent_id = w03009029
+# text = Financed entirely with Bernard Tapie's own money, these schools were closed in 1994 when he was declared bankrupt.
+1	Financed	finance	VERB	VBN	Tense=Past|VerbForm=Part	12	mod	_	_
+2	entirely	entirely	ADV	RB	_	1	mod	_	_
+3	with	with	ADP	IN	_	1	udep	_	_
+4	Bernard	Bernard	PROPN	NNP	Number=Sing	6	comp:obj	_	_
+5	Tapie	Tapie	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+6	's	's	PART	POS	_	8	udep@poss	_	_
+7	own	own	ADJ	JJ	Degree=Pos	8	mod	_	_
+8	money	money	NOUN	NN	Number=Sing	3	comp:obj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+11	schools	school	NOUN	NNS	Number=Plur	12	subj@pass	_	_
+12	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	closed	close	VERB	VBN	Tense=Past|VerbForm=Part	12	comp:aux@pass	_	_
+14	in	in	ADP	IN	_	13	udep	_	_
+15	1994	1994	NUM	CD	NumType=Card	14	comp:obj	_	_
+16	when	when	ADV	WRB	PronType=Int	12	mod	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@pass	_	_
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	comp:obj	_	_
+19	declared	declare	VERB	VBN	Tense=Past|VerbForm=Part	18	comp:aux@pass	_	_
+20	bankrupt	bankrupt	ADJ	JJ	Degree=Pos	19	comp:pred	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = w03009044
+# text = Despite being the number one distributor of equipment and textiles worldwide, the German company was in financial trouble.
+1	Despite	despite	SCONJ	IN	_	16	mod	_	_
+2	being	be	AUX	VBG	VerbForm=Ger	1	comp:obj	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	number	number	NOUN	NN	Number=Sing	6	compound	_	_
+5	one	one	NUM	CD	NumType=Card	4	mod	_	_
+6	distributor	distributor	NOUN	NN	Number=Sing	2	comp:pred	_	_
+7	of	of	ADP	IN	_	6	udep	_	_
+8	equipment	equipment	NOUN	NN	Number=Sing	7	comp:obj	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	textiles	textile	NOUN	NNS	Number=Plur	8	conj	_	_
+11	worldwide	worldwide	ADV	RB	_	2	mod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	German	German	ADJ	JJ	Degree=Pos	15	mod	_	Proper=True
+15	company	company	NOUN	NN	Number=Sing	16	subj	_	_
+16	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	in	in	ADP	IN	_	16	udep	_	_
+18	financial	financial	ADJ	JJ	Degree=Pos	19	mod	_	_
+19	trouble	trouble	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	_
+
+# newdoc id = w03010
+# sent_id = w03010096
+# text = To get away from it all, the Remis resided in Switzerland for most of summer 1947.
+1	To	to	PART	TO	_	10	mod	_	_
+2	get	get	VERB	VB	VerbForm=Inf	1	comp:obj	_	_
+3	away	away	ADV	RB	_	2	mod	_	_
+4	from	from	ADP	IN	_	2	udep	_	_
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
+6	all	all	DET	DT	_	5	det	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Remis	Remis	PROPN	NNPS	Number=Plur	10	subj	_	_
+10	resided	reside	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	in	in	ADP	IN	_	10	udep	_	_
+12	Switzerland	Switzerland	PROPN	NNP	Number=Sing	11	comp:obj	_	_
+13	for	for	ADP	IN	_	10	udep	_	_
+14	most	most	ADJ	JJS	Degree=Sup	13	comp:obj	_	_
+15	of	of	ADP	IN	_	14	udep	_	_
+16	summer	summer	NOUN	NN	Number=Sing	15	comp:obj	_	_
+17	1947	1947	NUM	CD	NumType=Card	16	mod@tmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = w03010097
+# text = On their return, they entertained the idea of living in South America, far away from the problems of postwar Belgium.
+1	On	on	ADP	IN	_	6	udep	_	_
+2	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	mod@poss	_	_
+3	return	return	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
+6	entertained	entertain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	idea	idea	NOUN	NN	Number=Sing	6	comp:obj	_	_
+9	of	of	SCONJ	IN	_	8	udep	_	_
+10	living	live	VERB	VBG	VerbForm=Ger	9	comp:obj	_	_
+11	in	in	ADP	IN	_	10	udep	_	_
+12	South	south	ADJ	JJ	Degree=Pos	13	compound	_	_
+13	America	America	PROPN	NNP	Number=Sing	11	comp:obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	far	far	ADV	RB	Degree=Pos	16	mod	_	_
+16	away	away	ADV	RB	_	10	mod	_	_
+17	from	from	ADP	IN	_	16	udep	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	problems	problem	NOUN	NNS	Number=Plur	17	comp:obj	_	_
+20	of	of	ADP	IN	_	19	udep	_	_
+21	postwar	postwar	ADJ	JJ	Degree=Pos	22	mod	_	_
+22	Belgium	Belgium	PROPN	NNP	Number=Sing	20	comp:obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = w03010098
+# text = In spring 1948, in hopes of adapting Tintin for the cinema, the Belgian artist wrote a letter to Walt Disney, asking in vain for his support.
+1	In	in	ADP	IN	_	17	udep	_	_
+2	spring	spring	NOUN	NN	Number=Sing	1	comp:obj	_	_
+3	1948	1948	NUM	CD	NumType=Card	2	mod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	17	punct	_	_
+5	in	in	ADP	IN	_	17	udep	_	_
+6	hopes	hope	NOUN	NNS	Number=Plur	5	comp:obj	_	_
+7	of	of	SCONJ	IN	_	6	udep	_	_
+8	adapting	adapt	VERB	VBG	VerbForm=Ger	7	comp:obj	_	_
+9	Tintin	Tintin	PROPN	NNP	Number=Sing	8	comp:obj	_	_
+10	for	for	ADP	IN	_	8	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	cinema	cinema	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	Belgian	Belgian	ADJ	JJ	Degree=Pos	16	mod	_	Proper=True
+16	artist	artist	NOUN	NN	Number=Sing	17	subj	_	_
+17	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	letter	letter	NOUN	NN	Number=Sing	17	comp:obj	_	_
+20	to	to	ADP	IN	_	17	udep	_	_
+21	Walt	Walt	PROPN	NNP	Number=Sing	20	comp:obj	_	_
+22	Disney	Disney	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
+23	,	,	PUNCT	,	_	17	punct	_	_
+24	asking	ask	VERB	VBG	VerbForm=Ger	17	mod	_	_
+25	in	in	ADP	IN	_	24	udep	_	_
+26	vain	vain	NOUN	NN	Number=Sing	25	comp:obj	_	_
+27	for	for	ADP	IN	_	24	udep	_	_
+28	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	mod@poss	_	_
+29	support	support	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = w03010099
+# text = In the summer, Georges and his wife returned to Switzerland, accompanied by Rosane, an 18 year old who was the daughter of one of Germaine's friends.
+1	In	in	ADP	IN	Shared=Yes	9	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	summer	summer	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	Shared=No	9	punct	_	_
+5	Georges	Georges	PROPN	NNP	Number=Sing|Shared=No	9	subj	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	mod@poss	_	_
+8	wife	wife	NOUN	NN	Number=Sing	5	conj	_	_
+9	returned	return	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	to	to	ADP	IN	_	9	udep	_	_
+11	Switzerland	Switzerland	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	9	punct	_	_
+13	accompanied	accompany	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	_
+14	by	by	ADP	IN	Shared=No	13	udep	_	_
+15	Rosane	Rosane	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	_	_
+17	an	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+18	18	18	NUM	CD	NumType=Card	19	mod	_	_
+19	year	year	NOUN	NN	Number=Sing	20	udep@npmod	_	_
+20	old	old	ADJ	JJ	Degree=Pos	15	appos	_	_
+21	who	who	PRON	WP	PronType=Rel	22	subj	_	_
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	mod@relcl	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	daughter	daughter	NOUN	NN	Number=Sing	22	comp:pred	_	_
+25	of	of	ADP	IN	_	24	udep	_	_
+26	one	one	NUM	CD	NumType=Card	25	comp:obj	_	_
+27	of	of	ADP	IN	_	26	udep	_	_
+28	Germaine	Germaine	PROPN	NNP	Number=Sing	29	comp:obj	_	SpaceAfter=No
+29	's	's	PART	POS	_	30	udep@poss	_	_
+30	friends	friend	NOUN	NNS	Number=Plur	27	comp:obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = w03010100
+# text = During the holiday, he began an extra-marital affair with the young girl, which he admitted shortly after.
+1	During	during	ADP	IN	_	6	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	holiday	holiday	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+6	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	extra-marital	extra-marital	ADJ	JJ	Degree=Pos	9	mod	_	_
+9	affair	affair	NOUN	NN	Number=Sing	6	comp:obj	_	_
+10	with	with	ADP	IN	_	9	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	young	young	ADJ	JJ	Degree=Pos	13	mod	_	_
+13	girl	girl	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	10	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	17	comp:obj	_	_
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
+17	admitted	admit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
+18	shortly	shortly	ADV	RB	_	19	mod	_	_
+19	after	after	ADV	RB	_	17	mod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+

@@ -1,0 +1,599 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# newdoc id = n05001
+# sent_id = n05001005
+# text = The president of the Community of Madrid, Cristina Cifuentes, represents the most conservative, while leaders of the party, such as the Sectorial Under-Secretary, Javier Maroto, represent the most progressive.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	president	president	NOUN	NN	Number=Sing	12	subj	_	_
+3	of	of	ADP	IN	_	2	udep	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Community	community	NOUN	NN	Number=Sing	3	comp:obj	_	_
+6	of	of	ADP	IN	_	5	udep	_	Proper=True
+7	Madrid	Madrid	PROPN	NNP	Number=Sing	6	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	Cristina	Cristina	PROPN	NNP	Number=Sing	2	appos	_	_
+10	Cifuentes	Cifuentes	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	9	punct	_	_
+12	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	most	most	ADV	RBS	_	15	mod	_	_
+15	conservative	conservative	ADJ	JJ	Degree=Pos	12	comp:obj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	12	punct	_	_
+17	while	while	SCONJ	IN	_	12	mod	_	_
+18	leaders	leader	NOUN	NNS	Number=Plur	34	subj	_	_
+19	of	of	ADP	IN	_	18	udep	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	party	party	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	18	punct	_	_
+23	such	such	ADJ	JJ	Degree=Pos	18	udep	_	ExtPos=ADJ|Idiom=Yes
+24	as	as	ADP	IN	_	23	unk	_	InIdiom=Yes
+25	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+26	Sectorial	sectorial	ADJ	JJ	Degree=Pos	27	mod	_	_
+27	Under	Under	ADP	IN	_	23	comp:obj	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
+29	Secretary	Secretary	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	31	punct	_	_
+31	Javier	Javier	PROPN	NNP	Number=Sing	29	appos	_	_
+32	Maroto	Maroto	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	31	punct	_	_
+34	represent	represent	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+36	most	most	ADV	RBS	_	37	mod	_	_
+37	progressive	progressive	ADJ	JJ	Degree=Pos	34	comp:obj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = n05001008
+# text = Durán acts as spokesman and Ángel Pintado as treasurer.
+#  = # Checktree: Ellipsis
+1	Durán	Durán	PROPN	NNP	Number=Sing|Shared=Yes	2	subj	_	_
+2	acts	act	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	as	as	ADP	IN	_	2	udep	_	_
+4	spokesman	spokesman	NOUN	NN	Number=Sing	3	comp:obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	Ángel	Ángel	PROPN	NNP	Number=Sing	2	conj	_	_
+7	Pintado	Pintado	PROPN	NNP	Number=Sing|Shared=No	6	flat	_	_
+8	as	as	ADP	IN	Shared=No	6	orphan	_	_
+9	treasurer	treasurer	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# newdoc id = n05002
+# sent_id = n05002004
+# text = For the first time in the last six years the rate of unemployment has dropped below 20%, and there are already 600,000 more people employed than there were a year ago.
+1	For	for	ADP	IN	Shared=Yes	14	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	mod	_	_
+4	time	time	NOUN	NN	Number=Sing	1	comp:obj	_	_
+5	in	in	ADP	IN	_	4	udep	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	last	last	ADJ	JJ	Degree=Pos	9	mod	_	_
+8	six	six	NUM	CD	NumType=Card	9	mod	_	_
+9	years	year	NOUN	NNS	Number=Plur	5	comp:obj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	rate	rate	NOUN	NN	Number=Sing|Shared=No	14	subj	_	_
+12	of	of	ADP	IN	_	11	udep	_	_
+13	unemployment	unemployment	NOUN	NN	Number=Sing	12	comp:obj	_	_
+14	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux	_	_
+16	below	below	ADP	IN	_	15	udep	_	_
+17	20	20	NUM	CD	NumType=Card	18	mod	_	SpaceAfter=No
+18	%	%	SYM	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	there	there	PRON	EX	_	22	comp@expl	_	_
+22	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	_
+23	already	already	ADV	RB	Shared=No	22	mod	_	_
+24	600,000	600,000	NUM	CD	NumType=Card	26	mod	_	_
+25	more	more	ADJ	JJR	Degree=Cmp	26	mod	_	_
+26	people	people	NOUN	NNS	Number=Plur|Shared=No	22	subj	_	_
+27	employed	employ	VERB	VBN	Tense=Past|VerbForm=Part	26	mod	_	_
+28	than	than	SCONJ	IN	_	27	mod	_	_
+29	there	there	PRON	EX	_	30	comp@expl	_	_
+30	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	comp:obj	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+32	year	year	NOUN	NN	Number=Sing	33	mod@npmod	_	_
+33	ago	ago	ADV	RB	_	30	mod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = n05002015
+# text = Its management, however, hasn't been devoid of criticism.
+1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	_
+2	management	management	NOUN	NN	Number=Sing	6	subj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	however	however	ADV	RB	_	6	mod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	n't	not	PART	RB	Polarity=Neg	6	mod	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	comp:aux	_	_
+9	devoid	devoid	ADJ	JJ	Degree=Pos	8	comp:pred	_	_
+10	of	of	ADP	IN	_	9	udep	_	_
+11	criticism	criticism	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = n05002017
+# text = The unions have been very combative and on several occasions have called for the repeal of the legislation that Fátima Báñez is proudest of.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	unions	union	NOUN	NNS	Number=Plur|Shared=Yes	3	subj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	very	very	ADV	RB	_	4	mod	_	_
+6	combative	combative	ADJ	JJ	Degree=Pos	4	comp:pred	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	on	on	ADP	IN	_	11	udep	_	_
+9	several	several	ADJ	JJ	Degree=Pos	10	mod	_	_
+10	occasions	occasion	NOUN	NNS	Number=Plur	8	comp:obj	_	_
+11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	called	call	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part	11	comp:aux	_	_
+13	for	for	ADP	IN	_	12	udep	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	repeal	repeal	NOUN	NN	Number=Sing	13	comp:obj	_	_
+16	of	of	ADP	IN	_	15	udep	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	legislation	legislation	NOUN	NN	Number=Sing	16	comp:obj	_	_
+19	that	that	PRON	WDT	PronType=Rel	24	comp:obj	_	_
+20	Fátima	Fátima	PROPN	NNP	Number=Sing	22	subj	_	_
+21	Báñez	Báñez	PROPN	NNP	Number=Sing	20	flat	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
+23	proudest	proudest	ADJ	JJS	Degree=Sup	22	comp:pred	_	_
+24	of	of	ADP	IN	_	23	udep	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n05002020
+# text = This department now faces new challenges.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	department	department	NOUN	NN	Number=Sing	4	subj	_	_
+3	now	now	ADV	RB	_	4	mod	_	_
+4	faces	face	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	new	new	ADJ	JJ	Degree=Pos	6	mod	_	_
+6	challenges	challenge	NOUN	NNS	Number=Plur	4	comp:obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = n05002023
+# text = Furthermore, the Government will have to deal with another "hot potato".
+1	Furthermore	furthermore	ADV	RB	_	5	mod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	Government	government	NOUN	NN	Number=Sing	5	subj	_	_
+5	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+6	have	have	VERB	VB	VerbForm=Inf	5	comp:aux	_	_
+7	to	to	PART	TO	_	6	comp:obl	_	_
+8	deal	deal	VERB	VB	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
+9	with	with	ADP	IN	_	8	udep	_	_
+10	another	another	DET	DT	_	13	det	_	_
+11	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+12	hot	hot	ADJ	JJ	Degree=Pos	13	mod	_	_
+13	potato	potato	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
+14	"	"	PUNCT	''	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# newdoc id = n05003
+# sent_id = n05003006
+# text = The Minister of Defense has allowed her to remain General Secretary of the party for now.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Minister	minister	NOUN	NN	Number=Sing	5	subj	_	_
+3	of	of	ADP	IN	_	2	udep	_	_
+4	Defense	defense	NOUN	NN	Number=Sing	3	comp:obj	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux	_	_
+7	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
+8	to	to	PART	TO	_	6	comp:obl	_	_
+9	remain	remain	VERB	VB	VerbForm=Inf	8	comp:obj	_	Subject=SubjRaising
+10	General	general	ADJ	JJ	Degree=Pos	11	mod	_	_
+11	Secretary	secretary	NOUN	NN	Number=Sing	9	comp:obj	_	_
+12	of	of	ADP	IN	_	11	udep	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	party	party	NOUN	NN	Number=Sing	12	comp:obj	_	_
+15	for	for	ADP	IN	_	9	udep	_	_
+16	now	now	ADV	RB	_	15	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = n05003010
+# text = The consulted sources have said that it is "100% Cospedal".
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	consulted	consult	VERB	VBN	Tense=Past|VerbForm=Part	3	mod	_	_
+3	sources	source	NOUN	NNS	Number=Plur	4	subj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	said	say	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	_
+6	that	that	SCONJ	IN	_	5	comp:obj	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+9	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	100	100	NUM	CD	NumType=Card	11	mod	_	SpaceAfter=No
+11	%	%	SYM	NN	Number=Sing	12	compound	_	_
+12	Cospedal	Cospedal	PROPN	NNP	Number=Sing	8	comp:pred	_	SpaceAfter=No
+13	"	"	PUNCT	''	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = n05003019
+# text = In spite of them, not everyone in the party understood the messages that the president tried to send to them yesterday.
+1	In	in	ADP	IN	_	11	udep	_	_
+2	spite	spite	NOUN	NN	Number=Sing	1	comp:obj	_	_
+3	of	of	ADP	IN	_	2	udep	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	_	_
+6	not	not	ADV	RB	Polarity=Neg	7	mod	_	_
+7	everyone	everyone	NOUN	NN	Number=Sing	11	subj	_	_
+8	in	in	ADP	IN	_	7	udep	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	party	party	NOUN	NN	Number=Sing	8	comp:obj	_	_
+11	understood	understand	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	messages	message	NOUN	NNS	Number=Plur	11	comp:obj	_	_
+14	that	that	PRON	WDT	PronType=Dem	19	comp:obj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	president	president	NOUN	NN	Number=Sing	17	subj	_	_
+17	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	mod@relcl	_	_
+18	to	to	PART	TO	_	17	comp:obl	_	_
+19	send	send	VERB	VB	VerbForm=Inf	18	comp:obj	_	Subject=SubjRaising
+20	to	to	ADP	IN	_	19	udep	_	_
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
+22	yesterday	yesterday	NOUN	NN	Number=Sing	19	mod@tmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = n05003022
+# text = Barón de Claret, the only one in Government with a noble title.
+1	Barón	Barón	PROPN	NNP	Number=Sing	0	root	_	_
+2	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Claret	Claret	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	only	only	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	one	one	NOUN	NN	Number=Sing	1	appos	_	_
+8	in	in	ADP	IN	_	7	udep	_	_
+9	Government	government	NOUN	NN	Number=Sing	8	comp:obj	_	_
+10	with	with	ADP	IN	_	7	udep	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	noble	noble	ADJ	JJ	Degree=Pos	13	mod	_	_
+13	title	title	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	_	_
+
+# newdoc id = n05004
+# sent_id = n05004020
+# text = Pedro Sánchez, like many other socialists, said in the programme Évole that Spain is a nation of nations.
+1	Pedro	Pedro	PROPN	NNP	Number=Sing	9	subj	_	_
+2	Sánchez	Sánchez	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	like	like	ADP	IN	_	1	udep	_	_
+5	many	many	ADJ	JJ	Degree=Pos	7	mod	_	_
+6	other	other	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	socialists	socialist	NOUN	NNS	Number=Plur	4	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	_	_
+9	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	in	in	ADP	IN	_	9	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	programme	programme	NOUN	NN	Number=Sing	10	comp:obj	_	_
+13	Évole	Évole	PROPN	NNP	Number=Sing	12	appos	_	_
+14	that	that	SCONJ	IN	_	9	comp:obj	_	_
+15	Spain	Spain	PROPN	NNP	Number=Sing	16	subj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	nation	nation	NOUN	NN	Number=Sing	16	comp:pred	_	_
+19	of	of	ADP	IN	_	18	udep	_	_
+20	nations	nation	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = n05004025
+# text = And what about the parties in what, in historical rights?
+#  = # Checktree: Not sure about this one.
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	WP	PronType=Int	0	root	_	_
+3	about	about	ADP	IN	_	2	udep	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	parties	party	NOUN	NNS	Number=Plur	3	comp:obj	_	_
+6	in	in	ADP	IN	_	5	udep	_	_
+7	what	what	PRON	WP	PronType=Int	6	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	in	in	ADP	IN	_	7	appos	_	_
+10	historical	historical	ADJ	JJ	Degree=Pos	11	mod	_	_
+11	rights	rights	NOUN	NNS	Number=Plur	9	comp:obj	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	2	punct	_	_
+
+# newdoc id = n05005
+# sent_id = n05005002
+# text = Federico Fellini once said: "The clown is to humanity as the shadow is to man".
+1	Federico	Federico	PROPN	NNP	Number=Sing	4	subj	_	_
+2	Fellini	Fellini	PROPN	NNP	Number=Sing	1	flat	_	_
+3	once	once	ADV	RB	NumType=Mult	4	mod	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	4	punct	_	_
+6	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
+7	The	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	clown	clown	NOUN	NN	Number=Sing	9	subj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+10	to	to	ADP	IN	_	9	udep	_	_
+11	humanity	humanity	NOUN	NN	Number=Sing	10	comp:obj	_	_
+12	as	as	SCONJ	IN	_	9	mod	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	shadow	shadow	NOUN	NN	Number=Sing	15	subj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
+16	to	to	ADP	IN	_	15	udep	_	_
+17	man	man	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
+18	"	"	PUNCT	''	_	4	punct	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = n05005016
+# text = He stands alone in front of the audience and, ultimately, he has to bring out the best of himself in order to make the audience laugh.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	_
+2	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	alone	alone	ADV	RB	_	2	mod	_	_
+4	in	in	ADP	IN	_	2	udep	_	_
+5	front	front	NOUN	NN	Number=Sing	4	comp:obj	_	_
+6	of	of	ADP	IN	_	5	udep	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	audience	audience	NOUN	NN	Number=Sing	6	comp:obj	_	_
+9	and	and	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	_	_
+11	ultimately	ultimately	ADV	RB	_	14	mod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
+14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	to	to	PART	TO	Shared=No	14	comp:obl	_	_
+16	bring	bring	VERB	VB	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
+17	out	out	ADV	RP	_	16	compound@prt	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	best	best	ADJ	JJS	Degree=Sup	16	comp:obj	_	_
+20	of	of	ADP	IN	_	19	udep	_	_
+21	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	comp:obj	_	_
+22	in	in	SCONJ	IN	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes
+23	order	order	NOUN	NN	Number=Sing	22	unk	_	InIdiom=Yes
+24	to	to	PART	TO	_	23	unk	_	InIdiom=Yes
+25	make	make	VERB	VB	VerbForm=Inf	22	comp:obj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	audience	audience	NOUN	NN	Number=Sing	25	comp:obj	_	_
+28	laugh	laugh	VERB	VB	VerbForm=Inf	25	comp:obl	_	SpaceAfter=No|Subject=ObjRaising
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# newdoc id = n05006
+# sent_id = n05006002
+# text = In the war films or cowboy and Indian films the battles, fights and beatings were out of this world.
+1	In	in	ADP	IN	_	16	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	war	war	NOUN	NN	Number=Sing|Shared=No	4	compound	_	_
+4	films	film	NOUN	NNS	Number=Plur	1	comp:obj	_	_
+5	or	or	CCONJ	CC	_	9	cc	_	_
+6	cowboy	cowboy	NOUN	NN	Number=Sing	9	compound	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Indian	Indian	PROPN	NNP	Number=Sing	6	conj	_	_
+9	films	film	NOUN	NNS	Number=Plur	4	conj	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	battles	battle	NOUN	NNS	Number=Plur	16	subj	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	_	_
+13	fights	fight	NOUN	NNS	Number=Plur	11	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	beatings	beating	NOUN	NNS	Number=Plur	13	conj	_	_
+16	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	out	out	ADP	IN	_	16	udep	_	_
+18	of	of	ADP	IN	_	17	comp:obj	_	_
+19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	world	world	NOUN	NN	Number=Sing	18	comp:obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = n05006013
+# text = Emphasis, fine irony, blunt innuendos and other well used verbal devices fit into parliamentary oratory, but flicking at each other and slapstick comedy do not.
+1	Emphasis	emphasis	NOUN	NN	Number=Sing|Shared=No	14	subj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	_	_
+3	fine	fine	ADJ	JJ	Degree=Pos	4	mod	_	_
+4	irony	irony	NOUN	NN	Number=Sing	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	blunt	blunt	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	innuendos	innuendo	NOUN	NNS	Number=Plur	4	conj	_	_
+8	and	and	CCONJ	CC	_	13	cc	_	_
+9	other	other	ADJ	JJ	Degree=Pos	13	mod	_	_
+10	well	well	ADV	RB	Degree=Pos	11	mod	_	_
+11	used	use	VERB	VBN	Tense=Past|VerbForm=Part	13	mod	_	_
+12	verbal	verbal	ADJ	JJ	Degree=Pos	13	mod	_	_
+13	devices	device	NOUN	NNS	Number=Plur	7	conj	_	_
+14	fit	fit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	into	into	ADP	IN	_	14	udep	_	_
+16	parliamentary	parliamentary	ADJ	JJ	Degree=Pos	17	mod	_	_
+17	oratory	oratory	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	_	_
+19	but	but	CCONJ	CC	_	27	cc	_	_
+20	flicking	flick	VERB	VBG	VerbForm=Ger	27	subj	_	_
+21	at	at	ADP	IN	_	20	udep	_	_
+22	each	each	DET	DT	_	23	det	_	_
+23	other	other	ADJ	JJ	Degree=Pos	21	comp:obj	_	_
+24	and	and	CCONJ	CC	_	26	cc	_	_
+25	slapstick	slapstick	NOUN	NN	Number=Sing	26	compound	_	_
+26	comedy	comedy	NOUN	NN	Number=Sing	20	conj	_	_
+27	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	_
+28	not	not	ADV	RB	Polarity=Neg|Shared=No	27	mod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	14	punct	_	_
+
+# newdoc id = n05007
+# sent_id = n05007006
+# text = He believes that nobody waiting for us waits for us.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	SCONJ	IN	_	2	comp:obj	_	_
+4	nobody	nobody	NOUN	NN	Number=Sing	8	subj	_	_
+5	waiting	wait	VERB	VBG	VerbForm=Ger	4	mod	_	_
+6	for	for	ADP	IN	_	5	udep	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	comp:obj	_	_
+8	waits	wait	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+9	for	for	ADP	IN	_	8	udep	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	comp:obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n05007014
+# text = Perhaps that's why a surge of tears clouds his pupils while the syllable of time unearths his crop and surrenders his mystery to the bound waters.
+1	Perhaps	perhaps	ADV	RB	_	3	mod	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	subj	_	SpaceAfter=No
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	why	why	ADV	WRB	PronType=Int	3	comp:pred	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	surge	surge	NOUN	NN	Number=Sing	9	subj	_	_
+7	of	of	ADP	IN	_	6	udep	_	_
+8	tears	tear	NOUN	NNS	Number=Plur	7	comp:obj	_	_
+9	clouds	cloud	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	_
+11	pupils	pupil	NOUN	NNS	Number=Plur	9	comp:obj	_	_
+12	while	while	SCONJ	IN	_	9	mod	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	syllable	syllable	NOUN	NN	Number=Sing|Shared=Yes	17	subj	_	_
+15	of	of	ADP	IN	_	14	udep	_	_
+16	time	time	NOUN	NN	Number=Sing	15	comp:obj	_	_
+17	unearths	unearth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
+18	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	mod@poss	_	_
+19	crop	crop	NOUN	NN	Number=Sing	17	comp:obj	_	_
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	surrenders	surrender	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	mod@poss	_	_
+23	mystery	mystery	NOUN	NN	Number=Sing|Shared=No	21	comp:obj	_	_
+24	to	to	ADP	IN	Shared=No	21	udep	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	bound	bind	VERB	VBN	Tense=Past|VerbForm=Part	27	mod	_	_
+27	waters	water	NOUN	NNS	Number=Plur	24	comp:obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n05007025
+# text = And they must be greeted with an open spirit and clear mind because they form the new generation of beauty and hope.
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj@pass	_	_
+3	must	must	AUX	MD	VerbForm=Fin	0	root	_	_
+4	be	be	AUX	VB	VerbForm=Inf	3	comp:aux	_	_
+5	greeted	greet	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+6	with	with	ADP	IN	_	5	udep	_	_
+7	an	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	open	open	ADJ	JJ	Degree=Pos	9	mod	_	_
+9	spirit	spirit	NOUN	NN	Number=Sing	6	comp:obj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	clear	clear	ADJ	JJ	Degree=Pos	12	mod	_	_
+12	mind	mind	NOUN	NN	Number=Sing	9	conj	_	_
+13	because	because	SCONJ	IN	_	3	mod	_	_
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	subj	_	_
+15	form	form	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	new	new	ADJ	JJ	Degree=Pos	18	mod	_	_
+18	generation	generation	NOUN	NN	Number=Sing	15	comp:obj	_	_
+19	of	of	ADP	IN	_	18	udep	_	_
+20	beauty	beauty	NOUN	NN	Number=Sing	19	comp:obj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	hope	hope	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# newdoc id = n05008
+# sent_id = n05008012
+# text = As a result, Trump isn't very worried about the Latin American vote at a national level.
+1	As	as	ADP	IN	_	6	udep	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	result	result	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	Trump	Trump	PROPN	NNP	Number=Sing	6	subj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	n't	not	PART	RB	Polarity=Neg	6	mod	_	_
+8	very	very	ADV	RB	_	6	mod	_	_
+9	worried	worried	ADJ	JJ	Degree=Pos	6	comp:pred	_	_
+10	about	about	ADP	IN	_	9	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	Latin	Latin	PROPN	NNP	Number=Sing	13	compound	_	_
+13	American	American	ADJ	JJ	Degree=Pos	14	mod	_	Proper=True
+14	vote	vote	NOUN	NN	Number=Sing	10	comp:obj	_	_
+15	at	at	ADP	IN	_	14	udep	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	national	national	ADJ	JJ	Degree=Pos	18	mod	_	_
+18	level	level	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = n05008018
+# text = The early voting suggests that this time the Latin Americans will come out to vote in greater numbers, but it is unclear whether the increase will have an impact.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	early	early	ADJ	JJ	Degree=Pos	3	mod	_	_
+3	voting	voting	NOUN	NN	Number=Sing|Shared=No	4	subj	_	_
+4	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	4	comp:obj	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	time	time	NOUN	NN	Number=Sing	11	mod@tmod	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	Latin	Latin	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Americans	Americans	PROPN	NNPS	Number=Plur	11	subj	_	_
+11	will	will	AUX	MD	VerbForm=Fin	5	comp:obj	_	_
+12	come	come	VERB	VB	VerbForm=Inf	11	comp:aux	_	_
+13	out	out	ADV	RP	_	12	compound@prt	_	_
+14	to	to	PART	TO	_	12	comp:obl	_	_
+15	vote	vote	VERB	VB	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising
+16	in	in	ADP	IN	_	15	udep	_	_
+17	greater	greater	ADJ	JJR	Degree=Cmp	18	mod	_	_
+18	numbers	number	NOUN	NNS	Number=Plur	16	comp:obj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	but	but	CCONJ	CC	_	22	cc	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	unk@expl	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+23	unclear	unclear	ADJ	JJ	Degree=Pos|Shared=No	22	comp:pred	_	_
+24	whether	whether	SCONJ	IN	Shared=No	22	subj	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	increase	increase	NOUN	NN	Number=Sing	27	subj	_	_
+27	will	will	AUX	MD	VerbForm=Fin	24	comp:obj	_	_
+28	have	have	VERB	VB	VerbForm=Inf	27	comp:aux	_	_
+29	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	impact	impact	NOUN	NN	Number=Sing	28	comp:obj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# newdoc id = n05009
+# sent_id = n05009025
+# text = "There will be protests and other things, it's all already planned," the opposition told El Mundo.
+1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	There	there	DET	EX	_	4	unk@expl	_	_
+3	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+4	be	be	AUX	VB	VerbForm=Inf	3	comp:aux	_	_
+5	protests	protest	NOUN	NNS	Number=Plur	3	subj	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	other	other	ADJ	JJ	Degree=Pos	8	mod	_	_
+8	things	thing	NOUN	NNS	Number=Plur	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	subj@pass	_	SpaceAfter=No
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	all	all	ADV	RB	_	11	mod	_	_
+13	already	already	ADV	RB	_	11	mod	_	_
+14	planned	plan	VERB	VBN	Tense=Past|VerbForm=Part	11	comp:aux@pass	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
+16	"	"	PUNCT	''	_	3	punct	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	opposition	opposition	NOUN	NN	Number=Sing	19	subj	_	_
+19	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+20	El	El	PROPN	NNP	Number=Sing	21	compound	_	_
+21	Mundo	Mundo	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n05009030
+# text = Dozens of FSLN followers are already celebrating the victory in the Plaza de las Victorias.
+1	Dozens	dozen	NOUN	NNS	Number=Plur	5	subj	_	_
+2	of	of	ADP	IN	_	1	udep	_	_
+3	FSLN	FSLN	PROPN	NNP	Number=Sing	4	compound	_	_
+4	followers	follower	NOUN	NNS	Number=Plur	2	comp:obj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	already	already	ADV	RB	_	5	mod	_	_
+7	celebrating	celebrate	VERB	VBG	Tense=Pres|VerbForm=Part	5	comp:aux	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	victory	victory	NOUN	NN	Number=Sing	7	comp:obj	_	_
+10	in	in	ADP	IN	_	7	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+12	Plaza	Plaza	PROPN	NNP	Number=Sing	15	compound	_	_
+13	de	de	PROPN	NNP	Number=Sing	15	compound	_	_
+14	las	las	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Victorias	Victorias	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# newdoc id = n05010
+# sent_id = n05010004
+# text = May has received great criticism for avoiding and not responding openly to the media after the judicial ruling on Brexit.
+1	May	May	PROPN	NNP	Number=Sing	2	subj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	great	great	ADJ	JJ	Degree=Pos	5	mod	_	_
+5	criticism	criticism	NOUN	NN	Number=Sing	3	comp:obj	_	_
+6	for	for	SCONJ	IN	_	2	mod	_	_
+7	avoiding	avoid	VERB	VBG	VerbForm=Ger	6	comp:obj	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	not	not	PART	RB	Polarity=Neg	10	mod	_	_
+10	responding	respond	VERB	VBG	VerbForm=Ger	7	conj	_	_
+11	openly	openly	ADV	RB	Shared=No	10	mod	_	_
+12	to	to	ADP	IN	Shared=No	10	udep	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	media	media	NOUN	NNS	Number=Plur	12	comp:obj	_	_
+15	after	after	ADP	IN	Shared=Yes	10	udep	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	judicial	judicial	ADJ	JJ	Degree=Pos	18	mod	_	_
+18	ruling	ruling	NOUN	NN	Number=Sing	15	comp:obj	_	_
+19	on	on	ADP	IN	_	18	udep	_	_
+20	Brexit	Brexit	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+

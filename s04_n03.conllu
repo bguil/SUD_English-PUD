@@ -1,0 +1,608 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# newdoc id = n03001
+# sent_id = n03001007
+# text = Unlike that of the 28th of October, Mr. Comey's letter has hardly been commented upon.
+1	Unlike	unlike	ADP	IN	_	16	udep	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	comp:obj	_	_
+3	of	of	ADP	IN	_	2	udep	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	28th	28th	NOUN	NN	Number=Sing	3	comp:obj	_	_
+6	of	of	ADP	IN	_	5	udep	_	_
+7	October	October	PROPN	NNP	Number=Sing	6	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	16	punct	_	_
+9	Mr.	Mr.	PROPN	NNP	Number=Sing	12	mod@poss	_	_
+10	Comey	Comey	PROPN	NNP	Number=Sing	11	comp:obj	_	SpaceAfter=No
+11	's	's	PART	POS	_	12	udep@poss	_	_
+12	letter	letter	NOUN	NN	Number=Sing	13	subj@pass	_	_
+13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	hardly	hardly	ADV	RB	_	16	mod	_	_
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	comp:aux	_	_
+16	commented	comment	VERB	VBN	Tense=Past|VerbForm=Part	17	comp:obj	_	_
+17	upon	upon	ADP	IN	_	15	comp:aux@pass	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = n03001019
+# text = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
+1	If	if	SCONJ	IN	_	11	mod	_	_
+2	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	_
+3	Democrat	Democrat	PROPN	NNP	Number=Sing	4	compound	_	_
+4	opponent	opponent	NOUN	NN	Number=Sing	5	subj	_	_
+5	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
+6	to	to	PART	TO	_	5	comp:pred	_	_
+7	be	be	AUX	VB	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising
+8	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+11	assured	assure	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	that	that	SCONJ	IN	_	11	comp:obj	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	12	comp:obj	_	_
+15	be	be	VERB	VB	VerbForm=Inf	14	comp:aux	_	_
+16	'	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+17	under	under	ADP	IN	_	15	udep	_	_
+18	investigation	investigation	NOUN	NN	Number=Sing	17	comp:obj	_	_
+19	for	for	ADP	IN	_	15	udep	_	_
+20	years	year	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
+21	'	'	PUNCT	''	_	12	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = n03001023
+# text = "If somebody can't handle a Twitter account, they can't handle the nuclear codes," Obama mocked.
+1	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+2	If	if	SCONJ	IN	_	12	mod	_	_
+3	somebody	somebody	NOUN	NN	Number=Sing	4	subj	_	_
+4	ca	can	AUX	MD	VerbForm=Fin	2	comp:obj	_	SpaceAfter=No
+5	n't	not	PART	RB	Polarity=Neg	4	mod	_	_
+6	handle	handle	VERB	VB	VerbForm=Inf	4	comp:aux	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	Twitter	Twitter	PROPN	NNP	Number=Sing	9	compound	_	_
+9	account	account	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	subj	_	_
+12	ca	can	AUX	MD	VerbForm=Fin	21	comp:obj	_	SpaceAfter=No
+13	n't	not	PART	RB	Polarity=Neg	12	mod	_	_
+14	handle	handle	VERB	VB	VerbForm=Inf	12	comp:aux	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	nuclear	nuclear	ADJ	JJ	Degree=Pos	17	mod	_	_
+17	codes	code	NOUN	NNS	Number=Plur	14	comp:obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	12	punct	_	SpaceAfter=No
+19	"	"	PUNCT	''	_	12	punct	_	_
+20	Obama	Obama	PROPN	NNP	Number=Sing	21	subj	_	_
+21	mocked	mock	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = n03001030
+# text = According to the programme, she will speak at 23.45.
+1	According	accord	VERB	VBG	VerbForm=Ger	7	udep	_	_
+2	to	to	ADP	IN	_	1	comp:obj	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	programme	programme	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	_	_
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
+8	speak	speak	VERB	VB	VerbForm=Inf	7	comp:aux	_	_
+9	at	at	ADP	IN	_	8	udep	_	_
+10	23.45	23.45	NUM	CD	NumType=Card	9	comp:obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# newdoc id = n03002
+# sent_id = n03002003
+# text = On Tuesday, the United States of America could elect the first female president in its history.
+1	On	on	ADP	IN	_	9	udep	_	_
+2	Tuesday	Tuesday	PROPN	NNP	Number=Sing	1	comp:obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	9	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	United	United	PROPN	NNP	Number=Sing	6	compound	_	_
+6	States	States	PROPN	NNPS	Number=Plur	9	subj	_	_
+7	of	of	ADP	IN	_	6	udep	_	Proper=True
+8	America	America	PROPN	NNP	Number=Sing	7	comp:obj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	0	root	_	_
+10	elect	elect	VERB	VB	VerbForm=Inf	9	comp:aux	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	14	mod	_	_
+13	female	female	ADJ	JJ	Degree=Pos	14	mod	_	_
+14	president	president	NOUN	NN	Number=Sing	10	comp:obj	_	_
+15	in	in	ADP	IN	_	10	udep	_	_
+16	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	mod@poss	_	_
+17	history	history	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = n03002010
+# text = On the other hand, Ms. Clinton's relations with the continent over the past twenty years leave much to be desired.
+1	On	on	ADP	IN	_	18	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	other	other	ADJ	JJ	Degree=Pos	4	mod	_	_
+4	hand	hand	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	18	punct	_	_
+6	Ms.	Ms.	PROPN	NNP	Number=Sing	9	mod@poss	_	_
+7	Clinton	Clinton	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
+8	's	's	PART	POS	_	6	flat	_	_
+9	relations	relation	NOUN	NNS	Number=Plur	18	subj	_	_
+10	with	with	ADP	IN	_	9	udep	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	continent	continent	NOUN	NN	Number=Sing	10	comp:obj	_	_
+13	over	over	ADP	IN	_	9	udep	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	past	past	ADJ	JJ	Degree=Pos	17	mod	_	_
+16	twenty	twenty	NUM	CD	NumType=Card	17	mod	_	_
+17	years	year	NOUN	NNS	Number=Plur	13	comp:obj	_	_
+18	leave	leave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	much	much	ADJ	JJ	Degree=Pos	18	comp:obj	_	_
+20	to	to	PART	TO	_	18	comp:pred	_	_
+21	be	be	AUX	VB	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
+22	desired	desire	VERB	VBN	Tense=Past|VerbForm=Part	21	comp:aux@pass	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	18	punct	_	_
+
+# newdoc id = n03003
+# sent_id = n03003025
+# text = The AKP's Islamic conservatives have taken this refusal as justification for the questionings.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	AKP	AKP	PROPN	NNP	Number=Sing	3	comp:obj	_	SpaceAfter=No
+3	's	's	PART	POS	_	5	udep@poss	_	_
+4	Islamic	Islamic	ADJ	JJ	Degree=Pos	5	mod	_	Proper=True
+5	conservatives	conservative	NOUN	NNS	Number=Plur	6	subj	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	6	comp:aux	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	refusal	refusal	NOUN	NN	Number=Sing	7	comp:obj	_	_
+10	as	as	ADP	IN	_	7	udep	_	_
+11	justification	justification	NOUN	NN	Number=Sing	10	comp:obj	_	_
+12	for	for	ADP	IN	_	11	udep	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	questionings	questioning	NOUN	NNS	Number=Plur	12	comp:obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = n03003036
+# text = A third-party majority is needed, specifically the votes of 367 MPs (out of 550), whereas 330 votes are required in order to trigger a referendum.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+2	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	4	mod	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	party	party	NOUN	NN	Number=Sing	5	compound	_	_
+5	majority	majority	NOUN	NN	Number=Sing	6	subj@pass	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	6	comp:aux@pass	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	_	_
+9	specifically	specifically	ADV	RB	_	11	mod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	votes	vote	NOUN	NNS	Number=Plur	5	appos	_	_
+12	of	of	ADP	IN	_	11	udep	_	_
+13	367	367	NUM	CD	NumType=Card	14	mod	_	_
+14	MPs	mp	NOUN	NNS	Number=Plur	12	comp:obj	_	_
+15	(	(	PUNCT	-LRB-	_	16	punct	_	SpaceAfter=No
+16	out	out	ADP	IN	_	14	udep	_	_
+17	of	of	ADP	IN	_	16	comp:obj	_	_
+18	550	550	NUM	CD	NumType=Card	17	comp:obj	_	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	16	punct	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	11	punct	_	_
+21	whereas	whereas	SCONJ	IN	_	6	mod	_	_
+22	330	330	NUM	CD	NumType=Card	23	mod	_	_
+23	votes	vote	NOUN	NNS	Number=Plur	24	subj@pass	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
+25	required	require	VERB	VBN	Tense=Past|VerbForm=Part	24	comp:aux@pass	_	_
+26	in	in	ADP	IN	_	24	mod	_	ExtPos=ADP|Idiom=Yes
+27	order	order	NOUN	NN	Number=Sing	26	unk	_	InIdiom=Yes
+28	to	to	PART	TO	_	27	unk	_	InIdiom=Yes
+29	trigger	trigger	VERB	VB	VerbForm=Inf	26	comp:obj	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	referendum	referendum	NOUN	NN	Number=Sing	29	comp:obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	6	punct	_	_
+
+# newdoc id = n03004
+# sent_id = n03004003
+# text = On Thursday, the 3rd of November, the mayor of Saint-Gaudens (in the Haute-Garonne region) decided to suspend the urban development agreement with the government formed in 2014.
+1	On	on	ADP	IN	_	23	udep	_	_
+2	Thursday	Thursday	PROPN	NNP	Number=Sing	1	comp:obj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	3rd	3rd	NOUN	NN	Number=Sing	2	appos	_	_
+6	of	of	ADP	IN	_	5	udep	_	_
+7	November	November	PROPN	NNP	Number=Sing	6	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	23	punct	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	mayor	mayor	NOUN	NN	Number=Sing	23	subj	_	_
+11	of	of	ADP	IN	_	10	udep	_	_
+12	Saint	Saint	PROPN	NNP	Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	Gaudens	Gaudens	PROPN	NNP	Number=Sing	11	comp:obj	_	_
+15	(	(	PUNCT	-LRB-	_	16	punct	_	SpaceAfter=No
+16	in	in	ADP	IN	_	14	udep	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+18	Haute	Haute	PROPN	NNP	Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	Garonne	Garonne	PROPN	NNP	Number=Sing	21	compound	_	_
+21	region	region	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	16	punct	_	_
+23	decided	decide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+24	to	to	PART	TO	_	23	comp:obl	_	_
+25	suspend	suspend	VERB	VB	VerbForm=Inf	24	comp:obj	_	Subject=SubjRaising
+26	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+27	urban	urban	ADJ	JJ	Degree=Pos	28	mod	_	_
+28	development	development	NOUN	NN	Number=Sing	29	compound	_	_
+29	agreement	agreement	NOUN	NN	Number=Sing	25	comp:obj	_	_
+30	with	with	ADP	IN	_	29	udep	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	government	government	NOUN	NN	Number=Sing	30	comp:obj	_	_
+33	formed	form	VERB	VBN	Tense=Past|VerbForm=Part	32	mod	_	_
+34	in	in	ADP	IN	_	33	udep	_	_
+35	2014	2014	NUM	CD	NumType=Card	34	comp:obj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	23	punct	_	_
+
+# newdoc id = n03005
+# sent_id = n03005007
+# text = The latter is overseeing the Republican primaries, in which Rachida Dati supports Nicolas Sarkozy's candidacy.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	latter	latter	NOUN	NN	Number=Sing	3	subj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	overseeing	oversee	VERB	VBG	Tense=Pres|VerbForm=Part	3	comp:aux	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	Republican	Republican	ADJ	JJ	Degree=Pos	7	mod	_	Proper=True
+7	primaries	primary	NOUN	NNS	Number=Plur	4	comp:obj	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	_	_
+9	in	in	ADP	IN	_	13	udep	_	_
+10	which	which	PRON	WDT	PronType=Rel	9	comp:obj	_	_
+11	Rachida	Rachida	PROPN	NNP	Number=Sing	13	subj	_	_
+12	Dati	Dati	PROPN	NNP	Number=Sing	11	flat	_	_
+13	supports	support	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
+14	Nicolas	Nicolas	PROPN	NNP	Number=Sing	16	comp:obj	_	_
+15	Sarkozy	Sarkozy	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+16	's	's	PART	POS	_	17	udep@poss	_	_
+17	candidacy	candidacy	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n03005025
+# text = In the message, the former Minister for Justice accused Brice Hortefeux of being a 'fascist', 'Minister (moron) of the Interior' and a 'thug'.
+1	In	in	ADP	IN	_	10	udep	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	message	message	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	10	punct	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	former	former	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	Minister	minister	NOUN	NN	Number=Sing	10	subj	_	_
+8	for	for	ADP	IN	_	7	udep	_	_
+9	Justice	justice	NOUN	NN	Number=Sing	8	comp:obj	_	_
+10	accused	accuse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	Brice	Brice	PROPN	NNP	Number=Sing	10	comp:obj	_	_
+12	Hortefeux	Hortefeux	PROPN	NNP	Number=Sing	11	flat	_	_
+13	of	of	ADP	IN	_	10	unk	_	_
+14	being	be	AUX	VBG	VerbForm=Ger	13	comp:obj	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art|Shared=No	17	det	_	_
+16	'	'	PUNCT	``	Shared=No	17	punct	_	SpaceAfter=No
+17	fascist	fascist	NOUN	NN	Number=Sing	14	comp:pred	_	SpaceAfter=No
+18	'	'	PUNCT	''	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	17	punct	_	_
+20	'	'	PUNCT	''	_	25	punct	_	SpaceAfter=No
+21	Minister	minister	NOUN	NN	Number=Sing	25	comp:obj	_	_
+22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
+23	moron	moron	NOUN	NN	Number=Sing	21	appos	_	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	_	23	punct	_	_
+25	of	of	ADP	IN	_	13	conj	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	Interior	interior	NOUN	NN	Number=Sing|Shared=No	25	mod	_	SpaceAfter=No
+28	'	'	PUNCT	''	Shared=No	25	punct	_	_
+29	and	and	CCONJ	CC	_	32	cc	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+31	'	'	PUNCT	``	_	32	punct	_	SpaceAfter=No
+32	thug	thug	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+33	'	'	PUNCT	''	Shared=No	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	10	punct	_	_
+
+# newdoc id = n03006
+# sent_id = n03006003
+# text = What are the limits that could inhibit the expression of religious beliefs in private companies?
+1	What	what	PRON	WP	PronType=Int	2	comp:pred	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	limits	limit	NOUN	NNS	Number=Plur	2	subj	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	subj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	4	mod@relcl	_	_
+7	inhibit	inhibit	VERB	VB	VerbForm=Inf	6	comp:aux	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	expression	expression	NOUN	NN	Number=Sing	7	comp:obj	_	_
+10	of	of	ADP	IN	_	9	udep	_	_
+11	religious	religious	ADJ	JJ	Degree=Pos	12	mod	_	_
+12	beliefs	belief	NOUN	NNS	Number=Plur	10	comp:obj	_	_
+13	in	in	ADP	IN	_	7	udep	_	_
+14	private	private	ADJ	JJ	Degree=Pos	15	mod	_	_
+15	companies	company	NOUN	NNS	Number=Plur	13	comp:obj	_	SpaceAfter=No
+16	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n03006008
+# text = Even if the majority of situations that arise in the workplace can be resolved without conflict.
+1	Even	even	ADV	RB	_	2	mod	_	_
+2	if	if	SCONJ	IN	_	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	majority	majority	NOUN	NN	Number=Sing	12	subj@pass	_	_
+5	of	of	ADP	IN	_	4	udep	_	_
+6	situations	situation	NOUN	NNS	Number=Plur	5	comp:obj	_	_
+7	that	that	PRON	WDT	PronType=Rel	8	subj	_	_
+8	arise	arise	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+9	in	in	ADP	IN	_	8	udep	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	workplace	workplace	NOUN	NN	Number=Sing	9	comp:obj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	2	comp:obj	_	_
+13	be	be	AUX	VB	VerbForm=Inf	12	comp:aux	_	_
+14	resolved	resolve	VERB	VBN	Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
+15	without	without	ADP	IN	_	14	udep	_	_
+16	conflict	conflict	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n03006016
+# text = Are workers allowed to keep religious objects on their desks?
+1	Are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	workers	worker	NOUN	NNS	Number=Plur	1	subj@pass	_	_
+3	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part	1	comp:aux@pass	_	_
+4	to	to	PART	TO	_	3	comp:obl	_	_
+5	keep	keep	VERB	VB	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
+6	religious	religious	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	objects	object	NOUN	NNS	Number=Plur	5	comp:obj	_	_
+8	on	on	ADP	IN	_	5	udep	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	mod@poss	_	_
+10	desks	desk	NOUN	NNS	Number=Plur	8	comp:obj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	1	punct	_	_
+
+# sent_id = n03006028
+# text = The Force Ouvrière union regrets that its remarks on the content of the guide were not included: "There wasn't really any consultation," said Ms. Gillard.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	Force	force	X	FW	Foreign=Yes	4	compound	_	_
+3	Ouvrière	ouvrière	X	FW	_	2	flat	_	_
+4	union	union	NOUN	NN	Number=Sing	5	subj	_	_
+5	regrets	regret	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	5	comp:obj	_	_
+7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	mod@poss	_	_
+8	remarks	remark	NOUN	NNS	Number=Plur	15	subj@pass	_	_
+9	on	on	ADP	IN	_	8	udep	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	content	content	NOUN	NN	Number=Sing	9	comp:obj	_	_
+12	of	of	ADP	IN	_	11	udep	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	guide	guide	NOUN	NN	Number=Sing	12	comp:obj	_	_
+15	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	comp:obj	_	_
+16	not	not	PART	RB	Polarity=Neg	15	mod	_	_
+17	included	include	VERB	VBN	Tense=Past|VerbForm=Part	15	comp:aux@pass	_	SpaceAfter=No
+18	:	:	PUNCT	:	_	5	punct	_	_
+19	"	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
+20	There	there	PRON	EX	_	21	unk@expl	_	_
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	comp:obj	_	SpaceAfter=No
+22	n't	not	ADV	RB	Polarity=Neg	23	mod	_	_
+23	really	really	ADV	RB	_	21	mod	_	_
+24	any	any	DET	DT	_	25	det	_	_
+25	consultation	consultation	NOUN	NN	Number=Sing	21	subj	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	28	punct	_	SpaceAfter=No
+27	"	"	PUNCT	''	_	28	punct	_	_
+28	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+29	Ms.	Ms.	PROPN	NNP	Number=Sing	28	subj	_	_
+30	Gillard	Gillard	PROPN	NNP	Number=Sing	29	flat	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = n03006034
+# text = The guide is problematic, firstly because it has been developed "in the context of a state of emergency".
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	guide	guide	NOUN	NN	Number=Sing	3	subj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	problematic	problematic	ADJ	JJ	Degree=Pos	3	comp:pred	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	firstly	firstly	ADV	RB	_	7	mod	_	_
+7	because	because	SCONJ	IN	_	3	mod	_	_
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	subj@pass	_	_
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	comp:aux	_	_
+11	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
+12	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+13	in	in	ADP	IN	_	11	udep	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	context	context	NOUN	NN	Number=Sing	13	comp:obj	_	_
+16	of	of	ADP	IN	_	15	udep	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	state	state	NOUN	NN	Number=Sing	16	comp:obj	_	_
+19	of	of	ADP	IN	_	18	udep	_	_
+20	emergency	emergency	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
+21	"	"	PUNCT	''	_	13	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# newdoc id = n03007
+# sent_id = n03007003
+# text = This clause included the time taken to travel to clients' homes in working hours.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	clause	clause	NOUN	NN	Number=Sing	3	subj	_	_
+3	included	include	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	time	time	NOUN	NN	Number=Sing	3	comp:obj	_	_
+6	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	5	mod	_	_
+7	to	to	PART	TO	_	6	comp:obl	_	_
+8	travel	travel	VERB	VB	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
+9	to	to	ADP	IN	_	8	udep	_	_
+10	clients	client	NOUN	NNS	Number=Plur	11	comp:obj	_	SpaceAfter=No
+11	'	'	PART	POS	_	12	udep@poss	_	_
+12	homes	home	NOUN	NNS	Number=Plur	9	comp:obj	_	_
+13	in	in	ADP	IN	_	8	udep	_	_
+14	working	work	VERB	VBG	VerbForm=Ger	15	mod	_	_
+15	hours	hour	NOUN	NNS	Number=Plur	13	comp:obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n03007006
+# text = The two organisations launched an appeal which was thrown out by the Court of Cassation on the 12th of October.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	two	two	NUM	CD	NumType=Card	3	mod	_	_
+3	organisations	organisation	NOUN	NNS	Number=Plur	4	subj	_	_
+4	launched	launch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	appeal	appeal	NOUN	NN	Number=Sing	4	comp:obj	_	_
+7	which	which	PRON	WDT	PronType=Rel	8	subj@pass	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
+9	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
+10	out	out	ADV	RP	_	9	compound@prt	_	_
+11	by	by	ADP	IN	_	9	udep	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	Court	court	NOUN	NN	Number=Sing	11	comp:obj	_	_
+14	of	of	ADP	IN	_	13	udep	_	_
+15	Cassation	cassation	NOUN	NN	Number=Sing	14	comp:obj	_	_
+16	on	on	ADP	IN	_	9	udep	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	12th	12th	NOUN	NN	Number=Sing	16	comp:obj	_	_
+19	of	of	ADP	IN	_	18	udep	_	_
+20	October	October	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = n03007009
+# text = It aims to take the journey time into account after deducting this from the working hours actually completed, without being able to measure the real journey time.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	aims	aim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	2	comp:obl	_	_
+4	take	take	VERB	VB	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	journey	journey	NOUN	NN	Number=Sing	7	compound	_	_
+7	time	time	NOUN	NN	Number=Sing	4	comp:obj	_	_
+8	into	into	ADP	IN	_	4	udep	_	_
+9	account	account	NOUN	NN	Number=Sing	8	comp:obj	_	_
+10	after	after	SCONJ	IN	_	4	mod	_	_
+11	deducting	deduct	VERB	VBG	VerbForm=Ger	10	comp:obj	_	_
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	11	comp:obj	_	_
+13	from	from	ADP	IN	_	11	udep	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	working	working	VERB	NN	Number=Sing	16	mod	_	_
+16	hours	hour	NOUN	NNS	Number=Plur	13	comp:obj	_	_
+17	actually	actually	ADV	RB	_	18	mod	_	_
+18	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part	16	mod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	4	punct	_	_
+20	without	without	SCONJ	IN	_	4	mod	_	_
+21	being	be	AUX	VBG	VerbForm=Ger	20	comp:obj	_	_
+22	able	able	ADJ	JJ	Degree=Pos	21	comp:pred	_	_
+23	to	to	PART	TO	_	22	comp:obl	_	_
+24	measure	measure	VERB	VB	VerbForm=Inf	23	comp:obj	_	Subject=SubjRaising
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	real	real	ADJ	JJ	Degree=Pos	28	mod	_	_
+27	journey	journey	NOUN	NN	Number=Sing	28	compound	_	_
+28	time	time	NOUN	NN	Number=Sing	24	comp:obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = n03007011
+# text = The working time undertaken in this first hour is more or less equal to 45 minutes.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	working	working	VERB	NN	Number=Sing	3	mod	_	_
+3	time	time	NOUN	NN	Number=Sing	9	subj	_	_
+4	undertaken	undertake	VERB	VBN	Tense=Past|VerbForm=Part	3	mod	_	_
+5	in	in	ADP	IN	_	4	udep	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	mod	_	_
+8	hour	hour	NOUN	NN	Number=Sing	5	comp:obj	_	_
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	more	more	ADV	RBR	_	9	mod	_	ExtPos=ADV|Idiom=Yes
+11	or	or	CCONJ	CC	_	10	unk	_	InIdiom=Yes
+12	less	less	ADV	RBR	Degree=Cmp	11	unk	_	InIdiom=Yes
+13	equal	equal	ADJ	JJ	Degree=Pos	9	comp:pred	_	_
+14	to	to	ADP	IN	_	13	udep	_	_
+15	45	45	NUM	CD	NumType=Card	16	mod	_	_
+16	minutes	minute	NOUN	NNS	Number=Plur	14	comp:obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# newdoc id = n03008
+# sent_id = n03008011
+# text = "ETA is on its way out," the French contingent revealed.
+1	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+2	ETA	ETA	PROPN	NNP	Number=Sing	3	subj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
+4	on	on	ADP	IN	_	3	udep	_	_
+5	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	mod@poss	_	_
+6	way	way	NOUN	NN	Number=Sing	4	comp:obj	_	_
+7	out	out	ADV	RB	_	6	mod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+9	"	"	PUNCT	''	_	13	punct	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	French	French	ADJ	JJ	Degree=Pos	12	mod	_	Proper=True
+12	contingent	contingent	NOUN	NN	Number=Sing	13	subj	_	_
+13	revealed	reveal	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# newdoc id = n03009
+# sent_id = n03009006
+# text = He also remarked that "the existence of such a document could lead to consequences that are as likely as they are unacceptable".
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+2	also	also	ADV	RB	_	3	mod	_	_
+3	remarked	remark	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	3	comp:obj	_	_
+5	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	existence	existence	NOUN	NN	Number=Sing	12	subj	_	_
+8	of	of	ADP	IN	_	7	udep	_	_
+9	such	such	DET	PDT	_	11	det@predet	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	document	document	NOUN	NN	Number=Sing	8	comp:obj	_	_
+12	could	could	AUX	MD	VerbForm=Fin	4	comp:obj	_	_
+13	lead	lead	VERB	VB	VerbForm=Inf	12	comp:aux	_	_
+14	to	to	ADP	IN	_	13	udep	_	_
+15	consequences	consequence	NOUN	NNS	Number=Plur	14	comp:obj	_	_
+16	that	that	PRON	WDT	PronType=Rel	17	subj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
+18	as	as	ADV	RB	_	17	mod	_	_
+19	likely	likely	ADJ	JJ	Degree=Pos	17	comp:pred	_	_
+20	as	as	SCONJ	IN	_	17	mod	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	subj	_	_
+22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+23	unacceptable	unacceptable	ADJ	JJ	Degree=Pos	22	comp:pred	_	SpaceAfter=No
+24	"	"	PUNCT	''	_	3	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = n03009011
+# text = The French Digital Council, which advises on bills in line with questions of digital technology, could also scrutinise it.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	French	French	ADJ	JJ	Degree=Pos	4	mod	_	_
+3	Digital	digital	ADJ	JJ	Degree=Pos	4	mod	_	_
+4	Council	council	PROPN	NN	Number=Sing	18	subj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	which	which	PRON	WDT	PronType=Rel	7	subj	_	_
+7	advises	advise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+8	on	on	ADP	IN	_	7	udep	_	_
+9	bills	bill	NOUN	NNS	Number=Plur	8	comp:obj	_	_
+10	in	in	ADP	IN	_	9	udep	_	_
+11	line	line	NOUN	NN	Number=Sing	10	comp:obj	_	_
+12	with	with	ADP	IN	_	11	udep	_	_
+13	questions	question	NOUN	NNS	Number=Plur	12	comp:obj	_	_
+14	of	of	ADP	IN	_	13	udep	_	_
+15	digital	digital	ADJ	JJ	Degree=Pos	16	mod	_	_
+16	technology	technology	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	4	punct	_	_
+18	could	could	AUX	MD	VerbForm=Fin	0	root	_	_
+19	also	also	ADV	RB	_	18	mod	_	_
+20	scrutinise	scrutinise	VERB	VB	VerbForm=Inf	18	comp:aux	_	_
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	_	_
+
+# newdoc id = n03010
+# sent_id = n03010012
+# text = According to Le Figaro, this government plan could free up 42 million euros, of which 15.5 million would go towards security.
+1	According	accord	VERB	VBG	VerbForm=Ger	9	udep	_	_
+2	to	to	ADP	IN	_	1	comp:obj	_	_
+3	Le	Le	PROPN	NNP	Number=Sing	2	comp:obj	_	_
+4	Figaro	Figaro	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	government	government	NOUN	NN	Number=Sing	8	compound	_	_
+8	plan	plan	NOUN	NN	Number=Sing	9	subj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	0	root	_	_
+10	free	free	VERB	VB	VerbForm=Inf	9	comp:aux	_	_
+11	up	up	ADP	RP	_	10	compound@prt	_	_
+12	42	42	NUM	CD	NumType=Card	13	mod	_	_
+13	million	million	NUM	CD	NumType=Card	14	mod	_	_
+14	euros	euro	NOUN	NNS	Number=Plur	10	comp:obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	of	of	ADP	IN	_	20	udep	_	_
+17	which	which	PRON	WDT	PronType=Rel	16	comp:obj	_	_
+18	15.5	15.5	NUM	CD	NumType=Card	19	mod	_	_
+19	million	million	NUM	CD	NumType=Card	20	subj	_	_
+20	would	would	AUX	MD	VerbForm=Fin	14	mod@relcl	_	_
+21	go	go	VERB	VB	VerbForm=Inf	20	comp:aux	_	_
+22	towards	towards	ADP	IN	_	21	udep	_	_
+23	security	security	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = n03010019
+# text = France doesn't have a good reputation.
+1	France	France	PROPN	NNP	Number=Sing	2	subj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	n't	not	PART	RB	Polarity=Neg	2	mod	_	_
+4	have	have	VERB	VB	VerbForm=Inf	2	comp:aux	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	mod	_	_
+7	reputation	reputation	NOUN	NN	Number=Sing	4	comp:obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
