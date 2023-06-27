@@ -28,7 +28,7 @@
 24	Obama	Obama	PROPN	NNP	Number=Sing	26	compound	_	_
 25	special	special	ADJ	JJ	Degree=Pos	26	mod	_	_
 26	assistant	assistant	NOUN	NN	Number=Sing	29	subj	_	_
-27	Kori	Kori	PROPN	NNP	Number=Sing	26	:appos	_	_
+27	Kori	Kori	PROPN	NNP	Number=Sing	26	conj:appos	_	_
 28	Schulman	Schulman	PROPN	NNP	Number=Sing	27	flat	_	_
 29	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	parataxis	_	_
 30	in	in	ADP	IN	_	29	udep	_	_
