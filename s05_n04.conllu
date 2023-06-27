@@ -3,7 +3,7 @@
 # sent_id = n04001002
 # text = Tina Anselmi was born on the 25th of March, 1927 in Castelfranco Veneto; she grew up in an anti-fascist Catholic family, which was marked by the persecution of her militant socialist father.
 1	Tina	Tina	PROPN	NNP	Number=Sing	3	subj@pass	_	_
-2	Anselmi	Anselmi	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Anselmi	Anselmi	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	on	on	ADP	IN	_	4	udep	_	_
