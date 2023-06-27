@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# newdoc id = n02002
+#  = # newdoc id
 # sent_id = n02002007
 # text = The officers were able to subdue the 53 year old during the act on Sunday morning.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -10,7 +10,7 @@
 6	subdue	subdue	VERB	VB	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 8	53	53	NUM	CD	NumType=Card	9	mod	_	_
-9	year	year	NOUN	NN	Number=Sing	10	udep@npmod	_	_
+9	year	year	NOUN	NN	Number=Sing	10	mod	_	_
 10	old	old	ADJ	JJ	Degree=Pos	6	comp:obj	_	_
 11	during	during	ADP	IN	_	6	udep	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
@@ -20,7 +20,7 @@
 16	morning	morning	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n02004
+#  = # newdoc id
 # sent_id = n02004007
 # text = King Salaman replaced the political veteran with the head of financial oversight, Mohammed al-Jadaan.
 1	King	King	PROPN	NNP	Number=Sing	3	subj	_	_
@@ -29,7 +29,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 5	political	political	ADJ	JJ	Degree=Pos	6	mod	_	_
 6	veteran	veteran	NOUN	NN	Number=Sing	3	comp:obj	_	_
-7	with	with	ADP	IN	_	3	udep	_	_
+7	with	with	ADP	IN	_	3	comp:obl	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	head	head	NOUN	NN	Number=Sing	7	comp:obj	_	_
 10	of	of	ADP	IN	_	9	udep	_	_
@@ -42,7 +42,7 @@
 17	Jadaan	Jadaan	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n02006
+#  = # newdoc id
 # sent_id = n02006006
 # text = Oil, gold or food products, such as wheat, are natural resources, in which investors invest billions worldwide.
 1	Oil	oil	NOUN	NN	Number=Sing	12	subj	_	SpaceAfter=No
@@ -52,7 +52,7 @@
 5	food	food	NOUN	NN	Number=Sing	6	compound	_	_
 6	products	product	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	such	such	ADJ	JJ	Degree=Pos|Shared=No	6	udep	_	ExtPos=ADJ|Idiom=Yes
+8	such	such	ADJ	JJ	Degree=Pos|Shared=No	6	mod	_	ExtPos=ADJ|Idiom=Yes
 9	as	as	ADP	IN	_	8	unk	_	InIdiom=Yes
 10	wheat	wheat	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
@@ -60,7 +60,7 @@
 13	natural	natural	ADJ	JJ	Degree=Pos	14	mod	_	_
 14	resources	resource	NOUN	NNS	Number=Plur	12	comp:pred	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	_	_
-16	in	in	ADP	IN	_	19	udep	_	_
+16	in	in	ADP	IN	_	19	comp:obl	_	_
 17	which	which	PRON	WDT	PronType=Rel	16	comp:obj	_	_
 18	investors	investor	NOUN	NNS	Number=Plur	19	subj	_	_
 19	invest	invest	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
@@ -68,13 +68,13 @@
 21	worldwide	worldwide	ADV	RB	_	19	mod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = n02007
+#  = # newdoc id
 # sent_id = n02007010
 # text = With 71 goals in 137 international matches, he has shot a record number of goals for the DFB.
-1	With	with	ADP	IN	_	10	udep	_	_
+1	With	with	ADP	IN	_	10	mod	_	_
 2	71	71	NUM	CD	NumType=Card	3	mod	_	_
 3	goals	goal	NOUN	NNS	Number=Plur	1	comp:obj	_	_
-4	in	in	ADP	IN	_	3	udep	_	_
+4	in	in	ADP	IN	_	3	mod	_	_
 5	137	137	NUM	CD	NumType=Card	7	mod	_	_
 6	international	international	ADJ	JJ	Degree=Pos	7	mod	_	_
 7	matches	match	NOUN	NNS	Number=Plur	4	comp:obj	_	SpaceAfter=No
@@ -87,12 +87,12 @@
 14	number	number	NOUN	NN	Number=Sing	11	comp:obj	_	_
 15	of	of	ADP	IN	_	14	udep	_	_
 16	goals	goal	NOUN	NNS	Number=Plur	15	comp:obj	_	_
-17	for	for	ADP	IN	_	11	udep	_	_
+17	for	for	ADP	IN	_	11	mod	_	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
 19	DFB	DFB	PROPN	NNP	Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = n02011
+#  = # newdoc id
 # sent_id = n02011003
 # text = With the help of debit card data, the Essen police are investigating four people who stood by and watched while a retiree died in a bank.
 1	With	with	ADP	IN	_	12	udep	_	_
@@ -119,7 +119,7 @@
 22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
 23	retiree	retiree	NOUN	NN	Number=Sing	24	subj	_	_
 24	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	comp:obj	_	_
-25	in	in	ADP	IN	_	24	udep	_	_
+25	in	in	ADP	IN	_	24	mod	_	_
 26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
 27	bank	bank	NOUN	NN	Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	12	punct	_	_
@@ -142,7 +142,7 @@
 14	investigated	investigate	VERB	VBN	Tense=Past|VerbForm=Part	13	comp:aux@pass	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n02016
+#  = # newdoc id = n02016
 # sent_id = n02016006
 # text = Because series 1 is no longer the old one, many users can save 100 euros.
 1	Because	because	SCONJ	IN	_	13	mod	_	_
@@ -163,7 +163,7 @@
 16	euros	euro	NOUN	NNS	Number=Plur	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = n02017
+#  = # newdoc id
 # sent_id = n02017008
 # text = The photo clearly shows the narrow touch display bar above the keyboard that has been anticipated in rumors.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -182,14 +182,14 @@
 14	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	comp:aux	_	_
 16	anticipated	anticipate	VERB	VBN	Tense=Past|VerbForm=Part	15	comp:aux@pass	_	_
-17	in	in	ADP	IN	_	16	udep	_	_
+17	in	in	ADP	IN	_	16	mod	_	_
 18	rumors	rumor	NOUN	NNS	Number=Plur	17	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n02022
+#  = # newdoc id
 # sent_id = n02022015
 # text = One doesn't know in which way both dramatists would have worked together.
-1	One	one	NOUN	NN	Number=Sing	2	subj	_	_
+1	One	one	PRON	NN	Number=Sing	2	subj	_	_
 2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	n't	not	PART	RB	Polarity=Neg	2	mod	_	_
 4	know	know	VERB	VB	VerbForm=Inf	2	comp:aux	_	_
@@ -204,7 +204,7 @@
 13	together	together	ADV	RB	_	10	mod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n02024
+#  = # newdoc id
 # sent_id = n02024008
 # text = A Swedish study has shown that animals seldom, if at all, land after the 2 month breeding period.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -221,7 +221,7 @@
 12	all	all	ADV	RB	_	11	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	10	punct	_	_
 14	land	land	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-15	after	after	ADP	IN	_	14	udep	_	_
+15	after	after	ADP	IN	_	14	mod	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
 17	2	2	NUM	CD	NumType=Card	18	mod	_	_
 18	month	month	NOUN	NN	Number=Sing	20	mod@tmod	_	_
@@ -229,23 +229,23 @@
 20	period	period	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n02027
+#  = # newdoc id
 # sent_id = n02027007
 # text = According to Parker, Russian Secret Service agents are active in large numbers in Great Britain.
-1	According	accord	VERB	VBG	VerbForm=Ger	9	udep	_	ExtPos=VERB|Idiom=Yes
+1	According	accord	VERB	VBG	VerbForm=Ger	9	udep	_	ExtPos=ADP|Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	Parker	Parker	PROPN	NNP	Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	_	_
 5	Russian	Russian	ADJ	JJ	Degree=Pos	8	mod	_	_
 6	Secret	secret	NOUN	NN	Number=Sing	7	compound	_	_
-7	Service	service	PROPN	NNP	Number=Sing	8	compound	_	_
+7	Service	service	NOUN	NNP	Number=Sing	8	compound	_	_
 8	agents	agent	NOUN	NNS	Number=Plur	9	subj	_	_
 9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	active	active	ADJ	JJ	Degree=Pos	9	comp:pred	_	_
-11	in	in	ADP	IN	_	10	udep	_	_
+11	in	in	ADP	IN	_	10	mod	_	_
 12	large	large	ADJ	JJ	Degree=Pos	13	mod	_	_
 13	numbers	number	NOUN	NNS	Number=Plur	11	comp:obj	_	_
-14	in	in	ADP	IN	_	10	udep	_	_
+14	in	in	ADP	IN	_	10	mod	_	_
 15	Great	great	ADJ	JJ	Degree=Pos	16	mod	_	Proper=True
 16	Britain	Britain	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	_	_
@@ -259,7 +259,7 @@
 5	of	of	ADP	IN	_	4	udep	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 7	contract	contract	NOUN	NN	Number=Sing	5	comp:obj	_	_
-8	at	at	ADP	IN	_	2	udep	_	_
+8	at	at	ADP	IN	_	2	mod	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	beginning	beginning	NOUN	NN	Number=Sing	8	comp:obj	_	_
 11	of	of	ADP	IN	_	10	udep	_	_
@@ -328,7 +328,7 @@
 58	sanctions	sanction	NOUN	NNS	Number=Plur	56	comp:obj	_	SpaceAfter=No
 59	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n02030
+#  = # newdoc id
 # sent_id = n02030005
 # text = It is a political process and I have decided not to be present, so it was said.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Shared=No	2	subj	_	_
@@ -346,12 +346,12 @@
 13	present	present	ADJ	JJ	Degree=Pos	12	comp:pred	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	2	punct	_	_
 15	so	so	ADV	CC	_	17	mod	_	_
-16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	comp@expl	_	_
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 18	said	say	VERB	VBN	Tense=Past|VerbForm=Part	17	comp:aux@pass	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n02031
+#  = # newdoc id = n02031
 # sent_id = n02031071
 # text = If a Turkish employee quits, then the Turkish work councils come.
 1	If	if	SCONJ	IN	_	12	mod	_	_
@@ -368,10 +368,10 @@
 12	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = n02032
+#  = # newdoc id
 # sent_id = n02032022
 # text = From this point of view, stale structures and a self-satisfied elite are the reason why the health system, education and foreign trade in the USA is in such bad shape.
-1	From	from	ADP	IN	_	15	udep	_	_
+1	From	from	ADP	IN	_	15	mod	_	_
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
 3	point	point	NOUN	NN	Number=Sing	1	comp:obj	_	_
 4	of	of	ADP	IN	_	3	udep	_	_
@@ -407,7 +407,7 @@
 34	shape	shape	NOUN	NN	Number=Sing	31	comp:obj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	15	punct	_	_
 
-# newdoc id = n02033
+#  = # newdoc id = n02033
 # sent_id = n02033063
 # text = Kühn can only shake his head.
 1	Kühn	Kühn	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -443,11 +443,11 @@
 21	threat	threat	NOUN	NN	Number=Sing	18	conj	_	_
 22	of	of	ADP	IN	Shared=No	21	udep	_	_
 23	insolvency	insolvency	NOUN	NN	Number=Sing	22	comp:obj	_	_
-24	in	in	ADP	IN	_	8	udep	_	_
+24	in	in	ADP	IN	_	8	mod	_	_
 25	July	July	PROPN	NNP	Number=Sing	24	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n02034
+#  = # newdoc id
 # sent_id = n02034018
 # text = The witching hour starts up at least by the time the scary organ is played, such as in the 60s hit Monster Mash.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -457,7 +457,7 @@
 5	up	up	ADP	RP	_	4	compound@prt	_	_
 6	at	at	ADP	IN	_	8	mod	_	ExtPos=ADP|Idiom=Yes
 7	least	least	ADV	RBS	Degree=Sup	6	unk	_	InIdiom=Yes
-8	by	by	ADP	IN	_	4	udep	_	_
+8	by	by	ADP	IN	_	4	mod	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	time	time	NOUN	NN	Number=Sing	8	comp:obj	_	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
@@ -476,7 +476,7 @@
 24	Mash	mash	PROPN	NN	Number=Sing	22	appos	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n02036
+#  = # newdoc id = n02036
 # sent_id = n02036018
 # text = Von Beust justified the cost increases as lack of detailed planning.
 1	Von	Von	PROPN	NNP	Number=Sing	3	subj	_	_
@@ -492,7 +492,7 @@
 11	planning	planning	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n02038
+#  = # newdoc id
 # sent_id = n02038007
 # text = Simon Krätschmer gropes around alone through the dilapidated, sinister barrack.
 1	Simon	Simon	PROPN	NNP	Number=Sing	3	subj	_	_
@@ -500,7 +500,7 @@
 3	gropes	grope	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	around	around	ADV	RB	_	3	mod	_	_
 5	alone	alone	ADV	RB	_	3	mod	_	_
-6	through	through	ADP	IN	_	3	udep	_	_
+6	through	through	ADP	IN	_	3	mod	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 8	dilapidated	dilapidated	ADJ	JJ	Degree=Pos	11	mod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	_	_
@@ -508,7 +508,7 @@
 11	barrack	barrack	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n02040
+#  = # newdoc id = n02040
 # sent_id = n02040023
 # text = That is because each and every miracle and each specialized district occupies an entire field.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	_
@@ -528,7 +528,7 @@
 15	field	field	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n02041
+#  = # newdoc id = n02041
 # sent_id = n02041014
 # text = Production of the smartphone model was completely discontinued.
 1	Production	production	NOUN	NN	Number=Sing	6	subj@pass	_	_
@@ -541,7 +541,7 @@
 8	discontinued	discontinue	VERB	VBN	Tense=Past|VerbForm=Part	6	comp:aux@pass	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n02042
+#  = # newdoc id = n02042
 # sent_id = n02042005
 # text = It was August 30, 2015, as an army of ducks conquered the internet.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	unk@expl	_	_
@@ -601,12 +601,12 @@
 6	Vine	Vine	PROPN	NNP	Number=Sing	7	subj	_	_
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	art	art	NOUN	NN	Number=Sing	7	comp:pred	_	_
-9	in	in	ADP	IN	_	8	udep	_	_
+9	in	in	ADP	IN	_	7	mod	_	_
 10	six	six	NUM	CD	NumType=Card	11	mod	_	_
 11	seconds	seconds	NOUN	NNS	Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = n02043
+#  = # newdoc id = n02043
 # sent_id = n02043008
 # text = And now he is also world champion.
 1	And	and	CCONJ	CC	_	4	cc	_	_
@@ -618,7 +618,7 @@
 7	champion	champion	NOUN	NN	Number=Sing	4	comp:pred	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n02044
+#  = # newdoc id = n02044
 # sent_id = n02044008
 # text = For Kerber, the season finale nevertheless marks the end of an unbelievable year.
 1	For	for	ADP	IN	_	8	udep	_	_
@@ -649,15 +649,15 @@
 8	,	,	PUNCT	,	_	14	punct	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 10	28	28	NUM	CD	NumType=Card	11	mod	_	_
-11	year	year	NOUN	NN	Number=Sing	13	udep@npmod	_	SpaceAfter=No
+11	year	year	NOUN	NN	Number=Sing	13	mod	_	SpaceAfter=No
 12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
 13	old	old	ADJ	JJ	Degree=Pos	14	subj	_	_
 14	lost	lose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-15	for	for	ADP	IN	_	14	udep	_	_
+15	for	for	ADP	IN	_	14	mod	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 17	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	18	mod	_	_
 18	time	time	NOUN	NN	Number=Sing	15	comp:obj	_	_
-19	in	in	ADP	IN	_	14	udep	_	_
+19	in	in	ADP	IN	_	14	mod	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
 21	final	final	ADJ	JJ	Degree=Pos	22	mod	_	_
 22	game	game	NOUN	NN	Number=Sing	19	comp:obj	_	_
@@ -666,7 +666,7 @@
 25	Williams	Williams	PROPN	NNP	Number=Sing	24	flat	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	14	punct	_	_
 
-# newdoc id = n02046
+#  = # newdoc id = n02046
 # sent_id = n02046037
 # text = It is now only unclear, in which one.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -680,7 +680,7 @@
 9	one	one	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n02048
+#  = # newdoc id = n02048
 # sent_id = n02048002
 # text = Do you argue with your alarm clock?
 1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -692,7 +692,7 @@
 7	clock	clock	NOUN	NN	Number=Sing	4	comp:obj	_	SpaceAfter=No
 8	?	?	PUNCT	.	_	1	punct	_	_
 
-# newdoc id = n02050
+#  = # newdoc id = n02050
 # sent_id = n02050052
 # text = It's clear: Men could have more responsibility in matters of contraception.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -710,7 +710,7 @@
 13	contraception	contraception	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n02052
+#  = # newdoc id = n02052
 # sent_id = n02052023
 # text = According to Christian belief, a grave which had been embedded in the chalkstone was the last resting place of Jesus.
 1	According	accord	VERB	VBG	VerbForm=Ger	15	udep	_	ExtPos=VERB|Idiom=Yes
@@ -736,7 +736,7 @@
 21	Jesus	Jesus	PROPN	NNP	Number=Sing	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	15	punct	_	_
 
-# newdoc id = n02056
+#  = # newdoc id
 # sent_id = n02056019
 # text = The reason for advertising the video in Germany is unclear.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -745,23 +745,23 @@
 4	advertising	advertise	VERB	VBG	VerbForm=Ger	3	comp:obj	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	video	video	NOUN	NN	Number=Sing	4	comp:obj	_	_
-7	in	in	ADP	IN	_	4	udep	_	_
+7	in	in	ADP	IN	_	4	comp	_	_
 8	Germany	Germany	PROPN	NNP	Number=Sing	7	comp:obj	_	_
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	unclear	unclear	ADJ	JJ	Degree=Pos	9	comp:pred	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	_	_
 
-# newdoc id = n02058
+#  = # newdoc id
 # sent_id = n02058056
 # text = I was asked by the officers, in their inimitably dumb way, whether I knew the writer Günter de Bruyn and whether we are intellectual relatives.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj@pass	_	_
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
-4	by	by	ADP	IN	_	3	udep	_	_
+4	by	by	ADP	IN	_	3	comp:obl@agent	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	officers	officer	NOUN	NNS	Number=Plur	4	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
-8	in	in	ADP	IN	_	3	udep	_	_
+8	in	in	ADP	IN	_	3	mod	_	_
 9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	_
 10	inimitably	inimitably	ADV	RB	_	11	mod	_	_
 11	dumb	dumb	ADJ	JJ	Degree=Pos	12	mod	_	_
@@ -783,7 +783,7 @@
 27	relatives	relative	NOUN	NNS	Number=Plur	25	comp:pred	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n02066
+#  = # newdoc id
 # sent_id = n02066010
 # text = The Canadian investigator of the plane crash Larry Vance told SPIEGEL that he is convinced that one of the pilots had intended to land the machine on the ocean surface - so that it would sink.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -793,7 +793,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 6	plane	plane	NOUN	NN	Number=Sing	7	compound	_	_
 7	crash	crash	NOUN	NN	Number=Sing	4	comp:obj	_	_
-8	Larry	Larry	PROPN	NNP	Number=Sing	7	appos	_	_
+8	Larry	Larry	PROPN	NNP	Number=Sing	3	appos	_	_
 9	Vance	Vance	PROPN	NNP	Number=Sing	8	flat	_	_
 10	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	SPIEGEL	SPIEGEL	PROPN	NNP	Number=Sing	10	comp:obl	_	_
@@ -812,7 +812,7 @@
 24	land	land	VERB	VB	VerbForm=Inf	23	comp:obj	_	Subject=SubjRaising
 25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
 26	machine	machine	NOUN	NN	Number=Sing	24	comp:obj	_	_
-27	on	on	ADP	IN	_	24	udep	_	_
+27	on	on	ADP	IN	_	24	mod	_	_
 28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 29	ocean	ocean	NOUN	NN	Number=Sing	30	compound	_	_
 30	surface	surface	NOUN	NN	Number=Sing	27	comp:obj	_	_
@@ -845,14 +845,14 @@
 17	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	mod@relcl	_	_
 18	washed	wash	VERB	VBN	Tense=Past|VerbForm=Part	17	comp:aux	_	_
 19	up	up	ADP	RP	_	18	compound@prt	_	_
-20	in	in	ADP	IN	_	18	udep	_	_
+20	in	in	ADP	IN	_	18	mod	_	_
 21	Tanzania	Tanzania	PROPN	NNP	Number=Sing	20	comp:obj	_	_
 22	in	in	ADP	IN	_	21	udep	_	_
 23	East	east	ADJ	JJ	Degree=Pos	24	mod	_	_
 24	Africa	Africa	PROPN	NNP	Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n02068
+#  = # newdoc id = n02068
 # sent_id = n02068010
 # text = The issue might not be over for Barroso.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -877,7 +877,7 @@
 8	stir	stir	NOUN	NN	Number=Sing	5	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n02069
+#  = # newdoc id = n02069
 # sent_id = n02069039
 # text = The current arrests are "a continuation of the shenanigans against us," said Dündar.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -898,10 +898,10 @@
 16	Dündar	Dündar	PROPN	NNP	Number=Sing	15	subj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	15	punct	_	_
 
-# newdoc id = n02073
+#  = # newdoc id
 # sent_id = n02073024
 # text = For the time being, the deal between Aoun and Hariri has brought the two enemy factions closer together.
-1	For	for	ADP	IN	_	12	udep	_	_
+1	For	for	ADP	IN	_	12	mod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	time	time	NOUN	NN	Number=Sing	1	comp:obj	_	_
 4	being	be	VERB	VBG	VerbForm=Ger	3	mod	_	SpaceAfter=No
@@ -922,7 +922,7 @@
 19	together	together	ADV	RP	_	13	comp:pred	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = n02074
+#  = # newdoc id
 # sent_id = n02074009
 # text = The husband of the current candidate for the White House, Hillary Clinton, pardoned a number of people, also including Rich, on the last day of his presidency, January 20, 2001.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -936,7 +936,7 @@
 9	White	White	PROPN	NNP	Number=Sing	10	mod	_	_
 10	House	House	PROPN	NNP	Number=Sing	7	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
-12	Hillary	Hillary	PROPN	NNP	Number=Sing	10	appos	_	_
+12	Hillary	Hillary	PROPN	NNP	Number=Sing	6	appos	_	_
 13	Clinton	Clinton	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	12	punct	_	_
 15	pardoned	pardon	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -949,7 +949,7 @@
 22	including	include	VERB	VBG	VerbForm=Ger	17	mod	_	_
 23	Rich	Rich	PROPN	NNP	Number=Sing	22	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	22	punct	_	_
-25	on	on	ADP	IN	_	15	udep	_	_
+25	on	on	ADP	IN	_	15	mod	_	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
 27	last	last	ADJ	JJ	Degree=Pos	28	mod	_	_
 28	day	day	NOUN	NN	Number=Sing	25	comp:obj	_	_
@@ -963,7 +963,7 @@
 36	2001	2001	NUM	CD	NumType=Card	33	mod@tmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	15	punct	_	_
 
-# newdoc id = n02075
+#  = # newdoc id = n02075
 # sent_id = n02075020
 # text = Dündar warned Europe about having too much understanding for Erdogan's course.
 1	Dündar	Dündar	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -980,7 +980,7 @@
 12	course	course	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n02076
+#  = # newdoc id = n02076
 # sent_id = n02076003
 # text = Adnan Z. Amin, General Director of the International Organization for Renewable Energies (IRENA) is certain: "Offshore wind power can become the top power generator in a global economy that is free of coal-based energy."
 1	Adnan	Adnan	PROPN	NNP	Number=Sing	17	subj	_	_
@@ -1027,7 +1027,7 @@
 42	.	.	PUNCT	.	_	17	punct	_	SpaceAfter=No
 43	"	"	PUNCT	''	_	17	punct	_	_
 
-# newdoc id = n02078
+#  = # newdoc id = n02078
 # sent_id = n02078004
 # text = The good numbers in Asia promptly pushed the stock markets up.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -1061,7 +1061,7 @@
 14	expenditures	expenditure	NOUN	NNS	Number=Plur	10	conj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n02079
+#  = # newdoc id = n02079
 # sent_id = n02079042
 # text = The two paintings by Lucas Cranach the Elder on display are especially eye-catching.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -1081,7 +1081,7 @@
 15	catching	catching	ADJ	JJ	Degree=Pos	11	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = n02081
+#  = # newdoc id = n02081
 # sent_id = n02081019
 # text = Therefore the irksome signs will not completely disappear: According to information from the news agency dpa, they will only be activated if, for instance, the artist or record label is not a member of GEMA and does not have an agreement with YouTube.
 1	Therefore	therefore	ADV	RB	_	5	mod	_	_
@@ -1133,7 +1133,7 @@
 47	YouTube	YouTube	PROPN	NNP	Number=Sing	46	comp:obj	_	SpaceAfter=No
 48	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n02082
+#  = # newdoc id
 # sent_id = n02082017
 # text = The contaminants not only attack the undeveloped lungs of the little ones; they can also lead to long-term impairment in the development of the adolescent brain.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1153,7 +1153,7 @@
 15	can	can	AUX	MD	VerbForm=Fin	5	parataxis	_	_
 16	also	also	ADV	RB	_	15	mod	_	_
 17	lead	lead	VERB	VB	VerbForm=Inf	15	comp:aux	_	_
-18	to	to	ADP	IN	_	17	udep	_	_
+18	to	to	ADP	IN	_	17	comp:obl	_	_
 19	long	long	ADJ	JJ	Degree=Pos	21	mod	_	SpaceAfter=No
 20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
 21	term	term	NOUN	NN	Number=Sing	22	mod	_	_
@@ -1167,10 +1167,10 @@
 29	brain	brain	NOUN	NN	Number=Sing	26	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n02083
+#  = # newdoc id
 # sent_id = n02083054
 # text = It is no surprise that the federal and state governments have classified the National Natural Heritage as a nation-wide endeavor of the highest priority and have documented it starting in 2005 in a coalition contract.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	unk@expl	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	subj@expl	_	_
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	no	no	DET	DT	Polarity=Neg	4	det	_	_
 4	surprise	surprise	NOUN	NN	Number=Sing	2	comp:pred	_	_
@@ -1203,7 +1203,7 @@
 31	starting	start	VERB	VBG	VerbForm=Ger	29	mod	_	_
 32	in	in	ADP	IN	_	31	udep	_	_
 33	2005	2005	NUM	CD	NumType=Card	32	comp:obj	_	_
-34	in	in	ADP	IN	_	29	udep	_	_
+34	in	in	ADP	IN	_	29	mod	_	_
 35	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
 36	coalition	coalition	NOUN	NN	Number=Sing	37	compound	_	_
 37	contract	contract	NOUN	NN	Number=Sing	34	comp:obj	_	SpaceAfter=No
