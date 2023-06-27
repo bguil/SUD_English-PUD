@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# newdoc id = w05001
+#  = # newdoc id = w05001
 # sent_id = w05001026
 # text = In the 20th century, between 1904 and 1914, Antonio Gaudí brought about a reform that lasted ten years.
 1	In	in	ADP	IN	_	13	udep	_	_
@@ -68,7 +68,7 @@
 21	Palma	Palma	PROPN	NNP	Number=Sing	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w05002
+#  = # newdoc id = w05002
 # sent_id = w05002014
 # text = Before the Andes were formed, the western margin of South America had already been the site of several orogenies.
 1	Before	before	SCONJ	IN	_	13	mod	_	_
@@ -122,7 +122,7 @@
 25	crust	crust	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w05003
+#  = # newdoc id = w05003
 # sent_id = w05003012
 # text = However, the breakdown between him and Linares and the discontinuation of the progressive line provoked the Revolution of Vindication which overthrew him in 1879.
 1	However	however	ADV	RB	_	16	mod	_	SpaceAfter=No
@@ -211,7 +211,7 @@
 21	bankrupt	bankrupt	ADJ	JJ	Degree=Pos	20	comp:pred	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = w05004
+#  = # newdoc id
 # sent_id = w05004031
 # text = It is the portion from this second boundary up to the outer boundary, the imaginary line that connects the lighthouse landmark at Punta del Este to the lighthouse landmark at Punta Rasa.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -230,7 +230,7 @@
 14	,	,	PUNCT	,	_	17	punct	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 16	imaginary	imaginary	ADJ	JJ	Degree=Pos	17	mod	_	_
-17	line	line	NOUN	NN	Number=Sing	13	appos	_	_
+17	line	line	NOUN	NN	Number=Sing	13	conj:appos	_	_
 18	that	that	PRON	WDT	PronType=Rel	19	subj	_	_
 19	connects	connect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
@@ -249,7 +249,7 @@
 33	Rasa	Rasa	PROPN	NNP	Number=Sing	31	comp:obj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w05005
+#  = # newdoc id = w05005
 # sent_id = w05005083
 # text = Things started to change in October 1777 when British forces under the command of General John Burgoyne surrendered in Saratoga in the north of the state of New York.
 1	Things	thing	NOUN	NNS	Number=Plur	2	subj	_	_
@@ -370,7 +370,7 @@
 18	River	River	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w05006
+#  = # newdoc id = w05006
 # sent_id = w05006024
 # text = Golden Age Spanish or Early Modern Spanish is the variant of the language that constitutes the transition from Medieval Spanish to Modern Spanish.
 1	Golden	golden	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -428,7 +428,7 @@
 26	language	language	NOUN	NN	Number=Sing	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w05007
+#  = # newdoc id
 # sent_id = w05007004
 # text = Nonetheless, if the English law had been accepted, the daughters of Luis X, Felipe V and Carlos IV would have had more of a claim to the throne, above their aunt Isabella of France.
 1	Nonetheless	nonetheless	ADV	RB	_	22	mod	_	SpaceAfter=No
@@ -466,7 +466,7 @@
 33	above	above	ADP	IN	_	28	udep	_	_
 34	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	mod@poss	_	_
 35	aunt	aunt	NOUN	NN	Number=Sing	33	comp:obj	_	_
-36	Isabella	Isabella	PROPN	NNP	Number=Sing	35	appos	_	_
+36	Isabella	Isabella	PROPN	NNP	Number=Sing	35	conj:appos	_	_
 37	of	of	ADP	IN	_	36	udep	_	_
 38	France	France	PROPN	NNP	Number=Sing	37	comp:obj	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	22	punct	_	_
@@ -493,7 +493,7 @@
 18	plan	plan	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	:	:	PUNCT	:	_	21	punct	_	_
 20	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
-21	invasion	invasion	NOUN	NN	Number=Sing	18	appos	_	_
+21	invasion	invasion	NOUN	NN	Number=Sing	18	conj:appos	_	_
 22	of	of	ADP	IN	_	21	udep	_	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
 24	entire	entire	ADJ	JJ	Degree=Pos	25	mod	_	_
@@ -502,7 +502,7 @@
 27	France	France	PROPN	NNP	Number=Sing	26	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w05008
+#  = # newdoc id = w05008
 # sent_id = w05008107
 # text = He also discussed the federalization of the City of Buenos Aires, the extension of the commercial code and the appointment of new generals to the army.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
@@ -534,10 +534,9 @@
 27	army	army	NOUN	NN	Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w05009
+#  = # Checktree: how to represet "to record what would be another remarkable success"
 # sent_id = w05009044
 # text = In 1976 he met with a friend who worked with his record label The Rocket Record Company, Kiki Dee, to record what would be another remarkable success for him: "Don't Go Breaking My Heart".
-#  = # Checktree: how to represet "to record what would be another remarkable success"
 1	In	in	ADP	IN	_	4	udep	_	_
 2	1976	1976	NUM	CD	NumType=Card	1	comp:obj	_	_
 3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
@@ -554,9 +553,9 @@
 14	The	the	DET	DT	Definite=Def|PronType=Art	15	det	_	Proper=True
 15	Rocket	rocket	PROPN	NN	Number=Sing	17	compound	_	_
 16	Record	record	PROPN	NN	Number=Sing	17	compound	_	_
-17	Company	company	PROPN	NN	Number=Sing	13	appos	_	SpaceAfter=No
+17	Company	company	PROPN	NN	Number=Sing	13	conj:appos	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
-19	Kiki	Kiki	PROPN	NNP	Number=Sing	7	appos	_	_
+19	Kiki	Kiki	PROPN	NNP	Number=Sing	7	conj:appos	_	_
 20	Dee	Dee	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	19	punct	_	_
 22	to	to	PART	TO	_	4	mod	_	_
@@ -571,7 +570,7 @@
 31	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	comp:obj	_	SpaceAfter=No
 32	:	:	PUNCT	:	_	34	punct	_	_
 33	"	"	PUNCT	``	_	34	punct	_	SpaceAfter=No
-34	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	appos	_	Proper=True|SpaceAfter=No
+34	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	conj:appos	_	Proper=True|SpaceAfter=No
 35	n't	not	PART	RB	Polarity=Neg	34	mod	_	_
 36	Go	go	VERB	VB	VerbForm=Inf	34	comp:aux	_	_
 37	Breaking	break	VERB	VBG	VerbForm=Ger	36	comp:obj	_	Proper=True|Subject=SubjRaising
@@ -580,7 +579,7 @@
 40	"	"	PUNCT	''	_	34	punct	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w05010
+#  = # newdoc id
 # sent_id = w05010023
 # text = Pompey took command of two legions in Capua and began to raise levies illegally, an act that, as was predictable, took advantage of the Caesarians who were in his favor.
 1	Pompey	Pompey	PROPN	NNP	Number=Sing|Shared=Yes	2	subj	_	_
@@ -599,7 +598,7 @@
 14	illegally	illegally	ADV	RB	_	12	mod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	12	punct	_	_
 16	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
-17	act	act	NOUN	NN	Number=Sing	12	appos	_	_
+17	act	act	NOUN	NN	Number=Sing	12	conj:appos	_	_
 18	that	that	PRON	WDT	PronType=Rel	24	subj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	_	_
 20	as	as	SCONJ	IN	_	24	mod	_	_

@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# newdoc id = n03001
+#  = # newdoc id = n03001
 # sent_id = n03001007
 # text = Unlike that of the 28th of October, Mr. Comey's letter has hardly been commented upon.
 1	Unlike	unlike	ADP	IN	_	16	udep	_	_
@@ -85,7 +85,7 @@
 10	23.45	23.45	NUM	CD	NumType=Card	9	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = n03002
+#  = # newdoc id = n03002
 # sent_id = n03002003
 # text = On Tuesday, the United States of America could elect the first female president in its history.
 1	On	on	ADP	IN	_	9	udep	_	_
@@ -133,7 +133,7 @@
 22	desired	desire	VERB	VBN	Tense=Past|VerbForm=Part	21	comp:aux@pass	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	18	punct	_	_
 
-# newdoc id = n03003
+#  = # newdoc id = n03003
 # sent_id = n03003025
 # text = The AKP's Islamic conservatives have taken this refusal as justification for the questionings.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -164,7 +164,7 @@
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	specifically	specifically	ADV	RB	_	11	mod	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
-11	votes	vote	NOUN	NNS	Number=Plur	5	appos	_	_
+11	votes	vote	NOUN	NNS	Number=Plur	5	conj:appos	_	_
 12	of	of	ADP	IN	_	11	udep	_	_
 13	367	367	NUM	CD	NumType=Card	14	mod	_	_
 14	MPs	mp	NOUN	NNS	Number=Plur	12	comp:obj	_	_
@@ -187,14 +187,14 @@
 31	referendum	referendum	NOUN	NN	Number=Sing	29	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n03004
+#  = # newdoc id
 # sent_id = n03004003
 # text = On Thursday, the 3rd of November, the mayor of Saint-Gaudens (in the Haute-Garonne region) decided to suspend the urban development agreement with the government formed in 2014.
 1	On	on	ADP	IN	_	23	udep	_	_
 2	Thursday	Thursday	PROPN	NNP	Number=Sing	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
-5	3rd	3rd	NOUN	NN	Number=Sing	2	appos	_	_
+5	3rd	3rd	NOUN	NN	Number=Sing	2	conj:appos	_	_
 6	of	of	ADP	IN	_	5	udep	_	_
 7	November	November	PROPN	NNP	Number=Sing	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	23	punct	_	_
@@ -227,7 +227,7 @@
 35	2014	2014	NUM	CD	NumType=Card	34	comp:obj	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	23	punct	_	_
 
-# newdoc id = n03005
+#  = # newdoc id = n03005
 # sent_id = n03005007
 # text = The latter is overseeing the Republican primaries, in which Rachida Dati supports Nicolas Sarkozy's candidacy.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -273,7 +273,7 @@
 20	'	'	PUNCT	''	_	25	punct	_	SpaceAfter=No
 21	Minister	minister	NOUN	NN	Number=Sing	25	comp:obj	_	_
 22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
-23	moron	moron	NOUN	NN	Number=Sing	21	appos	_	SpaceAfter=No
+23	moron	moron	NOUN	NN	Number=Sing	21	conj:appos	_	SpaceAfter=No
 24	)	)	PUNCT	-RRB-	_	23	punct	_	_
 25	of	of	ADP	IN	_	13	conj	_	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
@@ -286,7 +286,7 @@
 33	'	'	PUNCT	''	Shared=No	32	punct	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = n03006
+#  = # newdoc id = n03006
 # sent_id = n03006003
 # text = What are the limits that could inhibit the expression of religious beliefs in private companies?
 1	What	what	PRON	WP	PronType=Int	2	comp:pred	_	_
@@ -399,7 +399,7 @@
 21	"	"	PUNCT	''	_	13	punct	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n03007
+#  = # newdoc id = n03007
 # sent_id = n03007003
 # text = This clause included the time taken to travel to clients' homes in working hours.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
@@ -495,7 +495,7 @@
 16	minutes	minute	NOUN	NNS	Number=Plur	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	9	punct	_	_
 
-# newdoc id = n03008
+#  = # newdoc id = n03008
 # sent_id = n03008011
 # text = "ETA is on its way out," the French contingent revealed.
 1	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
@@ -513,7 +513,7 @@
 13	revealed	reveal	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = n03009
+#  = # newdoc id = n03009
 # sent_id = n03009006
 # text = He also remarked that "the existence of such a document could lead to consequences that are as likely as they are unacceptable".
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
@@ -567,7 +567,7 @@
 21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	18	punct	_	_
 
-# newdoc id = n03010
+#  = # newdoc id = n03010
 # sent_id = n03010012
 # text = According to Le Figaro, this government plan could free up 42 million euros, of which 15.5 million would go towards security.
 1	According	accord	VERB	VBG	VerbForm=Ger	9	udep	_	_

@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# newdoc id = w01001
+#  = # newdoc id = w01001
 # sent_id = w01001049
 # text = The charter allowed for the creation of a merchants' guild, run by the town's burgesses to tax people passing through the borough.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -29,7 +29,7 @@
 25	borough	borough	NOUN	NN	Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01002
+#  = # newdoc id = w01002
 # sent_id = w01002008
 # text = It is exceptionally rich in minerals, containing large deposits of gold, diamonds, and ores of manganese, lead, zinc, nickel, cobalt and molybdenum.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -99,7 +99,7 @@
 9	Krasnoyarsk	Krasnoyarsk	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01003
+#  = # newdoc id = w01003
 # sent_id = w01003051
 # text = Examples are the Line Islands in the Pacific and the Maldives in the Indian Ocean.
 1	Examples	example	NOUN	NNS	Number=Plur	2	subj	_	_
@@ -156,10 +156,10 @@
 16	Baja	Baja	PROPN	NNP	Number=Sing	17	compound	_	_
 17	California	California	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
-19	Mexico	Mexico	PROPN	NNP	Number=Sing	17	appos	_	SpaceAfter=No
+19	Mexico	Mexico	PROPN	NNP	Number=Sing	17	conj:appos	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01004
+#  = # newdoc id
 # sent_id = w01004051
 # text = The Greek city-state of Athens in the 5th century BC, which was dependent on grain imports from Scythia, maintained critical alliances with cities which controlled the straits, such as the Megarian colony Byzantium.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
@@ -199,10 +199,10 @@
 35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
 36	Megarian	megarian	ADJ	JJ	Degree=Pos	37	mod	_	_
 37	colony	colony	NOUN	NN	Number=Sing	33	comp:obj	_	_
-38	Byzantium	Byzantium	PROPN	NNP	Number=Sing	37	appos	_	SpaceAfter=No
+38	Byzantium	Byzantium	PROPN	NNP	Number=Sing	37	conj:appos	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	23	punct	_	_
 
-# newdoc id = w01005
+#  = # newdoc id
 # sent_id = w01005020
 # text = Darius's highly regarded commander Megabazus was responsible to fulfill the conquers in the Balkans.
 1	Darius	Darius	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
@@ -210,7 +210,7 @@
 3	highly	highly	ADV	RB	_	4	mod	_	_
 4	regarded	regard	VERB	VBN	Tense=Past|VerbForm=Part	5	mod	_	_
 5	commander	commander	NOUN	NN	Number=Sing	7	subj	_	_
-6	Megabazus	Megabazus	PROPN	NNP	Number=Sing	5	appos	_	_
+6	Megabazus	Megabazus	PROPN	NNP	Number=Sing	5	conj:appos	_	_
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	responsible	responsible	ADJ	JJ	Degree=Pos	7	comp:pred	_	_
 9	to	to	PART	TO	_	8	comp:obl	_	_
@@ -254,7 +254,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 11	Macedonian	Macedonian	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	king	king	NOUN	NN	Number=Sing|Shared=Yes	15	subj	_	_
-13	Amyntas	Amyntas	PROPN	NNP	Number=Sing	12	appos	_	ExtPos=PROPN|Idiom=Yes
+13	Amyntas	Amyntas	PROPN	NNP	Number=Sing	12	conj:appos	_	ExtPos=PROPN|Idiom=Yes
 14	I	i	NUM	CD	NumType=Card	13	unk	_	InIdiom=Yes
 15	accepted	accept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
@@ -302,7 +302,7 @@
 10	intermarried	intermarry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = w01006
+#  = # newdoc id
 # sent_id = w01006027
 # text = In 1912 was founded the first film company (Athina Film) and in 1916 the Asty Film.
 1	In	in	ADP	IN	Shared=Yes	3	udep	_	_
@@ -315,7 +315,7 @@
 8	company	company	NOUN	NN	Number=Sing	3	subj@pass	_	_
 9	(	(	PUNCT	-LRB-	_	11	punct	_	SpaceAfter=No
 10	Athina	Athina	PROPN	NNP	Number=Sing	11	compound	_	_
-11	Film	Film	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+11	Film	Film	PROPN	NNP	Number=Sing	8	conj:appos	_	SpaceAfter=No
 12	)	)	PUNCT	-RRB-	_	11	punct	_	_
 13	and	and	CCONJ	CC	_	18	cc	_	_
 14	in	in	ADP	IN	_	18	orphan	_	_
@@ -343,7 +343,7 @@
 14	Smaragdis	Smaragdis	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01007
+#  = # newdoc id = w01007
 # sent_id = w01007004
 # text = In July 1918, the Franco-Monegasque Treaty was signed, providing for limited French protection over Monaco.
 1	In	in	ADP	IN	_	10	udep	_	_
@@ -426,7 +426,7 @@
 10	Fontvieille	Fontvieille	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01008
+#  = # newdoc id = w01008
 # sent_id = w01008043
 # text = However, there are important differences in law and procedure between Northern Ireland and England and Wales.
 1	However	however	ADV	RB	_	4	mod	_	SpaceAfter=No
@@ -448,7 +448,7 @@
 17	Wales	Wales	PROPN	NNP	Number=Sing	15	conj@emb	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01009
+#  = # newdoc id = w01009
 # sent_id = w01009010
 # text = The Bergeron classification is the most widely accepted form of air mass classification.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -520,7 +520,7 @@
 20	season	season	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01010
+#  = # newdoc id = w01010
 # sent_id = w01010044
 # text = A variety of Germanic and major Slavic tribes crossed through Moravia during the Migration Period before Slavs established themselves in the 6th century AD.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
@@ -612,7 +612,7 @@
 21	present	present	ADJ	JJ	Degree=Pos	23	mod	_	SpaceAfter=No
 22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
 23	day	day	NOUN	NN	Number=Sing	24	mod	_	_
-24	Slovakia	Slovakia	PROPN	NNP	Number=Sing	19	appos	_	SpaceAfter=No
+24	Slovakia	Slovakia	PROPN	NNP	Number=Sing	19	conj:appos	_	SpaceAfter=No
 25	)	)	PUNCT	-RRB-	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -646,14 +646,14 @@
 10	with	with	ADP	IN	Shared=No	7	udep	_	_
 11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	_
 12	nephew	nephew	NOUN	NN	Number=Sing	10	comp:obj	_	_
-13	Rastiz	Rastiz	PROPN	NNP	Number=Sing	12	appos	_	_
+13	Rastiz	Rastiz	PROPN	NNP	Number=Sing	12	conj:appos	_	_
 14	who	who	PRON	WP	PronType=Rel	15	subj	_	_
 15	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	mod@relcl	_	_
 16	St.	St.	PROPN	NNP	Number=Sing	15	comp:pred	_	_
 17	Rastislav	Rastislav	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01012
+#  = # newdoc id = w01012
 # sent_id = w01012052
 # text = In addition, statute determines the election of assembly of regions, and metropolitan districts.
 1	In	in	ADP	IN	_	5	mod	_	ExtPos=ADP|Idiom=Yes
@@ -673,7 +673,7 @@
 15	districts	district	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01013
+#  = # newdoc id
 # sent_id = w01013083
 # text = Although Iceland was under the political control of Denmark until a much later date (1918), very little influence and borrowing from Danish has occurred in the Icelandic language.
 1	Although	although	SCONJ	IN	_	26	mod	_	_
@@ -691,7 +691,7 @@
 13	later	later	ADJ	JJ	Degree=Pos	14	mod	_	_
 14	date	date	NOUN	NN	Number=Sing	10	comp:obj	_	_
 15	(	(	PUNCT	-LRB-	_	16	punct	_	SpaceAfter=No
-16	1918	1918	NUM	CD	NumType=Card	14	appos	_	SpaceAfter=No
+16	1918	1918	NUM	CD	NumType=Card	14	conj:appos	_	SpaceAfter=No
 17	)	)	PUNCT	-RRB-	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	26	punct	_	_
 19	very	very	ADV	RB	_	20	mod	_	_
@@ -769,7 +769,7 @@
 31	history	history	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01014
+#  = # newdoc id = w01014
 # sent_id = w01014002
 # text = The northern portion of the Caucasus is known as the Ciscaucasus and the southern portion as the Transcaucasus.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -792,7 +792,7 @@
 18	Transcaucasus	Transcaucasus	PROPN	NNP	Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01016
+#  = # newdoc id = w01016
 # sent_id = w01016028
 # text = The atmosphere is a chaotic system, so small changes to one part of the system can grow to have large effects on the system as a whole.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -865,7 +865,7 @@
 16	Games	game	NOUN	NNS	Number=Plur	11	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01017
+#  = # newdoc id
 # sent_id = w01017004
 # text = Shaped by global plate tectonic forces that have created the East African Rift, East Africa is the site of Mount Kilimanjaro and Mount Kenya, the two tallest peaks in Africa.
 1	Shaped	shape	VERB	VBN	Tense=Past|VerbForm=Part	17	mod	_	_
@@ -897,7 +897,7 @@
 27	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 28	two	two	NUM	CD	NumType=Card	30	mod	_	_
 29	tallest	tallest	ADJ	JJS	Degree=Sup	30	mod	_	_
-30	peaks	peak	NOUN	NNS	Number=Plur|Shared=Yes	24	appos	_	_
+30	peaks	peak	NOUN	NNS	Number=Plur|Shared=Yes	24	conj:appos	_	_
 31	in	in	ADP	IN	_	30	udep	_	_
 32	Africa	Africa	PROPN	NNP	Number=Sing	31	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	17	punct	_	_
@@ -930,7 +930,7 @@
 24	adherents	adherent	NOUN	NNS	Number=Plur|Shared=No	20	comp:pred	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01018
+#  = # newdoc id = w01018
 # sent_id = w01018019
 # text = France integrated the economy of Cameroun with that of France and improved the infrastructure with capital investments and skilled workers, modifying the system of forced labour.
 1	France	France	PROPN	NNP	Number=Sing|Shared=Yes	2	subj	_	_
@@ -1030,7 +1030,7 @@
 39	school	school	NOUN	NN	Number=Sing	37	conj	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = w01019
+#  = # newdoc id = w01019
 # sent_id = w01019014
 # text = The Sahel's climate is similar to, but less extreme than, the climate of the Sahara desert located just to the north.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1072,7 +1072,7 @@
 9	Sahel	Sahel	PROPN	NNP	Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01020
+#  = # newdoc id = w01020
 # sent_id = w01020016
 # text = Several ancient civilisations were located around the Mediterranean shores, and were greatly influenced by their proximity to the sea.
 1	Several	several	ADJ	JJ	Degree=Pos	3	mod	_	_
@@ -1221,12 +1221,12 @@
 19	(	(	PUNCT	-LRB-	_	22	punct	_	SpaceAfter=No
 20	"	"	PUNCT	``	_	22	punct	_	SpaceAfter=No
 21	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	mod@poss	_	Proper=True
-22	Sea	sea	NOUN	NN	Number=Sing	17	appos	_	SpaceAfter=No
+22	Sea	sea	NOUN	NN	Number=Sing	17	conj:appos	_	SpaceAfter=No
 23	"	"	PUNCT	''	_	22	punct	_	SpaceAfter=No
 24	)	)	PUNCT	-RRB-	_	22	punct	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = w01022
+#  = # newdoc id = w01022
 # sent_id = w01022033
 # text = The Blindleia is a skerry-protected waterway that starts near Kristiansand in southern Norway, and continues past Lillesand.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1278,7 +1278,7 @@
 8	deep	deep	ADJ	JJ	Degree=Pos	6	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01023
+#  = # newdoc id
 # sent_id = w01023074
 # text = Alcoholic drinks like beer, mead, bjórr (a strong fruit wine) and, for the rich, imported wine, were served.
 1	Alcoholic	alcoholic	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -1293,7 +1293,7 @@
 10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
 11	strong	strong	ADJ	JJ	Degree=Pos	13	mod	_	_
 12	fruit	fruit	NOUN	NN	Number=Sing	13	compound	_	_
-13	wine	wine	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+13	wine	wine	NOUN	NN	Number=Sing	8	conj:appos	_	SpaceAfter=No
 14	)	)	PUNCT	-RRB-	_	13	punct	_	_
 15	and	and	CCONJ	CC	_	22	cc	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
@@ -1329,7 +1329,7 @@
 17	stallions	stallion	NOUN	NNS	Number=Plur	15	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	9	punct	_	_
 
-# newdoc id = w01025
+#  = # newdoc id = w01025
 # sent_id = w01025083
 # text = The Schlei and the wetlands between the Danevirke and Husum had frozen solid in a hard winter, and the territory immediately south of the Danevirke had been conquered by the advancing German army.
 1	The	the	DET	DT	Definite=Def|PronType=Art|Shared=No	2	det	_	_
@@ -1485,7 +1485,7 @@
 9	since	since	ADV	RB	_	3	mod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01026
+#  = # newdoc id = w01026
 # sent_id = w01026024
 # text = The amount of goods transported on the Danube increased to about 100 million tons in 1987.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1520,7 +1520,7 @@
 10	Romania	Romania	PROPN	NNP	Number=Sing	9	comp:obj	_	_
 11	(	(	PUNCT	-LRB-	_	13	punct	_	SpaceAfter=No
 12	Tulcea	Tulcea	PROPN	NNP	Number=Sing	13	compound	_	_
-13	county	county	NOUN	NN	Number=Sing	10	appos	_	SpaceAfter=No
+13	county	county	NOUN	NN	Number=Sing	10	conj:appos	_	SpaceAfter=No
 14	)	)	PUNCT	-RRB-	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	8	punct	_	_
 16	while	while	SCONJ	IN	_	8	mod	_	_
@@ -1543,11 +1543,11 @@
 33	Ukraine	Ukraine	PROPN	NNP	Number=Sing	32	comp:obj	_	_
 34	(	(	PUNCT	-LRB-	_	36	punct	_	SpaceAfter=No
 35	Odessa	Odessa	PROPN	NNP	Number=Sing	36	compound	_	_
-36	Oblast	Oblast	PROPN	NNP	Number=Sing	33	appos	_	SpaceAfter=No
+36	Oblast	Oblast	PROPN	NNP	Number=Sing	33	conj:appos	_	SpaceAfter=No
 37	)	)	PUNCT	-RRB-	_	36	punct	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01027
+#  = # newdoc id = w01027
 # sent_id = w01027007
 # text = The climate is so dry that these plains are sometimes thought of as part of the Sahara.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1611,7 +1611,7 @@
 14	climate	climate	NOUN	NN	Number=Sing|Shared=No	9	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01028
+#  = # newdoc id = w01028
 # sent_id = w01028004
 # text = The first and foremost was the Ohio River, which flowed into the Mississippi River.
 1	The	the	DET	DT	Definite=Def|PronType=Art|Shared=No	2	det	_	_
@@ -1677,7 +1677,7 @@
 15	become	become	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01029
+#  = # newdoc id = w01029
 # sent_id = w01029015
 # text = In color, the leaves show a great variety of greens, ranging from yellowish to bluish.
 1	In	in	ADP	IN	_	6	udep	_	_
@@ -1743,7 +1743,7 @@
 21	Sunday	Sunday	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
-# newdoc id = w01030
+#  = # newdoc id = w01030
 # sent_id = w01030092
 # text = The Alps provide lowland Europe with drinking water, irrigation, and hydroelectric power.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1905,7 +1905,7 @@
 56	Sea	Sea	PROPN	NNP	Number=Sing	52	conj	_	SpaceAfter=No
 57	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01031
+#  = # newdoc id = w01031
 # sent_id = w01031003
 # text = The study of volcanoes is called volcanology, sometimes spelled vulcanology.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1961,7 +1961,7 @@
 6	catastrophically	catastrophically	ADV	RB	_	3	mod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01032
+#  = # newdoc id = w01032
 # sent_id = w01032139
 # text = Global warming has caused a change in the pattern of the rainy seasons.
 1	Global	global	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -1979,7 +1979,7 @@
 13	seasons	season	NOUN	NNS	Number=Plur	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01033
+#  = # newdoc id = w01033
 # sent_id = w01033022
 # text = It contains a tiny lagoon, which has all but dried up.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -2036,7 +2036,7 @@
 13	north	north	ADV	RB	_	12	mod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01034
+#  = # newdoc id = w01034
 # sent_id = w01034023
 # text = During the family's years in Kentucky and Indiana, Thomas Lincoln worked as a farmer, cabinetmaker, and carpenter.
 1	During	during	ADP	IN	_	13	mod	_	_
@@ -2062,7 +2062,7 @@
 21	carpenter	carpenter	NOUN	NN	Number=Sing	18	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = w01035
+#  = # newdoc id = w01035
 # sent_id = w01035079
 # text = Habitat destruction vastly increases an area's vulnerability to natural disasters like flood and drought, crop failure, spread of disease, and water contamination.
 1	Habitat	habitat	NOUN	NN	Number=Sing	2	compound	_	_
@@ -2197,7 +2197,7 @@
 12	destroyed	destroy	VERB	VBN	Tense=Past|VerbForm=Part	11	comp:aux@pass	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01036
+#  = # newdoc id = w01036
 # sent_id = w01036044
 # text = Papua New Guinea is often labelled as potentially the worst place in the world for gender violence.
 1	Papua	Papua	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -2233,7 +2233,7 @@
 10	Guinea	Guinea	PROPN	NNP	Number=Sing	7	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01037
+#  = # newdoc id = w01037
 # sent_id = w01037024
 # text = North America and South America are treated as separate continents in the seven-continent model.
 1	North	North	PROPN	NNP	Number=Sing|Shared=No	2	compound	_	_
@@ -2281,7 +2281,7 @@
 23	Americas	Americas	PROPN	NNPS	Number=Plur	21	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01038
+#  = # newdoc id = w01038
 # sent_id = w01038009
 # text = These are not very popular due to the often remote and roadless locations.
 1	These	these	PRON	DT	Number=Plur|PronType=Dem	2	subj	_	_
@@ -2366,7 +2366,7 @@
 18	area	area	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01039
+#  = # newdoc id = w01039
 # sent_id = w01039032
 # text = It was here they stole a small canoe left by the Australian Aborigines of the region.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	comp@expl	_	_
@@ -2438,11 +2438,11 @@
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
 19	time	time	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
-21	Sallyanne	Sallyanne	PROPN	NNP	Number=Sing	14	appos	_	_
+21	Sallyanne	Sallyanne	PROPN	NNP	Number=Sing	14	conj:appos	_	_
 22	Atkinson	Atkinson	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01040
+#  = # newdoc id = w01040
 # sent_id = w01040100
 # text = Sand and dust storms are natural events that occur in arid regions where the land is not protected by a covering of vegetation.
 1	Sand	sand	NOUN	NN	Number=Sing	4	compound	_	_
@@ -2561,7 +2561,7 @@
 23	reaction	reaction	NOUN	NN	Number=Sing	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01041
+#  = # newdoc id = w01041
 # sent_id = w01041046
 # text = However, in Thailand, urbanization has also resulted in massive increases in problems such as obesity.
 1	However	however	ADV	RB	_	7	mod	_	SpaceAfter=No
@@ -2583,7 +2583,7 @@
 17	obesity	obesity	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01042
+#  = # newdoc id = w01042
 # sent_id = w01042055
 # text = Thunderstorms are rare, as the city reports thunder on just seven days per year.
 1	Thunderstorms	thunderstorm	NOUN	NNS	Number=Plur	2	subj	_	_
@@ -2603,7 +2603,7 @@
 15	year	year	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01043
+#  = # newdoc id = w01043
 # sent_id = w01043027
 # text = By 1340, Cairo had a population of close to half a million, making it the largest city west of China.
 1	By	by	ADP	IN	_	5	udep	_	_
@@ -2652,7 +2652,7 @@
 18	waterfront	waterfront	NOUN	NN	Number=Sing|Shared=No	14	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01044
+#  = # newdoc id = w01044
 # sent_id = w01044010
 # text = Nevada's industrial outputs are tourism, mining, machinery, printing and publishing, food processing, and electric equipment.
 1	Nevada	Nevada	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
@@ -2678,20 +2678,20 @@
 21	equipment	equipment	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01045
+#  = # newdoc id
 # sent_id = w01045002
 # text = The name "Caribbean" derives from the Caribs, one of the dominant Native American groups in the region at the time of European contact during the late 15th century.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	name	name	NOUN	NN	Number=Sing	6	subj	_	_
 3	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-4	Caribbean	Caribbean	PROPN	NNP	Number=Sing	2	appos	_	SpaceAfter=No
+4	Caribbean	Caribbean	PROPN	NNP	Number=Sing	2	conj:appos	_	SpaceAfter=No
 5	"	"	PUNCT	''	_	4	punct	_	_
 6	derives	derive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	from	from	ADP	IN	_	6	udep	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	Caribs	Caribs	PROPN	NNPS	Number=Plur	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
-11	one	one	NUM	CD	NumType=Card	9	appos	_	_
+11	one	one	NUM	CD	NumType=Card	9	conj:appos	_	_
 12	of	of	ADP	IN	_	11	udep	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 14	dominant	dominant	ADJ	JJ	Degree=Pos	17	mod	_	_
@@ -2730,7 +2730,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 13	Spanish	Spanish	ADJ	NNP	Number=Sing	14	mod	_	_
 14	term	term	NOUN	NN	Number=Sing	16	subj	_	_
-15	Antillas	Antillas	PROPN	NNP	Number=Sing	14	appos	_	_
+15	Antillas	Antillas	PROPN	NNP	Number=Sing	14	conj:appos	_	_
 16	applied	apply	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 17	to	to	ADP	IN	_	16	udep	_	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
@@ -2801,7 +2801,7 @@
 17	(	(	PUNCT	-LRB-	_	20	punct	_	SpaceAfter=No
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
 19	Pacific	Pacific	PROPN	NNP	Number=Sing	20	compound	_	_
-20	Ocean	Ocean	PROPN	NNP	Number=Sing	15	appos	_	SpaceAfter=No
+20	Ocean	Ocean	PROPN	NNP	Number=Sing	15	conj:appos	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	20	punct	_	_
 22	to	to	ADP	IN	_	20	udep	_	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
@@ -2823,7 +2823,7 @@
 39	(	(	PUNCT	-LRB-	_	42	punct	_	SpaceAfter=No
 40	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
 41	Caribbean	Caribbean	PROPN	NNP	Number=Sing	42	compound	_	_
-42	Sea	Sea	PROPN	NNP	Number=Sing	37	appos	_	SpaceAfter=No
+42	Sea	Sea	PROPN	NNP	Number=Sing	37	conj:appos	_	SpaceAfter=No
 43	,	,	PUNCT	,	_	42	punct	_	_
 44	to	to	ADP	IN	_	42	udep	_	_
 45	the	the	DET	DT	Definite=Def|PronType=Art	46	det	_	_
@@ -2871,7 +2871,7 @@
 32	Asia	Asia	PROPN	NNP	Number=Sing	31	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01046
+#  = # newdoc id = w01046
 # sent_id = w01046011
 # text = Unfortunately, rapid population growth and urban sprawl has covered much of these ecosystems with development.
 1	Unfortunately	unfortunately	ADV	RB	_	9	mod	_	SpaceAfter=No
@@ -2913,7 +2913,7 @@
 17	municipality	municipality	NOUN	NN	Number=Sing	14	comp:pred	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01047
+#  = # newdoc id = w01047
 # sent_id = w01047008
 # text = The essay, published as Undersea, was a vivid narrative of a journey along the ocean floor.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -3024,7 +3024,7 @@
 25	populace	populace	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01048
+#  = # newdoc id = w01048
 # sent_id = w01048027
 # text = In the 1350s, King Gongmin was free at last to reform the Goryeo government when the Yuan dynasty began to crumble.
 1	In	in	ADP	IN	_	7	udep	_	_
@@ -3073,7 +3073,7 @@
 18	transformed	transform	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part	16	comp:aux@pass	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	9	punct	_	_
 
-# newdoc id = w01049
+#  = # newdoc id = w01049
 # sent_id = w01049051
 # text = It usually involves a low level of development, such as rustic picnic areas, benches and trails.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
@@ -3149,7 +3149,7 @@
 26	up	up	ADP	RP	_	25	compound@prt	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01050
+#  = # newdoc id = w01050
 # sent_id = w01050067
 # text = With the fall of the Qing dynasty in 1911, Mongolia under the Bogd Khaan declared independence.
 1	With	with	ADP	IN	_	16	udep	_	_
@@ -3198,7 +3198,7 @@
 2	Shikai	Shikai	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
-5	President	president	NOUN	NN	Number=Sing	1	appos	_	_
+5	President	president	NOUN	NN	Number=Sing	1	conj:appos	_	_
 6	of	of	ADP	IN	_	5	udep	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
 8	Republic	republic	NOUN	NN	Number=Sing	6	comp:obj	_	_
@@ -3285,7 +3285,7 @@
 19	period	period	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01051
+#  = # newdoc id = w01051
 # sent_id = w01051032
 # text = In his haste to capture Kadesh, Ramesses II committed a major tactical error.
 1	In	in	ADP	IN	_	10	udep	_	_
@@ -3336,7 +3336,7 @@
 28	certainty	certainty	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	18	punct	_	_
 
-# newdoc id = w01052
+#  = # newdoc id = w01052
 # sent_id = w01052022
 # text = Ramesses, logistically unable to sustain a long siege, returned to Egypt.
 1	Ramesses	Ramesses	PROPN	NNP	Number=Sing	11	subj	_	SpaceAfter=No
@@ -3420,7 +3420,7 @@
 24	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01053
+#  = # newdoc id = w01053
 # sent_id = w01053015
 # text = The exact year of the marriage of Herod Antipas and Herodias is subject to debate among scholars.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -3552,7 +3552,7 @@
 28	haze	haze	NOUN	NN	Number=Sing	26	conj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01054
+#  = # newdoc id = w01054
 # sent_id = w01054107
 # text = Forts were also built in the older portions of New France that had not yet been settled.
 1	Forts	fort	NOUN	NNS	Number=Plur	2	subj@pass	_	_
@@ -3574,7 +3574,7 @@
 17	settled	settle	VERB	VBN	Tense=Past|VerbForm=Part	16	comp:aux@pass	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01056
+#  = # newdoc id = w01056
 # sent_id = w01056103
 # text = It set the basis for integration where the economic and judicial mechanisms of the state could be applied throughout the Mediterranean as was once done from Latium into all Italy.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -3609,7 +3609,7 @@
 30	Italy	Italy	PROPN	NNP	Number=Sing	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01057
+#  = # newdoc id = w01057
 # sent_id = w01057006
 # text = Each poem narrates only a part of the war.
 1	Each	each	DET	DT	_	2	det	_	_
@@ -3676,7 +3676,7 @@
 27	poetry	poetry	NOUN	NN	Number=Sing	26	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01058
+#  = # newdoc id = w01058
 # sent_id = w01058009
 # text = However this was reversed when Julian was killed in battle in 363.
 1	However	however	ADV	RB	_	3	mod	_	_
@@ -3709,7 +3709,7 @@
 12	393	393	NUM	CD	NumType=Card	11	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01060
+#  = # newdoc id = w01060
 # sent_id = w01060037
 # text = Shen Kuo soon impressed Wang Anshi with his skills and abilities as an administrator and government agent.
 1	Shen	Shen	PROPN	NNP	Number=Sing	4	subj	_	_
@@ -3845,7 +3845,7 @@
 27	demands	demand	NOUN	NNS	Number=Plur	22	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01061
+#  = # newdoc id = w01061
 # sent_id = w01061050
 # text = Medicine was also studied, especially in southern Italy, where Islamic medicine influenced the school at Salerno.
 1	Medicine	medicine	NOUN	NN	Number=Sing	2	subj@pass	_	_
@@ -3868,7 +3868,7 @@
 18	Salerno	Salerno	PROPN	NNP	Number=Sing	17	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01062
+#  = # newdoc id = w01062
 # sent_id = w01062037
 # text = Tiberius reportedly regretted his departure and requested to return to Rome several times, but each time Augustus refused his requests.
 1	Tiberius	Tiberius	PROPN	NNP	Number=Sing|Shared=Yes	3	subj	_	_
@@ -3935,7 +3935,7 @@
 37	legislation	legislation	NOUN	NN	Number=Sing	35	comp:obj	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01063
+#  = # newdoc id = w01063
 # sent_id = w01063048
 # text = The gods represented distinctly the practical needs of daily life, and they were scrupulously accorded the rites and offerings considered proper.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -3962,7 +3962,7 @@
 22	proper	proper	ADJ	JJ	Degree=Pos	21	comp:pred	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01064
+#  = # newdoc id = w01064
 # sent_id = w01064034
 # text = This was by boat from continental Europe.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	_
@@ -3974,7 +3974,7 @@
 7	Europe	Europe	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01065
+#  = # newdoc id = w01065
 # sent_id = w01065018
 # text = Cultic remains discovered at the site were a row of ten large standing stones, known as massebot, oriented north-south, the tallest of which was 3 meters high, with an altar-type structure in the middle, and a large, square, stone basin.
 1	Cultic	cultic	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -4060,7 +4060,7 @@
 26	Age	Age	PROPN	NNP	Number=Sing	22	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	29	punct	_	_
 28	ca.	ca.	ADV	RB	_	29	mod	_	_
-29	1600	1600	NUM	CD	NumType=Card	26	appos	_	_
+29	1600	1600	NUM	CD	NumType=Card	26	conj:appos	_	_
 30	B.C.E.	b.c.e.	NOUN	NN	Number=Sing	29	mod@npmod	_	_
 
 # sent_id = w01065020
@@ -4085,7 +4085,7 @@
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
 19	Egyptian	Egyptian	ADJ	JJ	Degree=Pos	20	mod	_	_
 20	pharaoh	pharaoh	NOUN	NN	Number=Sing	17	comp:obj	_	_
-21	Thutmose	Thutmose	PROPN	NNP	Number=Sing	20	appos	_	_
+21	Thutmose	Thutmose	PROPN	NNP	Number=Sing	20	conj:appos	_	_
 22	III	iii	NUM	CD	NumType=Card	21	flat	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -4147,7 +4147,7 @@
 26	pharaoh	pharaoh	NOUN	NN	Number=Sing	23	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = w01066
+#  = # newdoc id = w01066
 # sent_id = w01066003
 # text = Thai birth certificates record the date, month and time of birth, followed by the day of the week, lunar date, and the applicable zodiac animal name.
 1	Thai	Thai	ADJ	JJ	Degree=Pos	3	mod	_	_
@@ -4264,7 +4264,7 @@
 25	calendar	calendar	NOUN	NN	Number=Sing	21	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = w01067
+#  = # newdoc id = w01067
 # sent_id = w01067032
 # text = In addition, he strengthened defenses between Egypt and Asia, building the Walls of the Ruler in the East Delta region.
 1	In	in	ADP	IN	_	5	udep	_	_
@@ -4332,7 +4332,7 @@
 15	Egypt	Egypt	PROPN	NNP	Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01068
+#  = # newdoc id = w01068
 # sent_id = w01068027
 # text = On September 9, 2002, Aldrin was lured to a Beverly Hills hotel on the pretext of being interviewed for a Japanese children's television show on the subject of space.
 1	On	on	ADP	IN	_	8	udep	_	_
@@ -4379,7 +4379,7 @@
 6	times	time	NOUN	NNS	Number=Plur	4	udep@tmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01069
+#  = # newdoc id
 # sent_id = w01069007
 # text = In 1519, he became ruler of the Habsburg empire, and he gained the title Holy Roman Emperor in 1530.
 1	In	in	ADP	IN	Shared=Yes	5	udep	_	_
@@ -4400,7 +4400,7 @@
 16	title	title	NOUN	NN	Number=Sing|Shared=No	14	comp:obj	_	_
 17	Holy	Holy	ADJ	JJ	Degree=Pos	19	mod	_	Proper=True
 18	Roman	Roman	ADJ	JJ	Degree=Pos	19	mod	_	Proper=True
-19	Emperor	Emperor	PROPN	NNP	Number=Sing	16	appos	_	_
+19	Emperor	Emperor	PROPN	NNP	Number=Sing	16	conj:appos	_	_
 20	in	in	ADP	IN	Shared=No	14	udep	_	_
 21	1530	1530	NUM	CD	NumType=Card	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
@@ -4449,7 +4449,7 @@
 16	to	to	ADP	IN	_	13	udep	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 18	governor	governor	NOUN	NN	Number=Sing	16	comp:obj	_	_
-19	Margaret	Margaret	PROPN	NNP	Number=Sing	18	appos	_	_
+19	Margaret	Margaret	PROPN	NNP	Number=Sing	18	conj:appos	_	_
 20	of	of	ADP	IN	_	19	udep	_	Proper=True
 21	Parma	Parma	PROPN	NNP	Number=Sing	20	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	13	punct	_	_
@@ -4493,7 +4493,7 @@
 26	Netherlands	Netherlands	PROPN	NNPS	Number=Plur	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = w01070
+#  = # newdoc id = w01070
 # sent_id = w01070031
 # text = A Bronze Age astronomical observatory was constructed there around 1900 BC and continuously served the nearby community that lived there until about 700 BC.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
@@ -4594,7 +4594,7 @@
 7	months	month	NOUN	NNS	Number=Plur	5	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01071
+#  = # newdoc id = w01071
 # sent_id = w01071036
 # text = Its importance resides in two facts.
 1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	_
@@ -4623,7 +4623,7 @@
 14	use	use	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = w01072
+#  = # newdoc id
 # sent_id = w01072002
 # text = The origin of the word Hispania is much disputed and the evidence for the various speculations are based merely upon what are at best mere resemblances, likely to be accidental, and suspect supporting evidence.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -4631,7 +4631,7 @@
 3	of	of	ADP	IN	_	2	udep	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	word	word	NOUN	NN	Number=Sing	3	comp:obj	_	_
-6	Hispania	Hispania	PROPN	NNP	Number=Sing	5	appos	_	_
+6	Hispania	Hispania	PROPN	NNP	Number=Sing	5	conj:appos	_	_
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	much	much	ADV	RB	_	7	mod	_	_
 9	disputed	dispute	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
@@ -4710,7 +4710,7 @@
 4	century	century	NOUN	NN	Number=Sing	1	comp:obj	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	emperor	emperor	NOUN	NN	Number=Sing	8	subj	_	_
-7	Caracalla	Caracalla	PROPN	NNP	Number=Sing	6	appos	_	_
+7	Caracalla	Caracalla	PROPN	NNP	Number=Sing	6	conj:appos	_	_
 8	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
 10	new	new	ADJ	JJ	Degree=Pos	11	mod	_	_
@@ -4723,7 +4723,7 @@
 17	time	time	NOUN	NN	Number=Sing	13	udep@tmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01073
+#  = # newdoc id = w01073
 # sent_id = w01073007
 # text = They had been so moved by the beauty of the Rudyard Lake area that when their first child was born they referenced it when naming him.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj@pass	_	_
@@ -4793,7 +4793,7 @@
 2	Wheeler	Wheeler	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
-5	editor	editor	NOUN	NN	Number=Sing	2	appos	_	SpaceAfter=No
+5	editor	editor	NOUN	NN	Number=Sing	2	conj:appos	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	Kipling	Kipling	PROPN	NNP	Number=Sing	7	comp:obj	_	_
@@ -4848,7 +4848,7 @@
 12	future	future	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01074
+#  = # newdoc id = w01074
 # sent_id = w01074088
 # text = Jin Ping Mei, published in 1610, although incorporating earlier material, marks the trend toward independent composition and concern with psychology.
 1	Jin	Jin	PROPN	NNP	Number=Sing	14	subj	_	_
@@ -4876,7 +4876,7 @@
 23	psychology	psychology	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	14	punct	_	_
 
-# newdoc id = w01075
+#  = # newdoc id = w01075
 # sent_id = w01075036
 # text = Higher male secondary school enrollment, per capita income and economic growth rate all had significant effects on reducing the chance of civil war.
 1	Higher	higher	ADJ	JJ	Degree=Pos	5	mod	_	_
@@ -5057,7 +5057,7 @@
 16	rebellion	rebellion	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01076
+#  = # newdoc id = w01076
 # sent_id = w01076039
 # text = Its guarantee of liberties promised to dissolve inter-communal tensions and transform the empire into a more harmonious place.
 1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	_
@@ -5120,7 +5120,7 @@
 36	war	war	NOUN	NN	Number=Sing	34	comp:obj	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01078
+#  = # newdoc id = w01078
 # sent_id = w01078013
 # text = It specifically discusses in several passages the socially and culturally degenerative effects of war on humanity itself.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
@@ -5142,7 +5142,7 @@
 17	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	mod@npmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01079
+#  = # newdoc id = w01079
 # sent_id = w01079038
 # text = Dominican priest Heinrich Kramer was assistant to the Archbishop of Salzburg.
 1	Dominican	Dominican	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -5235,7 +5235,7 @@
 25	well	well	ADV	RB	Degree=Pos	24	unk	_	InIdiom=Yes|SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01080
+#  = # newdoc id
 # sent_id = w01080128
 # text = The Macedonian eastern border with Thrace was now secured at the river Nestus (Mesta).
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
@@ -5250,9 +5250,9 @@
 10	at	at	ADP	IN	_	9	udep	_	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 12	river	river	NOUN	NN	Number=Sing	10	comp:obj	_	_
-13	Nestus	Nestus	PROPN	NNP	Number=Sing	12	appos	_	_
+13	Nestus	Nestus	PROPN	NNP	Number=Sing	12	conj:appos	_	_
 14	(	(	PUNCT	-LRB-	_	15	punct	_	SpaceAfter=No
-15	Mesta	Mesta	PROPN	NNP	Number=Sing	12	appos	_	SpaceAfter=No
+15	Mesta	Mesta	PROPN	NNP	Number=Sing	12	conj:appos	_	SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	15	punct	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -5363,7 +5363,7 @@
 24	campaign	campaign	NOUN	NN	Number=Sing	20	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = w01081
+#  = # newdoc id = w01081
 # sent_id = w01081030
 # text = Catherine of Russia was also very satisfied.
 1	Catherine	Catherine	PROPN	NNP	Number=Sing	4	subj	_	_
@@ -5375,7 +5375,7 @@
 7	satisfied	satisfied	ADJ	JJ	Degree=Pos	4	comp:pred	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01082
+#  = # newdoc id = w01082
 # sent_id = w01082055
 # text = Throughout the war, Pearl Harbor was frequently used in American propaganda.
 1	Throughout	throughout	ADP	IN	_	7	udep	_	_
@@ -5392,7 +5392,7 @@
 12	propaganda	propaganda	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01083
+#  = # newdoc id = w01083
 # sent_id = w01083007
 # text = This idealized vision of the Romanov monarchy blinded him to the actual state of his country.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
@@ -5441,7 +5441,7 @@
 24	War	War	PROPN	NNP	Number=Sing	20	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01084
+#  = # newdoc id = w01084
 # sent_id = w01084085
 # text = This city-state emerged in the same period as Sukhothai.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
@@ -5484,7 +5484,7 @@
 23	established	establish	VERB	VBN	Tense=Past|VerbForm=Part	22	comp:aux@pass	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = w01085
+#  = # newdoc id = w01085
 # sent_id = w01085004
 # text = The Army performed well in combat in Cuba.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -5593,7 +5593,7 @@
 21	Philippines	Philippines	PROPN	NNPS	Number=Plur	17	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01086
+#  = # newdoc id = w01086
 # sent_id = w01086012
 # text = The offensive against the huge army enlisted by Venice was launched from France.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -5628,7 +5628,7 @@
 13	people	people	NOUN	NNS	Number=Plur	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01087
+#  = # newdoc id = w01087
 # sent_id = w01087052
 # text = Education during the Renaissance was mainly composed of ancient literature and history as it was thought that the classics provided moral instruction and an intensive understanding of human behavior.
 1	Education	education	NOUN	NN	Number=Sing	5	subj@pass	_	_
@@ -5662,7 +5662,7 @@
 29	behavior	behavior	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01088
+#  = # newdoc id = w01088
 # sent_id = w01088099
 # text = There has, however, been extensive statistical analysis of demographic and population data which includes women, especially in their childbearing roles.
 1	There	there	PRON	EX	_	6	comp@expl	_	_
@@ -5690,7 +5690,7 @@
 23	roles	role	NOUN	NNS	Number=Plur	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01089
+#  = # newdoc id = w01089
 # sent_id = w01089017
 # text = Most of the information about the period comes from burial sites and the grave goods contained within them.
 1	Most	most	ADJ	JJS	Degree=Sup	8	subj	_	_
@@ -5751,7 +5751,7 @@
 9	and	and	CCONJ	CC	_	10	cc	_	_
 10	Italy	Italy	PROPN	NNP	Number=Sing	8	conj	_	_
 11	(	(	PUNCT	-LRB-	Shared=No	12	punct	_	SpaceAfter=No
-12	Pithekoussae	Pithekoussae	PROPN	NNP	Number=Sing|Shared=Yes	10	appos	_	SpaceAfter=No
+12	Pithekoussae	Pithekoussae	PROPN	NNP	Number=Sing|Shared=Yes	10	conj:appos	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
 14	Cumae	Cumae	PROPN	NNP	Number=Sing	12	conj	_	SpaceAfter=No
 15	)	)	PUNCT	-RRB-	_	12	punct	_	SpaceAfter=No
@@ -5766,7 +5766,7 @@
 24	further	further	ADV	RBR	Degree=Cmp	23	mod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	23	punct	_	_
 
-# newdoc id = w01091
+#  = # newdoc id
 # sent_id = w01091016
 # text = Bananas and plantains, which were first domesticated in Southeast Asia, most likely Papua New Guinea, were re-domesticated in Africa possibly as early as 5,000 years ago.
 1	Bananas	banana	NOUN	NNS	Number=Plur	19	subj@pass	_	_
@@ -5785,7 +5785,7 @@
 14	likely	likely	ADJ	JJ	Degree=Pos	17	mod	_	_
 15	Papua	Papua	PROPN	NNP	Number=Sing	17	compound	_	_
 16	New	New	PROPN	NNP	Number=Sing	17	compound	_	_
-17	Guinea	Guinea	PROPN	NNP	Number=Sing	11	appos	_	SpaceAfter=No
+17	Guinea	Guinea	PROPN	NNP	Number=Sing	11	conj:appos	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
 19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 20	re-domesticated	re-domesticate	VERB	VBN	Tense=Past|VerbForm=Part	19	comp:aux@pass	_	_
@@ -5824,7 +5824,7 @@
 20	fertilizer	fertilizer	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = w01092
+#  = # newdoc id = w01092
 # sent_id = w01092019
 # text = A fundamental change in working principles was brought about by Scotsman James Watt.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -5858,7 +5858,7 @@
 12	machinery	machinery	NOUN	NN	Number=Sing	11	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01093
+#  = # newdoc id = w01093
 # sent_id = w01093028
 # text = In the Second Messenian War, Sparta established itself as a local power in Peloponnesus and the rest of Greece.
 1	In	in	ADP	IN	_	8	udep	_	_
@@ -5883,7 +5883,7 @@
 20	Greece	Greece	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01094
+#  = # newdoc id = w01094
 # sent_id = w01094022
 # text = Ford T was proclaimed as the most influential car of the 20th century in the international Car of the Century awards.
 1	Ford	Ford	PROPN	NNP	Number=Sing	2	compound	_	_
@@ -5935,7 +5935,7 @@
 22	1960	1960	NUM	CD	NumType=Card	21	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = w01095
+#  = # newdoc id = w01095
 # sent_id = w01095089
 # text = This convention is only slightly relaxed in modern age and now it is still unadvisable among friends to use the given name, but use of the family name is still common.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
@@ -6090,7 +6090,7 @@
 24	posthumously	posthumously	ADV	RB	_	21	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = w01096
+#  = # newdoc id
 # sent_id = w01096013
 # text = In Asia and the Pacific, between 3 million and more than 10 million civilians, mostly Chinese (estimated at 7.5 million), were killed by the Japanese occupation forces.
 1	In	in	ADP	IN	_	26	udep	_	_
@@ -6110,7 +6110,7 @@
 15	civilians	civilian	NOUN	NNS	Number=Plur	26	subj@pass	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	_	_
 17	mostly	mostly	ADV	RB	_	18	mod	_	_
-18	Chinese	Chinese	PROPN	NNPS	Number=Plur	15	appos	_	_
+18	Chinese	Chinese	PROPN	NNPS	Number=Plur	15	conj:appos	_	_
 19	(	(	PUNCT	-LRB-	_	20	punct	_	SpaceAfter=No
 20	estimated	estimate	VERB	VBN	Tense=Past|VerbForm=Part	18	parataxis	_	_
 21	at	at	ADP	IN	_	20	udep	_	_
@@ -6173,7 +6173,7 @@
 18	arms	arm	NOUN	NNS	Number=Plur	15	conj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01097
+#  = # newdoc id = w01097
 # sent_id = w01097059
 # text = British cavalry troopers also received excellent mounted swordsmanship training.
 1	British	British	ADJ	JJ	Degree=Pos	3	mod	_	Proper=True
@@ -6218,7 +6218,7 @@
 27	charge	charge	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = w01098
+#  = # newdoc id = w01098
 # sent_id = w01098043
 # text = According to a genetic study on autosomal data on Roma the source of Southasian Ancestry in Roma is North-West India.
 1	According	accord	VERB	VBG	VerbForm=Ger	18	udep	_	ExtPos=VERB|Idiom=Yes
@@ -6245,7 +6245,7 @@
 22	India	India	PROPN	NNP	Number=Sing	18	comp:pred	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	18	punct	_	_
 
-# newdoc id = w01099
+#  = # newdoc id = w01099
 # sent_id = w01099012
 # text = Explanations of the origin of music depend on how music is defined.
 1	Explanations	explanation	NOUN	NNS	Number=Plur	7	subj	_	_
@@ -6284,7 +6284,7 @@
 18	activity	activity	NOUN	NN	Number=Sing|Shared=No	14	comp:pred	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01100
+#  = # newdoc id
 # sent_id = w01100046
 # text = In 1839, China found itself fighting the First Opium War with Great Britain after the Governor-General of Hunan and Hubei, Lin Zexu, banned the foreign trade of opium.
 1	In	in	ADP	IN	_	5	udep	_	_
@@ -6311,7 +6311,7 @@
 22	and	and	CCONJ	CC	_	23	cc	_	Proper=True
 23	Hubei	Hubei	PROPN	NNP	Number=Sing	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	_	_
-25	Lin	Lin	PROPN	NNP	Number=Sing	19	appos	_	_
+25	Lin	Lin	PROPN	NNP	Number=Sing	19	conj:appos	_	_
 26	Zexu	Zexu	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	25	punct	_	_
 28	banned	ban	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	comp:obj	_	_
@@ -6425,7 +6425,7 @@
 15	interior	interior	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01101
+#  = # newdoc id = w01101
 # sent_id = w01101020
 # text = Lamarr accompanied Mandl to business meetings where he conferred with scientists and other professionals involved in military technology.
 1	Lamarr	Lamarr	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -6496,7 +6496,7 @@
 18	interest	interest	NOUN	NN	Number=Sing|Shared=No	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01102
+#  = # newdoc id = w01102
 # sent_id = w01102020
 # text = Joseph Darnand, who became an SS officer and led the Milice paramilitaries who hunted down members of the Resistance, was executed in October 1945.
 1	Joseph	Joseph	PROPN	NNP	Number=Sing	22	subj@pass	_	_
@@ -6554,7 +6554,7 @@
 23	agreement	agreement	NOUN	NN	Number=Sing	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01103
+#  = # newdoc id = w01103
 # sent_id = w01103022
 # text = The film chronicles the destruction of Carangi's life and career as a result of her addiction to heroin, and her decline and death from AIDS in the mid-1980s.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -6589,7 +6589,7 @@
 30	mid-1980s	mid-1980	NOUN	NNS	Number=Plur	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01105
+#  = # newdoc id = w01105
 # sent_id = w01105053
 # text = It was completed rather late in the war; although a number of B-29s were equipped with Eagle and it worked well, it came too late to make much difference.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
@@ -6660,7 +6660,7 @@
 31	Controlled	control	VERB	VBN	Tense=Past|VerbForm=Part	32	compound	_	_
 32	Approach	approach	PROPN	NN	Number=Sing	29	comp:pred	_	_
 33	(	(	PUNCT	-LRB-	_	34	punct	_	SpaceAfter=No
-34	GCA	GCA	PROPN	NNP	Number=Sing	32	appos	_	SpaceAfter=No
+34	GCA	GCA	PROPN	NNP	Number=Sing	32	conj:appos	_	SpaceAfter=No
 35	)	)	PUNCT	-RRB-	_	34	punct	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	29	punct	_	_
 
@@ -6761,7 +6761,7 @@
 30	1980s	1980	NOUN	NNS	Number=Plur	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01106
+#  = # newdoc id = w01106
 # sent_id = w01106021
 # text = With population growth, new indigenous quarters were created.
 1	With	with	ADP	IN	_	8	udep	_	_
@@ -6814,7 +6814,7 @@
 15	hot	hot	ADJ	JJ	Degree=Pos	13	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01107
+#  = # newdoc id = w01107
 # sent_id = w01107013
 # text = Failing health reduced Hitchcock's output during the last two decades of his life.
 1	Failing	fail	VERB	VBG	VerbForm=Ger	2	mod	_	_
@@ -6866,7 +6866,7 @@
 12	—	—	PUNCT	:	_	15	punct	_	SpaceAfter=No
 13	film	film	NOUN	NN	Number=Sing	14	compound	_	_
 14	poster	poster	NOUN	NN	Number=Sing	15	compound	_	_
-15	designers	designer	NOUN	NNS	Number=Plur	8	appos	_	_
+15	designers	designer	NOUN	NNS	Number=Plur	8	conj:appos	_	_
 16	such	such	ADJ	JJ	Degree=Pos	15	udep	_	ExtPos=ADJ|Idiom=Yes
 17	as	as	ADP	IN	_	16	unk	_	InIdiom=Yes
 18	Bill	Bill	PROPN	NNP	Number=Sing	16	comp:obj	_	_
@@ -6886,7 +6886,7 @@
 32	films	film	NOUN	NNS	Number=Plur	30	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01108
+#  = # newdoc id = w01108
 # sent_id = w01108036
 # text = A mental clash gripped Herzl, between the craving for literary success and a desire to act as a public figure.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -6930,14 +6930,14 @@
 14	,	,	PUNCT	,	_	11	punct	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 16	Anglican	Anglican	ADJ	JJ	Degree=Pos	17	mod	_	Proper=True
-17	minister	minister	NOUN	NN	Number=Sing	11	appos	_	_
+17	minister	minister	NOUN	NN	Number=Sing	11	conj:appos	_	_
 18	to	to	ADP	IN	_	17	udep	_	_
 19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 20	British	British	ADJ	JJ	Degree=Pos	21	mod	_	_
 21	Embassy	embassy	NOUN	NN	Number=Sing	18	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = w01109
+#  = # newdoc id = w01109
 # sent_id = w01109009
 # text = During one episode, he is shown to be an adept guitar player.
 1	During	during	ADP	IN	_	6	udep	_	_
@@ -6990,7 +6990,7 @@
 16	Homer	Homer	PROPN	NNP	Number=Sing	15	comp:pred	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01111
+#  = # newdoc id = w01111
 # sent_id = w01111021
 # text = Deciding to pursue drama, Winstone enrolled at the Corona Stage Academy in Hammersmith.
 1	Deciding	decide	VERB	VBG	VerbForm=Ger	7	mod	_	_
@@ -7016,7 +7016,7 @@
 3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	_
 4	wife	wife	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
-6	Elaine	Elaine	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+6	Elaine	Elaine	PROPN	NNP	Number=Sing	4	conj:appos	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	2	punct	_	_
 8	while	while	SCONJ	IN	_	2	mod	_	_
 9	filming	film	VERB	VBG	VerbForm=Ger	8	comp:obj	_	_
@@ -7044,7 +7044,7 @@
 14	1993	1993	NUM	CD	NumType=Card	13	mod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01112
+#  = # newdoc id = w01112
 # sent_id = w01112060
 # text = Disney also found out that Universal owned the intellectual property rights to Oswald.
 1	Disney	Disney	PROPN	NNP	Number=Sing	3	subj	_	_
@@ -7085,7 +7085,7 @@
 19	statuettes	statuette	NOUN	NNS	Number=Plur|Shared=No	10	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01113
+#  = # newdoc id = w01113
 # sent_id = w01113033
 # text = This card gives an allowance that can be withdrawn from ATMs in order to buy school needs such as books and uniforms.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
@@ -7138,7 +7138,7 @@
 2	,	,	PUNCT	,	_	8	punct	_	_
 3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	_
 4	rival	rival	NOUN	NN	Number=Sing	8	subj	_	_
-5	Prabowo	Prabowo	PROPN	NNP	Number=Sing	4	appos	_	_
+5	Prabowo	Prabowo	PROPN	NNP	Number=Sing	4	conj:appos	_	_
 6	Subianto	Subianto	PROPN	NNP	Number=Sing	5	flat	_	_
 7	also	also	ADV	RB	_	8	mod	_	_
 8	declared	declare	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -7179,7 +7179,7 @@
 25	subsidies	subsidy	NOUN	NNS	Number=Plur	24	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01114
+#  = # newdoc id = w01114
 # sent_id = w01114053
 # text = His official biography also claims that Kim composed six operas and enjoys staging elaborate musicals.
 1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	mod@poss	_	_
@@ -7199,7 +7199,7 @@
 15	musicals	musical	NOUN	NNS	Number=Plur	13	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01115
+#  = # newdoc id = w01115
 # sent_id = w01115022
 # text = With advice from Alexander, he was able to work out a compromise: he would attend a university, but would study literature.
 1	With	with	ADP	IN	_	7	udep	_	_
@@ -7304,7 +7304,7 @@
 5	Kirriemuir	Kirriemuir	PROPN	NNP	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01116
+#  = # newdoc id = w01116
 # sent_id = w01116036
 # text = Only 3000 copies were published of the first edition.
 1	Only	only	ADV	RB	_	2	mod	_	_
@@ -7366,7 +7366,7 @@
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01117
+#  = # newdoc id = w01117
 # sent_id = w01117009
 # text = Between 1991 and 1997, she ran a school for children with learning disabilities.
 1	Between	between	ADP	IN	_	7	udep	_	_
@@ -7395,7 +7395,7 @@
 6	Margaret	Margaret	PROPN	NNP	Number=Sing	5	comp:obj	_	_
 7	Douglas	Douglas	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
-9	Countess	Countess	PROPN	NNP	Number=Sing	6	appos	_	_
+9	Countess	Countess	PROPN	NNP	Number=Sing	6	conj:appos	_	_
 10	of	of	ADP	IN	_	9	udep	_	Proper=True
 11	Lennox	Lennox	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
@@ -7431,7 +7431,7 @@
 27	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
 28	"	"	PUNCT	''	_	14	punct	_	_
 
-# newdoc id = w01119
+#  = # newdoc id = w01119
 # sent_id = w01119059
 # text = To avoid experiencing a similar dilemma with Jasmine, the filmmakers ultimately decided to have the princess animated entirely at one studio.
 1	To	to	PART	TO	_	13	mod	_	_
@@ -7510,7 +7510,7 @@
 25	happiness	happiness	NOUN	NN	Number=Sing	24	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01121
+#  = # newdoc id = w01121
 # sent_id = w01121052
 # text = However, there was no further public recognition of her wartime resistance and humanitarian work until after the end of communist rule in Poland.
 1	However	however	ADV	RB	_	4	mod	_	SpaceAfter=No
@@ -7539,7 +7539,7 @@
 24	Poland	Poland	PROPN	NNP	Number=Sing	23	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01122
+#  = # newdoc id
 # sent_id = w01122031
 # text = Really Really Love You was released in August and reach the top 50; "Shaky Ground", the related single, appeared in September but Geyer was already in the US.
 1	Really	really	ADV	RB	_	3	mod	_	_
@@ -7563,7 +7563,7 @@
 19	,	,	PUNCT	,	_	22	punct	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
 21	related	related	ADJ	JJ	Degree=Pos	22	mod	_	_
-22	single	single	ADJ	JJ	Degree=Pos	17	appos	_	SpaceAfter=No
+22	single	single	ADJ	JJ	Degree=Pos	17	conj:appos	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	22	punct	_	_
 24	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
 25	in	in	ADP	IN	_	24	udep	_	_
@@ -7609,7 +7609,7 @@
 28	there	there	ADV	RB	PronType=Dem	27	mod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = w01124
+#  = # newdoc id = w01124
 # sent_id = w01124011
 # text = After its progress had stalled in the Billboard 200 at No. 96, Thought 'Ya Knew climbed to No. 31 in the UK, but the album charted for only two weeks in the UK.
 1	After	after	SCONJ	IN	Shared=Yes	17	mod	_	_
@@ -7662,7 +7662,7 @@
 9	Glinda	Glinda	PROPN	NNP	Number=Sing	8	comp:obj	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	Proper=True
 11	Good	good	ADJ	JJ	Degree=Pos	12	mod	_	Proper=True
-12	Witch	witch	NOUN	NN	Number=Sing	9	appos	_	_
+12	Witch	witch	NOUN	NN	Number=Sing	9	conj:appos	_	_
 13	in	in	ADP	IN	_	7	udep	_	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
 15	theatrical	theatrical	ADJ	JJ	Degree=Pos	16	mod	_	_
@@ -7674,7 +7674,7 @@
 21	Wiz	Wiz	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01125
+#  = # newdoc id = w01125
 # sent_id = w01125034
 # text = Wilkes was re-elected and expelled twice more, before the House of Commons resolved that his candidature was invalid and declared the runner-up as the victor.
 1	Wilkes	Wilkes	PROPN	NNP	Number=Sing	2	subj@pass	_	_
@@ -7774,10 +7774,10 @@
 3	,	,	PUNCT	,	Shared=Yes	15	punct	_	_
 4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	_
 5	brother	brother	NOUN	NN	Number=Sing|Shared=No	15	subj@pass	_	_
-6	Prince	prince	NOUN	NN	Number=Sing	5	appos	_	_
+6	Prince	prince	NOUN	NN	Number=Sing	5	conj:appos	_	_
 7	Henry	Henry	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
-9	Duke	Duke	PROPN	NNP	Number=Sing	5	appos	_	_
+9	Duke	Duke	PROPN	NNP	Number=Sing	5	conj:appos	_	_
 10	of	of	ADP	IN	_	9	udep	_	Proper=True
 11	Cumberland	Cumberland	PROPN	NNP	Number=Sing	10	comp:obj	_	_
 12	and	and	CCONJ	CC	_	13	cc	_	Proper=True
@@ -7799,18 +7799,18 @@
 28	young	young	ADJ	JJ	Degree=Pos	29	mod	_	_
 29	widow	widow	NOUN	NN	Number=Sing|Shared=No	26	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	29	punct	_	_
-31	Anne	Anne	PROPN	NNP	Number=Sing	29	appos	_	_
+31	Anne	Anne	PROPN	NNP	Number=Sing	29	conj:appos	_	_
 32	Horton	Horton	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	15	punct	_	_
 
-# newdoc id = w01127
+#  = # newdoc id
 # sent_id = w01127071
 # text = Her 1981 album Wild West was one of her biggest sellers.
 1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	mod@poss	_	_
 2	1981	1981	NUM	CD	NumType=Card	3	compound	_	_
 3	album	album	NOUN	NN	Number=Sing	6	subj	_	_
 4	Wild	wild	ADJ	JJ	Degree=Pos	5	mod	_	_
-5	West	west	PROPN	NN	Number=Sing	3	appos	_	_
+5	West	west	PROPN	NN	Number=Sing	3	conj:appos	_	_
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	one	one	NUM	CD	NumType=Card	6	comp:pred	_	_
 8	of	of	ADP	IN	_	7	udep	_	_
@@ -7843,7 +7843,7 @@
 20	broke	broke	ADJ	JJ	Degree=Pos	17	comp:pred	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	16	punct	_	_
 
-# newdoc id = w01128
+#  = # newdoc id
 # sent_id = w01128053
 # text = In June 2012, the Icelandic band Sigur Rós released a video for the song "Fjögur Píanó", starring LaBeouf, in which he appears nude.
 1	In	in	ADP	IN	_	10	udep	_	_
@@ -7853,7 +7853,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 6	Icelandic	Icelandic	ADJ	JJ	Degree=Pos	7	mod	_	_
 7	band	band	NOUN	NN	Number=Sing	13	subj	_	_
-8	Sigur	Sigur	PROPN	NNP	Number=Sing	7	appos	_	_
+8	Sigur	Sigur	PROPN	NNP	Number=Sing	7	conj:appos	_	_
 9	Rós	Rós	PROPN	NNP	Number=Sing	8	flat	_	_
 10	released	release	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	comp:obj	_	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
@@ -7862,7 +7862,7 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
 15	song	song	NOUN	NN	Number=Sing	12	mod	_	_
 16	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
-17	Fjögur	Fjögur	PROPN	NNP	Number=Sing	15	appos	_	_
+17	Fjögur	Fjögur	PROPN	NNP	Number=Sing	15	conj:appos	_	_
 18	Píanó	Píanó	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
 19	"	"	PUNCT	''	_	17	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
@@ -7891,7 +7891,7 @@
 11	performances	performance	NOUN	NNS	Number=Plur	7	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01129
+#  = # newdoc id = w01129
 # sent_id = w01129019
 # text = The car burst into flames, and Kenseth walked away.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -7953,7 +7953,7 @@
 26	,	,	PUNCT	,	_	29	punct	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
 28	last	last	ADJ	JJ	Degree=Pos	29	mod	_	_
-29	driver	driver	NOUN	NN	Number=Sing	25	appos	_	_
+29	driver	driver	NOUN	NN	Number=Sing	25	conj:appos	_	_
 30	to	to	PART	TO	_	29	udep	_	_
 31	ever	ever	ADV	RB	_	32	mod	_	_
 32	hold	hold	VERB	VB	VerbForm=Inf	30	comp:obj	_	_
@@ -7961,7 +7961,7 @@
 34	title	title	NOUN	NN	Number=Sing	32	comp:obj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = w01130
+#  = # newdoc id = w01130
 # sent_id = w01130099
 # text = Rafferty released two further albums in the 1990s in what musician Tom Robinson later described as "a major return to form".
 1	Rafferty	Rafferty	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -8007,7 +8007,7 @@
 14	Stealers	Stealers	PROPN	NNPS	Number=Plur	16	compound	_	_
 15	Wheel	Wheel	PROPN	NNP	Number=Sing	14	flat	_	_
 16	partner	partner	NOUN	NN	Number=Sing	12	comp:obj	_	_
-17	Egan	Egan	PROPN	NNP	Number=Sing	16	appos	_	_
+17	Egan	Egan	PROPN	NNP	Number=Sing	16	conj:appos	_	_
 18	on	on	ADP	IN	_	10	udep	_	_
 19	several	several	ADJ	JJ	Degree=Pos	20	mod	_	_
 20	tracks	track	NOUN	NNS	Number=Plur	18	comp:obj	_	SpaceAfter=No
@@ -8024,13 +8024,13 @@
 7	Rafferty	Rafferty	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
 8	's	's	PART	POS	_	9	udep@poss	_	_
 9	brother	brother	NOUN	NN	Number=Sing	6	comp:obj	_	_
-10	Jim	Jim	PROPN	NNP	Number=Sing	9	appos	_	SpaceAfter=No
+10	Jim	Jim	PROPN	NNP	Number=Sing	9	conj:appos	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	also	also	ADV	RB	_	16	mod	_	_
 13	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
 14	singer	singer	NOUN	NN	Number=Sing	16	compound	_	SpaceAfter=No
 15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
-16	songwriter	songwriter	NOUN	NN	Number=Sing	9	appos	_	SpaceAfter=No
+16	songwriter	songwriter	NOUN	NN	Number=Sing	9	conj:appos	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	_	_
 18	who	who	PRON	WP	PronType=Rel	19	subj@pass	_	_
 19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	mod@relcl	_	_
@@ -8058,7 +8058,7 @@
 10	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
 11	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	Proper=True
 12	Father	father	NOUN	NN	Number=Sing	13	subj	_	_
-13	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	appos	_	SpaceAfter=No
+13	Did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj:appos	_	SpaceAfter=No
 14	n't	not	PART	RB	Polarity=Neg	13	mod	_	_
 15	Like	like	VERB	VB	VerbForm=Inf	13	comp:aux	_	_
 16	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	comp:obj	_	_
@@ -8067,7 +8067,7 @@
 19	on	on	ADP	IN	_	2	udep	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 21	album	album	NOUN	NN	Number=Sing	19	comp:obj	_	_
-22	Over	over	ADP	IN	_	21	appos	_	_
+22	Over	over	ADP	IN	_	21	conj:appos	_	_
 23	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	mod@poss	_	Proper=True
 24	Head	Head	NOUN	NNP	Number=Sing	22	comp:obj	_	_
 25	(	(	PUNCT	-LRB-	_	26	punct	_	SpaceAfter=No
@@ -8095,7 +8095,7 @@
 16	1998	1998	NUM	CD	NumType=Card	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01131
+#  = # newdoc id = w01131
 # sent_id = w01131060
 # text = At least 330,000 people, including 10,000 technicians, were involved.
 1	At	at	ADP	IN	_	3	udep	_	_
@@ -8138,7 +8138,7 @@
 23	ministries	ministry	NOUN	NNS	Number=Plur	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01132
+#  = # newdoc id = w01132
 # sent_id = w01132042
 # text = The patterns presented by the data from the Petén region and Uaxactun allowed for these sites to fit within the cultural development of the Maya lowlands.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -8227,7 +8227,7 @@
 31	Maya	Maya	PROPN	NNP	Number=Sing	28	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01133
+#  = # newdoc id = w01133
 # sent_id = w01133014
 # text = Starlin took over as plotter the following issue, and began developing an elaborate story arc centered on the villainous Thanos, and spread across a number of Marvel titles.
 1	Starlin	Starlin	PROPN	NNP	Number=Sing|Shared=Yes	2	subj	_	_
@@ -8284,10 +8284,10 @@
 18	fiction	fiction	NOUN	NN	Number=Sing	19	compound	_	_
 19	anthology	anthology	NOUN	NN	Number=Sing	12	comp:obj	_	_
 20	Star	star	NOUN	NN	Number=Sing	21	compound	_	_
-21	Reach	reach	NOUN	NN	Number=Sing	19	appos	_	SpaceAfter=No
+21	Reach	reach	NOUN	NN	Number=Sing	19	conj:appos	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01134
+#  = # newdoc id = w01134
 # sent_id = w01134009
 # text = Through his grandmother, Mishima was a direct descendant of Tokugawa Ieyasu.
 1	Through	through	ADP	IN	_	6	udep	_	_
@@ -8354,7 +8354,7 @@
 14	life	life	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01135
+#  = # newdoc id
 # sent_id = w01135034
 # text = In 2011, Blunt was named the ambassadress of the new Yves Saint Laurent fragrance, Opium.
 1	In	in	ADP	IN	_	5	udep	_	_
@@ -8373,7 +8373,7 @@
 14	Laurent	Laurent	PROPN	NNP	Number=Sing	12	compound	_	_
 15	fragrance	fragrance	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
-17	Opium	Opium	PROPN	NNP	Number=Sing	15	appos	_	SpaceAfter=No
+17	Opium	Opium	PROPN	NNP	Number=Sing	15	conj:appos	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w01135035
@@ -8387,7 +8387,7 @@
 7	comedy	comedy	NOUN	NN	Number=Sing	8	compound	_	_
 8	film	film	NOUN	NN	Number=Sing	3	comp:obj	_	_
 9	Salmon	salmon	NOUN	NN	Number=Sing	10	compound	_	_
-10	Fishing	fishing	NOUN	NN	Number=Sing	8	appos	_	_
+10	Fishing	fishing	NOUN	NN	Number=Sing	8	conj:appos	_	_
 11	in	in	ADP	IN	_	10	udep	_	Proper=True
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	Proper=True
 13	Yemen	Yemen	PROPN	NNP	Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -8440,7 +8440,7 @@
 8	Five	Five	NUM	CD	NumType=Card	10	mod	_	SpaceAfter=No
 9	-	-	PUNCT	HYPH	_	10	punct	_	SpaceAfter=No
 10	Year	Year	NOUN	NN	Number=Sing	11	mod	_	Proper=True
-11	Engagement	engagement	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+11	Engagement	engagement	NOUN	NN	Number=Sing	6	conj:appos	_	SpaceAfter=No
 12	,	,	PUNCT	,	Shared=Yes	13	punct	_	_
 13	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	6	mod	_	_
 14	by	by	ADP	IN	_	13	udep	_	_
@@ -8468,7 +8468,7 @@
 12	fiction	fiction	NOUN	NN	Number=Sing	13	compound	_	_
 13	film	film	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
-15	Looper	Looper	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+15	Looper	Looper	PROPN	NNP	Number=Sing	13	conj:appos	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	_	_
 17	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	13	mod	_	_
 18	by	by	ADP	IN	_	17	udep	_	_
@@ -8493,7 +8493,7 @@
 37	2012	2012	NUM	CD	NumType=Card	36	mod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01136
+#  = # newdoc id = w01136
 # sent_id = w01136029
 # text = Valentino tried to distance the character from a stereotypical portrayal of an Arab man.
 1	Valentino	Valentino	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -8523,7 +8523,7 @@
 7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	mod@poss	_	_
 8	wife	wife	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
-10	Norma	Norma	PROPN	NNP	Number=Sing	8	appos	_	_
+10	Norma	Norma	PROPN	NNP	Number=Sing	8	conj:appos	_	_
 11	Talmadge	Talmadge	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	10	punct	_	_
 13	opposite	opposite	ADP	IN	_	6	udep	_	_
@@ -8537,7 +8537,7 @@
 21	Juliet	Juliet	PROPN	NNP	Number=Sing	19	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01137
+#  = # newdoc id
 # sent_id = w01137050
 # text = Lord Halifax, the Lord President of the Council, visited Germany privately in November and met Hitler and other German officials.
 1	Lord	Lord	PROPN	NNP	Number=Sing|Shared=Yes	11	subj	_	_
@@ -8545,7 +8545,7 @@
 3	,	,	PUNCT	,	_	6	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 5	Lord	lord	NOUN	NN	Number=Sing	6	compound	_	_
-6	President	president	NOUN	NN	Number=Sing	2	appos	_	_
+6	President	president	NOUN	NN	Number=Sing	2	conj:appos	_	_
 7	of	of	ADP	IN	_	6	udep	_	Proper=True
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	Proper=True
 9	Council	council	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
@@ -8617,7 +8617,7 @@
 25	controls	control	NOUN	NNS	Number=Plur	23	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01138
+#  = # newdoc id = w01138
 # sent_id = w01138045
 # text = During this time, Marcelle was often left alone in the room while Piaf and Mômone were out on the streets or at the club singing.
 1	During	during	ADP	IN	_	6	udep	_	_
@@ -8648,7 +8648,7 @@
 26	singing	sing	VERB	VBG	Shared=No|VerbForm=Ger	23	orphan	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = w01139
+#  = # newdoc id = w01139
 # sent_id = w01139043
 # text = These were almost completely forgotten until after Smith's death.
 1	These	these	PRON	DT	Number=Plur|PronType=Dem	2	subj@pass	_	_
@@ -8679,7 +8679,7 @@
 12	technology	technology	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01140
+#  = # newdoc id = w01140
 # sent_id = w01140030
 # text = As early as 1926, Meyer had written to Irène Joliot-Curie suggesting that Rona work with her to learn how his laboratory could make their own polonium samples.
 1	As	as	ADV	RB	_	2	mod	_	_
@@ -8822,7 +8822,7 @@
 22	research	research	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = w01141
+#  = # newdoc id = w01141
 # sent_id = w01141025
 # text = During the 2013 off-season she appeared on CTV Montreal as a guest weather anchor.
 1	During	during	ADP	IN	_	8	udep	_	_
@@ -8873,20 +8873,20 @@
 8	loss	loss	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01142
+#  = # newdoc id
 # sent_id = w01142013
 # text = When their daughter Cecily married Richard Plantagenet, the 3rd Duke of York, and had several offspring, including Edward IV and Richard III, Joan became the grandmother of two York kings of England.
 1	When	when	ADV	WRB	PronType=Int|Shared=Yes	5	mod	_	_
 2	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	mod@poss	_	_
 3	daughter	daughter	NOUN	NN	Number=Sing|Shared=Yes	5	subj	_	_
-4	Cecily	Cecily	PROPN	NNP	Number=Sing	3	appos	_	_
+4	Cecily	Cecily	PROPN	NNP	Number=Sing	3	conj:appos	_	_
 5	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	mod	_	_
 6	Richard	Richard	PROPN	NNP	Number=Sing	5	comp:obj	_	_
 7	Plantagenet	Plantagenet	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 10	3rd	3rd	ADJ	JJ	Degree=Pos|NumType=Ord	11	mod	_	Proper=True
-11	Duke	Duke	PROPN	NNP	Number=Sing	6	appos	_	_
+11	Duke	Duke	PROPN	NNP	Number=Sing	6	conj:appos	_	_
 12	of	of	ADP	IN	_	11	udep	_	Proper=True
 13	York	York	PROPN	NNP	Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	11	punct	_	_
@@ -8928,7 +8928,7 @@
 # text = The knight Lyvet was released and his follower thrown into the Tower.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	knight	knight	NOUN	NN	Number=Sing	4	subj@pass	_	_
-3	Lyvet	Lyvet	PROPN	NNP	Number=Sing	2	appos	_	_
+3	Lyvet	Lyvet	PROPN	NNP	Number=Sing	2	conj:appos	_	_
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	released	release	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	and	and	CCONJ	CC	_	9	cc	_	_
@@ -8940,7 +8940,7 @@
 12	Tower	Tower	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01143
+#  = # newdoc id
 # sent_id = w01143015
 # text = Not long ago he was divorced from the actress, Gloria Holden, but carried the torch after the marital rift.
 1	Not	not	ADV	RB	Polarity=Neg	2	mod	_	_
@@ -8953,7 +8953,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	actress	actress	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
-11	Gloria	Gloria	PROPN	NNP	Number=Sing	9	appos	_	_
+11	Gloria	Gloria	PROPN	NNP	Number=Sing	9	conj:appos	_	_
 12	Holden	Holden	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	_	_
 14	but	but	CCONJ	CC	_	15	cc	_	_
@@ -8979,7 +8979,7 @@
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
 11	carefree	carefree	ADJ	JJ	Degree=Pos	12	mod	_	_
-12	playboy	playboy	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+12	playboy	playboy	NOUN	NN	Number=Sing	8	conj:appos	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	12	punct	_	_
 14	in	in	ADP	IN	_	2	udep	_	_
 15	Sabrina	Sabrina	PROPN	NNP	Number=Sing	14	comp:obj	_	_
@@ -8993,7 +8993,7 @@
 23	Hepburn	Hepburn	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01144
+#  = # newdoc id = w01144
 # sent_id = w01144031
 # text = He chose not to seek a third term in the following election cycle.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -9117,7 +9117,7 @@
 19	purpose	purpose	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01146
+#  = # newdoc id = w01146
 # sent_id = w01146051
 # text = Bloch is concerned to establish hope as the guiding principle of his Marxism and stresses the implied humanism inherent in mystical tradition.
 1	Bloch	Bloch	PROPN	NNP	Number=Sing|Shared=Yes	2	subj@pass	_	_
@@ -9164,7 +9164,7 @@
 16	goal	goal	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01147
+#  = # newdoc id
 # sent_id = w01147010
 # text = Pebe moved the family to Nashville, Tennessee, in 1991 after securing a new publishing deal for her songwriting.
 1	Pebe	Pebe	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -9174,7 +9174,7 @@
 5	to	to	ADP	IN	_	2	udep	_	_
 6	Nashville	Nashville	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	Tennessee	Tennessee	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+8	Tennessee	Tennessee	PROPN	NNP	Number=Sing	6	conj:appos	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	in	in	ADP	IN	_	2	udep	_	_
 11	1991	1991	NUM	CD	NumType=Card	10	comp:obj	_	_
@@ -9198,7 +9198,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	song	song	NOUN	NN	Number=Sing	4	comp:obj	_	_
 7	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
-8	Stephen	Stephen	PROPN	NNP	Number=Sing	6	appos	_	SpaceAfter=No
+8	Stephen	Stephen	PROPN	NNP	Number=Sing	6	conj:appos	_	SpaceAfter=No
 9	"	"	PUNCT	''	_	8	punct	_	_
 10	together	together	ADV	RB	_	4	mod	_	_
 11	when	when	SCONJ	WRB	PronType=Int	4	mod	_	_
@@ -9214,7 +9214,7 @@
 21	Gamson	Gamson	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	_	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
-24	producer	producer	NOUN	NN	Number=Sing	20	appos	_	_
+24	producer	producer	NOUN	NN	Number=Sing	20	conj:appos	_	_
 25	that	that	DET	WDT	PronType=Rel	27	comp:obj	_	_
 26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	subj	_	_
 27	admired	admire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	mod@relcl	_	SpaceAfter=No
@@ -9250,7 +9250,7 @@
 16	album	album	NOUN	NN	Number=Sing	11	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = w01148
+#  = # newdoc id = w01148
 # sent_id = w01148068
 # text = This time it reached him, but he refused to believe that she no longer wanted to be married to him.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
@@ -9276,7 +9276,7 @@
 21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = w01149
+#  = # newdoc id
 # sent_id = w01149002
 # text = Wright was born in Poole, Dorset, but grew up predominantly in Wells, Somerset.
 1	Wright	Wright	PROPN	NNP	Number=Sing|Shared=Yes	2	subj@pass	_	_
@@ -9285,7 +9285,7 @@
 4	in	in	ADP	IN	_	3	udep	_	_
 5	Poole	Poole	PROPN	NNP	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
-7	Dorset	Dorset	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+7	Dorset	Dorset	PROPN	NNP	Number=Sing	5	conj:appos	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	but	but	CCONJ	CC	_	10	cc	_	_
 10	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
@@ -9294,7 +9294,7 @@
 13	in	in	ADP	IN	Shared=No	10	udep	_	_
 14	Wells	Wells	PROPN	NNP	Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
-16	Somerset	Somerset	PROPN	NNP	Number=Sing	14	appos	_	SpaceAfter=No
+16	Somerset	Somerset	PROPN	NNP	Number=Sing	14	conj:appos	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01149077
@@ -9304,7 +9304,7 @@
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
 4	brother	brother	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	Oscar	Oscar	PROPN	NNP	Number=Sing	4	appos	_	SpaceAfter=No
+6	Oscar	Oscar	PROPN	NNP	Number=Sing	4	conj:appos	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	who	who	PRON	WP	PronType=Rel	9	subj	_	_
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
@@ -9348,7 +9348,7 @@
 17	The	the	DET	DT	Definite=Def|PronType=Art	18	det	_	Proper=True
 18	Hitchhiker	hitchhiker	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
 19	's	's	PART	POS	_	20	udep@poss	_	Proper=True
-20	Guide	guide	NOUN	NN	Number=Sing	16	appos	_	_
+20	Guide	guide	NOUN	NN	Number=Sing	16	conj:appos	_	_
 21	to	to	ADP	IN	_	20	udep	_	Proper=True
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	Proper=True
 23	Galaxy	galaxy	NOUN	NN	Number=Sing	21	comp:obj	_	_
@@ -9358,7 +9358,7 @@
 27	Rambow	Rambow	PROPN	NNP	Number=Sing	26	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = w01150
+#  = # newdoc id = w01150
 # sent_id = w01150044
 # text = The Great Powers did not fulfill the requests for recognition of Albania.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_

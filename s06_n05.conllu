@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# newdoc id = n05001
+#  = # newdoc id
 # sent_id = n05001005
 # text = The president of the Community of Madrid, Cristina Cifuentes, represents the most conservative, while leaders of the party, such as the Sectorial Under-Secretary, Javier Maroto, represent the most progressive.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -10,7 +10,7 @@
 6	of	of	ADP	IN	_	5	udep	_	Proper=True
 7	Madrid	Madrid	PROPN	NNP	Number=Sing	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
-9	Cristina	Cristina	PROPN	NNP	Number=Sing	2	appos	_	_
+9	Cristina	Cristina	PROPN	NNP	Number=Sing	2	conj:appos	_	_
 10	Cifuentes	Cifuentes	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	9	punct	_	_
 12	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -32,7 +32,7 @@
 28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
 29	Secretary	Secretary	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	31	punct	_	_
-31	Javier	Javier	PROPN	NNP	Number=Sing	29	appos	_	_
+31	Javier	Javier	PROPN	NNP	Number=Sing	29	conj:appos	_	_
 32	Maroto	Maroto	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	31	punct	_	_
 34	represent	represent	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
@@ -55,7 +55,7 @@
 9	treasurer	treasurer	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n05002
+#  = # newdoc id = n05002
 # sent_id = n05002004
 # text = For the first time in the last six years the rate of unemployment has dropped below 20%, and there are already 600,000 more people employed than there were a year ago.
 1	For	for	ADP	IN	Shared=Yes	14	udep	_	_
@@ -164,7 +164,7 @@
 14	"	"	PUNCT	''	_	13	punct	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n05003
+#  = # newdoc id = n05003
 # sent_id = n05003006
 # text = The Minister of Defense has allowed her to remain General Secretary of the party for now.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -236,7 +236,7 @@
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 6	only	only	ADJ	JJ	Degree=Pos	7	mod	_	_
-7	one	one	NOUN	NN	Number=Sing	1	appos	_	_
+7	one	one	NOUN	NN	Number=Sing	1	conj:appos	_	_
 8	in	in	ADP	IN	_	7	udep	_	_
 9	Government	government	NOUN	NN	Number=Sing	8	comp:obj	_	_
 10	with	with	ADP	IN	_	7	udep	_	_
@@ -245,7 +245,7 @@
 13	title	title	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	1	punct	_	_
 
-# newdoc id = n05004
+#  = # newdoc id
 # sent_id = n05004020
 # text = Pedro Sánchez, like many other socialists, said in the programme Évole that Spain is a nation of nations.
 1	Pedro	Pedro	PROPN	NNP	Number=Sing	9	subj	_	_
@@ -260,7 +260,7 @@
 10	in	in	ADP	IN	_	9	udep	_	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 12	programme	programme	NOUN	NN	Number=Sing	10	comp:obj	_	_
-13	Évole	Évole	PROPN	NNP	Number=Sing	12	appos	_	_
+13	Évole	Évole	PROPN	NNP	Number=Sing	12	conj:appos	_	_
 14	that	that	SCONJ	IN	_	9	comp:obj	_	_
 15	Spain	Spain	PROPN	NNP	Number=Sing	16	subj	_	_
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
@@ -281,12 +281,12 @@
 6	in	in	ADP	IN	_	5	udep	_	_
 7	what	what	PRON	WP	PronType=Int	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
-9	in	in	ADP	IN	_	7	appos	_	_
+9	in	in	ADP	IN	_	7	conj:appos	_	_
 10	historical	historical	ADJ	JJ	Degree=Pos	11	mod	_	_
 11	rights	rights	NOUN	NNS	Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	?	?	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n05005
+#  = # newdoc id = n05005
 # sent_id = n05005002
 # text = Federico Fellini once said: "The clown is to humanity as the shadow is to man".
 1	Federico	Federico	PROPN	NNP	Number=Sing	4	subj	_	_
@@ -341,7 +341,7 @@
 28	laugh	laugh	VERB	VB	VerbForm=Inf	25	comp:obl	_	SpaceAfter=No|Subject=ObjRaising
 29	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n05006
+#  = # newdoc id = n05006
 # sent_id = n05006002
 # text = In the war films or cowboy and Indian films the battles, fights and beatings were out of this world.
 1	In	in	ADP	IN	_	16	udep	_	_
@@ -398,7 +398,7 @@
 28	not	not	ADV	RB	Polarity=Neg|Shared=No	27	mod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	14	punct	_	_
 
-# newdoc id = n05007
+#  = # newdoc id = n05007
 # sent_id = n05007006
 # text = He believes that nobody waiting for us waits for us.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -470,7 +470,7 @@
 22	hope	hope	NOUN	NN	Number=Sing	20	conj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n05008
+#  = # newdoc id = n05008
 # sent_id = n05008012
 # text = As a result, Trump isn't very worried about the Latin American vote at a national level.
 1	As	as	ADP	IN	_	6	udep	_	_
@@ -527,7 +527,7 @@
 30	impact	impact	NOUN	NN	Number=Sing	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n05009
+#  = # newdoc id = n05009
 # sent_id = n05009025
 # text = "There will be protests and other things, it's all already planned," the opposition told El Mundo.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
@@ -572,7 +572,7 @@
 15	Victorias	Victorias	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n05010
+#  = # newdoc id = n05010
 # sent_id = n05010004
 # text = May has received great criticism for avoiding and not responding openly to the media after the judicial ruling on Brexit.
 1	May	May	PROPN	NNP	Number=Sing	2	subj	_	_

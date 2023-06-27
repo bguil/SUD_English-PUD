@@ -36,7 +36,7 @@
 11	financial	financial	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	oversight	oversight	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
-14	Mohammed	Mohammed	PROPN	NNP	Number=Sing	9	appos	_	_
+14	Mohammed	Mohammed	PROPN	NNP	Number=Sing	9	conj:appos	_	_
 15	al	al	PROPN	NNP	Number=Sing	17	compound	_	SpaceAfter=No
 16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
 17	Jadaan	Jadaan	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
@@ -423,7 +423,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	newspaper	newspaper	NOUN	NN	Number=Sing	8	subj	_	_
 3	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
-4	Die	Die	PROPN	NNP	Number=Sing	2	appos	_	_
+4	Die	Die	PROPN	NNP	Number=Sing	2	conj:appos	_	_
 5	ZEIT	ZEIT	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
 6	"	"	PUNCT	''	_	4	punct	_	_
 7	first	first	ADV	RB	_	8	mod	_	_
@@ -473,7 +473,7 @@
 21	60s	60	NOUN	NNS	Number=Plur	22	mod@tmod	_	_
 22	hit	hit	NOUN	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	comp:obj	_	_
 23	Monster	monster	PROPN	NN	Number=Sing	24	compound	_	_
-24	Mash	mash	PROPN	NN	Number=Sing	22	appos	_	SpaceAfter=No
+24	Mash	mash	PROPN	NN	Number=Sing	22	conj:appos	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n02036
@@ -772,7 +772,7 @@
 16	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	comp:obj	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 18	writer	writer	NOUN	NN	Number=Sing	16	comp:obj	_	_
-19	Günter	Günter	PROPN	NNP	Number=Sing	18	appos	_	_
+19	Günter	Günter	PROPN	NNP	Number=Sing	18	conj:appos	_	_
 20	de	de	PROPN	NNP	Number=Sing	19	flat	_	_
 21	Bruyn	Bruyn	PROPN	NNP	Number=Sing	20	flat	_	_
 22	and	and	CCONJ	CC	_	23	cc	_	_
@@ -793,7 +793,7 @@
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 6	plane	plane	NOUN	NN	Number=Sing	7	compound	_	_
 7	crash	crash	NOUN	NN	Number=Sing	4	comp:obj	_	_
-8	Larry	Larry	PROPN	NNP	Number=Sing	3	appos	_	_
+8	Larry	Larry	PROPN	NNP	Number=Sing	3	conj:appos	_	_
 9	Vance	Vance	PROPN	NNP	Number=Sing	8	flat	_	_
 10	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	SPIEGEL	SPIEGEL	PROPN	NNP	Number=Sing	10	comp:obl	_	_
@@ -936,7 +936,7 @@
 9	White	White	PROPN	NNP	Number=Sing	10	mod	_	_
 10	House	House	PROPN	NNP	Number=Sing	7	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
-12	Hillary	Hillary	PROPN	NNP	Number=Sing	6	appos	_	_
+12	Hillary	Hillary	PROPN	NNP	Number=Sing	6	conj:appos	_	_
 13	Clinton	Clinton	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	12	punct	_	_
 15	pardoned	pardon	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -957,7 +957,7 @@
 30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	mod@poss	_	_
 31	presidency	presidency	NOUN	NN	Number=Sing	29	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	33	punct	_	_
-33	January	January	PROPN	NNP	Number=Sing	28	appos	_	_
+33	January	January	PROPN	NNP	Number=Sing	28	conj:appos	_	_
 34	20	20	NUM	CD	NumType=Card	33	mod	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	33	punct	_	_
 36	2001	2001	NUM	CD	NumType=Card	33	mod@tmod	_	SpaceAfter=No
@@ -988,7 +988,7 @@
 3	Amin	Amin	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	General	general	ADJ	JJ	Degree=Pos	6	mod	_	_
-6	Director	director	NOUN	NN	Number=Sing	1	appos	_	_
+6	Director	director	NOUN	NN	Number=Sing	1	conj:appos	_	_
 7	of	of	ADP	IN	_	6	udep	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 9	International	international	ADJ	JJ	Degree=Pos	10	mod	_	_
@@ -997,7 +997,7 @@
 12	Renewable	renewable	ADJ	JJ	Degree=Pos	13	mod	_	_
 13	Energies	energy	PROPN	NNS	Number=Plur	11	comp:obj	_	_
 14	(	(	PUNCT	-LRB-	_	15	punct	_	SpaceAfter=No
-15	IRENA	IRENA	PROPN	NNP	Number=Sing	10	appos	_	SpaceAfter=No
+15	IRENA	IRENA	PROPN	NNP	Number=Sing	10	conj:appos	_	SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	15	punct	_	_
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	certain	certain	ADJ	JJ	Degree=Pos	17	comp:pred	_	SpaceAfter=No
@@ -1100,7 +1100,7 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 15	news	news	NOUN	NN	Number=Sing	16	compound	_	_
 16	agency	agency	NOUN	NN	Number=Sing	13	comp:obj	_	_
-17	dpa	dpa	PROPN	NNP	Number=Sing	16	appos	_	SpaceAfter=No
+17	dpa	dpa	PROPN	NNP	Number=Sing	16	conj:appos	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	_	_
 19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	subj@pass	_	_
 20	will	will	AUX	MD	VerbForm=Fin	5	parataxis	_	_

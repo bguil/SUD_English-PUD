@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# newdoc id = n01001
+#  = # newdoc id = n01001
 # sent_id = n01001011
 # text = “While much of the digital transition is unprecedented in the United States, the peaceful transition of power is not,” Obama special assistant Kori Schulman wrote in a blog post Monday.
 1	“	“	PUNCT	``	_	20	punct	_	SpaceAfter=No
@@ -59,7 +59,7 @@
 17	different	different	ADJ	JJ	Degree=Pos	14	comp:pred	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = n01002
+#  = # newdoc id = n01002
 # sent_id = n01002017
 # text = But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”
 1	But	but	CCONJ	CC	_	16	cc	_	_
@@ -179,7 +179,7 @@
 17	unbelievable	unbelievable	ADJ	JJ	Degree=Pos	16	comp:pred	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	16	punct	_	_
 
-# newdoc id = n01003
+#  = # newdoc id
 # sent_id = n01003007
 # text = $5,000 per person, the maximum allowed.
 1	$	$	SYM	$	_	0	root	_	SpaceAfter=No
@@ -188,7 +188,7 @@
 4	person	person	NOUN	NN	Number=Sing	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	1	punct	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
-7	maximum	maximum	NOUN	NN	Number=Sing	1	appos	_	_
+7	maximum	maximum	NOUN	NN	Number=Sing	1	conj:appos	_	_
 8	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part	7	mod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -265,7 +265,7 @@
 7	stuffy	stuffy	ADJ	JJ	Degree=Pos	5	comp:pred	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01004
+#  = # newdoc id = n01004
 # sent_id = n01004009
 # text = Rather than teaching the scientific method as a separate unit, for example, students learn science content by applying it.
 1	Rather	rather	ADV	RB	_	16	mod	_	ExtPos=ADV|Idiom=Yes
@@ -312,7 +312,7 @@
 17	8	8	NUM	CD	NumType=Card	16	mod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01005
+#  = # newdoc id = n01005
 # sent_id = n01005023
 # text = By comparison, it cost $103.7 million to build the NoMa infill Metro station, which opened in 2004.
 1	By	by	ADP	IN	_	5	udep	_	_
@@ -359,7 +359,7 @@
 18	Joe	Joe	PROPN	NNP	Number=Sing	17	subj	_	_
 19	Sternlieb	Sternlieb	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	18	punct	_	_
-21	president	president	NOUN	NN	Number=Sing	18	appos	_	_
+21	president	president	NOUN	NN	Number=Sing	18	conj:appos	_	_
 22	of	of	ADP	IN	_	21	udep	_	_
 23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
 24	Georgetown	Georgetown	PROPN	NNP	Number=Sing	25	compound	_	_
@@ -390,7 +390,7 @@
 20	gondola	gondola	NOUN	NN	Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01006
+#  = # newdoc id = n01006
 # sent_id = n01006011
 # text = A witness told police that the victim had attacked the suspect in April.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
@@ -408,7 +408,7 @@
 13	April	April	PROPN	NNP	Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01007
+#  = # newdoc id = n01007
 # sent_id = n01007012
 # text = There are parallels to draw here between games and our everyday lives.
 1	There	there	PRON	EX	_	2	comp@expl	_	_
@@ -425,7 +425,7 @@
 12	lives	life	NOUN	NNS	Number=Plur	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01008
+#  = # newdoc id = n01008
 # sent_id = n01008017
 # text = That share has been rising steadily over the years — only 11 percent of the total vote was cast before Election Day in 1996, according to the Census Bureau -- and seems likely to jump again this year.
 1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
@@ -469,7 +469,7 @@
 39	year	year	NOUN	NN	Number=Sing	36	mod@tmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01009
+#  = # newdoc id = n01009
 # sent_id = n01009027
 # text = Today, Khanzir may be a lonely pig, but he isn’t always alone.
 1	Today	today	NOUN	NN	Number=Sing	4	udep@tmod	_	SpaceAfter=No
@@ -518,7 +518,7 @@
 25	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01010
+#  = # newdoc id = n01010
 # sent_id = n01010042
 # text = There was a time, Mr Panvalkar said, when he felt that they should leave the building.
 1	There	there	PRON	EX	_	2	comp@expl	_	_
@@ -541,7 +541,7 @@
 18	building	building	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01011
+#  = # newdoc id = n01011
 # sent_id = n01011004
 # text = She has also been charged with trying to kill her two-year-old daughter.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
@@ -591,7 +591,7 @@
 25	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	mod@poss	_	_
 26	daughter	daughter	NOUN	NN	Number=Sing	24	comp:obj	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
-28	Angel	Angel	PROPN	NNP	Number=Sing	26	appos	_	SpaceAfter=No
+28	Angel	Angel	PROPN	NNP	Number=Sing	26	conj:appos	_	SpaceAfter=No
 29	,	,	PUNCT	,	_	28	punct	_	_
 30	police	police	NOUN	NNS	Number=Plur	31	subj	_	_
 31	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
@@ -616,7 +616,7 @@
 15	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 16	"	"	PUNCT	''	_	3	punct	_	_
 
-# newdoc id = n01012
+#  = # newdoc id = n01012
 # sent_id = n01012003
 # text = First one of the Yazidi women started crying, then one of her friends.
 1	First	first	ADV	RB	Shared=Yes	7	mod	_	_
@@ -635,7 +635,7 @@
 14	friends	friend	NOUN	NNS	Number=Plur	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = n01013
+#  = # newdoc id = n01013
 # sent_id = n01013005
 # text = Mr Osborne signed up with a US speakers agency after being sacked in July.
 1	Mr	Mr	PROPN	NNP	Number=Sing	3	subj	_	_
@@ -654,7 +654,7 @@
 14	July	July	PROPN	NNP	Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01014
+#  = # newdoc id = n01014
 # sent_id = n01014003
 # text = Michael Fallon said the date for cutting the first steel would help secure new investment and safeguard hundreds of skilled jobs until 2035.
 1	Michael	Michael	PROPN	NNP	Number=Sing	3	subj	_	_
@@ -708,7 +708,7 @@
 22	2014	2014	NUM	CD	NumType=Card	21	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	14	punct	_	_
 
-# newdoc id = n01015
+#  = # newdoc id = n01015
 # sent_id = n01015033
 # text = It's most obvious when a celebrity's name is initially quite rare.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -764,7 +764,7 @@
 34	Kiera	Kiera	PROPN	NNP	Number=Sing	33	comp:obj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	20	punct	_	_
 
-# newdoc id = n01016
+#  = # newdoc id = n01016
 # sent_id = n01016014
 # text = The South Korean company initially thought a battery fault was to blame, and switched its own component for a third-party power cell.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
@@ -834,7 +834,7 @@
 18	Siri	Siri	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01017
+#  = # newdoc id = n01017
 # sent_id = n01017005
 # text = But one travel expert warned in-flight internet was often unreliable and was unlikely to influence travellers' airline choices.
 1	But	but	CCONJ	CC	_	5	cc	_	_
@@ -933,7 +933,7 @@
 19	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 20	"	"	PUNCT	''	_	4	punct	_	_
 
-# newdoc id = n01018
+#  = # newdoc id = n01018
 # sent_id = n01018024
 # text = It's like a super power sometimes.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -957,7 +957,7 @@
 8	advertising	advertising	NOUN	NN	Number=Sing	6	conj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01019
+#  = # newdoc id = n01019
 # sent_id = n01019004
 # text = The 10-week course has been "certified" by UK spy agency GCHQ.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
@@ -998,7 +998,7 @@
 17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01020
+#  = # newdoc id = n01020
 # sent_id = n01020004
 # text = Previously the jets had only been seen by bloggers.
 1	Previously	previously	ADV	RB	_	4	mod	_	_
@@ -1072,7 +1072,7 @@
 35	defence	defence	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	20	punct	_	_
 
-# newdoc id = n01021
+#  = # newdoc id
 # sent_id = n01021007
 # text = "Unfortunately once again the few ruin it for the many," wrote Jesse LaBrocca, founder of Hack Forums, in a message explaining why the section was being closed.
 1	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
@@ -1092,7 +1092,7 @@
 15	Jesse	Jesse	PROPN	NNP	Number=Sing	14	subj	_	_
 16	LaBrocca	LaBrocca	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	15	punct	_	_
-18	founder	founder	NOUN	NN	Number=Sing	15	appos	_	_
+18	founder	founder	NOUN	NN	Number=Sing	15	conj:appos	_	_
 19	of	of	ADP	IN	_	18	udep	_	_
 20	Hack	hack	VERB	VB	VerbForm=Inf	21	compound	_	_
 21	Forums	forum	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
@@ -1163,7 +1163,7 @@
 14	disruption	disruption	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01022
+#  = # newdoc id = n01022
 # sent_id = n01022002
 # text = A UN review of national plans to cut carbon says they are well short of the levels needed to keep the rise in global temperatures under 2C.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -1253,7 +1253,7 @@
 30	Erik	Erik	PROPN	NNP	Number=Sing	29	subj	_	_
 31	Solheim	Solheim	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	31	punct	_	_
-33	head	head	NOUN	NN	Number=Sing	31	appos	_	_
+33	head	head	NOUN	NN	Number=Sing	31	conj:appos	_	_
 34	of	of	ADP	IN	_	33	udep	_	_
 35	UN	UN	PROPN	NNP	Number=Sing	36	compound	_	_
 36	Environment	environment	NOUN	NN	Number=Sing	34	comp:obj	_	SpaceAfter=No
@@ -1304,7 +1304,7 @@
 23	target	target	NOUN	NN	Number=Sing	18	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01023
+#  = # newdoc id = n01023
 # sent_id = n01023020
 # text = It was conducted just off the Mexican coast from April to June.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@pass	_	_
@@ -1373,7 +1373,7 @@
 15	iridium	iridium	NOUN	NN	Number=Sing	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = n01024
+#  = # newdoc id = n01024
 # sent_id = n01024010
 # text = Just over 70% of the plants grown from Earth seeds were alive after 17 days - just slightly more than the plants grown from space seeds - just over 66%.
 1	Just	just	ADV	RB	_	2	mod	_	_
@@ -1470,7 +1470,7 @@
 14	experiment	experiment	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01025
+#  = # newdoc id = n01025
 # sent_id = n01025025
 # text = "There is still a 'yuk' factor to the whole idea of buying and wearing other people's body parts," she says.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
@@ -1544,7 +1544,7 @@
 16	Tarlo	Tarlo	PROPN	NNP	Number=Sing	15	subj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01026
+#  = # newdoc id = n01026
 # sent_id = n01026004
 # text = "Tonight we are carrying out punishments using a high beam," the post reads.
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
@@ -1579,7 +1579,7 @@
 10	before	before	ADV	RB	_	5	mod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01027
+#  = # newdoc id = n01027
 # sent_id = n01027007
 # text = Who are they?
 1	Who	who	PRON	WP	PronType=Int	2	comp:pred	_	_
@@ -1636,7 +1636,7 @@
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01028
+#  = # newdoc id
 # sent_id = n01028022
 # text = "Luckily, someone in Sony Australia was like, 'Hey, by the way, did you guys notice this?'" says Pall.
 1	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
@@ -1658,7 +1658,7 @@
 17	,	,	PUNCT	,	_	18	punct	_	_
 18	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	parataxis	_	_
 19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	subj	_	_
-20	guys	guy	NOUN	NNS	Number=Plur	19	appos	_	_
+20	guys	guy	NOUN	NNS	Number=Plur	19	conj:appos	_	_
 21	notice	notice	VERB	VB	VerbForm=Inf	18	comp:aux	_	_
 22	this	this	PRON	DT	Number=Sing|PronType=Dem	21	comp:obj	_	SpaceAfter=No
 23	?	?	PUNCT	.	_	18	punct	_	SpaceAfter=No
@@ -1668,7 +1668,7 @@
 27	Pall	Pall	PROPN	NNP	Number=Sing	26	subj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01029
+#  = # newdoc id = n01029
 # sent_id = n01029006
 # text = Seagal made headlines when he described Russia's actions in Crimea, which it annexed in 2014, as "very reasonable".
 1	Seagal	Seagal	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -1770,7 +1770,7 @@
 21	Belgrade	Belgrade	PROPN	NNP	Number=Sing	18	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01030
+#  = # newdoc id = n01030
 # sent_id = n01030005
 # text = A police spokesman told the Associated Press there was "an exchange of words" followed by an "altercation" but that no injuries had been reported.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -1866,7 +1866,7 @@
 32	Tuesday	Tuesday	PROPN	NNP	Number=Sing	31	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = n01031
+#  = # newdoc id = n01031
 # sent_id = n01031005
 # text = Researchers have been investigating potential for male hormonal contraceptives for around 20 years.
 1	Researchers	researcher	NOUN	NNS	Number=Plur	2	subj	_	_
@@ -1911,7 +1911,7 @@
 23	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
 24	"	"	PUNCT	''	_	2	punct	_	_
 
-# newdoc id = n01032
+#  = # newdoc id = n01032
 # sent_id = n01032032
 # text = However there are many MLAs with deeply-held religious beliefs who oppose any new legislation.
 1	However	however	ADV	RB	_	3	mod	_	_
@@ -1932,7 +1932,7 @@
 16	legislation	legislation	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01033
+#  = # newdoc id = n01033
 # sent_id = n01033005
 # text = Researchers say analysing tumour DNA may help explain the underlying causes of other cancers.
 1	Researchers	researcher	NOUN	NNS	Number=Plur	2	subj	_	_
@@ -2048,7 +2048,7 @@
 24	trial	trial	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01034
+#  = # newdoc id = n01034
 # sent_id = n01034033
 # text = "If Donald Trump becomes president, the government here will still have to work with him to advance whatever shared agenda there is, to ensure that Canadian businesses and interests are represented in Washington."
 1	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
@@ -2114,7 +2114,7 @@
 20	be	be	AUX	VB	VerbForm=Inf	9	mod@relcl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01035
+#  = # newdoc id = n01035
 # sent_id = n01035004
 # text = Despite the release of a photo this morning, police in B.C. say they have more questions than answers about an apparently homeless man charged in the fatal stabbing of a teen girl at her Abbotsford high school.
 1	Despite	despite	ADP	IN	_	13	udep	_	_
@@ -2242,7 +2242,7 @@
 22	hearing	hearing	NOUN	NN	Number=Sing	20	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01036
+#  = # newdoc id = n01036
 # sent_id = n01036002
 # text = The association that represents real estate agents in Ontario says more needs to be done to protect consumers and punish agents found to have engaged in unethical behaviour.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -2296,7 +2296,7 @@
 17	of	of	ADP	IN	_	16	udep	_	Proper=True
 18	Ontario	Ontario	PROPN	NNP	Number=Sing	17	comp:obj	_	_
 19	(	(	PUNCT	-LRB-	_	20	punct	_	SpaceAfter=No
-20	RECO	RECO	PROPN	NNP	Number=Sing	16	appos	_	SpaceAfter=No
+20	RECO	RECO	PROPN	NNP	Number=Sing	16	conj:appos	_	SpaceAfter=No
 21	)	)	PUNCT	-RRB-	_	20	punct	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	16	punct	_	_
 23	which	which	PRON	WDT	PronType=Rel	24	subj	_	_
@@ -2325,7 +2325,7 @@
 14	25,000	25,000	NUM	CD	NumType=Card	13	mod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = n01037
+#  = # newdoc id = n01037
 # sent_id = n01037020
 # text = But China's growing middle class has been unusually vocal in its complaints about toxic air in cities like Beijing, which can see day after day of lung-choking smog.
 1	But	but	CCONJ	CC	_	7	cc	_	_
@@ -2362,7 +2362,7 @@
 32	smog	smog	NOUN	NN	Number=Sing	28	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = n01038
+#  = # newdoc id = n01038
 # sent_id = n01038021
 # text = "We are seeing many, many countries and especially large new emitters like Brazil, South Africa, India and China stepping up to the plate in terms of playing a role in reducing emissions," said Guilbeault.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
@@ -2436,7 +2436,7 @@
 25	pact	pact	NOUN	NN	Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01039
+#  = # newdoc id = n01039
 # sent_id = n01039013
 # text = Clinton and allies, meanwhile, are seeking to keep the spotlight on Trump, charging that his disparaging comments about women and minorities, and his temperament make him unfit for office.
 1	Clinton	Clinton	PROPN	NNP	Number=Sing	7	subj	_	_
@@ -2495,7 +2495,7 @@
 2	's	's	PART	POS	_	3	udep@poss	_	_
 3	wife	wife	NOUN	NN	Number=Sing	8	subj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
-5	Melania	Melania	PROPN	NNP	Number=Sing	3	appos	_	_
+5	Melania	Melania	PROPN	NNP	Number=Sing	3	conj:appos	_	_
 6	Trump	Trump	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
 8	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2513,7 +2513,7 @@
 20	July	July	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01040
+#  = # newdoc id = n01040
 # sent_id = n01040028
 # text = Students like Rai have been meeting with counsellors at the school to talk about what happened, but she said the biggest comfort has come from seeing her friends.
 1	Students	student	NOUN	NNS	Number=Plur|Shared=No	4	subj	_	_
@@ -2547,7 +2547,7 @@
 29	friends	friend	NOUN	NNS	Number=Plur	27	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01041
+#  = # newdoc id = n01041
 # sent_id = n01041006
 # text = "This is a disaster for pain patients," Mailis said in an interview Thursday with CBC News.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
@@ -2596,7 +2596,7 @@
 21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01042
+#  = # newdoc id
 # sent_id = n01042004
 # text = The Ontario Independent Police Review Director, Gerry McNeilly, set the terms for his review this week after "alarming questions" were raised about how officers interact with Indigenous peoples.
 1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -2606,7 +2606,7 @@
 5	Review	review	NOUN	NN	Number=Sing	6	compound	_	_
 6	Director	director	NOUN	NN	Number=Sing	11	subj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
-8	Gerry	Gerry	PROPN	NNP	Number=Sing	6	appos	_	_
+8	Gerry	Gerry	PROPN	NNP	Number=Sing	6	conj:appos	_	_
 9	McNeilly	McNeilly	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	_	_
 11	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2659,7 +2659,7 @@
 22	city	city	NOUN	NN	Number=Sing	18	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01043
+#  = # newdoc id = n01043
 # sent_id = n01043005
 # text = The executives also received so-called "performance pay" for succeeding or surpassing expectations, sharing a pot of $1.5 million among them, or an estimated $15,000 each on average.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -2776,7 +2776,7 @@
 15	about	about	ADV	RB	_	18	mod	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 17	same	same	ADJ	JJ	Degree=Pos	18	mod	_	_
-18	level	level	NOUN	NN	Number=Sing	11	appos	_	_
+18	level	level	NOUN	NN	Number=Sing	11	conj:appos	_	_
 19	as	as	ADP	IN	_	18	udep	_	_
 20	for	for	ADP	IN	_	19	comp:obj	_	_
 21	2015	2015	NUM	CD	NumType=Card	23	mod	_	SpaceAfter=No
@@ -2784,7 +2784,7 @@
 23	2016	2016	NUM	CD	NumType=Card	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = n01044
+#  = # newdoc id = n01044
 # sent_id = n01044004
 # text = Gomery, who led the commission of inquiry into the federal sponsorship scandal between 2004 and 2006, said such bodies are essential to help restore public confidence in the rule of law.
 1	Gomery	Gomery	PROPN	NNP	Number=Sing	19	subj	_	SpaceAfter=No
@@ -2849,7 +2849,7 @@
 23	operations	operation	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01045
+#  = # newdoc id = n01045
 # sent_id = n01045010
 # text = "There should be no preferential access to government, or appearance of preferential access, accorded to individuals or organizations because they have made financial contributions to politicians and political parties," the guidelines read.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
@@ -2922,7 +2922,7 @@
 27	charges	charge	NOUN	NNS	Number=Plur	25	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = n01046
+#  = # newdoc id = n01046
 # sent_id = n01046003
 # text = Our cellphones are so much more than phones these days.
 1	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	mod@poss	_	_
@@ -2979,7 +2979,7 @@
 19	usage	usage	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01047
+#  = # newdoc id = n01047
 # sent_id = n01047048
 # text = That's what keeps us coming back for more.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	SpaceAfter=No
@@ -2993,7 +2993,7 @@
 9	more	more	ADJ	JJR	Degree=Cmp	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01048
+#  = # newdoc id = n01048
 # sent_id = n01048008
 # text = "These estimates coincide with the percentages of new condos entering the rental market upon completion, indicating the important role (domestic) investors play in the GTA housing market."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
@@ -3030,7 +3030,7 @@
 32	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 33	"	"	PUNCT	''	_	4	punct	_	_
 
-# newdoc id = n01049
+#  = # newdoc id
 # sent_id = n01049022
 # text = "This strain helps with back pain, this strain helps with nausea, this product makes you sleep at night," says Dietrich from the company's headquarters in Denver, Colorado, where pot is sold legally.
 1	"	"	PUNCT	``	Shared=Yes	4	punct	_	SpaceAfter=No
@@ -3066,7 +3066,7 @@
 31	in	in	ADP	IN	_	30	udep	_	_
 32	Denver	Denver	PROPN	NNP	Number=Sing	31	comp:obj	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	32	punct	_	_
-34	Colorado	Colorado	PROPN	NNP	Number=Sing	32	appos	_	SpaceAfter=No
+34	Colorado	Colorado	PROPN	NNP	Number=Sing	32	conj:appos	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	32	punct	_	_
 36	where	where	ADV	WRB	PronType=Rel	38	mod	_	_
 37	pot	pot	NOUN	NN	Number=Sing	38	subj@pass	_	_
@@ -3104,7 +3104,7 @@
 25	guessing	guess	VERB	VBG	VerbForm=Ger	24	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 26	.	.	PUNCT	.	_	23	punct	_	_
 
-# newdoc id = n01050
+#  = # newdoc id
 # sent_id = n01050006
 # text = Iron is an essential element the body requires to produce hemoglobin, the protein found in red blood cells that's responsible for transporting oxygen to tissues in the body.
 1	Iron	iron	NOUN	NN	Number=Sing	2	subj	_	_
@@ -3120,7 +3120,7 @@
 11	hemoglobin	hemoglobin	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
-14	protein	protein	NOUN	NN	Number=Sing	11	appos	_	_
+14	protein	protein	NOUN	NN	Number=Sing	11	conj:appos	_	_
 15	found	find	VERB	VBN	Tense=Past|VerbForm=Part	14	mod	_	_
 16	in	in	ADP	IN	_	15	udep	_	_
 17	red	red	ADJ	JJ	Degree=Pos	19	mod	_	_
@@ -3174,7 +3174,7 @@
 20	Blood	Blood	PROPN	NNP	Number=Sing	21	compound	_	_
 21	Services	Services	PROPN	NNPS	Number=Plur	18	subj	_	_
 22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
-23	CBS	CBS	PROPN	NNP	Number=Sing	21	appos	_	SpaceAfter=No
+23	CBS	CBS	PROPN	NNP	Number=Sing	21	conj:appos	_	SpaceAfter=No
 24	)	)	PUNCT	-RRB-	_	23	punct	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -3191,7 +3191,7 @@
 9	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux@pass	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01051
+#  = # newdoc id
 # sent_id = n01051004
 # text = What started as a routine ultrasound became complicated when expectant mother Margaret Boemer, of Plano, Texas, was told her unborn child had a rare condition and needed surgery to survive.
 1	What	what	PRON	WP	PronType=Int	2	subj	_	_
@@ -3211,7 +3211,7 @@
 15	of	of	ADP	IN	_	11	udep	_	_
 16	Plano	Plano	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	_	_
-18	Texas	Texas	PROPN	NNP	Number=Sing	16	appos	_	SpaceAfter=No
+18	Texas	Texas	PROPN	NNP	Number=Sing	16	conj:appos	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	11	punct	_	_
 20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	mod	_	_
 21	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	20	comp:aux@pass	_	_
@@ -3271,7 +3271,7 @@
 17	births	birth	NOUN	NNS	Number=Plur	14	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01052
+#  = # newdoc id = n01052
 # sent_id = n01052004
 # text = She was 84 years old.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -3311,7 +3311,7 @@
 26	stories	story	NOUN	NNS	Number=Plur	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01053
+#  = # newdoc id = n01053
 # sent_id = n01053008
 # text = "Some men get it and Bono is one of those guys," Leive said in a recent interview.
 1	"	"	PUNCT	``	Shared=Yes	4	punct	_	SpaceAfter=No
@@ -3380,7 +3380,7 @@
 12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01054
+#  = # newdoc id = n01054
 # sent_id = n01054011
 # text = As soon as the official party photos were released, social media lit up with comments — and they were less than favourable.
 1	As	as	ADV	RB	_	2	mod	_	_
@@ -3425,7 +3425,7 @@
 13	culture	culture	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01055
+#  = # newdoc id = n01055
 # sent_id = n01055008
 # text = The purpose of these CRTC hearings is to field responses from industry stakeholders and the public.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -3495,7 +3495,7 @@
 15	tool	tool	NOUN	NN	Number=Sing	12	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n01057
+#  = # newdoc id = n01057
 # sent_id = n01057014
 # text = The debris formed a ring around the Earth's equator and was eventually drawn together by gravity to form the moon.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -3532,7 +3532,7 @@
 7	unanswered	unanswered	ADJ	JJ	Degree=Pos	6	comp:pred	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01058
+#  = # newdoc id = n01058
 # sent_id = n01058037
 # text = In the town of Hillsborough, just outside Chapel Hill, someone firebombed the Republican Party headquarters last month.
 1	In	in	ADP	IN	_	13	udep	_	_
@@ -3618,7 +3618,7 @@
 26	ones	one	NOUN	NNS	Number=Plur	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01059
+#  = # newdoc id = n01059
 # sent_id = n01059008
 # text = This discordance between economic data and political rhetoric is familiar, or should be.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
@@ -3723,7 +3723,7 @@
 26	resemblances	resemblance	NOUN	NNS	Number=Plur	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01060
+#  = # newdoc id = n01060
 # sent_id = n01060069
 # text = And, she granted, “you have to look at where she has acknowledged that we need to do something different—we can do better—and where she has expressed regret.”
 1	And	and	CCONJ	CC	_	8	cc	_	SpaceAfter=No
@@ -3763,7 +3763,7 @@
 35	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
 36	”	”	PUNCT	''	_	8	punct	_	_
 
-# newdoc id = n01061
+#  = # newdoc id = n01061
 # sent_id = n01061016
 # text = But, as the criticism of Clinton as First Lady became more caustic, Karel became more empathetic.
 1	But	but	CCONJ	CC	_	16	cc	_	SpaceAfter=No
@@ -3804,7 +3804,7 @@
 14	Donald	Donald	PROPN	NNP	Number=Sing	16	compound	_	_
 15	Trump	Trump	PROPN	NNP	Number=Sing	14	flat	_	_
 16	impersonator	impersonator	NOUN	NN	Number=Sing	20	subj	_	_
-17	John	John	PROPN	NNP	Number=Sing	16	appos	_	_
+17	John	John	PROPN	NNP	Number=Sing	16	conj:appos	_	_
 18	Di	Di	PROPN	NNP	Number=Sing	17	flat	_	_
 19	Domenico	Domenico	PROPN	NNP	Number=Sing	18	flat	_	_
 20	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
@@ -3836,7 +3836,7 @@
 18	Karel	Karel	PROPN	NNP	Number=Sing	17	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	17	punct	_	_
 
-# newdoc id = n01062
+#  = # newdoc id = n01062
 # sent_id = n01062035
 # text = They’re usually artists who want to do a bunch of stuff.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -3861,7 +3861,7 @@
 4	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01063
+#  = # newdoc id
 # sent_id = n01063011
 # text = Miami Bass producers were clinical in the art of moving butts—their main concern.
 1	Miami	Miami	PROPN	NNP	Number=Sing	2	compound	_	_
@@ -3878,7 +3878,7 @@
 12	—	—	PUNCT	:	_	8	punct	_	SpaceAfter=No
 13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	mod@poss	_	_
 14	main	main	ADJ	JJ	Degree=Pos	15	mod	_	_
-15	concern	concern	NOUN	NN	Number=Sing	8	appos	_	SpaceAfter=No
+15	concern	concern	NOUN	NN	Number=Sing	8	conj:appos	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01063043
@@ -3963,7 +3963,7 @@
 22	connection	connection	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01064
+#  = # newdoc id = n01064
 # sent_id = n01064009
 # text = It would be much safer, Plato thought, to entrust power to carefully educated guardians.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -4039,7 +4039,7 @@
 28	.	.	PUNCT	.	_	17	punct	_	SpaceAfter=No
 29	”	”	PUNCT	''	_	17	punct	_	_
 
-# newdoc id = n01065
+#  = # newdoc id = n01065
 # sent_id = n01065073
 # text = But there was nothing else obviously artistic about her or in her behavior with other people.
 1	But	but	CCONJ	CC	_	3	cc	_	_
@@ -4060,7 +4060,7 @@
 16	people	people	NOUN	NNS	Number=Plur	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01066
+#  = # newdoc id = n01066
 # sent_id = n01066045
 # text = In 2010, the foundation released a typeset edition of “Zettel’s Traum,” removing the bar to entry for those who balked at the draft-like feel of the photo-offset.
 1	In	in	ADP	IN	_	6	udep	_	_
@@ -4133,12 +4133,12 @@
 10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	_
 11	wife	wife	NOUN	NN	Number=Sing	15	subj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	_	_
-13	Alice	Alice	PROPN	NNP	Number=Sing	11	appos	_	SpaceAfter=No
+13	Alice	Alice	PROPN	NNP	Number=Sing	11	conj:appos	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
 15	reported	report	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01067
+#  = # newdoc id = n01067
 # sent_id = n01067014
 # text = Each map in the exhibition tells its own story, not all factual.
 1	Each	each	DET	DT	_	2	det	_	_
@@ -4186,7 +4186,7 @@
 26	exams	exam	NOUN	NNS	Number=Plur	23	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01068
+#  = # newdoc id = n01068
 # sent_id = n01068029
 # text = The constituency is in the council area of North Kesteven, where 62% of voters backed leaving the EU.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -4226,7 +4226,7 @@
 11	missed	miss	VERB	VBN	Tense=Past|VerbForm=Part	9	comp:aux@pass	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01069
+#  = # newdoc id = n01069
 # sent_id = n01069004
 # text = Christian Wolmar, who has written a number of books on railway history, will stand in the contest on 1 December.
 1	Christian	Christian	PROPN	NNP	Number=Sing	15	subj	_	_
@@ -4276,7 +4276,7 @@
 19	with	with	ADP	IN	_	16	udep	_	_
 20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	mod@poss	_	_
 21	candidate	candidate	NOUN	NN	Number=Sing	19	comp:obj	_	_
-22	Sarah	Sarah	PROPN	NNP	Number=Sing	21	appos	_	_
+22	Sarah	Sarah	PROPN	NNP	Number=Sing	21	conj:appos	_	_
 23	Olney	Olney	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -4320,7 +4320,7 @@
 15	furious	furious	ADJ	JJ	Degree=Pos	14	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01070
+#  = # newdoc id = n01070
 # sent_id = n01070016
 # text = More than 330 crew are onboard the ship.
 1	More	more	ADJ	JJR	Degree=Cmp	3	mod	_	ExtPos=ADJ|Idiom=Yes
@@ -4361,7 +4361,7 @@
 4	there	there	ADV	RB	PronType=Dem	2	mod	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01071
+#  = # newdoc id
 # sent_id = n01071009
 # text = A coal-fired power station in Badarpur, south-east Delhi, will stop operating for 10 days, along with diesel generators in the city.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
@@ -4376,7 +4376,7 @@
 10	south	south	ADJ	JJ	Degree=Pos	12	mod	_	SpaceAfter=No
 11	-	-	PUNCT	HYPH	_	12	punct	_	SpaceAfter=No
 12	east	east	ADJ	JJ	Degree=Pos	13	mod	_	_
-13	Delhi	Delhi	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+13	Delhi	Delhi	PROPN	NNP	Number=Sing	8	conj:appos	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
 15	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
 16	stop	stop	VERB	VB	VerbForm=Inf	15	comp:aux	_	_
@@ -4394,7 +4394,7 @@
 28	city	city	NOUN	NN	Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	15	punct	_	_
 
-# newdoc id = n01072
+#  = # newdoc id = n01072
 # sent_id = n01072010
 # text = He then spent four years with BBC World Service radio at Bush House.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
@@ -4455,7 +4455,7 @@
 27	.	.	PUNCT	.	_	24	punct	_	SpaceAfter=No
 28	”	”	PUNCT	''	_	24	punct	_	_
 
-# newdoc id = n01073
+#  = # newdoc id = n01073
 # sent_id = n01073004
 # text = Who can stop this Australia side?
 1	Who	who	PRON	WP	PronType=Int	2	subj	_	_
@@ -4485,7 +4485,7 @@
 15	warranted	warrant	VERB	VBN	Tense=Past|VerbForm=Part	1	comp:aux	_	SpaceAfter=No
 16	?	?	PUNCT	.	_	1	punct	_	_
 
-# newdoc id = n01074
+#  = # newdoc id = n01074
 # sent_id = n01074011
 # text = They have one crack at redemption, beating England.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
@@ -4585,7 +4585,7 @@
 19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Shared=No	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01075
+#  = # newdoc id = n01075
 # sent_id = n01075028
 # text = It was as though he was flicking the ball back and forth underneath three upturned cups.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -4627,7 +4627,7 @@
 17	gear	gear	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = n01076
+#  = # newdoc id = n01076
 # sent_id = n01076006
 # text = A Donald Trump victory would immediately make the world more worrying and unsettled than it already is.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
@@ -4688,7 +4688,7 @@
 7	torture	torture	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01077
+#  = # newdoc id = n01077
 # sent_id = n01077018
 # text = I also struggle with passwords.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	_
@@ -4724,7 +4724,7 @@
 22	underneath	underneath	ADV	RB	_	21	mod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01078
+#  = # newdoc id = n01078
 # sent_id = n01078025
 # text = Of course, I do understand that modern-day Germany must be separated from the Nazi regime.
 1	Of	of	ADP	IN	_	5	mod	_	ExtPos=ADP|Idiom=Yes
@@ -4747,7 +4747,7 @@
 18	regime	regime	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01079
+#  = # newdoc id = n01079
 # sent_id = n01079015
 # text = In the corner is a girl in a headscarf and jeans who looks so unassuming I think it’s another assistant.
 1	In	in	ADP	IN	_	4	udep	_	_
@@ -4826,7 +4826,7 @@
 23	School	school	NOUN	NN	Number=Sing	20	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01080
+#  = # newdoc id = n01080
 # sent_id = n01080039
 # text = I can just do that with my life.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	_
@@ -4864,7 +4864,7 @@
 21	end	end	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01081
+#  = # newdoc id
 # sent_id = n01081022
 # text = We can’t let the presidency go to Donald Trump, someone so racist, sexist and incredibly unqualified to be commander-in-chief.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	_
@@ -4878,7 +4878,7 @@
 9	Donald	Donald	PROPN	NNP	Number=Sing	8	comp:obj	_	_
 10	Trump	Trump	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	_	_
-12	someone	someone	NOUN	NN	Number=Sing	9	appos	_	_
+12	someone	someone	NOUN	NN	Number=Sing	9	conj:appos	_	_
 13	so	so	ADV	RB	_	14	mod	_	_
 14	racist	racist	ADJ	JJ	Degree=Pos	12	mod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
@@ -4895,7 +4895,7 @@
 26	chief	chief	ADJ	JJ	Degree=Pos	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01082
+#  = # newdoc id = n01082
 # sent_id = n01082014
 # text = “More people are turning to credit … While this borrowing might be manageable now, a sudden change in circumstances could lead to debt problems.”
 1	“	“	PUNCT	``	_	4	punct	_	SpaceAfter=No
@@ -4927,7 +4927,7 @@
 27	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 28	”	”	PUNCT	''	_	4	punct	_	_
 
-# newdoc id = n01083
+#  = # newdoc id = n01083
 # sent_id = n01083013
 # text = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
 1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	_
@@ -4964,7 +4964,7 @@
 9	sense	sense	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01084
+#  = # newdoc id
 # sent_id = n01084008
 # text = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
 1	Theoretically	theoretically	ADV	RB	_	5	mod	_	SpaceAfter=No
@@ -4984,7 +4984,7 @@
 15	£	£	SYM	$	_	14	comp:obj	_	SpaceAfter=No
 16	12,000	12,000	NUM	CD	NumType=Card	15	mod	_	_
 17	–	–	PUNCT	:	_	13	punct	_	_
-18	£	£	SYM	$	_	13	appos	_	SpaceAfter=No
+18	£	£	SYM	$	_	13	conj:appos	_	SpaceAfter=No
 19	360	360	NUM	CD	NumType=Card	18	mod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -5070,7 +5070,7 @@
 27	years	year	NOUN	NNS	Number=Plur	22	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n01085
+#  = # newdoc id = n01085
 # sent_id = n01085006
 # text = Sulphur is a key plant nutrient vital to healthy growth, but UK soils are naturally deficient in this essential mineral.
 1	Sulphur	sulphur	NOUN	NN	Number=Sing|Shared=No	2	subj	_	_
@@ -5130,7 +5130,7 @@
 15	lining	lining	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = n01086
+#  = # newdoc id = n01086
 # sent_id = n01086013
 # text = The world may be enraging and absurd – yet at least someone has the self-respect to keep protesting against that fact.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -5188,7 +5188,7 @@
 5	horrendous	horrendous	ADJ	JJ	Degree=Pos	2	comp:pred	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01087
+#  = # newdoc id = n01087
 # sent_id = n01087005
 # text = It’s fair to say that Rocco Catalano works, lives and breathes retro.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	unk@expl	_	SpaceAfter=No
@@ -5287,7 +5287,7 @@
 17	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01088
+#  = # newdoc id = n01088
 # sent_id = n01088026
 # text = But, when I suggest that she get Frank to model for her, she laughs.
 1	But	but	CCONJ	CC	_	16	cc	_	SpaceAfter=No
@@ -5308,7 +5308,7 @@
 16	laughs	laugh	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	16	punct	_	_
 
-# newdoc id = n01089
+#  = # newdoc id = n01089
 # sent_id = n01089007
 # text = Naturally, the office landscape features many clothes and little in the way of food.
 1	Naturally	naturally	ADV	RB	_	6	mod	_	SpaceAfter=No
@@ -5347,7 +5347,7 @@
 15	interviewed	interview	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux@pass	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01090
+#  = # newdoc id = n01090
 # sent_id = n01090004
 # text = I looked at motocross and the more I looked, this one woman’s face kept coming up, in photographs that looked as if they were from the 1970s.
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Shared=No	2	subj	_	_
@@ -5415,7 +5415,7 @@
 29	one	one	NUM	CD	NumType=Card	28	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01091
+#  = # newdoc id = n01091
 # sent_id = n01091013
 # text = At best it is naive and at worst it would yet again let the shooting lobby off the hook.
 1	At	at	ADP	IN	_	4	mod	_	ExtPos=ADP|Idiom=Yes
@@ -5447,7 +5447,7 @@
 4	nature	nature	NOUN	NN	Number=Sing	5	compound	_	_
 5	policy	policy	NOUN	NN	Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
-7	Jeff	Jeff	PROPN	NNP	Number=Sing	2	appos	_	_
+7	Jeff	Jeff	PROPN	NNP	Number=Sing	2	conj:appos	_	_
 8	Knott	Knott	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	_	_
 10	stated	state	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5497,18 +5497,18 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 21	petition	petition	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
-23	Mark	Mark	PROPN	NNP	Number=Sing	21	appos	_	_
+23	Mark	Mark	PROPN	NNP	Number=Sing	21	conj:appos	_	_
 24	Avery	Avery	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	23	punct	_	_
 26	to	to	ADP	IN	_	18	udep	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
 28	TV	tv	NOUN	NN	Number=Sing	29	compound	_	_
 29	presenter	presenter	NOUN	NN	Number=Sing	26	comp:obj	_	_
-30	Chris	Chris	PROPN	NNP	Number=Sing	29	appos	_	_
+30	Chris	Chris	PROPN	NNP	Number=Sing	29	conj:appos	_	_
 31	Packham	Packham	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01092
+#  = # newdoc id = n01092
 # sent_id = n01092008
 # text = Let’s just say he’s wrong.
 1	Let	let	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -5597,7 +5597,7 @@
 31	saying	say	VERB	VBG	VerbForm=Ger	30	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01093
+#  = # newdoc id = n01093
 # sent_id = n01093007
 # text = “Celtic Sea cod could collapse,” without the proposed limits, one EU official said.
 1	“	“	PUNCT	``	_	5	punct	_	SpaceAfter=No
@@ -5657,7 +5657,7 @@
 6	announcement	announcement	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01094
+#  = # newdoc id = n01094
 # sent_id = n01094014
 # text = Only 50 were marketplaces.
 1	Only	only	ADV	RB	_	2	mod	_	_
@@ -5695,7 +5695,7 @@
 25	adds	add	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01095
+#  = # newdoc id = n01095
 # sent_id = n01095004
 # text = They didn’t have them in our day, and people without children express through their disapproval all their hatred of modern parenting.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs|Shared=No	2	subj	_	_
@@ -5748,7 +5748,7 @@
 9	EMicro	EMicro	PROPN	NNP	Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01096
+#  = # newdoc id = n01096
 # sent_id = n01096006
 # text = The world – and by extension the UK – is facing a shortage of people with the skills needed to mount an effective defence.
 1	The	the	DET	DT	Definite=Def|PronType=Art|Shared=No	2	det	_	_
@@ -5828,7 +5828,7 @@
 22	”	”	PUNCT	''	_	18	punct	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01097
+#  = # newdoc id = n01097
 # sent_id = n01097020
 # text = After I discovered a rich seam of internet discussion on the subject, my list had grown inordinately long and covered almost every state in the union.
 1	After	after	SCONJ	IN	Shared=Yes	16	mod	_	_
@@ -5884,7 +5884,7 @@
 12	border	border	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01098
+#  = # newdoc id = n01098
 # sent_id = n01098034
 # text = Back on the train, we continue southwards.
 1	Back	back	ADV	RB	_	2	mod	_	_
@@ -5943,7 +5943,7 @@
 30	undercarriage	undercarriage	NOUN	NN	Number=Sing	28	comp:obj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = n01099
+#  = # newdoc id = n01099
 # sent_id = n01099035
 # text = Afterwards, browse at the morning market (6.30-10am): rice lollipops, wasp cocoons (the pupae are considered a delicacy), buffalo lung, betel-nut bark and leaves, live toads and catfish.
 1	Afterwards	afterwards	ADV	RB	_	3	mod	_	SpaceAfter=No
@@ -5990,7 +5990,7 @@
 42	catfish	catfish	NOUN	NNS	Number=Plur	40	conj	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01101
+#  = # newdoc id = n01101
 # sent_id = n01101003
 # text = The intervention is potentially the most far-reaching by Beijing since the 1997 handover of Hong Kong from the UK.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -6105,7 +6105,7 @@
 14	protests	protest	NOUN	NNS	Number=Plur	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n01102
+#  = # newdoc id = n01102
 # sent_id = n01102006
 # text = He told the BBC’s Andrew Marr Show: “A general election is frankly the last thing that the Government wants.”
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -6133,7 +6133,7 @@
 23	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
 24	”	”	PUNCT	''	_	14	punct	_	_
 
-# newdoc id = n01103
+#  = # newdoc id = n01103
 # sent_id = n01103013
 # text = It is his dream to end his career here.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	unk@expl	_	_
@@ -6147,7 +6147,7 @@
 9	here	here	ADV	RB	PronType=Dem	6	mod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01104
+#  = # newdoc id = n01104
 # sent_id = n01104011
 # text = To draw a game you have dominated is easy to brush off, but to do so three times is a row suggests a weakness.
 1	To	to	PART	TO	Shared=No	8	subj	_	_
@@ -6194,7 +6194,7 @@
 13	home	home	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01105
+#  = # newdoc id = n01105
 # sent_id = n01105003
 # text = That was definitely the case for Andy when he played Benoît Paire in Monte Carlo in April.
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	_
@@ -6252,7 +6252,7 @@
 10	part	part	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01106
+#  = # newdoc id = n01106
 # sent_id = n01106008
 # text = The annual survey also revealed that worries about taking on fresh financial burdens has rocketed.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -6291,7 +6291,7 @@
 15	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
 16	”	”	PUNCT	''	_	11	punct	_	_
 
-# newdoc id = n01107
+#  = # newdoc id = n01107
 # sent_id = n01107005
 # text = News of the company’s deceit - which had run for years - wiped tens of billions of euros from VW's value and cost chief executive Martin Winterkorn his job.
 1	News	news	NOUN	NN	Number=Sing|Shared=Yes	14	subj	_	_
@@ -6393,7 +6393,7 @@
 8	2015	2015	NUM	CD	NumType=Card	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	11	punct	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
-11	month	month	NOUN	NN	Number=Sing	7	appos	_	_
+11	month	month	NOUN	NN	Number=Sing	7	conj:appos	_	_
 12	after	after	SCONJ	IN	_	11	udep	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	scandal	scandal	NOUN	NN	Number=Sing	15	subj@pass	_	_
@@ -6401,7 +6401,7 @@
 16	unearthed	unearth	VERB	VBN	Tense=Past|VerbForm=Part	15	comp:aux@pass	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01108
+#  = # newdoc id = n01108
 # sent_id = n01108003
 # text = Businesses had expected to start contracting in July, immediately after the Brexit vote, but instead have managed to keep growing steadily.
 1	Businesses	business	NOUN	NNS	Number=Plur|Shared=Yes	2	subj	_	_
@@ -6475,7 +6475,7 @@
 22	deficit	deficit	NOUN	NN	Number=Sing	18	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01109
+#  = # newdoc id = n01109
 # sent_id = n01109008
 # text = The cost will change monthly and the price is expected to rise in winter as usage increases.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -6537,7 +6537,7 @@
 9	tariff	tariff	NOUN	NN	Number=Sing	2	comp:pred	_	SpaceAfter=No
 10	?	?	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01110
+#  = # newdoc id = n01110
 # sent_id = n01110006
 # text = An investor with average luck and £10,000 in bonds could expect to receive £125 in prizes per year.
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
@@ -6606,7 +6606,7 @@
 23	spending	spending	NOUN	NN	Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	17	punct	_	_
 
-# newdoc id = n01111
+#  = # newdoc id = n01111
 # sent_id = n01111018
 # text = This has not stopped investors flocking to put their money in the funds.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	_
@@ -6677,7 +6677,7 @@
 20	assets	asset	NOUN	NNS	Number=Plur	18	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01112
+#  = # newdoc id = n01112
 # sent_id = n01112002
 # text = Adidas is helping to clean up the Earth's oceans by using the waste floating around the world to make shoes.
 1	Adidas	Adidas	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -6747,7 +6747,7 @@
 28	seas	sea	NOUN	NNS	Number=Plur	26	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n01113
+#  = # newdoc id = n01113
 # sent_id = n01113021
 # text = After some genius surgery and a lot of very tough rehab, I have made a full recovery.
 1	After	after	ADP	IN	_	14	udep	_	_
@@ -6770,7 +6770,7 @@
 18	recovery	recovery	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	14	punct	_	_
 
-# newdoc id = n01114
+#  = # newdoc id = n01114
 # sent_id = n01114012
 # text = Warning that the NHS was now under "enormous pressure," he urged the public to take more responsibility for their own health.
 1	Warning	warn	VERB	VBG	VerbForm=Ger	14	mod	_	_
@@ -6828,7 +6828,7 @@
 25	time	time	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01115
+#  = # newdoc id
 # sent_id = n01115005
 # text = They will play on Saturday, 10 June.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
@@ -6838,7 +6838,7 @@
 5	Saturday	Saturday	PROPN	NNP	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	10	10	NUM	CD	NumType=Card	8	mod	_	_
-8	June	June	PROPN	NNP	Number=Sing	5	appos	_	SpaceAfter=No
+8	June	June	PROPN	NNP	Number=Sing	5	conj:appos	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01115013
@@ -6864,7 +6864,7 @@
 19	2017	2017	NUM	CD	NumType=Card	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01116
+#  = # newdoc id = n01116
 # sent_id = n01116009
 # text = She started out at the RSC in the mid-Sixties playing an asylum-inmate in Marat/Sade.
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -6956,7 +6956,7 @@
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	SpaceAfter=No
 15	?	?	PUNCT	.	_	12	punct	_	_
 
-# newdoc id = n01117
+#  = # newdoc id = n01117
 # sent_id = n01117007
 # text = He worked on the news and current affairs side of radio and TV for decades.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -6990,7 +6990,7 @@
 10	un-detectable	un-detectable	ADJ	JJ	Degree=Pos	9	comp:pred	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	_	_
 
-# newdoc id = n01118
+#  = # newdoc id = n01118
 # sent_id = n01118003
 # text = Drop the mic.
 1	Drop	drop	VERB	VB	VerbForm=Inf	0	root	_	_
@@ -7036,7 +7036,7 @@
 14	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 15	"	"	PUNCT	''	_	3	punct	_	_
 
-# newdoc id = n01119
+#  = # newdoc id = n01119
 # sent_id = n01119011
 # text = From the director's point of view, the film is a precarious balancing act, between cheery family hijinks and hard-hitting social drama.
 1	From	from	ADP	IN	_	11	udep	_	_
@@ -7105,7 +7105,7 @@
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
 11	constant	constant	ADJ	JJ	Degree=Pos	12	mod	_	_
-12	source	source	NOUN	NN	Number=Sing	8	appos	_	_
+12	source	source	NOUN	NN	Number=Sing	8	conj:appos	_	_
 13	of	of	ADP	IN	_	12	udep	_	_
 14	entertainment	entertainment	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
@@ -7125,7 +7125,7 @@
 11	pyjamas	pyjamas	NOUN	NNS	Number=Plur	6	comp:pred	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n01120
+#  = # newdoc id = n01120
 # sent_id = n01120008
 # text = To modern audiences, most of whom will have little experience of frontline conflict, Doss’s feats belong to the realm of the unimaginable.
 1	To	to	ADP	IN	_	19	udep	_	_
@@ -7188,7 +7188,7 @@
 8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01121
+#  = # newdoc id = n01121
 # sent_id = n01121032
 # text = When Millican died, we assumed that was the last we’d see of glitchy, twitchy Odi too.
 1	When	when	ADV	WRB	PronType=Int	3	mod	_	_
@@ -7222,7 +7222,7 @@
 6	far	far	ADV	RB	Degree=Pos	1	mod	_	SpaceAfter=No
 7	?	?	PUNCT	.	_	1	punct	_	_
 
-# newdoc id = n01122
+#  = # newdoc id = n01122
 # sent_id = n01122024
 # text = “Superheroes are outside of human experience and so is this, so I treated it like a drama,” Zimmer says.
 1	“	“	PUNCT	``	Shared=Yes	3	punct	_	SpaceAfter=No
@@ -7250,7 +7250,7 @@
 23	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01123
+#  = # newdoc id = n01123
 # sent_id = n01123010
 # text = But Cotton’s dark deeds did not occur due to some sort of compulsion to kill.
 1	But	but	CCONJ	CC	_	6	cc	_	_
@@ -7305,7 +7305,7 @@
 12	long	long	ADV	RB	Degree=Pos	8	mod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01125
+#  = # newdoc id = n01125
 # sent_id = n01125009
 # text = No longer a throwback to the Seventies, flock – or coating a surface is material – is flying again.
 1	No	no	ADV	RB	Polarity=Neg	2	mod	_	_
@@ -7370,7 +7370,7 @@
 16	things	thing	NOUN	NNS	Number=Plur	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = n01127
+#  = # newdoc id = n01127
 # sent_id = n01127008
 # text = Two years later, Jutting, now 31, is on trial at Hong Kong's High Court, charged with two counts of murder and one of preventing lawful burial.
 1	Two	two	NUM	CD	NumType=Card	2	mod	_	_
@@ -7437,7 +7437,7 @@
 15	composed	composed	ADJ	JJ	Degree=Pos	13	comp:pred	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = n01128
+#  = # newdoc id = n01128
 # sent_id = n01128017
 # text = After all, our organizational performance is seldom measured in terms of how safe we are or how many rules we follow.
 1	After	after	ADP	IN	_	7	mod	_	ExtPos=ADP|Idiom=Yes
@@ -7528,7 +7528,7 @@
 16	emails	email	NOUN	NNS	Number=Plur	13	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01129
+#  = # newdoc id = n01129
 # sent_id = n01129006
 # text = Voting has, in the vernacular of terror, become the new soft target.
 1	Voting	voting	NOUN	NN	Number=Sing	2	subj	_	_
@@ -7608,7 +7608,7 @@
 16	day	day	NOUN	NN	Number=Sing	12	udep@tmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	11	punct	_	_
 
-# newdoc id = n01130
+#  = # newdoc id = n01130
 # sent_id = n01130003
 # text = North Carolina is ground zero in this election.
 1	North	North	PROPN	NNP	Number=Sing	2	compound	_	_
@@ -7649,7 +7649,7 @@
 24	States	States	PROPN	NNPS	Number=Plur	21	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01131
+#  = # newdoc id = n01131
 # sent_id = n01131007
 # text = More than 5.7 million Floridians have already hit the polls after about two weeks of in-person early voting.
 1	More	more	ADJ	JJR	Degree=Cmp	4	mod	_	ExtPos=ADJ|Idiom=Yes
@@ -7701,7 +7701,7 @@
 23	week	week	NOUN	NN	Number=Sing|Shared=No	17	udep@tmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01132
+#  = # newdoc id = n01132
 # sent_id = n01132006
 # text = It's the election, of course, not "Game of Thrones."
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -7755,7 +7755,7 @@
 31	.	.	PUNCT	.	Shared=No	28	punct	_	SpaceAfter=No
 32	"	"	PUNCT	''	Shared=No	28	punct	_	_
 
-# newdoc id = n01133
+#  = # newdoc id = n01133
 # sent_id = n01133014
 # text = The Dutch students have yet to decide if they will be commercializing their electric motorcycle.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -7792,7 +7792,7 @@
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	media	media	NOUN	NN	Number=Sing	12	comp:obj	_	_
 15	--	--	PUNCT	:	Shared=Yes	16	punct	_	_
-16	2017	2017	NUM	CD	NumType=Card	7	appos	_	_
+16	2017	2017	NUM	CD	NumType=Card	7	conj:appos	_	_
 17	or	or	CCONJ	CC	_	18	cc	_	_
 18	2020	2020	NUM	CD	NumType=Card	16	conj	_	_
 19	--	--	PUNCT	:	_	16	punct	_	_
@@ -7801,7 +7801,7 @@
 22	accurate	accurate	ADJ	JJ	Degree=Pos	20	comp:pred	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n01134
+#  = # newdoc id = n01134
 # sent_id = n01134005
 # text = U.S. stock futures are surging by more than 1%, alongside European markets.
 1	U.S.	U.S.	PROPN	NNP	Number=Sing	3	compound	_	_
@@ -7884,7 +7884,7 @@
 17	issue	issue	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01135
+#  = # newdoc id = n01135
 # sent_id = n01135002
 # text = China's insatiable appetite for fried chicken used to be a big reason why investors loved KFC-parent Yum Brands.
 1	China	China	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
@@ -7910,7 +7910,7 @@
 21	Brands	brand	NOUN	NNS	Number=Plur	16	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01136
+#  = # newdoc id = n01136
 # sent_id = n01136005
 # text = With help from the American Civil Liberties Union, they eventually challenged the state, in a case that eventually went to the U.S. Supreme Court.
 1	With	with	ADP	IN	_	12	udep	_	_
@@ -7996,7 +7996,7 @@
 28	brief	brief	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01137
+#  = # newdoc id = n01137
 # sent_id = n01137003
 # text = Celebrities, fans and even CNN reporters are dressing up like "Stranger Things" characters this holiday.
 1	Celebrities	celebrity	NOUN	NNS	Number=Plur	8	subj	_	SpaceAfter=No
@@ -8039,7 +8039,7 @@
 16	up	up	ADP	RP	_	15	compound@prt	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01138
+#  = # newdoc id
 # sent_id = n01138007
 # text = As one of Negan's (Jeffrey Dean Morgan) top guys, he's afforded certain freedoms.
 1	As	as	ADP	IN	_	15	udep	_	_
@@ -8048,7 +8048,7 @@
 4	Negan	Negan	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
 5	's	's	PART	POS	_	12	udep@poss	_	_
 6	(	(	PUNCT	-LRB-	_	7	punct	_	SpaceAfter=No
-7	Jeffrey	Jeffrey	PROPN	NNP	Number=Sing	4	appos	_	_
+7	Jeffrey	Jeffrey	PROPN	NNP	Number=Sing	4	conj:appos	_	_
 8	Dean	Dean	PROPN	NNP	Number=Sing	7	flat	_	_
 9	Morgan	Morgan	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
 10	)	)	PUNCT	-RRB-	_	7	punct	_	_
@@ -8100,11 +8100,11 @@
 9	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
 10	The	the	DET	DT	Definite=Def|PronType=Art	12	det	_	Proper=True
 11	Talking	talk	VERB	VBG	VerbForm=Ger	12	mod	_	_
-12	Dead	dead	NOUN	NN	Number=Sing	6	appos	_	SpaceAfter=No
+12	Dead	dead	NOUN	NN	Number=Sing	6	conj:appos	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No
 14	"	"	PUNCT	''	_	12	punct	_	_
 
-# newdoc id = n01139
+#  = # newdoc id = n01139
 # sent_id = n01139006
 # text = "In the cities where we've launched or are under construction, our work will continue," Barratt said.
 1	"	"	PUNCT	``	_	16	punct	_	SpaceAfter=No
@@ -8167,7 +8167,7 @@
 13	dead	dead	ADJ	JJ	Degree=Pos	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
-# newdoc id = n01140
+#  = # newdoc id = n01140
 # sent_id = n01140012
 # text = In the Netherlands, authorities have taken a lower-tech approach to tracking drones.
 1	In	in	ADP	IN	_	6	udep	_	_
@@ -8187,7 +8187,7 @@
 15	drones	drone	NOUN	NNS	Number=Plur	14	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	_	_
 
-# newdoc id = n01141
+#  = # newdoc id = n01141
 # sent_id = n01141002
 # text = Microsoft announced on Wednesday a new workplace chat tool poised to take on industry darling Slack.
 1	Microsoft	Microsoft	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -8284,7 +8284,7 @@
 19	companies	company	NOUN	NNS	Number=Plur	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	10	punct	_	_
 
-# newdoc id = n01142
+#  = # newdoc id = n01142
 # sent_id = n01142007
 # text = Isner, who produced some of his best tennis as he leveled at one set all and forced a decider, also paid his tribute.
 1	Isner	Isner	PROPN	NNP	Number=Sing	23	subj	_	SpaceAfter=No
@@ -8343,7 +8343,7 @@
 25	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01143
+#  = # newdoc id = n01143
 # sent_id = n01143003
 # text = "Pair prank their way into North Korean golf tournament," read Brisbane's Nine News.
 1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
@@ -8392,7 +8392,7 @@
 23	Korea	Korea	PROPN	NNP	Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	13	punct	_	_
 
-# newdoc id = n01144
+#  = # newdoc id = n01144
 # sent_id = n01144021
 # text = Snowman would jump the high fencing that separated the two properties and always return to where he felt was home.
 1	Snowman	Snowman	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -8484,7 +8484,7 @@
 8	shoes	shoe	NOUN	NNS	Number=Plur	6	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
-# newdoc id = n01145
+#  = # newdoc id = n01145
 # sent_id = n01145008
 # text = There is no parade and there never has been.
 1	There	there	PRON	EX	_	2	comp@expl	_	_
@@ -8521,7 +8521,7 @@
 2	González	González	PROPN	NNP	Number=Sing	1	flat	_	_
 3	Anaya	Anaya	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
-5	one	one	NUM	CD	NumType=Card	1	appos	_	_
+5	one	one	NUM	CD	NumType=Card	1	conj:appos	_	_
 6	of	of	ADP	IN	_	5	udep	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
 8	parade	parade	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
@@ -8594,7 +8594,7 @@
 23	Mexicans	Mexicans	PROPN	NNPS	Number=Plur	22	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
-# newdoc id = n01146
+#  = # newdoc id = n01146
 # sent_id = n01146046
 # text = By completing this maglev line, I think the government is expecting bigger economical development in Japan.
 1	By	by	SCONJ	IN	_	8	mod	_	_
@@ -8616,7 +8616,7 @@
 17	Japan	Japan	PROPN	NNP	Number=Sing	16	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	8	punct	_	_
 
-# newdoc id = n01147
+#  = # newdoc id = n01147
 # sent_id = n01147026
 # text = An F1 ticket grants access to the concert on the same day.
 1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
@@ -8669,7 +8669,7 @@
 20	go	go	VERB	VB	VerbForm=Inf	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	15	punct	_	_
 
-# newdoc id = n01148
+#  = # newdoc id
 # sent_id = n01148029
 # text = It's also fuelled the emergence of modern high-rises -- like the visionary MahaNakhon, Bangkok's tallest building.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -8692,7 +8692,7 @@
 18	Bangkok	Bangkok	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
 19	's	's	PART	POS	_	21	udep@poss	_	_
 20	tallest	tallest	ADJ	JJS	Degree=Sup	21	mod	_	_
-21	building	building	NOUN	NN	Number=Sing	16	appos	_	SpaceAfter=No
+21	building	building	NOUN	NN	Number=Sing	16	conj:appos	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01148035
@@ -8708,7 +8708,7 @@
 9	successful	successful	ADJ	JJ	Degree=Pos	8	comp:pred	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	7	punct	_	_
 
-# newdoc id = n01149
+#  = # newdoc id
 # sent_id = n01149002
 # text = Buried 100 meters (328 feet) underground, the Pyongyang Metro is one of the deepest commuter systems in the world.
 1	Buried	bury	VERB	VBN	Tense=Past|VerbForm=Part	13	mod	_	_
@@ -8716,7 +8716,7 @@
 3	meters	meter	NOUN	NNS	Number=Plur	8	udep@npmod	_	_
 4	(	(	PUNCT	-LRB-	_	6	punct	_	SpaceAfter=No
 5	328	328	NUM	CD	NumType=Card	6	mod	_	_
-6	feet	foot	NOUN	NNS	Number=Plur	3	appos	_	SpaceAfter=No
+6	feet	foot	NOUN	NNS	Number=Plur	3	conj:appos	_	SpaceAfter=No
 7	)	)	PUNCT	-RRB-	_	6	punct	_	_
 8	underground	underground	ADV	RB	_	1	mod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	_	_
@@ -8765,7 +8765,7 @@
 14	fewer	fewer	ADJ	JJR	Degree=Cmp	7	conj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	4	punct	_	_
 
-# newdoc id = n01150
+#  = # newdoc id = n01150
 # sent_id = n01150007
 # text = "But architecture can build a bridge between the living and the dead and, to some extent, blur the boundaries."
 1	"	"	PUNCT	``	_	4	punct	_	SpaceAfter=No
