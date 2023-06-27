@@ -360,7 +360,7 @@
 19	symbolic	symbolic	ADJ	JJ	Degree=Pos	17	comp:pred	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w04007
 # sent_id = w04007006
 # text = During the War of the First Coalition, light quickly began to be shed upon a young Corsican artillery officer, following the French Revolution: Napoleon Bonaparte.
 1	During	during	ADP	IN	_	11	udep	_	_
@@ -572,7 +572,7 @@
 37	child	child	NOUN	NN	Number=Sing	35	comp:obj	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w04010
 # sent_id = w04010027
 # text = Both students of Goffredo Petrassi, Ennio Morricone and Bruno Nicolai met at the Santa (Saint) Cecelia conservatory.
 1	Both	both	DET	DT	_	2	det	_	_

@@ -125,7 +125,7 @@
 27	War	war	PROPN	NN	Number=Sing	23	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w02003
 # sent_id = w02003037
 # text = In 1832, the former cloister was sold to the manufacturer Georg Reichenbach by the state of Württemberg with the stipulation to establish a cotton factory there.
 1	In	in	ADP	IN	_	7	udep	_	_

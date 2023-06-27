@@ -187,7 +187,7 @@
 31	referendum	referendum	NOUN	NN	Number=Sing	29	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	6	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n03004
 # sent_id = n03004003
 # text = On Thursday, the 3rd of November, the mayor of Saint-Gaudens (in the Haute-Garonne region) decided to suspend the urban development agreement with the government formed in 2014.
 1	On	on	ADP	IN	_	23	udep	_	_

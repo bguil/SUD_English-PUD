@@ -159,7 +159,7 @@
 19	Mexico	Mexico	PROPN	NNP	Number=Sing	17	conj:appos	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	7	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01004
 # sent_id = w01004051
 # text = The Greek city-state of Athens in the 5th century BC, which was dependent on grain imports from Scythia, maintained critical alliances with cities which controlled the straits, such as the Megarian colony Byzantium.
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
@@ -202,7 +202,7 @@
 38	Byzantium	Byzantium	PROPN	NNP	Number=Sing	37	conj:appos	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	23	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01005
 # sent_id = w01005020
 # text = Darius's highly regarded commander Megabazus was responsible to fulfill the conquers in the Balkans.
 1	Darius	Darius	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
@@ -302,7 +302,7 @@
 10	intermarried	intermarry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	10	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01006
 # sent_id = w01006027
 # text = In 1912 was founded the first film company (Athina Film) and in 1916 the Asty Film.
 1	In	in	ADP	IN	Shared=Yes	3	udep	_	_
@@ -673,7 +673,7 @@
 15	districts	district	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	5	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01013
 # sent_id = w01013083
 # text = Although Iceland was under the political control of Denmark until a much later date (1918), very little influence and borrowing from Danish has occurred in the Icelandic language.
 1	Although	although	SCONJ	IN	_	26	mod	_	_
@@ -865,7 +865,7 @@
 16	Games	game	NOUN	NNS	Number=Plur	11	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01017
 # sent_id = w01017004
 # text = Shaped by global plate tectonic forces that have created the East African Rift, East Africa is the site of Mount Kilimanjaro and Mount Kenya, the two tallest peaks in Africa.
 1	Shaped	shape	VERB	VBN	Tense=Past|VerbForm=Part	17	mod	_	_
@@ -1278,7 +1278,7 @@
 8	deep	deep	ADJ	JJ	Degree=Pos	6	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01023
 # sent_id = w01023074
 # text = Alcoholic drinks like beer, mead, bjórr (a strong fruit wine) and, for the rich, imported wine, were served.
 1	Alcoholic	alcoholic	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -2678,7 +2678,7 @@
 21	equipment	equipment	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01045
 # sent_id = w01045002
 # text = The name "Caribbean" derives from the Caribs, one of the dominant Native American groups in the region at the time of European contact during the late 15th century.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -4379,7 +4379,7 @@
 6	times	time	NOUN	NNS	Number=Plur	4	udep@tmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01069
 # sent_id = w01069007
 # text = In 1519, he became ruler of the Habsburg empire, and he gained the title Holy Roman Emperor in 1530.
 1	In	in	ADP	IN	Shared=Yes	5	udep	_	_
@@ -4623,7 +4623,7 @@
 14	use	use	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	12	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01072
 # sent_id = w01072002
 # text = The origin of the word Hispania is much disputed and the evidence for the various speculations are based merely upon what are at best mere resemblances, likely to be accidental, and suspect supporting evidence.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -5235,7 +5235,7 @@
 25	well	well	ADV	RB	Degree=Pos	24	unk	_	InIdiom=Yes|SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01080
 # sent_id = w01080128
 # text = The Macedonian eastern border with Thrace was now secured at the river Nestus (Mesta).
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
@@ -5766,7 +5766,7 @@
 24	further	further	ADV	RBR	Degree=Cmp	23	mod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	23	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01091
 # sent_id = w01091016
 # text = Bananas and plantains, which were first domesticated in Southeast Asia, most likely Papua New Guinea, were re-domesticated in Africa possibly as early as 5,000 years ago.
 1	Bananas	banana	NOUN	NNS	Number=Plur	19	subj@pass	_	_
@@ -6090,7 +6090,7 @@
 24	posthumously	posthumously	ADV	RB	_	21	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	11	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01096
 # sent_id = w01096013
 # text = In Asia and the Pacific, between 3 million and more than 10 million civilians, mostly Chinese (estimated at 7.5 million), were killed by the Japanese occupation forces.
 1	In	in	ADP	IN	_	26	udep	_	_
@@ -6284,7 +6284,7 @@
 18	activity	activity	NOUN	NN	Number=Sing|Shared=No	14	comp:pred	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01100
 # sent_id = w01100046
 # text = In 1839, China found itself fighting the First Opium War with Great Britain after the Governor-General of Hunan and Hubei, Lin Zexu, banned the foreign trade of opium.
 1	In	in	ADP	IN	_	5	udep	_	_
@@ -7539,7 +7539,7 @@
 24	Poland	Poland	PROPN	NNP	Number=Sing	23	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01122
 # sent_id = w01122031
 # text = Really Really Love You was released in August and reach the top 50; "Shaky Ground", the related single, appeared in September but Geyer was already in the US.
 1	Really	really	ADV	RB	_	3	mod	_	_
@@ -7803,7 +7803,7 @@
 32	Horton	Horton	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	15	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01127
 # sent_id = w01127071
 # text = Her 1981 album Wild West was one of her biggest sellers.
 1	Her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	mod@poss	_	_
@@ -7843,7 +7843,7 @@
 20	broke	broke	ADJ	JJ	Degree=Pos	17	comp:pred	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	16	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01128
 # sent_id = w01128053
 # text = In June 2012, the Icelandic band Sigur Rós released a video for the song "Fjögur Píanó", starring LaBeouf, in which he appears nude.
 1	In	in	ADP	IN	_	10	udep	_	_
@@ -8354,7 +8354,7 @@
 14	life	life	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01135
 # sent_id = w01135034
 # text = In 2011, Blunt was named the ambassadress of the new Yves Saint Laurent fragrance, Opium.
 1	In	in	ADP	IN	_	5	udep	_	_
@@ -8537,7 +8537,7 @@
 21	Juliet	Juliet	PROPN	NNP	Number=Sing	19	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01137
 # sent_id = w01137050
 # text = Lord Halifax, the Lord President of the Council, visited Germany privately in November and met Hitler and other German officials.
 1	Lord	Lord	PROPN	NNP	Number=Sing|Shared=Yes	11	subj	_	_
@@ -8873,7 +8873,7 @@
 8	loss	loss	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01142
 # sent_id = w01142013
 # text = When their daughter Cecily married Richard Plantagenet, the 3rd Duke of York, and had several offspring, including Edward IV and Richard III, Joan became the grandmother of two York kings of England.
 1	When	when	ADV	WRB	PronType=Int|Shared=Yes	5	mod	_	_
@@ -8940,7 +8940,7 @@
 12	Tower	Tower	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01143
 # sent_id = w01143015
 # text = Not long ago he was divorced from the actress, Gloria Holden, but carried the torch after the marital rift.
 1	Not	not	ADV	RB	Polarity=Neg	2	mod	_	_
@@ -9164,7 +9164,7 @@
 16	goal	goal	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01147
 # sent_id = w01147010
 # text = Pebe moved the family to Nashville, Tennessee, in 1991 after securing a new publishing deal for her songwriting.
 1	Pebe	Pebe	PROPN	NNP	Number=Sing	2	subj	_	_
@@ -9276,7 +9276,7 @@
 21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w01149
 # sent_id = w01149002
 # text = Wright was born in Poole, Dorset, but grew up predominantly in Wells, Somerset.
 1	Wright	Wright	PROPN	NNP	Number=Sing|Shared=Yes	2	subj@pass	_	_

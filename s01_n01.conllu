@@ -179,7 +179,7 @@
 17	unbelievable	unbelievable	ADJ	JJ	Degree=Pos	16	comp:pred	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	16	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01003
 # sent_id = n01003007
 # text = $5,000 per person, the maximum allowed.
 1	$	$	SYM	$	_	0	root	_	SpaceAfter=No
@@ -1072,7 +1072,7 @@
 35	defence	defence	NOUN	NN	Number=Sing	31	conj	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	20	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01021
 # sent_id = n01021007
 # text = "Unfortunately once again the few ruin it for the many," wrote Jesse LaBrocca, founder of Hack Forums, in a message explaining why the section was being closed.
 1	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
@@ -1636,7 +1636,7 @@
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01028
 # sent_id = n01028022
 # text = "Luckily, someone in Sony Australia was like, 'Hey, by the way, did you guys notice this?'" says Pall.
 1	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
@@ -2596,7 +2596,7 @@
 21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01042
 # sent_id = n01042004
 # text = The Ontario Independent Police Review Director, Gerry McNeilly, set the terms for his review this week after "alarming questions" were raised about how officers interact with Indigenous peoples.
 1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -3030,7 +3030,7 @@
 32	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 33	"	"	PUNCT	''	_	4	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01049
 # sent_id = n01049022
 # text = "This strain helps with back pain, this strain helps with nausea, this product makes you sleep at night," says Dietrich from the company's headquarters in Denver, Colorado, where pot is sold legally.
 1	"	"	PUNCT	``	Shared=Yes	4	punct	_	SpaceAfter=No
@@ -3104,7 +3104,7 @@
 25	guessing	guess	VERB	VBG	VerbForm=Ger	24	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 26	.	.	PUNCT	.	_	23	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01050
 # sent_id = n01050006
 # text = Iron is an essential element the body requires to produce hemoglobin, the protein found in red blood cells that's responsible for transporting oxygen to tissues in the body.
 1	Iron	iron	NOUN	NN	Number=Sing	2	subj	_	_
@@ -3191,7 +3191,7 @@
 9	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux@pass	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01051
 # sent_id = n01051004
 # text = What started as a routine ultrasound became complicated when expectant mother Margaret Boemer, of Plano, Texas, was told her unborn child had a rare condition and needed surgery to survive.
 1	What	what	PRON	WP	PronType=Int	2	subj	_	_
@@ -3861,7 +3861,7 @@
 4	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01063
 # sent_id = n01063011
 # text = Miami Bass producers were clinical in the art of moving butts—their main concern.
 1	Miami	Miami	PROPN	NNP	Number=Sing	2	compound	_	_
@@ -4361,7 +4361,7 @@
 4	there	there	ADV	RB	PronType=Dem	2	mod	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01071
 # sent_id = n01071009
 # text = A coal-fired power station in Badarpur, south-east Delhi, will stop operating for 10 days, along with diesel generators in the city.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
@@ -4864,7 +4864,7 @@
 21	end	end	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01081
 # sent_id = n01081022
 # text = We can’t let the presidency go to Donald Trump, someone so racist, sexist and incredibly unqualified to be commander-in-chief.
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	_
@@ -4964,7 +4964,7 @@
 9	sense	sense	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	8	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01084
 # sent_id = n01084008
 # text = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
 1	Theoretically	theoretically	ADV	RB	_	5	mod	_	SpaceAfter=No
@@ -6828,7 +6828,7 @@
 25	time	time	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	5	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01115
 # sent_id = n01115005
 # text = They will play on Saturday, 10 June.
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
@@ -8039,7 +8039,7 @@
 16	up	up	ADP	RP	_	15	compound@prt	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01138
 # sent_id = n01138007
 # text = As one of Negan's (Jeffrey Dean Morgan) top guys, he's afforded certain freedoms.
 1	As	as	ADP	IN	_	15	udep	_	_
@@ -8669,7 +8669,7 @@
 20	go	go	VERB	VB	VerbForm=Inf	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	15	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01148
 # sent_id = n01148029
 # text = It's also fuelled the emergence of modern high-rises -- like the visionary MahaNakhon, Bangkok's tallest building.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	SpaceAfter=No
@@ -8708,7 +8708,7 @@
 9	successful	successful	ADJ	JJ	Degree=Pos	8	comp:pred	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	7	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n01149
 # sent_id = n01149002
 # text = Buried 100 meters (328 feet) underground, the Pyongyang Metro is one of the deepest commuter systems in the world.
 1	Buried	bury	VERB	VBN	Tense=Past|VerbForm=Part	13	mod	_	_

@@ -211,7 +211,7 @@
 21	bankrupt	bankrupt	ADJ	JJ	Degree=Pos	20	comp:pred	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w05004
 # sent_id = w05004031
 # text = It is the portion from this second boundary up to the outer boundary, the imaginary line that connects the lighthouse landmark at Punta del Este to the lighthouse landmark at Punta Rasa.
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -428,7 +428,7 @@
 26	language	language	NOUN	NN	Number=Sing	24	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	8	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w05007
 # sent_id = w05007004
 # text = Nonetheless, if the English law had been accepted, the daughters of Luis X, Felipe V and Carlos IV would have had more of a claim to the throne, above their aunt Isabella of France.
 1	Nonetheless	nonetheless	ADV	RB	_	22	mod	_	SpaceAfter=No
@@ -579,7 +579,7 @@
 40	"	"	PUNCT	''	_	34	punct	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id
+# newdoc id = w05010
 # sent_id = w05010023
 # text = Pompey took command of two legions in Capua and began to raise levies illegally, an act that, as was predictable, took advantage of the Caesarians who were in his favor.
 1	Pompey	Pompey	PROPN	NNP	Number=Sing|Shared=Yes	2	subj	_	_

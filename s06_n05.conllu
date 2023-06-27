@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-#  = # newdoc id
+# newdoc id = n05001
 # sent_id = n05001005
 # text = The president of the Community of Madrid, Cristina Cifuentes, represents the most conservative, while leaders of the party, such as the Sectorial Under-Secretary, Javier Maroto, represent the most progressive.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -245,7 +245,7 @@
 13	title	title	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	1	punct	_	_
 
-#  = # newdoc id
+# newdoc id = n05004
 # sent_id = n05004020
 # text = Pedro Sánchez, like many other socialists, said in the programme Évole that Spain is a nation of nations.
 1	Pedro	Pedro	PROPN	NNP	Number=Sing	9	subj	_	_
