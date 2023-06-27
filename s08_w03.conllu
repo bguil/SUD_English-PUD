@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-#  = # newdoc id = w03001
+# newdoc id = w03001
 # sent_id = w03001037
 # text = The Viguier and La Conte districts contain the majority of the city's social housing, where the population is mainly made up of immigrants or those of immigrant origin.
 1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -51,7 +51,7 @@
 13	city	city	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
-#  = # newdoc id = w03002
+# newdoc id = w03002
 # sent_id = w03002048
 # text = In the early 2000s, there were five doctors per 100,000 inhabitants.
 1	In	in	ADP	IN	_	7	udep	_	_
@@ -88,7 +88,7 @@
 16	witchcraft	witchcraft	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id = w03003
+# newdoc id = w03003
 # sent_id = w03003023
 # text = Von Bellingshausen sighted Antarctica on the 27th of January 1820, three days before Bransfield sighted land, and ten months before Palmer did so in November 1820.
 1	Von	Von	PROPN	NNP	Number=Sing	3	subj	_	_
@@ -153,7 +153,7 @@
 28	Antarctic	Antarctic	PROPN	NNP	Number=Sing	26	comp:obj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	19	punct	_	_
 
-#  = # newdoc id = w03004
+# newdoc id = w03004
 # sent_id = w03004037
 # text = This drawing up was the founding act of Roman law, the institutions of the Roman Republic and the mos maiorum.
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	subj	_	_
@@ -200,7 +200,7 @@
 17	Italy	Italy	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id = w03005
+# newdoc id = w03005
 # sent_id = w03005012
 # text = In the 8th century BC, Greece began to emerge from the Dark Ages which followed the fall of the Mycenaean civilization.
 1	In	in	ADP	IN	_	8	udep	_	_
@@ -341,7 +341,7 @@
 23	systems	system	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	_	_
 
-#  = # newdoc id = w03006
+# newdoc id = w03006
 # sent_id = w03006024
 # text = In the Middle Ages, most Christians did not have access to the Bible in their mother tongue.
 1	In	in	ADP	IN	_	8	udep	_	_
@@ -364,7 +364,7 @@
 18	tongue	tongue	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	_	_
 
-#  = # newdoc id = w03007
+# newdoc id = w03007
 # sent_id = w03007008
 # text = However, they did not expand until ships big enough to cross seas were built.
 1	However	however	ADV	RB	_	4	mod	_	SpaceAfter=No
@@ -408,7 +408,7 @@
 20	then	then	ADV	RB	PronType=Dem	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id = w03008
+# newdoc id = w03008
 # sent_id = w03008011
 # text = This affair can be seen as the starting point for his career as a radical revolutionary.
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
@@ -462,7 +462,7 @@
 29	suspects	suspect	NOUN	NNS	Number=Plur	27	comp:obj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	23	punct	_	_
 
-#  = # newdoc id = w03009
+# newdoc id = w03009
 # sent_id = w03009029
 # text = Financed entirely with Bernard Tapie's own money, these schools were closed in 1994 when he was declared bankrupt.
 1	Financed	finance	VERB	VBN	Tense=Past|VerbForm=Part	12	mod	_	_
@@ -510,7 +510,7 @@
 19	trouble	trouble	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	16	punct	_	_
 
-#  = # newdoc id = w03010
+# newdoc id = w03010
 # sent_id = w03010096
 # text = To get away from it all, the Remis resided in Switzerland for most of summer 1947.
 1	To	to	PART	TO	_	10	mod	_	_

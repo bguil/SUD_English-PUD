@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-#  = # newdoc id = w04001
+# newdoc id = w04001
 # sent_id = w04001027
 # text = In the lower part, there are three palm trees overlooking the sea, which represent the love that the people of this Island have for their land.
 1	In	in	ADP	IN	_	7	udep	_	_
@@ -78,7 +78,7 @@
 24	plates	plate	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id = w04002
+# newdoc id = w04002
 # sent_id = w04002008
 # text = An element supporting this hypothesis would be the intense royal livestock of horses that took place at Villa Pelucca, in Sesto San Giovanni.
 1	An	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
@@ -171,7 +171,7 @@
 31	stables	stable	NOUN	NNS	Number=Plur	29	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	6	punct	_	_
 
-#  = # newdoc id = w04003
+# newdoc id = w04003
 # sent_id = w04003025
 # text = In August 1969, Pope Paul VI removed the death penalty from the Vatican law and revoked it from all offences.
 1	In	in	ADP	IN	Shared=Yes	8	udep	_	_
@@ -220,7 +220,7 @@
 19	collectors	collector	NOUN	NNS	Number=Plur	18	comp:obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
-#  = # newdoc id = w04004
+# newdoc id = w04004
 # sent_id = w04004005
 # text = The inner part of the region is flat and hilly, with no clear distinction between one area to the next.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -314,7 +314,7 @@
 22	peninsula	peninsula	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	9	punct	_	_
 
-#  = # newdoc id = w04006
+# newdoc id = w04006
 # sent_id = w04006023
 # text = Historian David Crouch suggests that Stephen abandoned from the challenge around this time to focus on other issues.
 1	Historian	historian	ADJ	NN	Number=Sing	2	mod	_	_
@@ -500,7 +500,7 @@
 40	Alexander	Alexander	PROPN	NNP	Number=Sing	39	flat	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id = w04008
+# newdoc id = w04008
 # sent_id = w04008006
 # text = With regards to religious practices, Fiorello was educated within the Episcopal Church, and remained a member of the Protestant Church throughout his life.
 1	With	with	ADP	IN	Shared=Yes	8	udep	_	_
@@ -530,7 +530,7 @@
 25	life	life	NOUN	NN	Number=Sing	23	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	8	punct	_	_
 
-#  = # newdoc id = w04009
+# newdoc id = w04009
 # sent_id = w04009042
 # text = The man told him that a war between the two universes is coming, as he and Walter had predicted; it is for this reason that Olivia, among others, was trained as a child.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_

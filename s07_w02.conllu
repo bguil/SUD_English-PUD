@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-#  = # newdoc id = w02001
+# newdoc id = w02001
 # sent_id = w02001041
 # text = Founded in 1925 as games for everyman, the open air theater on the great steps in front of St. Michael still attracts a diverse public.
 1	Founded	found	VERB	VBN	Tense=Past|VerbForm=Part	23	mod	_	_
@@ -44,7 +44,7 @@
 10	1955	1955	NUM	CD	NumType=Card	7	mod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id = w02002
+# newdoc id = w02002
 # sent_id = w02002032
 # text = In 1882, a telegraphic system equipped with 34 fire alarm signals was put in operation.
 1	In	in	ADP	IN	_	13	udep	_	_
@@ -177,7 +177,7 @@
 16	Turkey	Turkey	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	13	punct	_	_
 
-#  = # newdoc id = w02004
+# newdoc id = w02004
 # sent_id = w02004008
 # text = Among them is the former cloister from the abbey church of St. Peter and Paul.
 1	Among	among	ADP	IN	_	3	udep	_	_
@@ -236,7 +236,7 @@
 11	place	place	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id = w02005
+# newdoc id = w02005
 # sent_id = w02005026
 # text = Golden Gate Park, which is over four kilometers in length, offers a botanical garden, planetarium, Japanese garden and an aquarium.
 1	Golden	golden	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -320,7 +320,7 @@
 9	,	,	PUNCT	,	_	6	punct	_	_
 10	Jr.	Jr.	PROPN	NNP	Number=Sing	8	flat	_	_
 
-#  = # newdoc id = w02006
+# newdoc id = w02006
 # sent_id = w02006036
 # text = Since the 1960s, the city's economy has been in steep decline.
 1	Since	since	ADP	IN	_	9	udep	_	_
@@ -359,7 +359,7 @@
 17	districts	district	NOUN	NNS	Number=Plur	13	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	10	punct	_	_
 
-#  = # newdoc id = w02007
+# newdoc id = w02007
 # sent_id = w02007008
 # text = Both the time and the sequence of events of this incident were vigorously discussed.
 1	Both	both	CCONJ	CC	_	3	cc@preconj	_	_
@@ -450,7 +450,7 @@
 17	Sea	Sea	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
-#  = # newdoc id = w02008
+# newdoc id = w02008
 # sent_id = w02008010
 # text = In its scope it belongs to the most far-reaching cultures of the time, in which many sites are known.
 1	In	in	ADP	IN	_	5	udep	_	_
@@ -550,7 +550,7 @@
 11	noteworthy	noteworthy	ADJ	JJ	Degree=Pos	9	comp:pred	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	9	punct	_	_
 
-#  = # newdoc id = w02009
+# newdoc id = w02009
 # sent_id = w02009002
 # text = The severity and the presence of the revolution in the countryside alarmed the Court and National Assembly in Versailles.
 1	The	the	DET	DT	Definite=Def|PronType=Art|Shared=No	2	det	_	_
@@ -629,7 +629,7 @@
 18	stays	stay	NOUN	NNS	Number=Plur	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id = w02011
+# newdoc id = w02011
 # sent_id = w02011012
 # text = The hymn was well received and the audience demanded an encore.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -657,7 +657,7 @@
 8	over	over	ADV	RB	_	2	comp:pred	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id = w02012
+# newdoc id = w02012
 # sent_id = w02012042
 # text = The First World War brought about shifts and new developments in colonial politics.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
@@ -675,7 +675,7 @@
 13	politics	politics	NOUN	NNS	Number=Plur	11	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
-#  = # newdoc id = w02013
+# newdoc id = w02013
 # sent_id = w02013015
 # text = The Industrial Revolution took place in Great Britain earlier than in any other country.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -771,7 +771,7 @@
 23	independence	independence	NOUN	NN	Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	21	punct	_	_
 
-#  = # newdoc id = w02014
+# newdoc id = w02014
 # sent_id = w02014013
 # text = One of his last means of placing pressure on Hungary was the threat of imposing general and free elections.
 1	One	one	NUM	CD	NumType=Card	11	subj	_	_
@@ -819,7 +819,7 @@
 20	equally	equally	ADV	RB	_	15	mod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
-#  = # newdoc id = w02015
+# newdoc id = w02015
 # sent_id = w02015084
 # text = The Disibodenberg cloister was disbanded and fell into ruin as a result of the Reformation.
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
@@ -894,7 +894,7 @@
 6	over	over	ADP	RP	_	5	compound@prt	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
-#  = # newdoc id = w02016
+# newdoc id = w02016
 # sent_id = w02016015
 # text = After these successes, he signed a contract with Team Telekom and moved in with his girlfriend in Merdingen in Südbaden, where he lived until 2002.
 1	After	after	ADP	IN	Shared=Yes	6	udep	_	_
@@ -957,7 +957,7 @@
 27	medal	medal	NOUN	NN	Number=Sing	23	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	19	punct	_	_
 
-#  = # newdoc id = w02017
+# newdoc id = w02017
 # sent_id = w02017046
 # text = The censorship disposed of all undesirable opinions; participation in public life had become practically impossible.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
@@ -1009,7 +1009,7 @@
 27	murder	murder	NOUN	NN	Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	_	_
 
-#  = # newdoc id = w02018
+# newdoc id = w02018
 # sent_id = w02018030
 # text = Weiss was honored with the literature prizes from the cities of Cologne and Bremen.
 1	Weiss	Weiss	PROPN	NNP	Number=Sing	2	subj@pass	_	_
@@ -1028,7 +1028,7 @@
 14	Bremen	Bremen	PROPN	NNP	Number=Sing	12	conj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id = w02019
+# newdoc id = w02019
 # sent_id = w02019048
 # text = Privately as well as publicly, Springer vigorously pursued reconciliation with the Jewish people and took many trips to Israel.
 1	Privately	privately	ADV	RB	Shared=Yes	9	mod	_	_

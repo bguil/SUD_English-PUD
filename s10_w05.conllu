@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-#  = # newdoc id = w05001
+# newdoc id = w05001
 # sent_id = w05001026
 # text = In the 20th century, between 1904 and 1914, Antonio Gaudí brought about a reform that lasted ten years.
 1	In	in	ADP	IN	_	13	udep	_	_
@@ -68,7 +68,7 @@
 21	Palma	Palma	PROPN	NNP	Number=Sing	20	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id = w05002
+# newdoc id = w05002
 # sent_id = w05002014
 # text = Before the Andes were formed, the western margin of South America had already been the site of several orogenies.
 1	Before	before	SCONJ	IN	_	13	mod	_	_
@@ -122,7 +122,7 @@
 25	crust	crust	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id = w05003
+# newdoc id = w05003
 # sent_id = w05003012
 # text = However, the breakdown between him and Linares and the discontinuation of the progressive line provoked the Revolution of Vindication which overthrew him in 1879.
 1	However	however	ADV	RB	_	16	mod	_	SpaceAfter=No
@@ -249,7 +249,7 @@
 33	Rasa	Rasa	PROPN	NNP	Number=Sing	31	comp:obj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	2	punct	_	_
 
-#  = # newdoc id = w05005
+# newdoc id = w05005
 # sent_id = w05005083
 # text = Things started to change in October 1777 when British forces under the command of General John Burgoyne surrendered in Saratoga in the north of the state of New York.
 1	Things	thing	NOUN	NNS	Number=Plur	2	subj	_	_
@@ -370,7 +370,7 @@
 18	River	River	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-#  = # newdoc id = w05006
+# newdoc id = w05006
 # sent_id = w05006024
 # text = Golden Age Spanish or Early Modern Spanish is the variant of the language that constitutes the transition from Medieval Spanish to Modern Spanish.
 1	Golden	golden	ADJ	JJ	Degree=Pos	2	mod	_	_
@@ -502,7 +502,7 @@
 27	France	France	PROPN	NNP	Number=Sing	26	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	7	punct	_	_
 
-#  = # newdoc id = w05008
+# newdoc id = w05008
 # sent_id = w05008107
 # text = He also discussed the federalization of the City of Buenos Aires, the extension of the commercial code and the appointment of new generals to the army.
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
