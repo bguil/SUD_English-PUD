@@ -11,7 +11,7 @@
 7	Madrid	Madrid	PROPN	NNP	Number=Sing	6	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	Cristina	Cristina	PROPN	NNP	Number=Sing	2	conj:appos	_	_
-10	Cifuentes	Cifuentes	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+10	Cifuentes	Cifuentes	PROPN	NNP	Number=Sing	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	9	punct	_	_
 12	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
@@ -33,7 +33,7 @@
 29	Secretary	Secretary	NOUN	NN	Number=Sing	27	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	31	punct	_	_
 31	Javier	Javier	PROPN	NNP	Number=Sing	29	conj:appos	_	_
-32	Maroto	Maroto	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
+32	Maroto	Maroto	PROPN	NNP	Number=Sing	31	flat@name	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	31	punct	_	_
 34	represent	represent	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
@@ -50,7 +50,7 @@
 4	spokesman	spokesman	NOUN	NN	Number=Sing	3	comp:obj	_	_
 5	and	and	CCONJ	CC	_	6	cc	_	_
 6	Ángel	Ángel	PROPN	NNP	Number=Sing	2	conj	_	_
-7	Pintado	Pintado	PROPN	NNP	Number=Sing|Shared=No	6	flat	_	_
+7	Pintado	Pintado	PROPN	NNP	Number=Sing|Shared=No	6	flat@name	_	_
 8	as	as	ADP	IN	Shared=No	6	orphan	_	_
 9	treasurer	treasurer	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
@@ -130,7 +130,7 @@
 18	legislation	legislation	NOUN	NN	Number=Sing	16	comp:obj	_	_
 19	that	that	PRON	WDT	PronType=Rel	24	comp:obj	_	_
 20	Fátima	Fátima	PROPN	NNP	Number=Sing	22	subj	_	_
-21	Báñez	Báñez	PROPN	NNP	Number=Sing	20	flat	_	_
+21	Báñez	Báñez	PROPN	NNP	Number=Sing	20	flat@name	_	_
 22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 23	proudest	proudest	ADJ	JJS	Degree=Sup	22	comp:pred	_	_
 24	of	of	ADP	IN	_	23	udep	_	SpaceAfter=No
@@ -231,8 +231,8 @@
 # sent_id = n05003022
 # text = Barón de Claret, the only one in Government with a noble title.
 1	Barón	Barón	PROPN	NNP	Number=Sing	0	root	_	_
-2	de	de	PROPN	NNP	Number=Sing	1	flat	_	_
-3	Claret	Claret	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+2	de	de	PROPN	NNP	Number=Sing	1	flat@name	_	_
+3	Claret	Claret	PROPN	NNP	Number=Sing	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 6	only	only	ADJ	JJ	Degree=Pos	7	mod	_	_
@@ -249,7 +249,7 @@
 # sent_id = n05004020
 # text = Pedro Sánchez, like many other socialists, said in the programme Évole that Spain is a nation of nations.
 1	Pedro	Pedro	PROPN	NNP	Number=Sing	9	subj	_	_
-2	Sánchez	Sánchez	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+2	Sánchez	Sánchez	PROPN	NNP	Number=Sing	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	like	like	ADP	IN	_	1	udep	_	_
 5	many	many	ADJ	JJ	Degree=Pos	7	mod	_	_
@@ -290,7 +290,7 @@
 # sent_id = n05005002
 # text = Federico Fellini once said: "The clown is to humanity as the shadow is to man".
 1	Federico	Federico	PROPN	NNP	Number=Sing	4	subj	_	_
-2	Fellini	Fellini	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Fellini	Fellini	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	once	once	ADV	RB	NumType=Mult	4	mod	_	_
 4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	:	_	4	punct	_	_

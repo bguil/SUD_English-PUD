@@ -29,7 +29,7 @@
 25	special	special	ADJ	JJ	Degree=Pos	26	mod	_	_
 26	assistant	assistant	NOUN	NN	Number=Sing	29	subj	_	_
 27	Kori	Kori	PROPN	NNP	Number=Sing	26	conj:appos	_	_
-28	Schulman	Schulman	PROPN	NNP	Number=Sing	27	flat	_	_
+28	Schulman	Schulman	PROPN	NNP	Number=Sing	27	flat@name	_	_
 29	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	parataxis	_	_
 30	in	in	ADP	IN	_	29	udep	_	_
 31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
@@ -357,7 +357,7 @@
 16	”	”	PUNCT	''	_	3	punct	_	_
 17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 18	Joe	Joe	PROPN	NNP	Number=Sing	17	subj	_	_
-19	Sternlieb	Sternlieb	PROPN	NNP	Number=Sing	18	flat	_	SpaceAfter=No
+19	Sternlieb	Sternlieb	PROPN	NNP	Number=Sing	18	flat@name	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	18	punct	_	_
 21	president	president	NOUN	NN	Number=Sing	18	conj:appos	_	_
 22	of	of	ADP	IN	_	21	udep	_	_
@@ -527,7 +527,7 @@
 4	time	time	NOUN	NN	Number=Sing	2	subj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	_	_
 6	Mr	Mr	PROPN	NNP	Number=Sing	8	subj	_	_
-7	Panvalkar	Panvalkar	PROPN	NNP	Number=Sing	6	flat	_	_
+7	Panvalkar	Panvalkar	PROPN	NNP	Number=Sing	6	flat@name	_	_
 8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	when	when	ADV	WRB	PronType=Rel	12	mod	_	_
@@ -567,8 +567,8 @@
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	killed	kill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Andre	Andre	PROPN	NNP	Number=Sing	2	comp:obj	_	_
-4	Price	Price	PROPN	NNP	Number=Sing	3	flat	_	_
-5	III	III	PROPN	NNP	Number=Sing	4	flat	_	_
+4	Price	Price	PROPN	NNP	Number=Sing	3	flat@name	_	_
+5	III	III	PROPN	NNP	Number=Sing	4	flat@name	_	_
 6	by	by	SCONJ	IN	_	2	mod	_	_
 7	pressing	press	VERB	VBG	VerbForm=Ger	6	comp:obj	_	_
 8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	mod@poss	_	_
@@ -639,7 +639,7 @@
 # sent_id = n01013005
 # text = Mr Osborne signed up with a US speakers agency after being sacked in July.
 1	Mr	Mr	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Osborne	Osborne	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Osborne	Osborne	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	signed	sign	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	up	up	PART	RP	_	3	compound@prt	_	_
 5	with	with	ADP	IN	_	3	udep	_	_
@@ -658,7 +658,7 @@
 # sent_id = n01014003
 # text = Michael Fallon said the date for cutting the first steel would help secure new investment and safeguard hundreds of skilled jobs until 2035.
 1	Michael	Michael	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Fallon	Fallon	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Fallon	Fallon	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	date	date	NOUN	NN	Number=Sing	11	subj	_	_
@@ -1090,7 +1090,7 @@
 13	"	"	PUNCT	''	_	7	punct	_	_
 14	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
 15	Jesse	Jesse	PROPN	NNP	Number=Sing	14	subj	_	_
-16	LaBrocca	LaBrocca	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+16	LaBrocca	LaBrocca	PROPN	NNP	Number=Sing	15	flat@name	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	15	punct	_	_
 18	founder	founder	NOUN	NN	Number=Sing	15	conj:appos	_	_
 19	of	of	ADP	IN	_	18	udep	_	_
@@ -1124,7 +1124,7 @@
 11	attacks	attack	NOUN	NNS	Number=Plur	9	comp:pred	_	_
 12	of	of	ADP	IN	_	11	udep	_	_
 13	21	21	NUM	CD	NumType=Card	12	comp:obj	_	_
-14	October	October	PROPN	NNP	Number=Sing	13	flat	_	_
+14	October	October	PROPN	NNP	Number=Sing	13	flat@name	_	_
 15	that	that	PRON	WDT	PronType=Rel	17	subj	_	_
 16	briefly	briefly	ADV	RB	_	17	mod	_	_
 17	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	mod@relcl	_	_
@@ -1251,7 +1251,7 @@
 28	"	"	PUNCT	''	_	3	punct	_	_
 29	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 30	Erik	Erik	PROPN	NNP	Number=Sing	29	subj	_	_
-31	Solheim	Solheim	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
+31	Solheim	Solheim	PROPN	NNP	Number=Sing	30	flat@name	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	31	punct	_	_
 33	head	head	NOUN	NN	Number=Sing	31	conj:appos	_	_
 34	of	of	ADP	IN	_	33	udep	_	_
@@ -2006,7 +2006,7 @@
 # sent_id = n01033028
 # text = Ms Pugh has received treatment at Papworth and Addenbrooke's Hospitals in Cambridgeshire.
 1	Ms	Ms	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Pugh	Pugh	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Pugh	Pugh	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	treatment	treatment	NOUN	NN	Number=Sing	4	comp:obj	_	_
@@ -2032,7 +2032,7 @@
 8	in	in	ADP	IN	_	7	udep	_	_
 9	Ms	Ms	PROPN	NNP	Number=Sing	13	mod@poss	_	_
 10	Pugh	Pugh	PROPN	NNP	Number=Sing	11	comp:obj	_	SpaceAfter=No
-11	's	's	PART	POS	_	9	flat	_	_
+11	's	's	PART	POS	_	9	flat@name	_	_
 12	right	right	ADJ	JJ	Degree=Pos	13	mod	_	_
 13	lung	lung	NOUN	NN	Number=Sing	8	comp:obj	_	_
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
@@ -2054,7 +2054,7 @@
 1	"	"	PUNCT	``	_	11	punct	_	SpaceAfter=No
 2	If	if	SCONJ	IN	_	11	mod	_	_
 3	Donald	Donald	PROPN	NNP	Number=Sing	5	subj	_	_
-4	Trump	Trump	PROPN	NNP	Number=Sing	3	flat	_	_
+4	Trump	Trump	PROPN	NNP	Number=Sing	3	flat@name	_	_
 5	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 6	president	president	NOUN	NN	Number=Sing	5	comp:pred	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	_	_
@@ -2496,7 +2496,7 @@
 3	wife	wife	NOUN	NN	Number=Sing	8	subj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	Melania	Melania	PROPN	NNP	Number=Sing	3	conj:appos	_	_
-6	Trump	Trump	PROPN	NNP	Number=Sing	5	flat	_	SpaceAfter=No
+6	Trump	Trump	PROPN	NNP	Number=Sing	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
 8	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	_
@@ -2607,7 +2607,7 @@
 6	Director	director	NOUN	NN	Number=Sing	11	subj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	Gerry	Gerry	PROPN	NNP	Number=Sing	6	conj:appos	_	_
-9	McNeilly	McNeilly	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+9	McNeilly	McNeilly	PROPN	NNP	Number=Sing	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	_	_
 11	set	set	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
@@ -2951,7 +2951,7 @@
 10	data	data	NOUN	NN	Number=Sing	11	compound	_	_
 11	customer	customer	NOUN	NN	Number=Sing	7	subj	_	_
 12	Lindsay	Lindsay	PROPN	NNP	Number=Sing	11	conj:appos	_	_
-13	Gay	Gay	PROPN	NNP	Number=Sing	12	flat	_	_
+13	Gay	Gay	PROPN	NNP	Number=Sing	12	flat@name	_	_
 14	last	last	ADJ	JJ	Degree=Pos	15	mod	_	_
 15	month	month	NOUN	NN	Number=Sing	7	udep@tmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	7	punct	_	_
@@ -3206,7 +3206,7 @@
 10	expectant	expectant	ADJ	JJ	Degree=Pos	11	mod	_	_
 11	mother	mother	NOUN	NN	Number=Sing	20	subj@pass	_	_
 12	Margaret	Margaret	PROPN	NNP	Number=Sing	11	conj:appos	_	_
-13	Boemer	Boemer	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+13	Boemer	Boemer	PROPN	NNP	Number=Sing	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	11	punct	_	_
 15	of	of	ADP	IN	_	11	udep	_	_
 16	Plano	Plano	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
@@ -3544,7 +3544,7 @@
 7	just	just	ADV	RB	_	8	mod	_	_
 8	outside	outside	ADP	IN	_	3	udep	_	_
 9	Chapel	Chapel	PROPN	NNP	Number=Sing	8	comp:obj	_	_
-10	Hill	Hill	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+10	Hill	Hill	PROPN	NNP	Number=Sing	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	someone	someone	NOUN	NN	Number=Sing	13	subj	_	_
 13	firebombed	firebomb	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3802,11 +3802,11 @@
 12	”	”	PUNCT	''	_	9	punct	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 14	Donald	Donald	PROPN	NNP	Number=Sing	16	compound	_	_
-15	Trump	Trump	PROPN	NNP	Number=Sing	14	flat	_	_
+15	Trump	Trump	PROPN	NNP	Number=Sing	14	flat@name	_	_
 16	impersonator	impersonator	NOUN	NN	Number=Sing	20	subj	_	_
 17	John	John	PROPN	NNP	Number=Sing	16	conj:appos	_	_
-18	Di	Di	PROPN	NNP	Number=Sing	17	flat	_	_
-19	Domenico	Domenico	PROPN	NNP	Number=Sing	18	flat	_	_
+18	Di	Di	PROPN	NNP	Number=Sing	17	flat@name	_	_
+19	Domenico	Domenico	PROPN	NNP	Number=Sing	18	flat@name	_	_
 20	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	parataxis	_	_
 21	to	to	ADP	IN	_	20	udep	_	_
 22	Slate	Slate	PROPN	NNP	Number=Sing	21	comp:obj	_	_
@@ -4230,7 +4230,7 @@
 # sent_id = n01069004
 # text = Christian Wolmar, who has written a number of books on railway history, will stand in the contest on 1 December.
 1	Christian	Christian	PROPN	NNP	Number=Sing	15	subj	_	_
-2	Wolmar	Wolmar	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+2	Wolmar	Wolmar	PROPN	NNP	Number=Sing	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	who	who	PRON	WP	PronType=Rel	5	subj	_	_
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
@@ -4277,7 +4277,7 @@
 20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	mod@poss	_	_
 21	candidate	candidate	NOUN	NN	Number=Sing	19	comp:obj	_	_
 22	Sarah	Sarah	PROPN	NNP	Number=Sing	21	conj:appos	_	_
-23	Olney	Olney	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
+23	Olney	Olney	PROPN	NNP	Number=Sing	22	flat@name	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = n01069014
@@ -4632,7 +4632,7 @@
 # text = A Donald Trump victory would immediately make the world more worrying and unsettled than it already is.
 1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
 2	Donald	Donald	PROPN	NNP	Number=Sing	4	compound	_	_
-3	Trump	Trump	PROPN	NNP	Number=Sing	2	flat	_	_
+3	Trump	Trump	PROPN	NNP	Number=Sing	2	flat@name	_	_
 4	victory	victory	NOUN	NN	Number=Sing	5	subj	_	_
 5	would	would	AUX	MD	VerbForm=Fin	0	root	_	_
 6	immediately	immediately	ADV	RB	_	5	mod	_	_
@@ -4652,7 +4652,7 @@
 # sent_id = n01076017
 # text = Mrs Clinton has a reputation for a hawkish outlook, but this will be tempered by war-weary public opinion in the US.
 1	Mrs	Mrs	NOUN	NNP	Number=Sing|Shared=No	3	subj	_	_
-2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 5	reputation	reputation	NOUN	NN	Number=Sing	3	comp:obj	_	_
@@ -4876,7 +4876,7 @@
 7	go	go	VERB	VB	VerbForm=Inf	4	comp:obl	_	Subject=ObjRaising
 8	to	to	ADP	IN	_	7	udep	_	_
 9	Donald	Donald	PROPN	NNP	Number=Sing	8	comp:obj	_	_
-10	Trump	Trump	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+10	Trump	Trump	PROPN	NNP	Number=Sing	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	_	_
 12	someone	someone	NOUN	NN	Number=Sing	9	conj:appos	_	_
 13	so	so	ADV	RB	_	14	mod	_	_
@@ -5198,7 +5198,7 @@
 5	say	say	VERB	VB	VerbForm=Inf	4	comp:obj	_	_
 6	that	that	SCONJ	IN	_	5	comp:obj	_	_
 7	Rocco	Rocco	PROPN	NNP	Number=Sing|Shared=Yes	9	subj	_	_
-8	Catalano	Catalano	PROPN	NNP	Number=Sing	7	flat	_	_
+8	Catalano	Catalano	PROPN	NNP	Number=Sing	7	flat@name	_	_
 9	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
@@ -5448,7 +5448,7 @@
 5	policy	policy	NOUN	NN	Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
 7	Jeff	Jeff	PROPN	NNP	Number=Sing	2	conj:appos	_	_
-8	Knott	Knott	PROPN	NNP	Number=Sing	7	flat	_	SpaceAfter=No
+8	Knott	Knott	PROPN	NNP	Number=Sing	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	7	punct	_	_
 10	stated	state	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	:	:	PUNCT	:	_	10	punct	_	_
@@ -5498,14 +5498,14 @@
 21	petition	petition	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	23	punct	_	_
 23	Mark	Mark	PROPN	NNP	Number=Sing	21	conj:appos	_	_
-24	Avery	Avery	PROPN	NNP	Number=Sing	23	flat	_	SpaceAfter=No
+24	Avery	Avery	PROPN	NNP	Number=Sing	23	flat@name	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	23	punct	_	_
 26	to	to	ADP	IN	_	18	udep	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
 28	TV	tv	NOUN	NN	Number=Sing	29	compound	_	_
 29	presenter	presenter	NOUN	NN	Number=Sing	26	comp:obj	_	_
 30	Chris	Chris	PROPN	NNP	Number=Sing	29	conj:appos	_	_
-31	Packham	Packham	PROPN	NNP	Number=Sing	30	flat	_	SpaceAfter=No
+31	Packham	Packham	PROPN	NNP	Number=Sing	30	flat@name	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01092
@@ -5691,7 +5691,7 @@
 21	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
 22	”	”	PUNCT	''	_	3	punct	_	_
 23	Dr	Dr	PROPN	NNP	Number=Sing	25	subj	_	_
-24	Lee	Lee	PROPN	NNP	Number=Sing	23	flat	_	_
+24	Lee	Lee	PROPN	NNP	Number=Sing	23	flat@name	_	_
 25	adds	add	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -6114,7 +6114,7 @@
 4	BBC	BBC	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
 5	’s	’s	PART	POS	_	8	udep@poss	_	_
 6	Andrew	Andrew	PROPN	NNP	Number=Sing	8	compound	_	_
-7	Marr	Marr	PROPN	NNP	Number=Sing	6	flat	_	_
+7	Marr	Marr	PROPN	NNP	Number=Sing	6	flat@name	_	_
 8	Show	show	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
 9	:	:	PUNCT	:	_	2	punct	_	_
 10	“	“	PUNCT	``	_	14	punct	_	SpaceAfter=No
@@ -6208,7 +6208,7 @@
 9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	mod	_	_
 11	Benoît	Benoît	PROPN	NNP	Number=Sing	10	comp:obj	_	_
-12	Paire	Paire	PROPN	NNP	Number=Sing	11	flat	_	_
+12	Paire	Paire	PROPN	NNP	Number=Sing	11	flat@name	_	_
 13	in	in	ADP	IN	_	10	udep	_	_
 14	Monte	Monte	PROPN	NNP	Number=Sing	15	compound	_	_
 15	Carlo	Carlo	PROPN	NNP	Number=Sing	13	comp:obj	_	_
@@ -6275,7 +6275,7 @@
 # sent_id = n01106015
 # text = Ms Hopley added: “The spike in political risk should not go unnoticed.”
 1	Ms	Ms	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Hopley	Hopley	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Hopley	Hopley	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	:	:	PUNCT	:	_	3	punct	_	_
 5	“	“	PUNCT	``	_	11	punct	_	SpaceAfter=No
@@ -6322,7 +6322,7 @@
 26	chief	chief	NOUN	NN	Number=Sing	27	compound	_	_
 27	executive	executive	NOUN	NN	Number=Sing|Shared=No	25	comp:obl	_	_
 28	Martin	Martin	PROPN	NNP	Number=Sing	27	conj:appos	_	_
-29	Winterkorn	Winterkorn	PROPN	NNP	Number=Sing	28	flat	_	_
+29	Winterkorn	Winterkorn	PROPN	NNP	Number=Sing	28	flat@name	_	_
 30	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	mod@poss	_	_
 31	job	job	NOUN	NN	Number=Sing|Shared=No	25	comp:obj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	14	punct	_	_
@@ -6366,12 +6366,12 @@
 7	focusing	focus	VERB	VBG	VerbForm=Ger	2	mod	_	_
 8	on	on	ADP	IN	_	7	udep	_	_
 9	Mr	Mr	PROPN	NNP	Number=Sing	8	comp:obj	_	_
-10	Winterkorn	Winterkorn	PROPN	NNP	Number=Sing	9	flat	_	_
+10	Winterkorn	Winterkorn	PROPN	NNP	Number=Sing	9	flat@name	_	_
 11	and	and	CCONJ	CC	_	13	cc	_	_
 12	brand	brand	NOUN	NN	Number=Sing	13	compound	_	_
 13	chief	chief	NOUN	NN	Number=Sing	10	conj	_	_
 14	Herbert	Herbert	PROPN	NNP	Number=Sing|Shared=No	13	conj:appos	_	_
-15	Diess	Diess	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+15	Diess	Diess	PROPN	NNP	Number=Sing	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
 17	who	who	PRON	WP	PronType=Rel	18	subj	_	_
 18	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Shared=No|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
@@ -6509,7 +6509,7 @@
 8	760	760	NUM	CD	NumType=Card	7	mod	_	_
 9	and	and	CCONJ	CC	_	13	cc	_	_
 10	Avro	Avro	PROPN	NNP	Number=Sing	12	compound	_	_
-11	Energy	energy	NOUN	NN	Number=Sing	10	flat	_	_
+11	Energy	energy	NOUN	NN	Number=Sing	10	flat@name	_	_
 12	customers	customer	NOUN	NNS	Number=Plur	13	subj	_	_
 13	would	would	AUX	MD	VerbForm=Fin	6	conj	_	_
 14	pay	pay	VERB	VB	Shared=No|VerbForm=Inf	13	comp:aux	_	_
@@ -7342,7 +7342,7 @@
 8	interior	interior	NOUN	NN	Number=Sing	9	compound	_	_
 9	designer	designer	NOUN	NN	Number=Sing	7	comp:obj	_	_
 10	Rachel	Rachel	PROPN	NNP	Number=Sing	9	conj:appos	_	_
-11	Winham	Winham	PROPN	NNP	Number=Sing	10	flat	_	_
+11	Winham	Winham	PROPN	NNP	Number=Sing	10	flat@name	_	_
 12	to	to	PART	TO	_	7	comp:obl	_	_
 13	design	design	VERB	VB	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
@@ -7624,7 +7624,7 @@
 # sent_id = n01130025
 # text = Donald Trump is a pompous, arrogant, entitled person that cares about himself, and his temperament is toxic to the United States.
 1	Donald	Donald	PROPN	NNP	Number=Sing|Shared=No	3	subj	_	_
-2	Trump	Trump	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
 5	pompous	pompous	ADJ	JJ	Degree=Pos	10	mod	_	SpaceAfter=No
@@ -8049,8 +8049,8 @@
 5	's	's	PART	POS	_	12	udep@poss	_	_
 6	(	(	PUNCT	-LRB-	_	7	punct	_	SpaceAfter=No
 7	Jeffrey	Jeffrey	PROPN	NNP	Number=Sing	4	conj:appos	_	_
-8	Dean	Dean	PROPN	NNP	Number=Sing	7	flat	_	_
-9	Morgan	Morgan	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+8	Dean	Dean	PROPN	NNP	Number=Sing	7	flat@name	_	_
+9	Morgan	Morgan	PROPN	NNP	Number=Sing	8	flat@name	_	SpaceAfter=No
 10	)	)	PUNCT	-RRB-	_	7	punct	_	_
 11	top	top	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	guys	guy	NOUN	NNS	Number=Plur	3	comp:obj	_	SpaceAfter=No
@@ -8205,7 +8205,7 @@
 13	on	on	ADP	RP	_	12	compound@prt	_	_
 14	industry	industry	NOUN	NN	Number=Sing	15	compound	_	_
 15	darling	darling	NOUN	NN	Number=Sing	12	comp:obj	_	_
-16	Slack	Slack	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+16	Slack	Slack	PROPN	NNP	Number=Sing	15	flat@name	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01141007
@@ -8454,7 +8454,7 @@
 6	anything	anything	NOUN	NN	Number=Sing	5	comp:obj	_	_
 7	of	of	SCONJ	IN	_	6	udep	_	_
 8	Johnny	Johnny	PROPN	NNP	Number=Sing|Shared=Yes	10	subj	_	_
-9	Carson	Carson	PROPN	NNP	Number=Sing	8	flat	_	_
+9	Carson	Carson	PROPN	NNP	Number=Sing	8	flat@name	_	_
 10	getting	get	VERB	VBG	VerbForm=Ger	7	comp:obj	_	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
 12	step	step	NOUN	NN	Number=Sing	13	compound	_	_
@@ -8518,8 +8518,8 @@
 # sent_id = n01145015
 # text = Alejandra González Anaya, one of the parade's creative directors, explained to CNN why Mexico have decided now is the time to put on such a show.
 1	Alejandra	Alejandra	PROPN	NNP	Number=Sing	13	subj	_	_
-2	González	González	PROPN	NNP	Number=Sing	1	flat	_	_
-3	Anaya	Anaya	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+2	González	González	PROPN	NNP	Number=Sing	1	flat@name	_	_
+3	Anaya	Anaya	PROPN	NNP	Number=Sing	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
 5	one	one	NUM	CD	NumType=Card	1	conj:appos	_	_
 6	of	of	ADP	IN	_	5	udep	_	_
@@ -8563,7 +8563,7 @@
 11	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
 12	"	"	PUNCT	''	_	3	punct	_	_
 13	González	González	PROPN	NNP	Number=Sing	15	subj	_	_
-14	Anaya	Anaya	PROPN	NNP	Number=Sing	13	flat	_	_
+14	Anaya	Anaya	PROPN	NNP	Number=Sing	13	flat@name	_	_
 15	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -8818,8 +8818,8 @@
 1	Designed	design	VERB	VBN	Tense=Past|VerbForm=Part	11	mod	_	_
 2	by	by	ADP	IN	_	1	udep	_	_
 3	Juan	Juan	PROPN	NNP	Number=Sing	2	comp:obj	_	_
-4	Carlos	Carlos	PROPN	NNP	Number=Sing	3	flat	_	_
-5	Salas	Salas	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+4	Carlos	Carlos	PROPN	NNP	Number=Sing	3	flat@name	_	_
+5	Salas	Salas	PROPN	NNP	Number=Sing	4	flat@name	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	11	punct	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 8	award	award	NOUN	NN	Number=Sing	10	compound	_	SpaceAfter=No

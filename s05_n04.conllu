@@ -15,7 +15,7 @@
 11	1927	1927	NUM	CD	NumType=Card	9	mod@tmod	_	_
 12	in	in	ADP	IN	_	4	udep	_	_
 13	Castelfranco	Castelfranco	PROPN	NNP	Number=Sing	12	comp:obj	_	_
-14	Veneto	Veneto	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+14	Veneto	Veneto	PROPN	NNP	Number=Sing	13	flat@name	_	SpaceAfter=No
 15	;	;	PUNCT	:	_	3	punct	_	_
 16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
 17	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
@@ -51,7 +51,7 @@
 8	Union	Union	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
 10	Tina	Tina	PROPN	NNP	Number=Sing	12	subj	_	_
-11	Anselmi	Anselmi	PROPN	NNP	Number=Sing	10	flat	_	_
+11	Anselmi	Anselmi	PROPN	NNP	Number=Sing	10	flat@name	_	_
 12	attended	attend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 13	particularly	particularly	ADV	RB	_	14	mod	_	_
 14	to	to	ADP	IN	_	12	udep	_	_
@@ -313,7 +313,7 @@
 # sent_id = n04007002
 # text = Corrado Passera withdraws the offer for Mps due to "the attitude of total closure that the Bank has shown to us".
 1	Corrado	Corrado	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Passera	Passera	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Passera	Passera	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	withdraws	withdraw	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	offer	offer	NOUN	NN	Number=Sing	3	comp:obj	_	_
@@ -411,7 +411,7 @@
 # sent_id = n04008007
 # text = Students at LUISS University were told during the course of a meeting which took place in Rome.
 1	Students	student	NOUN	NNS	Number=Plur	5	subj@pass	_	_
-2	at	at	ADP	IN	_	3	flat	_	_
+2	at	at	ADP	IN	_	3	flat@name	_	_
 3	LUISS	LUISS	PROPN	NNP	Number=Sing	1	mod	_	_
 4	University	University	PROPN	NNP	Number=Sing	2	comp:obj	_	_
 5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -435,17 +435,17 @@
 2	morning	morning	NOUN	NN	Number=Sing	6	mod@tmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	_	_
 4	Pope	Pope	PROPN	NNP	Number=Sing	6	subj	_	_
-5	Francis	Francis	PROPN	NNP	Number=Sing	4	flat	_	_
+5	Francis	Francis	PROPN	NNP	Number=Sing	4	flat@name	_	_
 6	met	meet	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	Mark	Mark	PROPN	NNP	Number=Sing	6	comp:obj	_	_
-8	Zuckerberg	Zuckerberg	PROPN	NNP	Number=Sing	7	flat	_	_
+8	Zuckerberg	Zuckerberg	PROPN	NNP	Number=Sing	7	flat@name	_	_
 9	and	and	CCONJ	CC	_	11	cc	_	_
 10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	_
 11	wife	wife	NOUN	NN	Number=Sing	7	conj	_	_
 12	at	at	ADP	IN	_	6	udep	_	_
 13	Casa	Casa	PROPN	NNP	Number=Sing	12	comp:obj	_	_
-14	Santa	Santa	PROPN	NNP	Number=Sing	13	flat	_	_
-15	Marta	Marta	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+14	Santa	Santa	PROPN	NNP	Number=Sing	13	flat@name	_	_
+15	Marta	Marta	PROPN	NNP	Number=Sing	14	flat@name	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = n04009
@@ -499,7 +499,7 @@
 18	compete	compete	VERB	VB	VerbForm=Inf	17	comp:obj	_	_
 19	with	with	ADP	IN	_	18	udep	_	_
 20	Valentino	Valentino	PROPN	NNP	Number=Sing	19	comp:obj	_	_
-21	Rossi	Rossi	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+21	Rossi	Rossi	PROPN	NNP	Number=Sing	20	flat@name	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	11	punct	_	_
 
 # newdoc id = n04010

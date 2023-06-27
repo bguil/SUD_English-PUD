@@ -335,12 +335,12 @@
 6	film	film	NOUN	NN	Number=Sing	7	subj	_	_
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	El	El	PROPN	NNP	Number=Sing	7	comp:pred	_	_
-9	Greco	Greco	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+9	Greco	Greco	PROPN	NNP	Number=Sing	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	8	punct	_	_
 11	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	8	mod	_	_
 12	by	by	ADP	IN	_	11	udep	_	_
 13	Yannis	Yannis	PROPN	NNP	Number=Sing	12	comp:obj	_	_
-14	Smaragdis	Smaragdis	PROPN	NNP	Number=Sing	13	flat	_	SpaceAfter=No
+14	Smaragdis	Smaragdis	PROPN	NNP	Number=Sing	13	flat@name	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
 
 # newdoc id = w01007
@@ -623,7 +623,7 @@
 3	king	king	NOUN	NN	Number=Sing	4	subj	_	_
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Mojmír	Mojmír	PROPN	NNP	Number=Sing	4	comp:pred	_	_
-6	I	i	NUM	CD	NumType=Card	5	flat	_	_
+6	I	i	NUM	CD	NumType=Card	5	flat@name	_	_
 7	(	(	PUNCT	-LRB-	_	8	punct	_	SpaceAfter=No
 8	ruled	rule	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 9	830	830	NUM	CD	NumType=Card	8	comp:obj	_	SpaceAfter=No
@@ -635,14 +635,14 @@
 # sent_id = w01010048
 # text = Louis the German invaded Moravia and replaced Mojmír I with his nephew Rastiz who became St. Rastislav.
 1	Louis	Louis	PROPN	NNP	Number=Sing|Shared=Yes	4	subj	_	_
-2	the	the	DET	DT	Definite=Def|PronType=Art	1	flat	_	Proper=True
-3	German	German	PROPN	NNP	Number=Sing	2	flat	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	flat@name	_	Proper=True
+3	German	German	PROPN	NNP	Number=Sing	2	flat@name	_	_
 4	invaded	invade	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Moravia	Moravia	PROPN	NNP	Number=Sing	4	comp:obj	_	_
 6	and	and	CCONJ	CC	_	7	cc	_	_
 7	replaced	replace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
 8	Mojmír	Mojmír	PROPN	NNP	Number=Sing|Shared=No	7	comp:obj	_	_
-9	I	i	NUM	CD	NumType=Card	8	flat	_	_
+9	I	i	NUM	CD	NumType=Card	8	flat@name	_	_
 10	with	with	ADP	IN	Shared=No	7	udep	_	_
 11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	_
 12	nephew	nephew	NOUN	NN	Number=Sing	10	comp:obj	_	_
@@ -650,7 +650,7 @@
 14	who	who	PRON	WP	PronType=Rel	15	subj	_	_
 15	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	mod@relcl	_	_
 16	St.	St.	PROPN	NNP	Number=Sing	15	comp:pred	_	_
-17	Rastislav	Rastislav	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+17	Rastislav	Rastislav	PROPN	NNP	Number=Sing	16	flat@name	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = w01012
@@ -889,10 +889,10 @@
 19	site	site	NOUN	NN	Number=Sing	17	comp:pred	_	_
 20	of	of	ADP	IN	_	19	udep	_	_
 21	Mount	Mount	PROPN	NNP	Number=Sing	20	comp:obj	_	_
-22	Kilimanjaro	Kilimanjaro	PROPN	NNP	Number=Sing	21	flat	_	_
+22	Kilimanjaro	Kilimanjaro	PROPN	NNP	Number=Sing	21	flat@name	_	_
 23	and	and	CCONJ	CC	_	24	cc	_	_
 24	Mount	Mount	PROPN	NNP	Number=Sing	21	conj	_	_
-25	Kenya	Kenya	PROPN	NNP	Number=Sing|Shared=No	24	flat	_	SpaceAfter=No
+25	Kenya	Kenya	PROPN	NNP	Number=Sing|Shared=No	24	flat@name	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	30	punct	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 28	two	two	NUM	CD	NumType=Card	30	mod	_	_
@@ -1217,7 +1217,7 @@
 15	Mediterranean	Mediterranean	PROPN	NNP	Number=Sing	13	comp:obj	_	_
 16	as	as	ADP	IN	_	12	comp:obl	_	_
 17	Mare	mare	X	FW	_	16	comp:obj	_	_
-18	Nostrum	nostrum	X	FW	_	17	flat:foreign	_	_
+18	Nostrum	nostrum	X	FW	_	17	flat@foreign	_	_
 19	(	(	PUNCT	-LRB-	_	22	punct	_	SpaceAfter=No
 20	"	"	PUNCT	``	_	22	punct	_	SpaceAfter=No
 21	Our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	mod@poss	_	Proper=True
@@ -1462,8 +1462,8 @@
 22	,	,	PUNCT	,	_	27	punct	_	_
 23	and	and	CCONJ	CC	_	27	cc	_	_
 24	General	general	NOUN	NN	Number=Sing	27	subj@pass	_	_
-25	de	de	PROPN	NNP	Number=Sing	24	flat	_	_
-26	Meza	Meza	PROPN	NNP	Number=Sing	25	flat	_	_
+25	de	de	PROPN	NNP	Number=Sing	24	flat@name	_	_
+26	Meza	Meza	PROPN	NNP	Number=Sing	25	flat@name	_	_
 27	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 28	promptly	promptly	ADV	RB	Shared=No	27	mod	_	_
 29	relieved	relieved	ADJ	JJ	Degree=Pos|Shared=No	27	comp:aux@pass	_	_
@@ -2050,7 +2050,7 @@
 9	Indiana	Indiana	PROPN	NNP	Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	Thomas	Thomas	PROPN	NNP	Number=Sing	13	subj	_	_
-12	Lincoln	Lincoln	PROPN	NNP	Number=Sing	11	flat	_	_
+12	Lincoln	Lincoln	PROPN	NNP	Number=Sing	11	flat@name	_	_
 13	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 14	as	as	ADP	IN	_	13	udep	_	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
@@ -2257,7 +2257,7 @@
 # sent_id = w01037080
 # text = Christopher Columbus sailed across the Atlantic Ocean to the West Indies in 1492, sparking a period of European exploration of the Americas.
 1	Christopher	Christopher	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Columbus	Columbus	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Columbus	Columbus	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	sailed	sail	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	across	across	ADP	IN	_	3	udep	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
@@ -2439,7 +2439,7 @@
 19	time	time	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	Sallyanne	Sallyanne	PROPN	NNP	Number=Sing	14	conj:appos	_	_
-22	Atkinson	Atkinson	PROPN	NNP	Number=Sing	21	flat	_	SpaceAfter=No
+22	Atkinson	Atkinson	PROPN	NNP	Number=Sing	21	flat@name	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = w01040
@@ -2723,7 +2723,7 @@
 5	America	America	PROPN	NNP	Number=Sing	4	comp:obj	_	_
 6	by	by	ADP	IN	_	3	mod	_	_
 7	Christopher	Christopher	PROPN	NNP	Number=Sing	6	comp:obj	_	_
-8	Columbus	Columbus	PROPN	NNP	Number=Sing	7	flat	_	_
+8	Columbus	Columbus	PROPN	NNP	Number=Sing	7	flat@name	_	_
 9	in	in	ADP	IN	_	3	udep	_	_
 10	1492	1492	NUM	CD	NumType=Card	9	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
@@ -2853,7 +2853,7 @@
 14	,	,	PUNCT	,	_	19	punct	_	_
 15	when	when	ADV	WRB	PronType=Rel	19	mod	_	_
 16	Christopher	Christopher	PROPN	NNP	Number=Sing	19	subj	_	_
-17	Columbus	Columbus	PROPN	NNP	Number=Sing	16	flat	_	_
+17	Columbus	Columbus	PROPN	NNP	Number=Sing	16	flat@name	_	_
 18	first	first	ADV	RB	_	19	mod	_	_
 19	sailed	sail	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	mod@relcl	_	_
 20	into	into	ADP	IN	_	19	udep	_	_
@@ -3032,7 +3032,7 @@
 3	1350s	1350	NOUN	NNS	Number=Plur	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	King	King	PROPN	NNP	Number=Sing	7	subj	_	_
-6	Gongmin	Gongmin	PROPN	NNP	Number=Sing	5	flat	_	_
+6	Gongmin	Gongmin	PROPN	NNP	Number=Sing	5	flat@name	_	_
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	free	free	ADJ	JJ	Degree=Pos	7	comp:pred	_	_
 9	at	at	ADP	IN	_	8	udep	_	_
@@ -3166,7 +3166,7 @@
 12	under	under	ADP	IN	_	11	udep	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	Bogd	Bogd	PROPN	NNP	Number=Sing	12	comp:obj	_	_
-15	Khaan	Khaan	PROPN	NNP	Number=Sing	14	flat	_	_
+15	Khaan	Khaan	PROPN	NNP	Number=Sing	14	flat@name	_	_
 16	declared	declare	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 17	independence	independence	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	16	punct	_	_
@@ -3195,7 +3195,7 @@
 # sent_id = w01050069
 # text = Yuan Shikai, the President of the Republic of China, considered the new republic to be the successor of the Qing.
 1	Yuan	Yuan	PROPN	NNP	Number=Sing	12	subj	_	_
-2	Shikai	Shikai	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+2	Shikai	Shikai	PROPN	NNP	Number=Sing	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	President	president	NOUN	NN	Number=Sing	1	conj:appos	_	_
@@ -3221,7 +3221,7 @@
 # sent_id = w01050070
 # text = Bogd Khaan said that both Mongolia and China had been administered by the Manchu during the Qing, and after the fall of the Qing dynasty in 1911, the contract of Mongolian submission to the Manchu had become invalid.
 1	Bogd	Bogd	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Khaan	Khaan	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Khaan	Khaan	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	that	that	SCONJ	IN	_	3	comp:obj	_	_
 5	both	both	CCONJ	CC	_	6	cc@preconj	_	_
@@ -3270,7 +3270,7 @@
 4	by	by	ADP	IN	_	3	compound	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	Bogd	Bogd	PROPN	NNP	Number=Sing	4	comp:obj	_	_
-7	Khaan	Khaan	PROPN	NNP	Number=Sing	6	flat	_	_
+7	Khaan	Khaan	PROPN	NNP	Number=Sing	6	flat@name	_	_
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 9	approximately	approximately	ADV	RB	_	8	mod	_	_
 10	that	that	PRON	DT	Number=Sing|PronType=Dem	8	comp:pred	_	_
@@ -3296,7 +3296,7 @@
 6	Kadesh	Kadesh	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
 8	Ramesses	Ramesses	PROPN	NNP	Number=Sing	10	subj	_	_
-9	II	ii	NUM	CD	NumType=Card	8	flat	_	_
+9	II	ii	NUM	CD	NumType=Card	8	flat@name	_	_
 10	committed	commit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
 12	major	major	ADJ	JJ	Degree=Pos	14	mod	_	_
@@ -3318,8 +3318,8 @@
 10	,	,	PUNCT	,	_	6	punct	_	_
 11	by	by	ADP	IN	_	6	udep	_	_
 12	James	James	PROPN	NNP	Number=Sing	11	comp:obj	_	_
-13	Henry	Henry	PROPN	NNP	Number=Sing	12	flat	_	_
-14	Breasted	Breasted	PROPN	NNP	Number=Sing	13	flat	_	_
+13	Henry	Henry	PROPN	NNP	Number=Sing	12	flat@name	_	_
+14	Breasted	Breasted	PROPN	NNP	Number=Sing	13	flat@name	_	_
 15	in	in	ADP	IN	_	6	udep	_	_
 16	1903	1903	NUM	CD	NumType=Card	15	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	_	_
@@ -3385,7 +3385,7 @@
 27	time	time	NOUN	NN	Number=Sing	25	comp:obj	_	_
 28	of	of	ADP	IN	_	27	udep	_	_
 29	Thutmose	Thutmose	PROPN	NNP	Number=Sing	28	comp:obj	_	_
-30	III	iii	NUM	CD	NumType=Card	29	flat	_	_
+30	III	iii	NUM	CD	NumType=Card	29	flat@name	_	_
 31	almost	almost	ADV	RB	_	32	mod	_	_
 32	120	120	NUM	CD	NumType=Card	33	mod	_	_
 33	years	year	NOUN	NNS	Number=Plur	34	udep@npmod	_	_
@@ -3431,7 +3431,7 @@
 6	marriage	marriage	NOUN	NN	Number=Sing	4	comp:obj	_	_
 7	of	of	ADP	IN	_	6	udep	_	_
 8	Herod	Herod	PROPN	NNP	Number=Sing	7	comp:obj	_	_
-9	Antipas	Antipas	PROPN	NNP	Number=Sing	8	flat	_	_
+9	Antipas	Antipas	PROPN	NNP	Number=Sing	8	flat@name	_	_
 10	and	and	CCONJ	CC	_	11	cc	_	_
 11	Herodias	Herodias	PROPN	NNP	Number=Sing	8	conj	_	_
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3713,11 +3713,11 @@
 # sent_id = w01060037
 # text = Shen Kuo soon impressed Wang Anshi with his skills and abilities as an administrator and government agent.
 1	Shen	Shen	PROPN	NNP	Number=Sing	4	subj	_	_
-2	Kuo	Kuo	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Kuo	Kuo	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	soon	soon	ADV	RB	Degree=Pos	4	mod	_	_
 4	impressed	impress	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Wang	Wang	PROPN	NNP	Number=Sing	4	comp:obj	_	_
-6	Anshi	Anshi	PROPN	NNP	Number=Sing	5	flat	_	_
+6	Anshi	Anshi	PROPN	NNP	Number=Sing	5	flat@name	_	_
 7	with	with	ADP	IN	_	4	udep	_	_
 8	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Shared=No	9	mod@poss	_	_
 9	skills	skill	NOUN	NNS	Number=Plur	7	comp:obj	_	_
@@ -3805,7 +3805,7 @@
 14	to	to	ADP	IN	_	13	udep	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 16	Khitan	Khitan	PROPN	NNP	Number=Sing	18	compound	_	_
-17	Liao	Liao	PROPN	NNP	Number=Sing	16	flat	_	_
+17	Liao	Liao	PROPN	NNP	Number=Sing	16	flat@name	_	_
 18	Dynasty	dynasty	NOUN	NN	Number=Sing	14	comp:obj	_	_
 19	in	in	ADP	IN	_	10	udep	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
@@ -4086,7 +4086,7 @@
 19	Egyptian	Egyptian	ADJ	JJ	Degree=Pos	20	mod	_	_
 20	pharaoh	pharaoh	NOUN	NN	Number=Sing	17	comp:obj	_	_
 21	Thutmose	Thutmose	PROPN	NNP	Number=Sing	20	conj:appos	_	_
-22	III	iii	NUM	CD	NumType=Card	21	flat	_	SpaceAfter=No
+22	III	iii	NUM	CD	NumType=Card	21	flat@name	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01065021
@@ -4121,7 +4121,7 @@
 # text = The Tell Amarna letters, dating from the 14th century BCE, include ten letters from the kings of Gezer swearing loyalty to the Egyptian pharaoh.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	Tell	Tell	PROPN	NNP	Number=Sing	4	compound	_	_
-3	Amarna	Amarna	PROPN	NNP	Number=Sing	2	flat	_	_
+3	Amarna	Amarna	PROPN	NNP	Number=Sing	2	flat@name	_	_
 4	letters	letter	NOUN	NNS	Number=Plur	13	subj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
 6	dating	date	VERB	VBG	VerbForm=Ger	4	mod	_	_
@@ -4770,7 +4770,7 @@
 12	love	love	NOUN	NN	Number=Sing	11	comp:obj	_	_
 13	with	with	ADP	IN	Shared=No	10	udep	_	_
 14	Florence	Florence	PROPN	NNP	Number=Sing	13	comp:obj	_	_
-15	Garrard	Garrard	PROPN	NNP	Number=Sing	14	flat	_	_
+15	Garrard	Garrard	PROPN	NNP	Number=Sing	14	flat@name	_	_
 16	who	who	PRON	WP	PronType=Rel	17	subj	_	_
 17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	mod@relcl	_	_
 18	boarding	board	VERB	VBG	Tense=Pres|VerbForm=Part	17	comp:aux	_	_
@@ -4790,7 +4790,7 @@
 # sent_id = w01073054
 # text = Stephen Wheeler, the editor, worked Kipling hard, but Kipling's need to write was unstoppable.
 1	Stephen	Stephen	PROPN	NNP	Number=Sing|Shared=No	7	subj	_	_
-2	Wheeler	Wheeler	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+2	Wheeler	Wheeler	PROPN	NNP	Number=Sing	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	editor	editor	NOUN	NN	Number=Sing	2	conj:appos	_	SpaceAfter=No
@@ -4852,8 +4852,8 @@
 # sent_id = w01074088
 # text = Jin Ping Mei, published in 1610, although incorporating earlier material, marks the trend toward independent composition and concern with psychology.
 1	Jin	Jin	PROPN	NNP	Number=Sing	14	subj	_	_
-2	Ping	Ping	PROPN	NNP	Number=Sing	1	flat	_	_
-3	Mei	Mei	PROPN	NNP	Number=Sing	2	flat	_	SpaceAfter=No
+2	Ping	Ping	PROPN	NNP	Number=Sing	1	flat@name	_	_
+3	Mei	Mei	PROPN	NNP	Number=Sing	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
 5	published	publish	VERB	VBN	Tense=Past|VerbForm=Part	1	mod	_	_
 6	in	in	ADP	IN	_	5	udep	_	_
@@ -5148,7 +5148,7 @@
 1	Dominican	Dominican	ADJ	JJ	Degree=Pos	2	mod	_	_
 2	priest	priest	NOUN	NN	Number=Sing	5	subj	_	_
 3	Heinrich	Heinrich	PROPN	NNP	Number=Sing	2	conj:appos	_	_
-4	Kramer	Kramer	PROPN	NNP	Number=Sing	3	flat	_	_
+4	Kramer	Kramer	PROPN	NNP	Number=Sing	3	flat@name	_	_
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	assistant	assistant	NOUN	NN	Number=Sing	5	comp:pred	_	_
 7	to	to	ADP	IN	_	6	udep	_	_
@@ -5383,7 +5383,7 @@
 3	war	war	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	Pearl	Pearl	PROPN	NNP	Number=Sing	7	subj@pass	_	_
-6	Harbor	Harbor	PROPN	NNP	Number=Sing	5	flat	_	_
+6	Harbor	Harbor	PROPN	NNP	Number=Sing	5	flat@name	_	_
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	frequently	frequently	ADV	RB	_	7	mod	_	_
 9	used	use	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
@@ -5838,8 +5838,8 @@
 9	about	about	ADP	RP	_	8	compound@prt	_	_
 10	by	by	ADP	IN	_	8	udep	_	_
 11	Scotsman	Scotsman	PROPN	NNP	Number=Sing	10	comp:obj	_	_
-12	James	James	PROPN	NNP	Number=Sing	11	flat	_	_
-13	Watt	Watt	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+12	James	James	PROPN	NNP	Number=Sing	11	flat@name	_	_
+13	Watt	Watt	PROPN	NNP	Number=Sing	12	flat@name	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w01092032
@@ -6035,7 +6035,7 @@
 1	Prior	prior	ADV	RB	_	11	udep	_	ExtPos=ADV|Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	Emperor	emperor	NOUN	NN	Number=Sing	1	comp:obj	_	_
-4	Meiji	Meiji	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+4	Meiji	Meiji	PROPN	NNP	Number=Sing	3	flat@name	_	SpaceAfter=No
 5	,	,	PUNCT	,	Shared=Yes	11	punct	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 7	names	name	NOUN	NNS	Number=Plur|Shared=No	11	subj@pass	_	_
@@ -6070,7 +6070,7 @@
 4	beginning	begin	VERB	VBG	VerbForm=Ger	11	mod	_	_
 5	with	with	ADP	IN	_	4	udep	_	_
 6	Emperor	emperor	NOUN	NN	Number=Sing	5	comp:obj	_	_
-7	Shōwa	Shōwa	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+7	Shōwa	Shōwa	PROPN	NNP	Number=Sing	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	Emperors	emperor	NOUN	NNS	Number=Plur	11	subj@pass	_	_
@@ -6312,7 +6312,7 @@
 23	Hubei	Hubei	PROPN	NNP	Number=Sing	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	25	punct	_	_
 25	Lin	Lin	PROPN	NNP	Number=Sing	19	conj:appos	_	_
-26	Zexu	Zexu	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No
+26	Zexu	Zexu	PROPN	NNP	Number=Sing	25	flat@name	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	25	punct	_	_
 28	banned	ban	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	comp:obj	_	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
@@ -6345,7 +6345,7 @@
 # sent_id = w01100048
 # text = Hong Kong Island was ceded to Britain, and certain ports, including Shanghai and Guangzhou, were opened to British trade and residence.
 1	Hong	Hong	PROPN	NNP	Number=Sing	3	compound	_	_
-2	Kong	Kong	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Kong	Kong	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	Island	Island	PROPN	NNP	Number=Sing|Shared=No	4	subj@pass	_	_
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	ceded	cede	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
@@ -6500,7 +6500,7 @@
 # sent_id = w01102020
 # text = Joseph Darnand, who became an SS officer and led the Milice paramilitaries who hunted down members of the Resistance, was executed in October 1945.
 1	Joseph	Joseph	PROPN	NNP	Number=Sing	22	subj@pass	_	_
-2	Darnand	Darnand	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+2	Darnand	Darnand	PROPN	NNP	Number=Sing	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	,	Shared=Yes	5	punct	_	_
 4	who	who	PRON	WP	PronType=Rel|Shared=Yes	5	subj	_	_
 5	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	mod@relcl	_	_
@@ -6530,7 +6530,7 @@
 # sent_id = w01102040
 # text = De Gaulle had instructed that there be no excessive displays of public affection towards Churchill and no official awards without his prior agreement.
 1	De	De	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Gaulle	Gaulle	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Gaulle	Gaulle	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	instructed	instruct	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	that	that	SCONJ	IN	_	4	comp:obj	_	_
@@ -6870,10 +6870,10 @@
 16	such	such	ADJ	JJ	Degree=Pos	15	udep	_	ExtPos=ADJ|Idiom=Yes
 17	as	as	ADP	IN	_	16	unk	_	InIdiom=Yes
 18	Bill	Bill	PROPN	NNP	Number=Sing	16	comp:obj	_	_
-19	Gold	Gold	PROPN	NNP	Number=Sing	18	flat	_	_
+19	Gold	Gold	PROPN	NNP	Number=Sing	18	flat@name	_	_
 20	and	and	CCONJ	CC	_	21	cc	_	_
 21	Saul	Saul	PROPN	NNP	Number=Sing	18	conj	_	_
-22	Bass	Bass	PROPN	NNP	Number=Sing|Shared=No	21	flat	_	SpaceAfter=No
+22	Bass	Bass	PROPN	NNP	Number=Sing|Shared=No	21	flat@name	_	SpaceAfter=No
 23	—	—	PUNCT	:	_	15	punct	_	SpaceAfter=No
 24	who	who	PRON	WP	PronType=Rel	25	subj	_	_
 25	would	would	AUX	MD	VerbForm=Fin	8	mod@relcl	_	_
@@ -6925,8 +6925,8 @@
 9	visited	visit	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 10	by	by	ADP	IN	_	9	udep	_	_
 11	Reverend	Reverend	PROPN	NNP	Number=Sing	10	comp:obj	_	_
-12	William	William	PROPN	NNP	Number=Sing	11	flat	_	_
-13	Hechler	Hechler	PROPN	NNP	Number=Sing	12	flat	_	SpaceAfter=No
+12	William	William	PROPN	NNP	Number=Sing	11	flat@name	_	_
+13	Hechler	Hechler	PROPN	NNP	Number=Sing	12	flat@name	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	11	punct	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 16	Anglican	Anglican	ADJ	JJ	Degree=Pos	17	mod	_	Proper=True
@@ -7139,7 +7139,7 @@
 3	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	_
 4	rival	rival	NOUN	NN	Number=Sing	8	subj	_	_
 5	Prabowo	Prabowo	PROPN	NNP	Number=Sing	4	conj:appos	_	_
-6	Subianto	Subianto	PROPN	NNP	Number=Sing	5	flat	_	_
+6	Subianto	Subianto	PROPN	NNP	Number=Sing	5	flat@name	_	_
 7	also	also	ADV	RB	_	8	mod	_	_
 8	declared	declare	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 9	victory	victory	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
@@ -7393,7 +7393,7 @@
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	about	about	ADP	IN	_	4	comp:pred	_	_
 6	Margaret	Margaret	PROPN	NNP	Number=Sing	5	comp:obj	_	_
-7	Douglas	Douglas	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+7	Douglas	Douglas	PROPN	NNP	Number=Sing	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	Countess	Countess	PROPN	NNP	Number=Sing	6	conj:appos	_	_
 10	of	of	ADP	IN	_	9	udep	_	Proper=True
@@ -7722,7 +7722,7 @@
 11	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	mod	_	_
 12	by	by	ADP	IN	_	11	udep	_	_
 13	Lord	lord	NOUN	NN	Number=Sing	12	comp:obj	_	_
-14	North	North	PROPN	NNP	Number=Sing	13	flat	_	_
+14	North	North	PROPN	NNP	Number=Sing	13	flat@name	_	_
 15	to	to	PART	TO	_	8	comp:obl	_	_
 16	return	return	VERB	VB	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising
 17	to	to	ADP	IN	_	16	udep	_	_
@@ -7775,7 +7775,7 @@
 4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	_
 5	brother	brother	NOUN	NN	Number=Sing|Shared=No	15	subj@pass	_	_
 6	Prince	prince	NOUN	NN	Number=Sing	5	conj:appos	_	_
-7	Henry	Henry	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+7	Henry	Henry	PROPN	NNP	Number=Sing	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	Duke	Duke	PROPN	NNP	Number=Sing	5	conj:appos	_	_
 10	of	of	ADP	IN	_	9	udep	_	Proper=True
@@ -7800,7 +7800,7 @@
 29	widow	widow	NOUN	NN	Number=Sing|Shared=No	26	comp:obj	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	29	punct	_	_
 31	Anne	Anne	PROPN	NNP	Number=Sing	29	conj:appos	_	_
-32	Horton	Horton	PROPN	NNP	Number=Sing	31	flat	_	SpaceAfter=No
+32	Horton	Horton	PROPN	NNP	Number=Sing	31	flat@name	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	15	punct	_	_
 
 # newdoc id = w01127
@@ -7854,7 +7854,7 @@
 6	Icelandic	Icelandic	ADJ	JJ	Degree=Pos	7	mod	_	_
 7	band	band	NOUN	NN	Number=Sing	13	subj	_	_
 8	Sigur	Sigur	PROPN	NNP	Number=Sing	7	conj:appos	_	_
-9	Rós	Rós	PROPN	NNP	Number=Sing	8	flat	_	_
+9	Rós	Rós	PROPN	NNP	Number=Sing	8	flat@name	_	_
 10	released	release	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	comp:obj	_	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
 12	video	video	NOUN	NN	Number=Sing	10	comp:obj	_	_
@@ -7863,7 +7863,7 @@
 15	song	song	NOUN	NN	Number=Sing	12	mod	_	_
 16	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
 17	Fjögur	Fjögur	PROPN	NNP	Number=Sing	15	conj:appos	_	_
-18	Píanó	Píanó	PROPN	NNP	Number=Sing	17	flat	_	SpaceAfter=No
+18	Píanó	Píanó	PROPN	NNP	Number=Sing	17	flat@name	_	SpaceAfter=No
 19	"	"	PUNCT	''	_	17	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	starring	star	VERB	VBG	VerbForm=Ger	12	mod	_	_
@@ -7976,7 +7976,7 @@
 10	what	what	PRON	WP	PronType=Int	9	comp:obj	_	_
 11	musician	musician	NOUN	NN	Number=Sing	15	subj	_	_
 12	Tom	Tom	PROPN	NNP	Number=Sing	11	conj:appos	_	_
-13	Robinson	Robinson	PROPN	NNP	Number=Sing	12	flat	_	_
+13	Robinson	Robinson	PROPN	NNP	Number=Sing	12	flat@name	_	_
 14	later	later	ADV	RB	_	15	mod	_	_
 15	described	describe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	mod@relcl	_	_
 16	as	as	ADP	IN	_	15	udep	_	_
@@ -8005,7 +8005,7 @@
 12	with	with	ADP	IN	_	10	udep	_	_
 13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	mod@poss	_	_
 14	Stealers	Stealers	PROPN	NNPS	Number=Plur	16	compound	_	_
-15	Wheel	Wheel	PROPN	NNP	Number=Sing	14	flat	_	_
+15	Wheel	Wheel	PROPN	NNP	Number=Sing	14	flat@name	_	_
 16	partner	partner	NOUN	NN	Number=Sing	12	comp:obj	_	_
 17	Egan	Egan	PROPN	NNP	Number=Sing	16	conj:appos	_	_
 18	on	on	ADP	IN	_	10	udep	_	_
@@ -8087,7 +8087,7 @@
 8	produced	produce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	mod@relcl	_	_
 9	with	with	ADP	IN	_	8	udep	_	_
 10	Hugh	Hugh	PROPN	NNP	Number=Sing	9	comp:obj	_	_
-11	Murphy	Murphy	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+11	Murphy	Murphy	PROPN	NNP	Number=Sing	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	who	who	PRON	WP	PronType=Rel	14	subj	_	_
 14	died	die	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	mod@relcl	_	_
@@ -8301,7 +8301,7 @@
 9	descendant	descendant	NOUN	NN	Number=Sing	6	comp:pred	_	_
 10	of	of	ADP	IN	_	9	udep	_	_
 11	Tokugawa	Tokugawa	PROPN	NNP	Number=Sing	10	comp:obj	_	_
-12	Ieyasu	Ieyasu	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+12	Ieyasu	Ieyasu	PROPN	NNP	Number=Sing	11	flat@name	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = w01134062
@@ -8369,8 +8369,8 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
 11	new	new	ADJ	JJ	Degree=Pos	15	mod	_	_
 12	Yves	Yves	PROPN	NNP	Number=Sing	15	compound	_	_
-13	Saint	Saint	PROPN	NNP	Number=Sing	12	flat	_	_
-14	Laurent	Laurent	PROPN	NNP	Number=Sing	13	flat	_	_
+13	Saint	Saint	PROPN	NNP	Number=Sing	12	flat@name	_	_
+14	Laurent	Laurent	PROPN	NNP	Number=Sing	13	flat@name	_	_
 15	fragrance	fragrance	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	Opium	Opium	PROPN	NNP	Number=Sing	15	conj:appos	_	SpaceAfter=No
@@ -8395,15 +8395,15 @@
 15	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	8	mod	_	_
 16	by	by	ADP	IN	_	15	udep	_	_
 17	Lasse	Lasse	PROPN	NNP	Number=Sing	16	comp:obj	_	_
-18	Hallström	Hallström	PROPN	NNP	Number=Sing	17	flat	_	_
+18	Hallström	Hallström	PROPN	NNP	Number=Sing	17	flat@name	_	_
 19	and	and	CCONJ	CC	_	20	cc	_	_
 20	co-starring	co-star	VERB	VBG	VerbForm=Ger	15	conj	_	_
 21	Ewan	Ewan	PROPN	NNP	Number=Sing|Shared=No	20	comp:obj	_	_
-22	McGregor	McGregor	PROPN	NNP	Number=Sing	21	flat	_	_
+22	McGregor	McGregor	PROPN	NNP	Number=Sing	21	flat@name	_	_
 23	and	and	CCONJ	CC	_	24	cc	_	_
 24	Kristin	Kristin	PROPN	NNP	Number=Sing	21	conj	_	_
-25	Scott	Scott	PROPN	NNP	Number=Sing|Shared=No	24	flat	_	_
-26	Thomas	Thomas	PROPN	NNP	Number=Sing	25	flat	_	SpaceAfter=No
+25	Scott	Scott	PROPN	NNP	Number=Sing|Shared=No	24	flat@name	_	_
+26	Thomas	Thomas	PROPN	NNP	Number=Sing	25	flat@name	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01135036
@@ -8423,7 +8423,7 @@
 13	,	,	PUNCT	,	_	7	punct	_	_
 14	as	as	ADP	IN	_	7	udep	_	_
 15	Miss	Miss	PROPN	NNP	Number=Sing	17	comp:obj	_	_
-16	Piggy	Piggy	PROPN	NNP	Number=Sing	15	flat	_	SpaceAfter=No
+16	Piggy	Piggy	PROPN	NNP	Number=Sing	15	flat@name	_	SpaceAfter=No
 17	's	's	PART	POS	_	18	udep@poss	_	_
 18	receptionist	receptionist	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	_	_
@@ -8445,11 +8445,11 @@
 13	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	6	mod	_	_
 14	by	by	ADP	IN	_	13	udep	_	_
 15	Nicholas	Nicholas	PROPN	NNP	Number=Sing	14	comp:obj	_	_
-16	Stoller	Stoller	PROPN	NNP	Number=Sing	15	flat	_	_
+16	Stoller	Stoller	PROPN	NNP	Number=Sing	15	flat@name	_	_
 17	and	and	CCONJ	CC	_	18	cc	_	_
 18	co-starring	co-star	VERB	VBG	VerbForm=Ger	13	conj	_	_
 19	Jason	Jason	PROPN	NNP	Number=Sing|Shared=No	18	comp:obj	_	_
-20	Segel	Segel	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+20	Segel	Segel	PROPN	NNP	Number=Sing	19	flat@name	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01135038
@@ -8473,16 +8473,16 @@
 17	directed	direct	VERB	VBN	Tense=Past|VerbForm=Part	13	mod	_	_
 18	by	by	ADP	IN	_	17	udep	_	_
 19	Rian	Rian	PROPN	NNP	Number=Sing	18	comp:obj	_	_
-20	Johnson	Johnson	PROPN	NNP	Number=Sing	19	flat	_	_
+20	Johnson	Johnson	PROPN	NNP	Number=Sing	19	flat@name	_	_
 21	and	and	CCONJ	CC	_	22	cc	_	_
 22	co-starring	co-star	VERB	VBG	VerbForm=Ger	7	conj	_	_
 23	Bruce	Bruce	PROPN	NNP	Number=Sing|Shared=No	22	comp:obj	_	_
-24	Willis	Willis	PROPN	NNP	Number=Sing	23	flat	_	_
+24	Willis	Willis	PROPN	NNP	Number=Sing	23	flat@name	_	_
 25	and	and	CCONJ	CC	_	26	cc	_	_
 26	Joseph	Joseph	PROPN	NNP	Number=Sing	23	conj	_	_
-27	Gordon	Gordon	PROPN	NNP	Number=Sing	26	flat	_	SpaceAfter=No
+27	Gordon	Gordon	PROPN	NNP	Number=Sing	26	flat@name	_	SpaceAfter=No
 28	-	-	PUNCT	HYPH	_	29	punct	_	SpaceAfter=No
-29	Levitt	Levitt	PROPN	NNP	Number=Sing|Shared=No	27	flat	_	SpaceAfter=No
+29	Levitt	Levitt	PROPN	NNP	Number=Sing|Shared=No	27	flat@name	_	SpaceAfter=No
 30	;	;	PUNCT	:	_	6	punct	_	_
 31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
 32	film	film	NOUN	NN	Number=Sing	33	subj@pass	_	_
@@ -8515,7 +8515,7 @@
 # sent_id = w01136074
 # text = Joseph Schenck was interested in casting his wife, Norma Talmadge, opposite Valentino in a version of Romeo and Juliet.
 1	Joseph	Joseph	PROPN	NNP	Number=Sing	3	subj	_	_
-2	Schenck	Schenck	PROPN	NNP	Number=Sing	1	flat	_	_
+2	Schenck	Schenck	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	interested	interested	ADJ	JJ	Degree=Pos	3	comp:pred	_	_
 5	in	in	SCONJ	IN	_	3	mod	_	_
@@ -8524,7 +8524,7 @@
 8	wife	wife	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
 10	Norma	Norma	PROPN	NNP	Number=Sing	8	conj:appos	_	_
-11	Talmadge	Talmadge	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+11	Talmadge	Talmadge	PROPN	NNP	Number=Sing	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	10	punct	_	_
 13	opposite	opposite	ADP	IN	_	6	udep	_	_
 14	Valentino	Valentino	PROPN	NNP	Number=Sing	13	comp:obj	_	_
@@ -8541,7 +8541,7 @@
 # sent_id = w01137050
 # text = Lord Halifax, the Lord President of the Council, visited Germany privately in November and met Hitler and other German officials.
 1	Lord	Lord	PROPN	NNP	Number=Sing|Shared=Yes	11	subj	_	_
-2	Halifax	Halifax	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+2	Halifax	Halifax	PROPN	NNP	Number=Sing	1	flat@name	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 5	Lord	lord	NOUN	NN	Number=Sing	6	compound	_	_
@@ -8692,9 +8692,9 @@
 8	written	write	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux	_	_
 9	to	to	ADP	IN	_	8	udep	_	_
 10	Irène	Irène	PROPN	NNP	Number=Sing	9	comp:obj	_	_
-11	Joliot	Joliot	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+11	Joliot	Joliot	PROPN	NNP	Number=Sing	10	flat@name	_	SpaceAfter=No
 12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
-13	Curie	Curie	PROPN	NNP	Number=Sing	11	flat	_	_
+13	Curie	Curie	PROPN	NNP	Number=Sing	11	flat@name	_	_
 14	suggesting	suggest	VERB	VBG	VerbForm=Ger	7	mod	_	_
 15	that	that	SCONJ	IN	_	14	comp:obj	_	_
 16	Rona	Rona	PROPN	NNP	Number=Sing	17	subj	_	_
@@ -8718,7 +8718,7 @@
 # text = Once Hans Pettersson was able to secure funds to pay Rona's expenses, Joliot-Curie allowed her to come and study polonium separation at the Curie Institute in Paris.
 1	Once	once	SCONJ	IN	_	18	mod	_	_
 2	Hans	Hans	PROPN	NNP	Number=Sing	4	subj	_	_
-3	Pettersson	Pettersson	PROPN	NNP	Number=Sing	2	flat	_	_
+3	Pettersson	Pettersson	PROPN	NNP	Number=Sing	2	flat@name	_	_
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	comp:obj	_	_
 5	able	able	ADJ	JJ	Degree=Pos	4	comp:pred	_	_
 6	to	to	PART	TO	_	5	comp:obl	_	_
@@ -8732,7 +8732,7 @@
 14	,	,	PUNCT	,	_	18	punct	_	_
 15	Joliot	Joliot	PROPN	NNP	Number=Sing	18	subj	_	SpaceAfter=No
 16	-	-	PUNCT	HYPH	_	17	punct	_	SpaceAfter=No
-17	Curie	Curie	PROPN	NNP	Number=Sing	15	flat	_	_
+17	Curie	Curie	PROPN	NNP	Number=Sing	15	flat@name	_	_
 18	allowed	allow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	_
 20	to	to	PART	TO	_	18	comp:obl	_	_
@@ -8854,7 +8854,7 @@
 7	top	top	ADJ	JJ	Degree=Pos	8	mod	_	_
 8	seed	seed	NOUN	NN	Number=Sing	5	conj	_	_
 9	Sara	Sara	PROPN	NNP	Number=Sing|Shared=No	8	conj:appos	_	_
-10	Errani	Errani	PROPN	NNP	Number=Sing	9	flat	_	SpaceAfter=No
+10	Errani	Errani	PROPN	NNP	Number=Sing	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	but	but	CCONJ	CC	_	13	cc	_	_
 13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
@@ -8882,7 +8882,7 @@
 4	Cecily	Cecily	PROPN	NNP	Number=Sing	3	conj:appos	_	_
 5	married	marry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	mod	_	_
 6	Richard	Richard	PROPN	NNP	Number=Sing	5	comp:obj	_	_
-7	Plantagenet	Plantagenet	PROPN	NNP	Number=Sing	6	flat	_	SpaceAfter=No
+7	Plantagenet	Plantagenet	PROPN	NNP	Number=Sing	6	flat@name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 10	3rd	3rd	ADJ	JJ	Degree=Pos|NumType=Ord	11	mod	_	Proper=True
@@ -8897,10 +8897,10 @@
 19	,	,	PUNCT	,	_	20	punct	_	_
 20	including	include	VERB	VBG	VerbForm=Ger	18	mod	_	_
 21	Edward	Edward	PROPN	NNP	Number=Sing	20	comp:obj	_	_
-22	IV	iv	NUM	CD	NumType=Card	21	flat	_	_
+22	IV	iv	NUM	CD	NumType=Card	21	flat@name	_	_
 23	and	and	CCONJ	CC	_	24	cc	_	_
 24	Richard	Richard	PROPN	NNP	Number=Sing	21	conj	_	_
-25	III	iii	NUM	CD	NumType=Card|Shared=No	24	flat	_	SpaceAfter=No
+25	III	iii	NUM	CD	NumType=Card|Shared=No	24	flat@name	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	28	punct	_	_
 27	Joan	Joan	PROPN	NNP	Number=Sing	28	subj	_	_
 28	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -8954,7 +8954,7 @@
 9	actress	actress	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	Gloria	Gloria	PROPN	NNP	Number=Sing	9	conj:appos	_	_
-12	Holden	Holden	PROPN	NNP	Number=Sing	11	flat	_	SpaceAfter=No
+12	Holden	Holden	PROPN	NNP	Number=Sing	11	flat@name	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	_	_
 14	but	but	CCONJ	CC	_	15	cc	_	_
 15	carried	carry	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
@@ -8972,7 +8972,7 @@
 2	co-starred	co-star	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	as	as	ADP	IN	_	2	udep	_	_
 4	Humphrey	Humphrey	PROPN	NNP	Number=Sing	6	comp:obj	_	_
-5	Bogart	Bogart	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+5	Bogart	Bogart	PROPN	NNP	Number=Sing	4	flat@name	_	SpaceAfter=No
 6	's	's	PART	POS	_	8	udep@poss	_	_
 7	younger	younger	ADJ	JJR	Degree=Cmp	8	mod	_	_
 8	brother	brother	NOUN	NN	Number=Sing	3	comp:obj	_	SpaceAfter=No
@@ -8990,7 +8990,7 @@
 20	played	play	VERB	VBN	Tense=Past|VerbForm=Part	15	mod	_	_
 21	by	by	ADP	IN	_	20	udep	_	_
 22	Audrey	Audrey	PROPN	NNP	Number=Sing	21	comp:obj	_	_
-23	Hepburn	Hepburn	PROPN	NNP	Number=Sing	22	flat	_	SpaceAfter=No
+23	Hepburn	Hepburn	PROPN	NNP	Number=Sing	22	flat@name	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = w01144
@@ -9023,7 +9023,7 @@
 8	incumbent	incumbent	ADJ	JJ	Degree=Pos	9	mod	_	_
 9	President	president	NOUN	NN	Number=Sing	6	conj	_	_
 10	Jimmy	Jimmy	PROPN	NNP	Number=Sing|Shared=No	9	conj:appos	_	_
-11	Carter	Carter	PROPN	NNP	Number=Sing	10	flat	_	_
+11	Carter	Carter	PROPN	NNP	Number=Sing	10	flat@name	_	_
 12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	conducted	conduct	VERB	VBN	Tense=Past|VerbForm=Part	12	comp:aux@pass	_	_
 14	during	during	ADP	IN	_	13	udep	_	_
@@ -9211,7 +9211,7 @@
 18	tracked	track	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 19	down	down	ADP	RP	_	18	compound@prt	_	_
 20	David	David	PROPN	NNP	Number=Sing	18	comp:obj	_	_
-21	Gamson	Gamson	PROPN	NNP	Number=Sing	20	flat	_	SpaceAfter=No
+21	Gamson	Gamson	PROPN	NNP	Number=Sing	20	flat@name	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	_	_
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
 24	producer	producer	NOUN	NN	Number=Sing	20	conj:appos	_	_
@@ -9221,7 +9221,7 @@
 28	,	,	PUNCT	,	_	24	punct	_	_
 29	from	from	ADP	IN	_	18	udep	_	_
 30	Scritti	Scritti	PROPN	NNP	Number=Sing	29	comp:obj	_	_
-31	Politti	Politti	PROPN	NNP	Number=Sing	30	flat	_	_
+31	Politti	Politti	PROPN	NNP	Number=Sing	30	flat@name	_	_
 32	who	who	PRON	WP	PronType=Rel	33	subj	_	_
 33	agreed	agree	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	mod@relcl	_	_
 34	to	to	PART	TO	_	33	comp:obl	_	_
@@ -9337,7 +9337,7 @@
 6	fellow	fellow	ADJ	JJ	Degree=Pos	7	mod	_	_
 7	director	director	NOUN	NN	Number=Sing	5	comp:obj	_	_
 8	Garth	Garth	PROPN	NNP	Number=Sing	7	conj:appos	_	_
-9	Jennings	Jennings	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+9	Jennings	Jennings	PROPN	NNP	Number=Sing	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	_	_
 11	and	and	CCONJ	CC	_	12	cc	_	_
 12	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_

@@ -13,7 +13,7 @@
 9	1914	1914	NUM	CD	NumType=Card	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	Antonio	Antonio	PROPN	NNP	Number=Sing	13	subj	_	_
-12	Gaudí	Gaudí	PROPN	NNP	Number=Sing	11	flat	_	_
+12	Gaudí	Gaudí	PROPN	NNP	Number=Sing	11	flat@name	_	_
 13	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 14	about	about	ADP	RP	_	13	compound@prt	_	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
@@ -106,9 +106,9 @@
 9	called	called	ADJ	JJ	Degree=Pos	11	mod	_	_
 10	'	'	PUNCT	``	_	11	punct	_	SpaceAfter=No
 11	Andes	andes	X	FW	Foreign=Yes	5	comp:obj	_	_
-12	de	de	X	FW	Foreign=Yes	11	flat	_	_
-13	tipo	tipo	X	FW	Foreign=Yes	12	flat	_	_
-14	andino	andino	X	FW	_	13	flat	_	SpaceAfter=No
+12	de	de	X	FW	Foreign=Yes	11	flat@name	_	_
+13	tipo	tipo	X	FW	Foreign=Yes	12	flat@name	_	_
+14	andino	andino	X	FW	_	13	flat@name	_	SpaceAfter=No
 15	'	'	PUNCT	''	_	11	punct	_	_
 16	which	which	PRON	WDT	PronType=Rel	17	subj@pass	_	_
 17	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	mod@relcl	_	_
@@ -268,7 +268,7 @@
 14	of	of	ADP	IN	_	13	udep	_	_
 15	General	General	PROPN	NNP	Number=Sing	16	compound	_	_
 16	John	John	PROPN	NNP	Number=Sing	14	comp:obj	_	_
-17	Burgoyne	Burgoyne	PROPN	NNP	Number=Sing	16	flat	_	_
+17	Burgoyne	Burgoyne	PROPN	NNP	Number=Sing	16	flat@name	_	_
 18	surrendered	surrender	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	mod	_	_
 19	in	in	ADP	IN	_	18	udep	_	_
 20	Saratoga	Saratoga	PROPN	NNP	Number=Sing	19	comp:obj	_	_
@@ -289,8 +289,8 @@
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	coup	coup	X	FW	Foreign=Yes	2	comp:pred	_	_
-5	de	de	X	FW	Foreign=Yes	4	flat	_	_
-6	grâce	grâce	X	FW	_	5	flat	_	_
+5	de	de	X	FW	Foreign=Yes	4	flat@name	_	_
+6	grâce	grâce	X	FW	_	5	flat@name	_	_
 7	and	and	CCONJ	CC	_	8	cc	_	_
 8	encouragement	encouragement	NOUN	NN	Number=Sing	4	conj	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
@@ -312,7 +312,7 @@
 6	led	lead	VERB	VBN	Tense=Past|VerbForm=Part	2	mod	_	_
 7	by	by	ADP	IN	_	6	udep	_	_
 8	Joseph	Joseph	PROPN	NNP	Number=Sing	7	comp:obj	_	_
-9	Brant	Brant	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+9	Brant	Brant	PROPN	NNP	Number=Sing	8	flat@name	_	SpaceAfter=No
 10	;	;	PUNCT	:	_	2	punct	_	_
 11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	subj	_	_
 12	supported	support	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
@@ -340,7 +340,7 @@
 5	by	by	ADP	IN	_	4	udep	_	_
 6	General	General	PROPN	NNP	Number=Sing	7	compound	_	_
 7	Joseph	Joseph	PROPN	NNP	Number=Sing	5	comp:obj	_	_
-8	Burgoyne	Burgoyne	PROPN	NNP	Number=Sing	7	flat	_	_
+8	Burgoyne	Burgoyne	PROPN	NNP	Number=Sing	7	flat@name	_	_
 9	who	who	PRON	WP	PronType=Rel	10	subj	_	_
 10	intended	intend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
 11	to	to	PART	TO	_	10	comp:obl	_	_
@@ -445,10 +445,10 @@
 12	daughters	daughter	NOUN	NNS	Number=Plur	22	subj	_	_
 13	of	of	ADP	IN	_	12	udep	_	_
 14	Luis	Luis	PROPN	NNP	Number=Sing	13	comp:obj	_	_
-15	X	x	PROPN	CD	NumType=Card	14	flat	_	SpaceAfter=No
+15	X	x	PROPN	CD	NumType=Card	14	flat@name	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	Felipe	Felipe	PROPN	NNP	Number=Sing	14	conj	_	_
-18	V	v	PROPN	CD	NumType=Card	17	flat	_	_
+18	V	v	PROPN	CD	NumType=Card	17	flat@name	_	_
 19	and	and	CCONJ	CC	_	20	cc	_	_
 20	Carlos	Carlos	PROPN	NNP	Number=Sing	17	conj	_	_
 21	IV	iv	NUM	CD	NumType=Card|Shared=No	20	mod	_	Proper=True
@@ -556,7 +556,7 @@
 17	Company	company	PROPN	NN	Number=Sing	13	conj:appos	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
 19	Kiki	Kiki	PROPN	NNP	Number=Sing	7	conj:appos	_	_
-20	Dee	Dee	PROPN	NNP	Number=Sing	19	flat	_	SpaceAfter=No
+20	Dee	Dee	PROPN	NNP	Number=Sing	19	flat@name	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	19	punct	_	_
 22	to	to	PART	TO	_	4	mod	_	_
 23	record	record	VERB	VB	VerbForm=Inf	22	comp:obj	_	_
@@ -654,7 +654,7 @@
 8	occupied	occupy	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
 9	by	by	ADP	IN	_	8	udep	_	_
 10	Marco	Marco	PROPN	NNP	Number=Sing	9	comp:obj	_	_
-11	Antonio	Antonio	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+11	Antonio	Antonio	PROPN	NNP	Number=Sing	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	who	who	PRON	WP	PronType=Rel	14	subj	_	_
 14	held	hold	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	mod@relcl	_	_
@@ -729,7 +729,7 @@
 6	BC	bc	NOUN	NN	Number=Sing	4	mod@npmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
 8	Marco	Marco	PROPN	NNP	Number=Sing	10	subj	_	_
-9	Antonio	Antonio	PROPN	NNP	Number=Sing	8	flat	_	_
+9	Antonio	Antonio	PROPN	NNP	Number=Sing	8	flat@name	_	_
 10	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
 12	declaration	declaration	NOUN	NN	Number=Sing	10	comp:obj	_	_

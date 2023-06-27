@@ -116,7 +116,7 @@
 5	,	,	PUNCT	,	_	18	punct	_	_
 6	Ms.	Ms.	PROPN	NNP	Number=Sing	9	mod@poss	_	_
 7	Clinton	Clinton	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
-8	's	's	PART	POS	_	6	flat	_	_
+8	's	's	PART	POS	_	6	flat@name	_	_
 9	relations	relation	NOUN	NNS	Number=Plur	18	subj	_	_
 10	with	with	ADP	IN	_	9	udep	_	_
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
@@ -241,10 +241,10 @@
 9	in	in	ADP	IN	_	13	udep	_	_
 10	which	which	PRON	WDT	PronType=Rel	9	comp:obj	_	_
 11	Rachida	Rachida	PROPN	NNP	Number=Sing	13	subj	_	_
-12	Dati	Dati	PROPN	NNP	Number=Sing	11	flat	_	_
+12	Dati	Dati	PROPN	NNP	Number=Sing	11	flat@name	_	_
 13	supports	support	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 14	Nicolas	Nicolas	PROPN	NNP	Number=Sing	16	comp:obj	_	_
-15	Sarkozy	Sarkozy	PROPN	NNP	Number=Sing	14	flat	_	SpaceAfter=No
+15	Sarkozy	Sarkozy	PROPN	NNP	Number=Sing	14	flat@name	_	SpaceAfter=No
 16	's	's	PART	POS	_	17	udep@poss	_	_
 17	candidacy	candidacy	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
@@ -262,7 +262,7 @@
 9	Justice	justice	NOUN	NN	Number=Sing	8	comp:obj	_	_
 10	accused	accuse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	Brice	Brice	PROPN	NNP	Number=Sing	10	comp:obj	_	_
-12	Hortefeux	Hortefeux	PROPN	NNP	Number=Sing	11	flat	_	_
+12	Hortefeux	Hortefeux	PROPN	NNP	Number=Sing	11	flat@name	_	_
 13	of	of	ADP	IN	_	10	unk	_	_
 14	being	be	AUX	VBG	VerbForm=Ger	13	comp:obj	_	_
 15	a	a	DET	DT	Definite=Ind|PronType=Art|Shared=No	17	det	_	_
@@ -344,7 +344,7 @@
 # text = The Force Ouvrière union regrets that its remarks on the content of the guide were not included: "There wasn't really any consultation," said Ms. Gillard.
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	Force	force	X	FW	Foreign=Yes	4	compound	_	_
-3	Ouvrière	ouvrière	X	FW	_	2	flat	_	_
+3	Ouvrière	ouvrière	X	FW	_	2	flat@name	_	_
 4	union	union	NOUN	NN	Number=Sing	5	subj	_	_
 5	regrets	regret	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	that	that	SCONJ	IN	_	5	comp:obj	_	_
@@ -371,7 +371,7 @@
 27	"	"	PUNCT	''	_	28	punct	_	_
 28	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
 29	Ms.	Ms.	PROPN	NNP	Number=Sing	28	subj	_	_
-30	Gillard	Gillard	PROPN	NNP	Number=Sing	29	flat	_	SpaceAfter=No
+30	Gillard	Gillard	PROPN	NNP	Number=Sing	29	flat@name	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n03006034
@@ -573,7 +573,7 @@
 1	According	accord	VERB	VBG	VerbForm=Ger	9	udep	_	_
 2	to	to	ADP	IN	_	1	comp:obj	_	_
 3	Le	Le	PROPN	NNP	Number=Sing	2	comp:obj	_	_
-4	Figaro	Figaro	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+4	Figaro	Figaro	PROPN	NNP	Number=Sing	3	flat@name	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	9	punct	_	_
 6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
 7	government	government	NOUN	NN	Number=Sing	8	compound	_	_

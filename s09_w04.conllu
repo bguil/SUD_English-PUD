@@ -319,7 +319,7 @@
 # text = Historian David Crouch suggests that Stephen abandoned from the challenge around this time to focus on other issues.
 1	Historian	historian	ADJ	NN	Number=Sing	2	mod	_	_
 2	David	David	PROPN	NNP	Number=Sing	4	subj	_	_
-3	Crouch	Crouch	PROPN	NNP	Number=Sing	2	flat	_	_
+3	Crouch	Crouch	PROPN	NNP	Number=Sing	2	flat@name	_	_
 4	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	that	that	SCONJ	IN	_	4	comp:obj	_	_
 6	Stephen	Stephen	PROPN	NNP	Number=Sing	7	subj	_	_
@@ -351,7 +351,7 @@
 10	existed	exist	VERB	VBN	Tense=Past|VerbForm=Part	9	comp:aux	_	_
 11	under	under	ADP	IN	_	10	udep	_	_
 12	Henry	Henry	PROPN	NNP	Number=Sing	11	comp:obj	_	_
-13	I	i	PROPN	CD	NumType=Card	12	flat	_	_
+13	I	i	PROPN	CD	NumType=Card	12	flat@name	_	_
 14	and	and	CCONJ	CC	_	16	cc	_	_
 15	these	these	PRON	DT	Number=Plur|PronType=Dem	16	subj	_	_
 16	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
@@ -390,7 +390,7 @@
 25	Revolution	revolution	PROPN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 26	:	:	PUNCT	:	_	27	punct	_	_
 27	Napoleon	Napoleon	PROPN	NNP	Number=Sing	20	conj:appos	_	_
-28	Bonaparte	Bonaparte	PROPN	NNP	Number=Sing	27	flat	_	SpaceAfter=No
+28	Bonaparte	Bonaparte	PROPN	NNP	Number=Sing	27	flat@name	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = w04007021
@@ -488,7 +488,7 @@
 28	Prime	Prime	PROPN	NNP	Number=Sing	29	compound	_	_
 29	Minister	Minister	PROPN	NNP	Number=Sing|Shared=No	32	subj	_	_
 30	Lord	Lord	PROPN	NNP	Number=Sing	29	conj:appos	_	_
-31	Grenville	Grenville	PROPN	NNP	Number=Sing	30	flat	_	_
+31	Grenville	Grenville	PROPN	NNP	Number=Sing	30	flat@name	_	_
 32	refused	refuse	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 33	any	any	DET	DT	_	34	det	_	_
 34	agreement	agreement	NOUN	NN	Number=Sing	32	comp:obj	_	SpaceAfter=No
@@ -497,7 +497,7 @@
 37	so	so	ADV	RB	_	38	mod	_	_
 38	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	conj	_	_
 39	Tsar	Tsar	PROPN	NNP	Number=Sing|Shared=No	38	subj	_	_
-40	Alexander	Alexander	PROPN	NNP	Number=Sing	39	flat	_	SpaceAfter=No
+40	Alexander	Alexander	PROPN	NNP	Number=Sing	39	flat@name	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = w04008
@@ -579,13 +579,13 @@
 2	students	student	NOUN	NNS	Number=Plur	12	subj	_	_
 3	of	of	ADP	IN	_	2	udep	_	_
 4	Goffredo	Goffredo	PROPN	NNP	Number=Sing	3	comp:obj	_	_
-5	Petrassi	Petrassi	PROPN	NNP	Number=Sing	4	flat	_	SpaceAfter=No
+5	Petrassi	Petrassi	PROPN	NNP	Number=Sing	4	flat@name	_	SpaceAfter=No
 6	,	,	PUNCT	,	Shared=Yes	7	punct	_	_
 7	Ennio	Ennio	PROPN	NNP	Number=Sing	2	conj:appos	_	_
-8	Morricone	Morricone	PROPN	NNP	Number=Sing	7	flat	_	_
+8	Morricone	Morricone	PROPN	NNP	Number=Sing	7	flat@name	_	_
 9	and	and	CCONJ	CC	_	10	cc	_	_
 10	Bruno	Bruno	PROPN	NNP	Number=Sing	7	conj	_	_
-11	Nicolai	Nicolai	PROPN	NNP	Number=Sing|Shared=No	10	flat	_	_
+11	Nicolai	Nicolai	PROPN	NNP	Number=Sing|Shared=No	10	flat@name	_	_
 12	met	meet	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 13	at	at	ADP	IN	_	12	udep	_	_
 14	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
