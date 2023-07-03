@@ -12,10 +12,10 @@
 8	53	53	NUM	CD	NumType=Card	9	mod	_	_
 9	year	year	NOUN	NN	Number=Sing	10	mod	_	_
 10	old	old	ADJ	JJ	Degree=Pos	6	comp:obj	_	_
-11	during	during	ADP	IN	_	6	udep	_	_
+11	during	during	ADP	IN	_	6	mod	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 13	act	act	NOUN	NN	Number=Sing	11	comp:obj	_	_
-14	on	on	ADP	IN	_	6	udep	_	_
+14	on	on	ADP	IN	_	6	mod	_	_
 15	Sunday	Sunday	PROPN	NNP	Number=Sing	16	compound	_	_
 16	morning	morning	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
@@ -95,7 +95,7 @@
 # newdoc id = n02011
 # sent_id = n02011003
 # text = With the help of debit card data, the Essen police are investigating four people who stood by and watched while a retiree died in a bank.
-1	With	with	ADP	IN	_	12	udep	_	_
+1	With	with	ADP	IN	_	12	mod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	help	help	NOUN	NN	Number=Sing	1	comp:obj	_	_
 4	of	of	ADP	IN	_	3	udep	_	_
@@ -193,7 +193,7 @@
 2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	n't	not	PART	RB	Polarity=Neg	2	mod	_	_
 4	know	know	VERB	VB	VerbForm=Inf	2	comp:aux	_	_
-5	in	in	ADP	IN	_	10	udep	_	_
+5	in	in	ADP	IN	_	10	mod	_	_
 6	which	which	DET	WDT	PronType=Int	7	det	_	_
 7	way	way	NOUN	NN	Number=Sing	5	comp:obj	_	_
 8	both	both	DET	DT	_	9	det	_	_
@@ -232,7 +232,7 @@
 # newdoc id = n02027
 # sent_id = n02027007
 # text = According to Parker, Russian Secret Service agents are active in large numbers in Great Britain.
-1	According	accord	VERB	VBG	VerbForm=Ger	9	udep	_	ExtPos=ADP|Idiom=Yes
+1	According	accord	VERB	VBG	VerbForm=Ger	9	mod	_	ExtPos=ADP|Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	Parker	Parker	PROPN	NNP	Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	_	_
@@ -282,7 +282,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 13	agreement	agreement	NOUN	NN	Number=Sing	11	comp:obj	_	_
 14	back	back	ADV	RB	_	15	mod	_	_
-15	into	into	ADP	IN	_	11	udep	_	_
+15	into	into	ADP	IN	_	11	comp:obl	_	_
 16	effect	effect	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 17	:	:	PUNCT	:	_	3	punct	_	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
@@ -295,12 +295,12 @@
 25	of	of	ADP	IN	_	24	udep	_	_
 26	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	mod@poss	_	_
 27	troops	troops	NOUN	NNS	Number=Plur	25	comp:obj	_	_
-28	from	from	ADP	IN	_	23	udep	_	_
+28	from	from	ADP	IN	_	23	comp:obl	_	_
 29	countries	country	NOUN	NNS	Number=Plur	28	comp:obj	_	_
 30	who	who	PRON	WP	PronType=Rel	31	subj	_	_
 31	joined	join	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	mod@relcl	_	_
 32	NATO	NATO	PROPN	NNP	Number=Sing	31	comp:obj	_	_
-33	after	after	ADP	IN	_	31	udep	_	_
+33	after	after	ADP	IN	_	31	mod	_	_
 34	2000	2000	NUM	CD	NumType=Card	33	comp:obj	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	36	punct	_	_
 36	rescind	rescind	VERB	VB	VerbForm=Inf	23	conj	_	_
@@ -320,7 +320,7 @@
 50	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	48	mod@relcl	_	_
 51	been	be	AUX	VBN	Tense=Past|VerbForm=Part	50	comp:aux	_	_
 52	incurred	incur	VERB	VBN	Tense=Past|VerbForm=Part	51	comp:aux@pass	_	_
-53	as	as	ADP	IN	_	52	udep	_	_
+53	as	as	ADP	IN	_	52	mod	_	_
 54	a	a	DET	DT	Definite=Ind|PronType=Art	55	det	_	_
 55	result	result	NOUN	NN	Number=Sing	53	comp:obj	_	_
 56	of	of	ADP	IN	_	55	udep	_	_
@@ -428,12 +428,12 @@
 6	"	"	PUNCT	''	_	4	punct	_	_
 7	first	first	ADV	RB	_	8	mod	_	_
 8	inquired	inquire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-9	with	with	ADP	IN	_	8	udep	_	_
+9	with	with	ADP	IN	_	8	mod	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 11	real	real	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	estate	estate	NOUN	NN	Number=Sing	13	compound	_	_
 13	business	business	NOUN	NN	Number=Sing	9	comp:obj	_	_
-14	about	about	ADP	IN	_	8	udep	_	_
+14	about	about	ADP	IN	_	8	comp:obl	_	_
 15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Shared=No	18	mod@poss	_	_
 16	dubious	dubious	ADJ	JJ	Degree=Pos|Shared=No	18	mod	_	_
 17	cash	cash	NOUN	NN	Number=Sing|Shared=No	18	compound	_	_
@@ -466,7 +466,7 @@
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 15	played	play	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux@pass	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	4	punct	_	_
-17	such	such	ADJ	JJ	Degree=Pos	4	udep	_	ExtPos=ADJ|Idiom=Yes
+17	such	such	ADJ	JJ	Degree=Pos	4	mod	_	ExtPos=ADJ|Idiom=Yes
 18	as	as	ADP	IN	_	17	unk	_	InIdiom=Yes
 19	in	in	ADP	IN	_	17	comp:obj	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
@@ -485,7 +485,7 @@
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 5	cost	cost	NOUN	NN	Number=Sing	6	compound	_	_
 6	increases	increase	NOUN	NNS	Number=Plur	3	comp:obj	_	_
-7	as	as	ADP	IN	_	3	udep	_	_
+7	as	as	ADP	IN	_	3	comp:obl	_	_
 8	lack	lack	NOUN	NN	Number=Sing	7	comp:obj	_	_
 9	of	of	ADP	IN	_	8	udep	_	_
 10	detailed	detailed	ADJ	JJ	Degree=Pos	11	mod	_	_
@@ -574,7 +574,7 @@
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	where	where	ADV	WRB	PronType=Int	22	mod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	22	punct	_	_
-12	in	in	ADP	IN	_	22	udep	_	_
+12	in	in	ADP	IN	_	22	mod	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 14	best	best	ADJ	JJS	Degree=Sup	15	mod	_	_
 15	case	case	NOUN	NN	Number=Sing	16	compound	_	_
@@ -593,7 +593,7 @@
 
 # sent_id = n02042028
 # text = On the other hand, Vine was art in six seconds.
-1	On	on	ADP	IN	_	7	udep	_	_
+1	On	on	ADP	IN	_	7	mod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 3	other	other	ADJ	JJ	Degree=Pos	4	mod	_	_
 4	hand	hand	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -621,7 +621,7 @@
 # newdoc id = n02044
 # sent_id = n02044008
 # text = For Kerber, the season finale nevertheless marks the end of an unbelievable year.
-1	For	for	ADP	IN	_	8	udep	_	_
+1	For	for	ADP	IN	_	8	mod	_	_
 2	Kerber	Kerber	PROPN	NNP	Number=Sing	1	comp:obj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	8	punct	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
@@ -639,7 +639,7 @@
 
 # sent_id = n02044009
 # text = After the sensation at the Australian Open, the 28 year-old lost for the first time in the final game against Serena Williams.
-1	After	after	ADP	IN	_	14	udep	_	_
+1	After	after	ADP	IN	_	14	mod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	sensation	sensation	NOUN	NN	Number=Sing	1	comp:obj	_	_
 4	at	at	ADP	IN	_	3	udep	_	_
@@ -686,7 +686,7 @@
 1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	subj	_	_
 3	argue	argue	VERB	VB	VerbForm=Inf	1	comp:aux	_	_
-4	with	with	ADP	IN	_	3	udep	_	_
+4	with	with	ADP	IN	_	3	mod	_	_
 5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	mod@poss	_	_
 6	alarm	alarm	NOUN	NN	Number=Sing	7	compound	_	_
 7	clock	clock	NOUN	NN	Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -704,7 +704,7 @@
 7	have	have	VERB	VB	VerbForm=Inf	6	comp:aux	_	_
 8	more	more	ADJ	JJR	Degree=Cmp	9	mod	_	_
 9	responsibility	responsibility	NOUN	NN	Number=Sing	7	comp:obj	_	_
-10	in	in	ADP	IN	_	7	udep	_	_
+10	in	in	ADP	IN	_	9	udep	_	_
 11	matters	matter	NOUN	NNS	Number=Plur	10	comp:obj	_	_
 12	of	of	ADP	IN	_	11	udep	_	_
 13	contraception	contraception	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
@@ -713,7 +713,7 @@
 # newdoc id = n02052
 # sent_id = n02052023
 # text = According to Christian belief, a grave which had been embedded in the chalkstone was the last resting place of Jesus.
-1	According	accord	VERB	VBG	VerbForm=Ger	15	udep	_	ExtPos=VERB|Idiom=Yes
+1	According	accord	VERB	VBG	VerbForm=Ger	15	mod	_	ExtPos=VERB|Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	Christian	Christian	ADJ	JJ	Degree=Pos	4	mod	_	_
 4	belief	belief	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -724,7 +724,7 @@
 9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	mod@relcl	_	_
 10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	comp:aux	_	_
 11	embedded	embed	VERB	VBN	Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
-12	in	in	ADP	IN	_	11	udep	_	_
+12	in	in	ADP	IN	_	11	comp:obl	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	chalkstone	chalkstone	NOUN	NN	Number=Sing	12	comp:obj	_	_
 15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -832,7 +832,7 @@
 4	drew	draw	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	new	new	ADJ	JJ	Degree=Pos	6	mod	_	_
 6	conclusions	conclusion	NOUN	NNS	Number=Plur	4	comp:obj	_	_
-7	from	from	ADP	IN	_	4	udep	_	_
+7	from	from	ADP	IN	_	4	comp:obl	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	investigation	investigation	NOUN	NN	Number=Sing	7	comp:obj	_	_
 10	of	of	ADP	IN	_	9	udep	_	_
@@ -1093,7 +1093,7 @@
 7	completely	completely	ADV	RB	_	5	mod	_	_
 8	disappear	disappear	VERB	VB	VerbForm=Inf	5	comp:aux	_	SpaceAfter=No
 9	:	:	PUNCT	:	_	5	punct	_	_
-10	According	accord	VERB	VBG	VerbForm=Ger	20	udep	_	ExtPos=VERB|Idiom=Yes
+10	According	accord	VERB	VBG	VerbForm=Ger	20	mod	_	ExtPos=VERB|Idiom=Yes
 11	to	to	ADP	IN	_	10	unk	_	InIdiom=Yes
 12	information	information	NOUN	NN	Number=Sing	10	comp:obj	_	_
 13	from	from	ADP	IN	_	12	udep	_	_
@@ -1109,7 +1109,7 @@
 23	activated	activate	VERB	VBN	Tense=Past|VerbForm=Part	22	comp:aux@pass	_	_
 24	if	if	SCONJ	IN	_	20	mod	_	SpaceAfter=No
 25	,	,	PUNCT	,	Shared=Yes	34	punct	_	_
-26	for	for	ADP	IN	Shared=Yes	34	udep	_	_
+26	for	for	ADP	IN	Shared=Yes	34	mod	_	_
 27	instance	instance	NOUN	NN	Number=Sing	26	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	,	Shared=Yes	34	punct	_	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
@@ -1186,7 +1186,7 @@
 14	National	national	ADJ	JJ	Degree=Pos	16	mod	_	_
 15	Natural	natural	ADJ	JJ	Degree=Pos	16	mod	_	_
 16	Heritage	heritage	NOUN	NN	Number=Sing	12	comp:obj	_	_
-17	as	as	ADP	IN	_	12	udep	_	_
+17	as	as	ADP	IN	_	12	comp:obl	_	_
 18	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
 19	nation	nation	NOUN	NN	Number=Sing	21	compound	_	SpaceAfter=No
 20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
@@ -1201,7 +1201,7 @@
 29	documented	document	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part	28	comp:aux	_	_
 30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	comp:obj	_	_
 31	starting	start	VERB	VBG	VerbForm=Ger	29	mod	_	_
-32	in	in	ADP	IN	_	31	udep	_	_
+32	in	in	ADP	IN	_	31	mod	_	_
 33	2005	2005	NUM	CD	NumType=Card	32	comp:obj	_	_
 34	in	in	ADP	IN	_	29	mod	_	_
 35	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
