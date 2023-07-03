@@ -152,7 +152,7 @@
 5	fueled	fuel	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	by	by	ADP	IN	_	5	udep	_	_
 7	Clinton	Clinton	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
-8	’s	’s	PART	POS	_	11	udep@poss	_	_
+8	’s	’s	PART	POS	_	11	nmod@poss	_	_
 9	large	large	ADJ	JJ	Degree=Pos	11	mod	_	_
 10	bank	bank	NOUN	NN	Number=Sing	11	compound	_	_
 11	account	account	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
@@ -241,7 +241,7 @@
 5	slated	slate	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 6	for	for	ADP	IN	_	5	udep	_	_
 7	Washington	Washington	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
-8	’s	’s	PART	POS	_	11	udep@poss	_	_
+8	’s	’s	PART	POS	_	11	nmod@poss	_	_
 9	private	private	ADJ	JJ	Degree=Pos	11	mod	_	_
 10	Metropolitan	metropolitan	ADJ	JJ	Degree=Pos	11	mod	_	_
 11	Club	club	NOUN	NN	Number=Sing	6	comp:obj	_	_
@@ -718,7 +718,7 @@
 5	when	when	ADV	WRB	PronType=Int	10	mod	_	_
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
 7	celebrity	celebrity	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
-8	's	's	PART	POS	_	9	udep@poss	_	_
+8	's	's	PART	POS	_	9	nmod@poss	_	_
 9	name	name	NOUN	NN	Number=Sing	10	subj	_	_
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod	_	_
 11	initially	initially	ADV	RB	_	10	mod	_	_
@@ -808,7 +808,7 @@
 10	benefit	benefit	VERB	VB	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising
 11	from	from	ADP	IN	_	10	udep	_	_
 12	Samsung	Samsung	PROPN	NNP	Number=Sing	13	comp:obj	_	SpaceAfter=No
-13	's	's	PART	POS	_	14	udep@poss	_	_
+13	's	's	PART	POS	_	14	nmod@poss	_	_
 14	setback	setback	NOUN	NN	Number=Sing	11	comp:obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -830,7 +830,7 @@
 14	Assistant	Assistant	PROPN	NNP	Number=Sing	11	comp:obj	_	_
 15	or	or	CCONJ	CC	_	18	cc	_	_
 16	Apple	Apple	PROPN	NNP	Number=Sing	17	comp:obj	_	SpaceAfter=No
-17	's	's	PART	POS	_	18	udep@poss	_	_
+17	's	's	PART	POS	_	18	nmod@poss	_	_
 18	Siri	Siri	PROPN	NNP	Number=Sing	14	conj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -855,7 +855,7 @@
 16	to	to	PART	TO	_	15	comp:obl	_	_
 17	influence	influence	VERB	VB	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising
 18	travellers	traveller	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
-19	'	'	PART	POS	_	21	udep@poss	_	_
+19	'	'	PART	POS	_	21	nmod@poss	_	_
 20	airline	airline	NOUN	NN	Number=Sing	21	compound	_	_
 21	choices	choice	NOUN	NNS	Number=Plur	17	comp:obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
@@ -1043,7 +1043,7 @@
 6	become	become	VERB	VB	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
 8	world	world	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	12	udep@poss	_	_
+9	's	's	PART	POS	_	12	nmod@poss	_	_
 10	biggest	biggest	ADJ	JJS	Degree=Sup	12	mod	_	_
 11	aviation	aviation	NOUN	NN	Number=Sing	12	compound	_	_
 12	market	market	NOUN	NN	Number=Sing	6	comp:pred	_	_
@@ -1492,7 +1492,7 @@
 17	wearing	wear	VERB	VBG	VerbForm=Ger	15	conj	_	_
 18	other	other	ADJ	JJ	Degree=Pos	19	mod	_	_
 19	people	people	NOUN	NNS	Number=Plur	20	comp:obj	_	SpaceAfter=No
-20	's	's	PART	POS	_	22	udep@poss	_	_
+20	's	's	PART	POS	_	22	nmod@poss	_	_
 21	body	body	NOUN	NN	Number=Sing	22	compound	_	_
 22	parts	part	NOUN	NNS	Number=Plur|Shared=Yes	17	comp:obj	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	3	punct	_	SpaceAfter=No
@@ -1568,7 +1568,7 @@
 # sent_id = n01026016
 # text = Shenzhen's traffic police have opted for unconventional penalties before.
 1	Shenzhen	Shenzhen	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	4	udep@poss	_	_
+2	's	's	PART	POS	_	4	nmod@poss	_	_
 3	traffic	traffic	NOUN	NN	Number=Sing	4	compound	_	_
 4	police	police	NOUN	NNS	Number=Plur	5	subj	_	_
 5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1678,7 +1678,7 @@
 5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	described	describe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	mod	_	_
 7	Russia	Russia	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
-8	's	's	PART	POS	_	9	udep@poss	_	_
+8	's	's	PART	POS	_	9	nmod@poss	_	_
 9	actions	action	NOUN	NNS	Number=Plur	6	comp:obj	_	_
 10	in	in	ADP	IN	_	9	udep	_	_
 11	Crimea	Crimea	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
@@ -1723,7 +1723,7 @@
 7	Vladivostok	Vladivostok	PROPN	NNP	Number=Sing	6	comp:obj	_	_
 8	in	in	ADP	IN	_	7	udep	_	_
 9	Russia	Russia	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
-10	's	's	PART	POS	_	12	udep@poss	_	_
+10	's	's	PART	POS	_	12	nmod@poss	_	_
 11	far	far	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	east	east	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	1	punct	_	_
@@ -1836,7 +1836,7 @@
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	city	city	NOUN	NN	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	's	's	PART	POS	_	7	udep@poss	_	_
+5	's	's	PART	POS	_	7	nmod@poss	_	_
 6	police	police	NOUN	NNS	Number=Plur	7	compound	_	_
 7	department	department	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
@@ -2014,7 +2014,7 @@
 7	Papworth	Papworth	PROPN	NNP	Number=Sing	10	comp:obj	_	_
 8	and	and	CCONJ	CC	_	9	cc	_	_
 9	Addenbrooke	Addenbrooke	PROPN	NNP	Number=Sing	7	conj	_	SpaceAfter=No
-10	's	's	PART	POS	_	11	udep@poss	_	_
+10	's	's	PART	POS	_	11	nmod@poss	_	_
 11	Hospitals	hospital	NOUN	NNS	Number=Plur	6	comp:obj	_	_
 12	in	in	ADP	IN	_	11	udep	_	_
 13	Cambridgeshire	Cambridgeshire	PROPN	NNP	Number=Sing	12	comp:obj	_	SpaceAfter=No
@@ -2330,7 +2330,7 @@
 # text = But China's growing middle class has been unusually vocal in its complaints about toxic air in cities like Beijing, which can see day after day of lung-choking smog.
 1	But	but	CCONJ	CC	_	7	cc	_	_
 2	China	China	PROPN	NNP	Number=Sing	3	comp:obj	_	SpaceAfter=No
-3	's	's	PART	POS	_	6	udep@poss	_	_
+3	's	's	PART	POS	_	6	nmod@poss	_	_
 4	growing	grow	VERB	VBG	VerbForm=Ger	6	mod	_	_
 5	middle	middle	ADJ	JJ	Degree=Pos	6	mod	_	_
 6	class	class	NOUN	NN	Number=Sing	7	subj	_	_
@@ -2492,7 +2492,7 @@
 # sent_id = n01039039
 # text = Trump's wife, Melania Trump, made her first appearance on the trail since the Republican convention in July.
 1	Trump	Trump	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	3	udep@poss	_	_
+2	's	's	PART	POS	_	3	nmod@poss	_	_
 3	wife	wife	NOUN	NN	Number=Sing	8	subj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	Melania	Melania	PROPN	NNP	Number=Sing	3	conj:appos	_	_
@@ -2897,7 +2897,7 @@
 2	judge	judge	NOUN	NN	Number=Sing	13	subj	_	_
 3	in	in	ADP	IN	_	2	udep	_	_
 4	Duffy	Duffy	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	's	's	PART	POS	_	11	udep@poss	_	_
+5	's	's	PART	POS	_	11	nmod@poss	_	_
 6	fraud	fraud	NOUN	NN	Number=Sing	11	compound	_	_
 7	and	and	CCONJ	CC	_	8	cc	_	_
 8	breach	breach	NOUN	NN	Number=Sing	6	conj	_	_
@@ -2911,7 +2911,7 @@
 16	within	within	ADP	IN	_	15	comp:pred	_	_
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 18	Senate	senate	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
-19	's	's	PART	POS	_	20	udep@poss	_	_
+19	's	's	PART	POS	_	20	nmod@poss	_	_
 20	rules	rule	NOUN	NNS	Number=Plur	16	comp:obj	_	_
 21	when	when	ADV	WRB	PronType=Int	20	mod	_	_
 22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
@@ -3061,7 +3061,7 @@
 26	from	from	ADP	IN	_	25	udep	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
 28	company	company	NOUN	NN	Number=Sing	29	comp:obj	_	SpaceAfter=No
-29	's	's	PART	POS	_	30	udep@poss	_	_
+29	's	's	PART	POS	_	30	nmod@poss	_	_
 30	headquarters	headquarters	NOUN	NN	Number=Sing	26	comp:obj	_	_
 31	in	in	ADP	IN	_	30	udep	_	_
 32	Denver	Denver	PROPN	NNP	Number=Sing	31	comp:obj	_	SpaceAfter=No
@@ -3246,7 +3246,7 @@
 13	from	from	ADP	IN	Shared=No	12	udep	_	_
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
 15	baby	baby	NOUN	NN	Number=Sing	16	comp:obj	_	SpaceAfter=No
-16	's	's	PART	POS	_	17	udep@poss	_	_
+16	's	's	PART	POS	_	17	nmod@poss	_	_
 17	tailbone	tailbone	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -3506,7 +3506,7 @@
 6	around	around	ADP	IN	_	3	udep	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
 8	Earth	Earth	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	10	udep@poss	_	_
+9	's	's	PART	POS	_	10	nmod@poss	_	_
 10	equator	equator	NOUN	NN	Number=Sing	6	comp:obj	_	_
 11	and	and	CCONJ	CC	_	12	cc	_	_
 12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
@@ -4075,7 +4075,7 @@
 10	of	of	ADP	IN	_	9	udep	_	_
 11	“	“	PUNCT	``	_	14	punct	_	SpaceAfter=No
 12	Zettel	zettel	X	FW	_	13	comp:obj	_	SpaceAfter=No
-13	’s	’s	X	FW	_	14	udep@poss	_	_
+13	’s	’s	X	FW	_	14	nmod@poss	_	_
 14	Traum	traum	X	FW	_	10	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	10	punct	_	SpaceAfter=No
 16	”	”	PUNCT	''	_	10	punct	_	_
@@ -4478,7 +4478,7 @@
 8	as	as	ADP	IN	_	4	udep	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	world	world	NOUN	NN	Number=Sing	11	comp:obj	_	SpaceAfter=No
-11	’s	’s	PART	POS	_	12	udep@poss	_	_
+11	’s	’s	PART	POS	_	12	nmod@poss	_	_
 12	best	best	ADJ	JJS	Degree=Sup	8	comp:obj	_	_
 13	no	no	ADV	RB	Polarity=Neg	14	mod	_	_
 14	longer	longer	ADV	RBR	Degree=Cmp	1	mod	_	_
@@ -5363,7 +5363,7 @@
 11	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
 12	one	one	NUM	CD	NumType=Card	13	mod	_	_
 13	woman	woman	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
-14	’s	’s	PART	POS	_	15	udep@poss	_	_
+14	’s	’s	PART	POS	_	15	nmod@poss	_	_
 15	face	face	NOUN	NN	Number=Sing	16	subj	_	_
 16	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
 17	coming	come	VERB	VBG	Shared=No|VerbForm=Ger	16	comp:obj	_	Subject=SubjRaising
@@ -5477,7 +5477,7 @@
 # text = The RSPB’s stance has also brought it into conflict with many leading conservationists, from the author of the petition, Mark Avery, to the TV presenter Chris Packham.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	RSPB	RSPB	PROPN	NNP	Number=Sing	3	comp:obj	_	SpaceAfter=No
-3	’s	’s	PART	POS	_	4	udep@poss	_	_
+3	’s	’s	PART	POS	_	4	nmod@poss	_	_
 4	stance	stance	NOUN	NN	Number=Sing	5	subj	_	_
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	also	also	ADV	RB	_	5	mod	_	_
@@ -5526,7 +5526,7 @@
 2	what	what	PRON	WP	PronType=Int	3	subj	_	_
 3	about	about	ADP	IN	_	0	root	_	_
 4	Australia	Australia	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	’s	’s	PART	POS	_	6	udep@poss	_	_
+5	’s	’s	PART	POS	_	6	nmod@poss	_	_
 6	position	position	NOUN	NN	Number=Sing	3	comp:obj	_	SpaceAfter=No
 7	?	?	PUNCT	.	_	3	punct	_	_
 
@@ -5653,7 +5653,7 @@
 2	welcomed	welcome	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	commission	commission	NOUN	NN	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	’s	’s	PART	POS	_	6	udep@poss	_	_
+5	’s	’s	PART	POS	_	6	nmod@poss	_	_
 6	announcement	announcement	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -6032,7 +6032,7 @@
 12	of	of	ADP	IN	_	11	udep	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	People	people	NOUN	NNS	Number=Plur	15	comp:obj	_	SpaceAfter=No
-15	’s	’s	PART	POS	_	16	udep@poss	_	_
+15	’s	’s	PART	POS	_	16	nmod@poss	_	_
 16	Republic	republic	NOUN	NN	Number=Sing	12	comp:obj	_	_
 17	of	of	ADP	IN	_	16	udep	_	Proper=True
 18	China	China	PROPN	NNP	Number=Sing	17	comp:obj	_	SpaceAfter=No
@@ -6112,7 +6112,7 @@
 2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	BBC	BBC	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	’s	’s	PART	POS	_	8	udep@poss	_	_
+5	’s	’s	PART	POS	_	8	nmod@poss	_	_
 6	Andrew	Andrew	PROPN	NNP	Number=Sing	8	compound	_	_
 7	Marr	Marr	PROPN	NNP	Number=Sing	6	flat@name	_	_
 8	Show	show	NOUN	NN	Number=Sing	2	comp:obj	_	SpaceAfter=No
@@ -6298,7 +6298,7 @@
 2	of	of	ADP	IN	_	1	udep	_	_
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	company	company	NOUN	NN	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	’s	’s	PART	POS	_	6	udep@poss	_	_
+5	’s	’s	PART	POS	_	6	nmod@poss	_	_
 6	deceit	deceit	NOUN	NN	Number=Sing	2	comp:obj	_	_
 7	-	-	PUNCT	,	_	9	punct	_	_
 8	which	which	PRON	WDT	PronType=Rel	9	subj	_	_
@@ -6315,7 +6315,7 @@
 19	euros	euro	NOUN	NNS	Number=Plur	18	comp:obj	_	_
 20	from	from	ADP	IN	_	14	udep	_	_
 21	VW	VW	PROPN	NNP	Number=Sing	22	comp:obj	_	SpaceAfter=No
-22	's	's	PART	POS	_	23	udep@poss	_	_
+22	's	's	PART	POS	_	23	nmod@poss	_	_
 23	value	value	NOUN	NN	Number=Sing	20	comp:obj	_	_
 24	and	and	CCONJ	CC	_	25	cc	_	_
 25	cost	cost	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	_
@@ -6500,7 +6500,7 @@
 # sent_id = n01109012
 # text = Eon’s fixed rate tariff costs £760 and Avro Energy customers would pay around £760 for its Simple and Select tariff.
 1	Eon	Eon	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	’s	’s	PART	POS	_	5	udep@poss	_	_
+2	’s	’s	PART	POS	_	5	nmod@poss	_	_
 3	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	4	mod	_	_
 4	rate	rate	NOUN	NN	Number=Sing	5	compound	_	_
 5	tariff	tariff	NOUN	NN	Number=Sing|Shared=No	6	subj	_	_
@@ -6688,7 +6688,7 @@
 6	up	up	ADP	RP	_	5	compound@prt	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
 8	Earth	Earth	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	10	udep@poss	_	_
+9	's	's	PART	POS	_	10	nmod@poss	_	_
 10	oceans	ocean	NOUN	NNS	Number=Plur	5	comp:obj	_	_
 11	by	by	SCONJ	IN	_	5	mod	_	_
 12	using	use	VERB	VBG	VerbForm=Ger	11	comp:obj	_	_
@@ -7004,7 +7004,7 @@
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 4	director	director	NOUN	NN	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	's	's	PART	POS	_	7	udep@poss	_	_
+5	's	's	PART	POS	_	7	nmod@poss	_	_
 6	own	own	ADJ	JJ	Degree=Pos	7	mod	_	_
 7	count	count	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	12	punct	_	_
@@ -7042,7 +7042,7 @@
 1	From	from	ADP	IN	_	11	udep	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	director	director	NOUN	NN	Number=Sing	4	comp:obj	_	SpaceAfter=No
-4	's	's	PART	POS	_	5	udep@poss	_	_
+4	's	's	PART	POS	_	5	nmod@poss	_	_
 5	point	point	NOUN	NN	Number=Sing	1	comp:obj	_	_
 6	of	of	ADP	IN	_	5	udep	_	_
 7	view	view	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
@@ -7121,7 +7121,7 @@
 7	hardly	hardly	ADV	RB	_	6	mod	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	cat	cat	NOUN	NN	Number=Sing	10	comp:obj	_	SpaceAfter=No
-10	's	's	PART	POS	_	11	udep@poss	_	_
+10	's	's	PART	POS	_	11	nmod@poss	_	_
 11	pyjamas	pyjamas	NOUN	NNS	Number=Plur	6	comp:pred	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -7144,7 +7144,7 @@
 14	conflict	conflict	NOUN	NN	Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	8	punct	_	_
 16	Doss	Doss	PROPN	NNP	Number=Sing	17	comp:obj	_	SpaceAfter=No
-17	’s	’s	PART	POS	_	18	udep@poss	_	_
+17	’s	’s	PART	POS	_	18	nmod@poss	_	_
 18	feats	feat	NOUN	NNS	Number=Plur	19	subj	_	_
 19	belong	belong	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	to	to	ADP	IN	_	19	udep	_	_
@@ -7158,7 +7158,7 @@
 # sent_id = n01120010
 # text = Doss’s story also has an unlikely quality to it that makes it all the more appealing.
 1	Doss	Doss	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	’s	’s	PART	POS	_	3	udep@poss	_	_
+2	’s	’s	PART	POS	_	3	nmod@poss	_	_
 3	story	story	NOUN	NN	Number=Sing	5	subj	_	_
 4	also	also	ADV	RB	_	5	mod	_	_
 5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7255,7 +7255,7 @@
 # text = But Cotton’s dark deeds did not occur due to some sort of compulsion to kill.
 1	But	but	CCONJ	CC	_	6	cc	_	_
 2	Cotton	Cotton	PROPN	NNP	Number=Sing	3	comp:obj	_	SpaceAfter=No
-3	’s	’s	PART	POS	_	5	udep@poss	_	_
+3	’s	’s	PART	POS	_	5	nmod@poss	_	_
 4	dark	dark	ADJ	JJ	Degree=Pos	5	mod	_	_
 5	deeds	deed	NOUN	NNS	Number=Plur	6	subj	_	_
 6	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -7333,7 +7333,7 @@
 # sent_id = n01125016
 # text = London’s landmark South Bank Tower commissioned interior designer Rachel Winham to design the show apartment.
 1	London	London	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	’s	’s	PART	POS	_	6	udep@poss	_	_
+2	’s	’s	PART	POS	_	6	nmod@poss	_	_
 3	landmark	landmark	NOUN	NN	Number=Sing	6	compound	_	_
 4	South	south	ADJ	JJ	Degree=Pos	5	mod	_	_
 5	Bank	bank	NOUN	NN	Number=Sing	6	compound	_	_
@@ -7388,7 +7388,7 @@
 13	at	at	ADP	IN	_	12	udep	_	_
 14	Hong	Hong	PROPN	NNP	Number=Sing	15	compound	_	_
 15	Kong	Kong	PROPN	NNP	Number=Sing	16	comp:obj	_	SpaceAfter=No
-16	's	's	PART	POS	_	18	udep@poss	_	_
+16	's	's	PART	POS	_	18	nmod@poss	_	_
 17	High	high	ADJ	JJ	Degree=Pos	18	mod	_	_
 18	Court	court	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	12	punct	_	_
@@ -7423,7 +7423,7 @@
 1	In	in	ADP	IN	_	13	udep	_	_
 2	Hong	Hong	PROPN	NNP	Number=Sing	3	compound	_	_
 3	Kong	Kong	PROPN	NNP	Number=Sing	4	comp:obj	_	SpaceAfter=No
-4	's	's	PART	POS	_	6	udep@poss	_	_
+4	's	's	PART	POS	_	6	nmod@poss	_	_
 5	High	high	ADJ	JJ	Degree=Pos	6	mod	_	_
 6	Court	court	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	_	_
@@ -7888,7 +7888,7 @@
 # sent_id = n01135002
 # text = China's insatiable appetite for fried chicken used to be a big reason why investors loved KFC-parent Yum Brands.
 1	China	China	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	4	udep@poss	_	_
+2	's	's	PART	POS	_	4	nmod@poss	_	_
 3	insatiable	insatiable	ADJ	JJ	Degree=Pos	4	mod	_	_
 4	appetite	appetite	NOUN	NN	Number=Sing	8	subj	_	_
 5	for	for	ADP	IN	_	4	udep	_	_
@@ -8046,7 +8046,7 @@
 2	one	one	NUM	CD	NumType=Card	1	comp:obj	_	_
 3	of	of	ADP	IN	_	2	udep	_	_
 4	Negan	Negan	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	's	's	PART	POS	_	12	udep@poss	_	_
+5	's	's	PART	POS	_	12	nmod@poss	_	_
 6	(	(	PUNCT	-LRB-	_	7	punct	_	SpaceAfter=No
 7	Jeffrey	Jeffrey	PROPN	NNP	Number=Sing	4	conj:appos	_	_
 8	Dean	Dean	PROPN	NNP	Number=Sing	7	flat@name	_	_
@@ -8243,7 +8243,7 @@
 3	highlighted	highlight	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 5	company	company	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
-6	's	's	PART	POS	_	7	udep@poss	_	_
+6	's	's	PART	POS	_	7	nmod@poss	_	_
 7	desire	desire	NOUN	NN	Number=Sing	3	comp:obj	_	_
 8	for	for	ADP	IN	_	7	udep	_	_
 9	users	user	NOUN	NNS	Number=Plur	10	subj	_	_
@@ -8360,7 +8360,7 @@
 12	"	"	PUNCT	''	_	3	punct	_	_
 13	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 14	Brisbane	Brisbane	PROPN	NNP	Number=Sing	15	comp:obj	_	SpaceAfter=No
-15	's	's	PART	POS	_	17	udep@poss	_	Proper=True
+15	's	's	PART	POS	_	17	nmod@poss	_	Proper=True
 16	Nine	nine	NUM	CD	NumType=Card	17	compound	_	_
 17	News	news	NOUN	NN	Number=Sing	13	subj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
@@ -8525,7 +8525,7 @@
 6	of	of	ADP	IN	_	5	udep	_	_
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
 8	parade	parade	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	11	udep@poss	_	_
+9	's	's	PART	POS	_	11	nmod@poss	_	_
 10	creative	creative	ADJ	JJ	Degree=Pos	11	mod	_	_
 11	directors	director	NOUN	NNS	Number=Plur	6	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	5	punct	_	_
@@ -8690,7 +8690,7 @@
 16	MahaNakhon	MahaNakhon	PROPN	NNP	Number=Sing	13	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	_	_
 18	Bangkok	Bangkok	PROPN	NNP	Number=Sing	19	comp:obj	_	SpaceAfter=No
-19	's	's	PART	POS	_	21	udep@poss	_	_
+19	's	's	PART	POS	_	21	nmod@poss	_	_
 20	tallest	tallest	ADJ	JJS	Degree=Sup	21	mod	_	_
 21	building	building	NOUN	NN	Number=Sing	16	conj:appos	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_

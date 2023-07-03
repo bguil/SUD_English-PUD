@@ -473,7 +473,7 @@
 20	to	to	PART	TO	_	19	comp:obl	_	_
 21	anticipate	anticipate	VERB	VB	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	drivers	driver	NOUN	NNS	Number=Plur	23	comp:obj	_	SpaceAfter=No
-23	'	'	PART	POS	_	24	udep@poss	_	_
+23	'	'	PART	POS	_	24	nmod@poss	_	_
 24	actions	action	NOUN	NNS	Number=Plur	21	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -596,7 +596,7 @@
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
 16	private	private	ADJ	JJ	Degree=Pos	17	mod	_	_
 17	event	event	NOUN	NN	Number=Sing	14	comp:obj	_	_
-18	in	in	ADP	IN	_	14	udep	_	_
+18	in	in	ADP	IN	_	14	mod	_	_
 19	addition	addition	NOUN	NN	Number=Sing	18	comp:obj	_	_
 20	to	to	ADP	IN	_	19	udep	_	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
