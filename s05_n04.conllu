@@ -6,21 +6,21 @@
 2	Anselmi	Anselmi	PROPN	NNP	Number=Sing	1	flat@name	_	_
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
-5	on	on	ADP	IN	_	4	udep	_	_
+5	on	on	ADP	IN	_	4	comp:obl	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 7	25th	25th	NOUN	NN	Number=Sing	5	comp:obj	_	_
 8	of	of	ADP	IN	_	7	udep	_	_
 9	March	March	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	1927	1927	NUM	CD	NumType=Card	9	mod@tmod	_	_
-12	in	in	ADP	IN	_	4	udep	_	_
+12	in	in	ADP	IN	_	4	comp:obl	_	_
 13	Castelfranco	Castelfranco	PROPN	NNP	Number=Sing	12	comp:obj	_	_
 14	Veneto	Veneto	PROPN	NNP	Number=Sing	13	flat@name	_	SpaceAfter=No
 15	;	;	PUNCT	:	_	3	punct	_	_
 16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
 17	grew	grow	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 18	up	up	ADP	RP	_	17	compound@prt	_	_
-19	in	in	ADP	IN	_	17	udep	_	_
+19	in	in	ADP	IN	_	17	mod	_	_
 20	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
 21	anti-fascist	anti-fascist	ADJ	JJ	Degree=Pos	23	mod	_	_
 22	Catholic	catholic	ADJ	JJ	Degree=Pos	23	mod	_	_
@@ -29,7 +29,7 @@
 25	which	which	PRON	WDT	PronType=Rel	26	subj@pass	_	_
 26	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	mod@relcl	_	_
 27	marked	mark	VERB	VBN	Tense=Past|VerbForm=Part	26	comp:aux@pass	_	_
-28	by	by	ADP	IN	_	27	udep	_	_
+28	by	by	ADP	IN	_	27	comp:obl@agent	_	_
 29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
 30	persecution	persecution	NOUN	NN	Number=Sing	28	comp:obj	_	_
 31	of	of	ADP	IN	_	30	udep	_	_
@@ -54,7 +54,7 @@
 11	Anselmi	Anselmi	PROPN	NNP	Number=Sing	10	flat@name	_	_
 12	attended	attend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 13	particularly	particularly	ADV	RB	_	14	mod	_	_
-14	to	to	ADP	IN	_	12	udep	_	_
+14	to	to	ADP	IN	_	12	comp:obl	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 16	rights	rights	NOUN	NNS	Number=Plur	14	comp:obj	_	_
 17	of	of	ADP	IN	_	16	udep	_	_
@@ -67,7 +67,7 @@
 # newdoc id = n04002
 # sent_id = n04002020
 # text = It is difficult to think that Italy has fewer km of underground line than Madrid.
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	unk@expl	_	_
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	difficult	difficult	ADJ	JJ	Degree=Pos	2	comp:pred	_	_
 4	to	to	PART	TO	_	2	subj	_	_
@@ -80,7 +80,7 @@
 11	of	of	ADP	IN	_	10	udep	_	_
 12	underground	underground	ADJ	JJ	Degree=Pos	13	mod	_	_
 13	line	line	NOUN	NN	Number=Sing	11	comp:obj	_	_
-14	than	than	ADP	IN	_	9	udep	_	_
+14	than	than	ADP	IN	_	9	comp:obj	_	_
 15	Madrid	Madrid	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -96,7 +96,7 @@
 8	can	can	AUX	MD	VerbForm=Fin	5	comp:obj	_	SpaceAfter=No
 9	not	not	PART	RB	Polarity=Neg	8	mod	_	_
 10	continue	continue	VERB	VB	VerbForm=Inf	8	comp:aux	_	_
-11	with	with	ADP	IN	_	10	udep	_	_
+11	with	with	ADP	IN	_	10	comp:obl	_	_
 12	those	those	PRON	DT	Number=Plur|PronType=Dem	11	comp:obj	_	_
 13	who	who	PRON	WP	PronType=Rel	14	subj	_	_
 14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
@@ -115,7 +115,7 @@
 6	how	how	ADV	WRB	PronType=Int	4	conj	_	_
 7	to	to	PART	TO	Shared=Yes	6	comp:obj	_	_
 8	continue	continue	VERB	VB	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
-9	onto	onto	ADP	IN	_	8	udep	_	_
+9	onto	onto	ADP	IN	_	8	mod	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 11	next	next	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	section	section	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
@@ -147,7 +147,7 @@
 6	offered	offer	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
 7	500	500	NUM	CD	NumType=Card	8	mod	_	_
 8	euros	euro	NOUN	NNS	Number=Plur	6	comp:obj	_	_
-9	by	by	ADP	IN	_	6	udep	_	_
+9	by	by	ADP	IN	_	6	comp:obl@agent	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 11	state	state	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	4	punct	_	_
@@ -156,7 +156,7 @@
 15	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux@pass	_	_
 16	by	by	ADP	IN	_	18	compound	_	_
 17	31st	31st	NOUN	NN	Number=Sing	16	comp:obj	_	_
-18	December	December	PROPN	NNP	Number=Sing	15	udep	_	_
+18	December	December	PROPN	NNP	Number=Sing	15	mod	_	_
 19	2017	2017	NUM	CD	NumType=Card	18	mod@tmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -170,13 +170,13 @@
 6	can	can	AUX	MD	VerbForm=Fin	2	mod@relcl	_	_
 7	be	be	AUX	VB	VerbForm=Inf	6	comp:aux	_	_
 8	saved	save	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
-9	on	on	ADP	IN	_	8	udep	_	_
+9	on	on	ADP	IN	_	8	comp:obl	_	_
 10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	mod@poss	_	_
 11	smartphone	smartphone	NOUN	NN	Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	or	or	CCONJ	CC	_	14	cc	_	_
 14	presented	present	VERB	VBN	Tense=Past|VerbForm=Part	8	conj	_	_
-15	at	at	ADP	IN	Shared=No	14	udep	_	_
+15	at	at	ADP	IN	Shared=No	14	comp:obl	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 17	till	till	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	3	punct	_	_
@@ -207,7 +207,7 @@
 3	Mestre	Mestre	PROPN	NNP	Number=Sing	4	subj	_	_
 4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	stated	state	VERB	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	_
-6	in	in	ADP	IN	_	5	udep	_	_
+6	in	in	ADP	IN	_	5	mod	_	_
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
 8	note	note	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	5	punct	_	_
@@ -231,11 +231,11 @@
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
 2	level	level	NOUN	NN	Number=Sing	0	root	_	_
 3	that	that	PRON	WDT	PronType=Rel	7	subj	_	_
-4	in	in	ADP	IN	_	7	udep	_	_
+4	in	in	ADP	IN	_	7	mod	_	_
 5	both	both	DET	DT	_	6	det	_	_
 6	cases	case	NOUN	NNS	Number=Plur	4	comp:obj	_	_
 7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
-8	at	at	ADP	IN	_	7	udep	_	_
+8	at	at	ADP	IN	_	7	comp:obl	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 10	top	top	NOUN	NN	Number=Sing	8	comp:obj	_	_
 11	of	of	ADP	IN	_	10	udep	_	_
@@ -249,7 +249,7 @@
 2	latest	latest	ADJ	JJS	Degree=Sup	3	mod	_	_
 3	figures	figure	NOUN	NNS	Number=Plur|Shared=Yes	4	subj	_	_
 4	relate	relate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	to	to	ADP	IN	_	4	udep	_	_
+5	to	to	ADP	IN	_	4	comp:obl	_	_
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 7	24th	24th	NOUN	NN	Number=Sing	5	comp:obj	_	_
 8	of	of	ADP	IN	_	7	udep	_	_
@@ -269,7 +269,7 @@
 22	per	per	ADP	IN	_	21	udep	_	_
 23	litre	litre	NOUN	NN	Number=Sing	22	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	19	punct	_	_
-25	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	19	udep	_	_
+25	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	19	mod	_	_
 26	with	with	ADP	IN	_	25	comp:obj	_	_
 27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
 28	eurozone	eurozone	PROPN	NNP	Number=Sing	29	mod	_	_
@@ -319,7 +319,7 @@
 5	offer	offer	NOUN	NN	Number=Sing	3	comp:obj	_	_
 6	for	for	ADP	IN	_	5	udep	_	_
 7	Mps	Mps	PROPN	NNP	Number=Sing	6	comp:obj	_	_
-8	due	due	ADP	IN	_	3	udep	_	ExtPos=ADP|Idiom=Yes
+8	due	due	ADP	IN	_	3	mod	_	ExtPos=ADP|Idiom=Yes
 9	to	to	ADP	IN	_	8	unk	_	InIdiom=Yes
 10	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
@@ -332,7 +332,7 @@
 18	Bank	bank	NOUN	NN	Number=Sing	19	subj	_	_
 19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 20	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	19	comp:aux	_	_
-21	to	to	ADP	IN	_	20	udep	_	_
+21	to	to	ADP	IN	_	20	comp:obl	_	_
 22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	comp:obj	_	SpaceAfter=No
 23	"	"	PUNCT	''	_	12	punct	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
@@ -359,7 +359,7 @@
 18	Bank	bank	NOUN	NN	Number=Sing	16	comp:obj	_	_
 19	to	to	PART	TO	_	15	comp:obl	_	_
 20	speak	speak	VERB	VB	VerbForm=Inf	19	comp:obj	_	Subject=SubjRaising
-21	on	on	ADP	IN	_	20	udep	_	_
+21	on	on	ADP	IN	_	20	mod	_	_
 22	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	mod@poss	_	_
 23	behalf	behalf	NOUN	NN	Number=Sing	21	comp:obj	_	_
 24	by	by	SCONJ	IN	_	20	mod	_	_
@@ -368,7 +368,7 @@
 27	possibility	possibility	NOUN	NN	Number=Sing	25	comp:obj	_	_
 28	of	of	SCONJ	IN	_	27	udep	_	_
 29	looking	look	VERB	VBG	VerbForm=Ger	28	comp:obj	_	_
-30	at	at	ADP	IN	_	29	udep	_	_
+30	at	at	ADP	IN	_	29	comp:obl	_	_
 31	other	other	ADJ	JJ	Degree=Pos	32	mod	_	_
 32	alternatives	alternative	NOUN	NNS	Number=Plur	30	comp:obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	6	punct	_	_
@@ -381,12 +381,12 @@
 4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	_
 5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	written	write	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
-7	in	in	ADP	IN	_	6	udep	_	_
+7	in	in	ADP	IN	_	6	mod	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
 9	note	note	NOUN	NN	Number=Sing	7	comp:obj	_	_
 10	to	to	ADP	IN	_	9	udep	_	_
 11	Mps	Mps	PROPN	NNP	Number=Sing	10	comp:obj	_	_
-12	after	after	ADP	IN	_	6	udep	_	_
+12	after	after	ADP	IN	_	6	mod	_	_
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 14	decision	decision	NOUN	NN	Number=Sing	12	comp:obj	_	_
 15	of	of	ADP	IN	_	14	udep	_	_
@@ -403,7 +403,7 @@
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	will	will	AUX	MD	VerbForm=Fin	0	root	_	_
 3	go	go	VERB	VB	VerbForm=Inf	2	comp:aux	_	_
-4	for	for	ADP	IN	_	3	udep	_	_
+4	for	for	ADP	IN	_	3	comp:obl	_	_
 5	assessment	assessment	NOUN	NN	Number=Sing	4	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -411,12 +411,12 @@
 # sent_id = n04008007
 # text = Students at LUISS University were told during the course of a meeting which took place in Rome.
 1	Students	student	NOUN	NNS	Number=Plur	5	subj@pass	_	_
-2	at	at	ADP	IN	_	3	flat@name	_	_
-3	LUISS	LUISS	PROPN	NNP	Number=Sing	1	mod	_	_
-4	University	University	PROPN	NNP	Number=Sing	2	comp:obj	_	_
+2	at	at	ADP	IN	_	1	mod@name	_	_
+3	LUISS	LUISS	PROPN	NNP	Number=Sing	2	comp:obj	_	_
+4	University	University	PROPN	NNP	Number=Sing	3	flat@name	_	_
 5	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
-7	during	during	ADP	IN	_	6	udep	_	_
+7	during	during	ADP	IN	_	6	mod	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	course	course	NOUN	NN	Number=Sing	7	comp:obj	_	_
 10	of	of	ADP	IN	_	9	udep	_	_
@@ -425,7 +425,7 @@
 13	which	which	PRON	WDT	PronType=Rel	14	subj	_	_
 14	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	mod@relcl	_	_
 15	place	place	NOUN	NN	Number=Sing	14	comp:obj	_	_
-16	in	in	ADP	IN	_	14	udep	_	_
+16	in	in	ADP	IN	_	14	comp:obl	_	_
 17	Rome	Rome	PROPN	NNP	Number=Sing	16	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -442,7 +442,7 @@
 9	and	and	CCONJ	CC	_	11	cc	_	_
 10	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	_
 11	wife	wife	NOUN	NN	Number=Sing	7	conj	_	_
-12	at	at	ADP	IN	_	6	udep	_	_
+12	at	at	ADP	IN	_	6	mod	_	_
 13	Casa	Casa	PROPN	NNP	Number=Sing	12	comp:obj	_	_
 14	Santa	Santa	PROPN	NNP	Number=Sing	13	flat@name	_	_
 15	Marta	Marta	PROPN	NNP	Number=Sing	14	flat@name	_	SpaceAfter=No
@@ -486,7 +486,7 @@
 5	of	of	ADP	IN	_	4	udep	_	_
 6	research	research	NOUN	NN	Number=Sing	5	comp:obj	_	_
 7	applied	apply	VERB	VBN	Tense=Past|VerbForm=Part	6	mod	_	_
-8	under	under	ADP	IN	_	7	udep	_	_
+8	under	under	ADP	IN	_	7	mod	_	_
 9	safety	safety	NOUN	NN	Number=Sing	10	compound	_	_
 10	measures	measure	NOUN	NNS	Number=Plur	8	comp:obj	_	_
 11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -497,7 +497,7 @@
 16	robot	robot	NOUN	NN	Number=Sing	13	comp:obj	_	_
 17	to	to	SCONJ	TO	_	11	mod	_	_
 18	compete	compete	VERB	VB	VerbForm=Inf	17	comp:obj	_	_
-19	with	with	ADP	IN	_	18	udep	_	_
+19	with	with	ADP	IN	_	18	comp:obl	_	_
 20	Valentino	Valentino	PROPN	NNP	Number=Sing	19	comp:obj	_	_
 21	Rossi	Rossi	PROPN	NNP	Number=Sing	20	flat@name	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	11	punct	_	_
@@ -545,7 +545,7 @@
 11	than	than	SCONJ	IN	_	10	mod	_	_
 12	ever	ever	ADV	RB	_	13	mod	_	_
 13	before	before	ADV	RB	_	11	comp:obj	_	_
-14	on	on	ADP	IN	_	7	udep	_	_
+14	on	on	ADP	IN	_	7	mod	_	_
 15	Wall	Wall	PROPN	NNP	Number=Sing	16	compound	_	_
 16	Street	Street	PROPN	NNP	Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	6	punct	_	_
