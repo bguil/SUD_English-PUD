@@ -707,7 +707,7 @@
 9	old	old	ADJ	JJ	Degree=Pos	11	mod	_	_
 10	colonial	colonial	ADJ	JJ	Degree=Pos	11	mod	_	_
 11	powers	power	NOUN	NNS	Number=Plur	7	comp:obj	_	_
-12	such	such	ADJ	JJ	Degree=Pos	11	udep	_	ExtPos=ADJ|Idiom=Yes
+12	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	11	udep	_	Idiom=Yes
 13	as	as	ADP	IN	_	12	unk	_	InIdiom=Yes
 14	Great	great	ADJ	JJ	Degree=Pos	15	mod	_	Proper=True
 15	Britain	Britain	PROPN	NNP	Number=Sing	12	comp:obj	_	_
@@ -756,7 +756,7 @@
 8	some	some	DET	DT	_	9	det	_	_
 9	countries	country	NOUN	NNS	Number=Plur	21	subj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
-11	such	such	ADJ	JJ	Degree=Pos	9	udep	_	ExtPos=ADJ|Idiom=Yes
+11	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	9	udep	_	Idiom=Yes
 12	as	as	ADP	IN	_	11	unk	_	InIdiom=Yes
 13	Finland	Finland	PROPN	NNP	Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
@@ -1032,7 +1032,7 @@
 # sent_id = w02019048
 # text = Privately as well as publicly, Springer vigorously pursued reconciliation with the Jewish people and took many trips to Israel.
 1	Privately	privately	ADV	RB	Shared=Yes	9	mod	_	_
-2	as	as	ADV	RB	_	5	cc	_	ExtPos=ADV|Idiom=Yes
+2	as	as	ADV	RB	ExtPos=ADV	5	cc	_	Idiom=Yes
 3	well	well	ADV	RB	Degree=Pos	2	unk	_	InIdiom=Yes
 4	as	as	ADP	IN	_	3	unk	_	InIdiom=Yes
 5	publicly	publicly	ADV	RB	_	1	conj	_	SpaceAfter=No

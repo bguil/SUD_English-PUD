@@ -54,7 +54,7 @@
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	comp:obj	_	_
 8	selected	select	VERB	VBN	Tense=Past|VerbForm=Part	7	comp:aux@pass	_	_
 9	intentionally	intentionally	ADV	RB	_	8	mod	_	_
-10	because	because	ADP	IN	_	8	udep	_	ExtPos=ADP|Idiom=Yes
+10	because	because	ADP	IN	ExtPos=ADP	8	udep	_	Idiom=Yes
 11	of	of	ADP	IN	_	10	unk	_	InIdiom=Yes
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
 13	great	great	ADJ	JJ	Degree=Pos	14	mod	_	_
@@ -222,7 +222,7 @@
 6	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
 7	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	8	mod	_	_
 8	boundary	boundary	NOUN	NN	Number=Sing	5	comp:obj	_	_
-9	up	up	ADP	RB	_	4	udep	_	ExtPos=ADP|Idiom=Yes
+9	up	up	ADP	RB	ExtPos=ADP	4	udep	_	Idiom=Yes
 10	to	to	ADP	IN	_	9	unk	_	InIdiom=Yes
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 12	outer	outer	ADJ	JJ	Degree=Pos	13	mod	_	_

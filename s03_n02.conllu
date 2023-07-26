@@ -52,7 +52,7 @@
 5	food	food	NOUN	NN	Number=Sing	6	compound	_	_
 6	products	product	NOUN	NNS	Number=Plur	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	such	such	ADJ	JJ	Degree=Pos|Shared=No	6	mod	_	ExtPos=ADJ|Idiom=Yes
+8	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ|Shared=No	6	mod	_	Idiom=Yes
 9	as	as	ADP	IN	_	8	unk	_	InIdiom=Yes
 10	wheat	wheat	NOUN	NN	Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
@@ -232,7 +232,7 @@
 # newdoc id = n02027
 # sent_id = n02027007
 # text = According to Parker, Russian Secret Service agents are active in large numbers in Great Britain.
-1	According	accord	VERB	VBG	VerbForm=Ger	9	mod	_	ExtPos=ADP|Idiom=Yes
+1	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	9	mod	_	Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	Parker	Parker	PROPN	NNP	Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	9	punct	_	_
@@ -310,7 +310,7 @@
 40	sanctions	sanction	NOUN	NNS	Number=Plur	38	comp:obj	_	_
 41	against	against	ADP	IN	_	40	udep	_	_
 42	Russia	Russia	PROPN	NNP	Number=Sing	41	comp:obj	_	_
-43	as	as	ADV	RB	_	46	cc	_	ExtPos=ADV|Idiom=Yes
+43	as	as	ADV	RB	ExtPos=ADV	46	cc	_	Idiom=Yes
 44	well	well	ADV	RB	Degree=Pos	43	unk	_	InIdiom=Yes
 45	as	as	ADP	IN	_	44	unk	_	InIdiom=Yes
 46	reimburse	reimburse	VERB	VB	VerbForm=Inf	36	conj	_	_
@@ -455,7 +455,7 @@
 3	hour	hour	NOUN	NN	Number=Sing	4	subj	_	_
 4	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	up	up	ADP	RP	_	4	compound@prt	_	_
-6	at	at	ADP	IN	_	8	mod	_	ExtPos=ADP|Idiom=Yes
+6	at	at	ADP	IN	ExtPos=ADP	8	mod	_	Idiom=Yes
 7	least	least	ADV	RBS	Degree=Sup	6	unk	_	InIdiom=Yes
 8	by	by	ADP	IN	_	4	mod	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
@@ -466,7 +466,7 @@
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 15	played	play	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux@pass	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	4	punct	_	_
-17	such	such	ADJ	JJ	Degree=Pos	4	mod	_	ExtPos=ADJ|Idiom=Yes
+17	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	4	mod	_	Idiom=Yes
 18	as	as	ADP	IN	_	17	unk	_	InIdiom=Yes
 19	in	in	ADP	IN	_	17	comp:obj	_	_
 20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
@@ -713,7 +713,7 @@
 # newdoc id = n02052
 # sent_id = n02052023
 # text = According to Christian belief, a grave which had been embedded in the chalkstone was the last resting place of Jesus.
-1	According	accord	VERB	VBG	VerbForm=Ger	15	mod	_	ExtPos=VERB|Idiom=Yes
+1	According	accord	VERB	VBG	ExtPos=VERB|VerbForm=Ger	15	mod	_	Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	Christian	Christian	ADJ	JJ	Degree=Pos	4	mod	_	_
 4	belief	belief	NOUN	NN	Number=Sing	1	comp:obj	_	SpaceAfter=No
@@ -817,7 +817,7 @@
 29	ocean	ocean	NOUN	NN	Number=Sing	30	compound	_	_
 30	surface	surface	NOUN	NN	Number=Sing	27	comp:obj	_	_
 31	-	-	PUNCT	:	_	24	punct	_	_
-32	so	so	SCONJ	IN	_	24	mod	_	ExtPos=SCONJ|Idiom=Yes
+32	so	so	SCONJ	IN	ExtPos=SCONJ	24	mod	_	Idiom=Yes
 33	that	that	SCONJ	IN	_	32	unk	_	InIdiom=Yes
 34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
 35	would	would	AUX	MD	VerbForm=Fin	32	comp:obj	_	_
@@ -1093,7 +1093,7 @@
 7	completely	completely	ADV	RB	_	5	mod	_	_
 8	disappear	disappear	VERB	VB	VerbForm=Inf	5	comp:aux	_	SpaceAfter=No
 9	:	:	PUNCT	:	_	5	punct	_	_
-10	According	accord	VERB	VBG	VerbForm=Ger	20	mod	_	ExtPos=VERB|Idiom=Yes
+10	According	accord	VERB	VBG	ExtPos=VERB|VerbForm=Ger	20	mod	_	Idiom=Yes
 11	to	to	ADP	IN	_	10	unk	_	InIdiom=Yes
 12	information	information	NOUN	NN	Number=Sing	10	comp:obj	_	_
 13	from	from	ADP	IN	_	12	udep	_	_

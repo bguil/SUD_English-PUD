@@ -24,7 +24,7 @@
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
 21	party	party	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	18	punct	_	_
-23	such	such	ADJ	JJ	Degree=Pos	18	udep	_	ExtPos=ADJ|Idiom=Yes
+23	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	18	udep	_	Idiom=Yes
 24	as	as	ADP	IN	_	23	unk	_	InIdiom=Yes
 25	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
 26	Sectorial	sectorial	ADJ	JJ	Degree=Pos	27	mod	_	_
@@ -332,7 +332,7 @@
 19	best	best	ADJ	JJS	Degree=Sup	16	comp:obj	_	_
 20	of	of	ADP	IN	_	19	udep	_	_
 21	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	comp:obj	_	_
-22	in	in	SCONJ	IN	_	16	mod	_	ExtPos=SCONJ|Idiom=Yes
+22	in	in	SCONJ	IN	ExtPos=SCONJ	16	mod	_	Idiom=Yes
 23	order	order	NOUN	NN	Number=Sing	22	unk	_	InIdiom=Yes
 24	to	to	PART	TO	_	23	unk	_	InIdiom=Yes
 25	make	make	VERB	VB	VerbForm=Inf	22	comp:obj	_	_

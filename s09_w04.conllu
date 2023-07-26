@@ -66,7 +66,7 @@
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 13	Fault	fault	NOUN	NN	Number=Sing	14	subj	_	_
 14	arose	arise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
-15	due	due	ADP	IN	_	14	udep	_	ExtPos=ADP|Idiom=Yes
+15	due	due	ADP	IN	ExtPos=ADP	14	udep	_	Idiom=Yes
 16	to	to	ADP	IN	_	15	unk	_	InIdiom=Yes
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 18	collision	collision	NOUN	NN	Number=Sing	15	comp:obj	_	_
@@ -178,7 +178,7 @@
 2	August	August	PROPN	NNP	Number=Sing	1	comp:obj	_	_
 3	1969	1969	NUM	CD	NumType=Card	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	,	Shared=Yes	8	punct	_	_
-5	Pope	Pope	PROPN	NNP	Number=Sing|Shared=Yes	8	subj	_	ExtPos=PROPN|Idiom=Yes
+5	Pope	Pope	PROPN	NNP	ExtPos=PROPN|Number=Sing|Shared=Yes	8	subj	_	Idiom=Yes
 6	Paul	Paul	PROPN	NNP	Number=Sing	5	unk	_	InIdiom=Yes
 7	VI	vi	PROPN	CD	NumType=Card	6	unk	_	InIdiom=Yes
 8	removed	remove	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -651,7 +651,7 @@
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	fallen	fall	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	apart	apart	ADV	RP	_	6	compound@prt	_	_
-8	due	due	ADP	IN	_	6	udep	_	ExtPos=ADP|Idiom=Yes
+8	due	due	ADP	IN	ExtPos=ADP	6	udep	_	Idiom=Yes
 9	to	to	ADP	IN	_	8	unk	_	InIdiom=Yes
 10	unofficial	unofficial	ADJ	JJ	Degree=Pos	11	mod	_	_
 11	collaborations	collaboration	NOUN	NNS	Number=Plur	8	comp:obj	_	_

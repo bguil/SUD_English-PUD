@@ -130,7 +130,7 @@
 7	and	and	CCONJ	CC	_	9	cc	_	_
 8	volcanic	volcanic	ADJ	JJ	Degree=Pos	9	mod	_	_
 9	islands	island	NOUN	NNS	Number=Plur	6	conj	_	_
-10	such	such	ADJ	JJ	Degree=Pos|Shared=No	9	udep	_	ExtPos=ADJ|Idiom=Yes
+10	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ|Shared=No	9	udep	_	Idiom=Yes
 11	as	as	ADP	IN	_	10	unk	_	InIdiom=Yes
 12	Saint	Saint	PROPN	NNP	Number=Sing	13	compound	_	_
 13	Helena	Helena	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
@@ -194,7 +194,7 @@
 30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
 31	straits	strait	NOUN	NNS	Number=Plur	29	comp:obj	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	27	punct	_	_
-33	such	such	ADJ	JJ	Degree=Pos	27	udep	_	ExtPos=ADJ|Idiom=Yes
+33	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	27	udep	_	Idiom=Yes
 34	as	as	ADP	IN	_	33	unk	_	InIdiom=Yes
 35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
 36	Megarian	megarian	ADJ	JJ	Degree=Pos	37	mod	_	_
@@ -254,7 +254,7 @@
 10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
 11	Macedonian	Macedonian	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	king	king	NOUN	NN	Number=Sing|Shared=Yes	15	subj	_	_
-13	Amyntas	Amyntas	PROPN	NNP	Number=Sing	12	conj:appos	_	ExtPos=PROPN|Idiom=Yes
+13	Amyntas	Amyntas	PROPN	NNP	ExtPos=PROPN|Number=Sing	12	conj:appos	_	Idiom=Yes
 14	I	i	NUM	CD	NumType=Card	13	unk	_	InIdiom=Yes
 15	accepted	accept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
@@ -656,7 +656,7 @@
 # newdoc id = w01012
 # sent_id = w01012052
 # text = In addition, statute determines the election of assembly of regions, and metropolitan districts.
-1	In	in	ADP	IN	_	5	mod	_	ExtPos=ADP|Idiom=Yes
+1	In	in	ADP	IN	ExtPos=ADP	5	mod	_	Idiom=Yes
 2	addition	addition	NOUN	NN	Number=Sing	1	unk	_	InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	statute	statute	NOUN	NN	Number=Sing	5	subj	_	_
@@ -1110,7 +1110,7 @@
 9	and	and	CCONJ	CC	_	10	cc	_	_
 10	war	war	NOUN	NN	Number=Sing	7	conj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	15	punct	_	_
-12	as	as	ADV	RB	_	15	cc	_	ExtPos=ADV|Idiom=Yes
+12	as	as	ADV	RB	ExtPos=ADV	15	cc	_	Idiom=Yes
 13	well	well	ADV	RB	Degree=Pos	12	unk	_	InIdiom=Yes
 14	as	as	ADP	IN	_	13	unk	_	InIdiom=Yes
 15	food	food	NOUN	NN	Number=Sing	3	conj	_	_
@@ -1134,7 +1134,7 @@
 
 # sent_id = w01020018
 # text = Due to the shared climate, geology, and access to the sea, cultures centered on the Mediterranean tended to have some extent of intertwined culture and history.
-1	Due	due	ADJ	JJ	Degree=Pos	20	udep	_	ExtPos=ADJ|Idiom=Yes
+1	Due	due	ADJ	JJ	Degree=Pos|ExtPos=ADJ	20	udep	_	Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 4	shared	share	VERB	VBN	Tense=Past|VerbForm=Part	5	mod	_	_
@@ -1580,7 +1580,7 @@
 7	of	of	ADP	IN	_	6	udep	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 9	country	country	NOUN	NN	Number=Sing	7	comp:obj	_	_
-10	in	in	SCONJ	IN	_	2	mod	_	ExtPos=SCONJ|Idiom=Yes
+10	in	in	SCONJ	IN	ExtPos=SCONJ	2	mod	_	Idiom=Yes
 11	that	that	SCONJ	IN	_	10	unk	_	InIdiom=Yes
 12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	mod@poss	_	_
 13	prominent	prominent	ADJ	JJ	Degree=Pos	15	mod	_	_
@@ -1782,7 +1782,7 @@
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
 17	Alps	Alps	PROPN	NNPS	Number=Plur	18	subj	_	_
 18	provide	provide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	up	up	ADP	IN	_	22	mod	_	ExtPos=ADP|Idiom=Yes
+19	up	up	ADP	IN	ExtPos=ADP	22	mod	_	Idiom=Yes
 20	to	to	ADP	IN	_	19	unk	_	InIdiom=Yes
 21	90	90	NUM	CD	NumType=Card	22	mod	_	_
 22	percent	percent	NOUN	NN	Number=Sing	18	comp:obj	_	_
@@ -1806,7 +1806,7 @@
 # sent_id = w01030094
 # text = Cities such as Milan depend on 80 percent of water from Alpine runoff.
 1	Cities	city	NOUN	NNS	Number=Plur	5	subj	_	_
-2	such	such	ADJ	JJ	Degree=Pos	1	udep	_	ExtPos=ADJ|Idiom=Yes
+2	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	1	udep	_	Idiom=Yes
 3	as	as	ADP	IN	_	2	unk	_	InIdiom=Yes
 4	Milan	Milan	PROPN	NNP	Number=Sing	2	comp:obj	_	_
 5	depend	depend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1836,7 +1836,7 @@
 12	plants	plant	NOUN	NNS	Number=Plur	7	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	5	punct	_	_
 14	generating	generate	VERB	VBG	VerbForm=Ger	5	mod	_	_
-15	as	as	ADV	RB	_	18	mod	_	ExtPos=ADV|Idiom=Yes
+15	as	as	ADV	RB	ExtPos=ADV	18	mod	_	Idiom=Yes
 16	much	much	ADJ	JJ	Degree=Pos	15	unk	_	InIdiom=Yes
 17	as	as	ADP	IN	_	16	unk	_	InIdiom=Yes
 18	2900	2900	NUM	CD	NumType=Card	19	mod	_	_
@@ -1854,7 +1854,7 @@
 5	from	from	ADP	IN	_	4	udep	_	_
 6	Switzerland	Switzerland	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	such	such	ADJ	JJ	Degree=Pos	3	udep	_	ExtPos=ADJ|Idiom=Yes
+8	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	3	udep	_	Idiom=Yes
 9	as	as	ADP	IN	_	8	unk	_	InIdiom=Yes
 10	the	the	DET	DT	Definite=Def|PronType=Art|Shared=No	11	det	_	_
 11	Rhine	Rhine	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
@@ -1930,7 +1930,7 @@
 5	be	be	AUX	VB	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 6	very	very	ADV	RB	_	5	mod	_	_
 7	viscous	viscous	ADJ	JJ	Degree=Pos	5	comp:pred	_	_
-8	due	due	ADP	IN	_	7	udep	_	ExtPos=ADP|Idiom=Yes
+8	due	due	ADP	IN	ExtPos=ADP	7	udep	_	Idiom=Yes
 9	to	to	ADP	IN	_	8	unk	_	InIdiom=Yes
 10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	mod@poss	_	_
 11	high	high	ADJ	JJ	Degree=Pos	13	mod	_	_
@@ -1990,7 +1990,7 @@
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	which	which	PRON	WDT	PronType=Rel	8	subj	_	_
 8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
-9	all	all	ADV	RB	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+9	all	all	ADV	RB	ExtPos=ADV	8	mod	_	Idiom=Yes
 10	but	but	ADV	RB	_	9	unk	_	InIdiom=Yes
 11	dried	dry	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux	_	_
 12	up	up	ADP	RP	_	11	compound@prt	_	SpaceAfter=No
@@ -2118,7 +2118,7 @@
 21	,	,	PUNCT	,	_	23	punct	_	_
 22	or	or	CCONJ	CC	_	23	cc	_	_
 23	will	will	AUX	MD	VerbForm=Fin	13	conj	_	_
-24	at	at	ADP	IN	Shared=No	23	mod	_	ExtPos=ADP|Idiom=Yes
+24	at	at	ADP	IN	ExtPos=ADP|Shared=No	23	mod	_	Idiom=Yes
 25	least	least	ADV	RBS	Degree=Sup	24	unk	_	InIdiom=Yes
 26	mitigate	mitigate	VERB	VB	Shared=No|VerbForm=Inf	23	comp:aux	_	_
 27	adverse	adverse	ADJ	JJ	Degree=Pos	28	mod	_	_
@@ -2289,7 +2289,7 @@
 3	not	not	PART	RB	Polarity=Neg	2	mod	_	_
 4	very	very	ADV	RB	_	2	mod	_	_
 5	popular	popular	ADJ	JJ	Degree=Pos	2	comp:pred	_	_
-6	due	due	ADP	IN	_	5	udep	_	ExtPos=ADP|Idiom=Yes
+6	due	due	ADP	IN	ExtPos=ADP	5	udep	_	Idiom=Yes
 7	to	to	ADP	IN	_	6	unk	_	InIdiom=Yes
 8	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 9	often	often	ADV	RB	_	10	mod	_	_
@@ -2479,7 +2479,7 @@
 5	in	in	ADP	IN	_	4	udep	_	_
 6	desert	desert	NOUN	NN	Number=Sing|Shared=No	7	compound	_	_
 7	margins	margin	NOUN	NNS	Number=Plur	5	comp:obj	_	_
-8	rather	rather	ADV	RB	_	11	cc	_	ExtPos=ADV|Idiom=Yes
+8	rather	rather	ADV	RB	ExtPos=ADV	11	cc	_	Idiom=Yes
 9	than	than	ADP	IN	_	8	unk	_	InIdiom=Yes
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
 11	deserts	desert	NOUN	NNS	Number=Plur	7	conj	_	_
@@ -2578,7 +2578,7 @@
 12	increases	increase	NOUN	NNS	Number=Plur	10	comp:obj	_	_
 13	in	in	ADP	IN	_	12	udep	_	_
 14	problems	problem	NOUN	NNS	Number=Plur	13	comp:obj	_	_
-15	such	such	ADJ	JJ	Degree=Pos	14	udep	_	ExtPos=ADJ|Idiom=Yes
+15	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	14	udep	_	Idiom=Yes
 16	as	as	ADP	IN	_	15	unk	_	InIdiom=Yes
 17	obesity	obesity	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	_	_
@@ -2614,7 +2614,7 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
 7	population	population	NOUN	NN	Number=Sing	5	comp:obj	_	_
 8	of	of	ADP	IN	_	7	udep	_	_
-9	close	close	ADJ	JJ	Degree=Pos	13	mod	_	ExtPos=ADJ|Idiom=Yes
+9	close	close	ADJ	JJ	Degree=Pos|ExtPos=ADJ	13	mod	_	Idiom=Yes
 10	to	to	ADP	IN	_	9	unk	_	InIdiom=Yes
 11	half	half	DET	PDT	_	13	compound	_	_
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
@@ -3012,7 +3012,7 @@
 13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	mod@poss	_	_
 14	lobbyists	lobbyist	NOUN	NNS	Number=Plur	11	conj	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	21	punct	_	_
-16	as	as	ADV	RB	_	21	cc	_	ExtPos=ADV|Idiom=Yes
+16	as	as	ADV	RB	ExtPos=ADV	21	cc	_	Idiom=Yes
 17	well	well	ADV	RB	Degree=Pos	16	unk	_	InIdiom=Yes
 18	as	as	ADP	IN	_	17	unk	_	InIdiom=Yes
 19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
@@ -3085,7 +3085,7 @@
 7	of	of	ADP	IN	_	6	udep	_	_
 8	development	development	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	6	punct	_	_
-10	such	such	ADJ	JJ	Degree=Pos	6	udep	_	ExtPos=ADJ|Idiom=Yes
+10	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	6	udep	_	Idiom=Yes
 11	as	as	ADP	IN	_	10	unk	_	InIdiom=Yes
 12	rustic	rustic	ADJ	JJ	Degree=Pos	14	mod	_	_
 13	picnic	picnic	NOUN	NN	Number=Sing|Shared=No	14	compound	_	_
@@ -3468,7 +3468,7 @@
 
 # sent_id = w01053045
 # text = According to the New Testament, Paul spent eighteen months in Corinth, approximately seventeen years after his conversion.
-1	According	accord	VERB	VBG	VerbForm=Ger	8	udep	_	ExtPos=VERB|Idiom=Yes
+1	According	accord	VERB	VBG	ExtPos=VERB|VerbForm=Ger	8	udep	_	Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
 4	New	New	PROPN	NNP	Number=Sing	5	compound	_	_
@@ -4257,7 +4257,7 @@
 18	these	these	PRON	DT	Number=Plur|PronType=Dem	19	subj@pass	_	_
 19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 20	calculated	calculate	VERB	VBN	Tense=Past|VerbForm=Part	19	comp:aux@pass	_	_
-21	according	accord	VERB	VBG	VerbForm=Ger	20	udep	_	ExtPos=VERB|Idiom=Yes
+21	according	accord	VERB	VBG	ExtPos=VERB|VerbForm=Ger	20	udep	_	Idiom=Yes
 22	to	to	ADP	IN	_	21	unk	_	InIdiom=Yes
 23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
 24	Chinese	Chinese	ADJ	JJ	Degree=Pos	25	mod	_	Proper=True
@@ -5231,7 +5231,7 @@
 21	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	conj	_	_
 22	targeted	target	VERB	VBN	Shared=No|Tense=Past|VerbForm=Part	21	comp:aux@pass	_	_
 23	there	there	ADV	RB	PronType=Dem|Shared=No	21	mod	_	_
-24	as	as	ADV	RB	Shared=No	21	mod	_	ExtPos=ADV|Idiom=Yes
+24	as	as	ADV	RB	ExtPos=ADV|Shared=No	21	mod	_	Idiom=Yes
 25	well	well	ADV	RB	Degree=Pos	24	unk	_	InIdiom=Yes|SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -5295,7 +5295,7 @@
 2	Macedonian	Macedonian	ADJ	JJ	Degree=Pos	3	mod	_	Proper=True
 3	army	army	NOUN	NN	Number=Sing|Shared=No	4	subj	_	_
 4	advanced	advance	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-5	as	as	ADV	RB	_	4	udep	_	ExtPos=ADV|Idiom=Yes
+5	as	as	ADV	RB	ExtPos=ADV	4	udep	_	Idiom=Yes
 6	far	far	ADV	RB	Degree=Pos	5	unk	_	InIdiom=Yes
 7	as	as	ADP	IN	_	6	unk	_	InIdiom=Yes
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
@@ -6032,7 +6032,7 @@
 
 # sent_id = w01095092
 # text = Prior to Emperor Meiji, the names of the eras were changed more frequently, and the posthumous names of the Emperors were chosen in a different manner.
-1	Prior	prior	ADV	RB	_	11	udep	_	ExtPos=ADV|Idiom=Yes
+1	Prior	prior	ADV	RB	ExtPos=ADV	11	udep	_	Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	Emperor	emperor	NOUN	NN	Number=Sing	1	comp:obj	_	_
 4	Meiji	Meiji	PROPN	NNP	Number=Sing	3	flat@name	_	SpaceAfter=No
@@ -6103,7 +6103,7 @@
 8	3	3	NUM	CD	NumType=Card|Shared=No	9	compound	_	_
 9	million	million	NUM	CD	NumType=Card	15	mod	_	_
 10	and	and	CCONJ	CC	_	14	cc	_	_
-11	more	more	ADJ	JJR	Degree=Cmp	14	mod	_	ExtPos=ADJ|Idiom=Yes
+11	more	more	ADJ	JJR	Degree=Cmp|ExtPos=ADJ	14	mod	_	Idiom=Yes
 12	than	than	ADP	IN	_	11	unk	_	InIdiom=Yes
 13	10	10	NUM	CD	NumType=Card	14	compound	_	_
 14	million	million	NUM	CD	NumType=Card	9	conj	_	_
@@ -6192,7 +6192,7 @@
 1	Some	some	DET	DT	_	2	det	_	_
 2	historians	historian	NOUN	NNS	Number=Plur	10	subj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	such	such	ADJ	JJ	Degree=Pos	2	udep	_	ExtPos=ADJ|Idiom=Yes
+4	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	2	udep	_	Idiom=Yes
 5	as	as	ADP	IN	_	4	unk	_	InIdiom=Yes
 6	Chandler	Chandler	PROPN	NNP	Number=Sing	4	comp:obj	_	_
 7	and	and	CCONJ	CC	_	8	cc	_	_
@@ -6221,7 +6221,7 @@
 # newdoc id = w01098
 # sent_id = w01098043
 # text = According to a genetic study on autosomal data on Roma the source of Southasian Ancestry in Roma is North-West India.
-1	According	accord	VERB	VBG	VerbForm=Ger	18	udep	_	ExtPos=VERB|Idiom=Yes
+1	According	accord	VERB	VBG	ExtPos=VERB|VerbForm=Ger	18	udep	_	Idiom=Yes
 2	to	to	ADP	IN	_	1	unk	_	InIdiom=Yes
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
 4	genetic	genetic	ADJ	JJ	Degree=Pos	5	mod	_	_
@@ -6867,7 +6867,7 @@
 13	film	film	NOUN	NN	Number=Sing	14	compound	_	_
 14	poster	poster	NOUN	NN	Number=Sing	15	compound	_	_
 15	designers	designer	NOUN	NNS	Number=Plur	8	conj:appos	_	_
-16	such	such	ADJ	JJ	Degree=Pos	15	udep	_	ExtPos=ADJ|Idiom=Yes
+16	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	15	udep	_	Idiom=Yes
 17	as	as	ADP	IN	_	16	unk	_	InIdiom=Yes
 18	Bill	Bill	PROPN	NNP	Number=Sing	16	comp:obj	_	_
 19	Gold	Gold	PROPN	NNP	Number=Sing	18	flat@name	_	_
@@ -7099,13 +7099,13 @@
 9	withdrawn	withdraw	VERB	VBN	Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 10	from	from	ADP	IN	_	9	udep	_	_
 11	ATMs	atm	NOUN	NNS	Number=Plur	10	comp:obj	_	_
-12	in	in	ADP	IN	_	7	mod	_	ExtPos=ADP|Idiom=Yes
+12	in	in	ADP	IN	ExtPos=ADP	7	mod	_	Idiom=Yes
 13	order	order	NOUN	NN	Number=Sing	12	unk	_	InIdiom=Yes
 14	to	to	PART	TO	_	12	comp:obj	_	_
 15	buy	buy	VERB	VB	VerbForm=Inf	14	comp:obj	_	_
 16	school	school	NOUN	NN	Number=Sing	17	compound	_	_
 17	needs	need	NOUN	NNS	Number=Plur	15	comp:obj	_	_
-18	such	such	ADJ	JJ	Degree=Pos	17	udep	_	ExtPos=ADJ|Idiom=Yes
+18	such	such	ADJ	JJ	Degree=Pos|ExtPos=ADJ	17	udep	_	Idiom=Yes
 19	as	as	ADP	IN	_	18	unk	_	InIdiom=Yes
 20	books	book	NOUN	NNS	Number=Plur	18	comp:obj	_	_
 21	and	and	CCONJ	CC	_	22	cc	_	_
@@ -7152,7 +7152,7 @@
 
 # sent_id = w01113074
 # text = Prior to taking office Jokowi sought for outgoing President Yudhoyono to take responsibility for the decision to further increase fuel prices by further removing subsidies.
-1	Prior	prior	SCONJ	RB	_	6	mod	_	ExtPos=SCONJ|Idiom=Yes
+1	Prior	prior	SCONJ	RB	ExtPos=SCONJ	6	mod	_	Idiom=Yes
 2	to	to	SCONJ	IN	_	1	unk	_	InIdiom=Yes
 3	taking	take	VERB	VBG	VerbForm=Ger	1	comp:obj	_	_
 4	office	office	NOUN	NN	Number=Sing	3	comp:obj	_	_
@@ -7472,7 +7472,7 @@
 10	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	12	mod	_	_
 11	non-white	non-white	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	princess	princess	NOUN	NN	Number=Sing	7	comp:pred	_	_
-13	as	as	SCONJ	IN	_	12	mod	_	ExtPos=SCONJ|Idiom=Yes
+13	as	as	SCONJ	IN	ExtPos=SCONJ	12	mod	_	Idiom=Yes
 14	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part	13	unk	_	InIdiom=Yes
 15	to	to	ADP	IN	_	14	unk	_	InIdiom=Yes
 16	being	be	AUX	VBG	VerbForm=Ger	13	comp:obj	_	_
@@ -7497,7 +7497,7 @@
 12	social	social	ADJ	JJ	Degree=Pos	13	mod	_	_
 13	hierarchy	hierarchy	NOUN	NN	Number=Sing	10	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	Shared=Yes	18	punct	_	_
-15	as	as	ADV	RB	Shared=Yes	18	cc	_	ExtPos=ADV|Idiom=Yes
+15	as	as	ADV	RB	ExtPos=ADV|Shared=Yes	18	cc	_	Idiom=Yes
 16	well	well	ADJ	JJ	Degree=Pos	15	unk	_	InIdiom=Yes
 17	as	as	ADP	IN	_	16	unk	_	InIdiom=Yes
 18	life	life	NOUN	NN	Number=Sing	13	conj	_	SpaceAfter=No
@@ -9104,7 +9104,7 @@
 6	spared	spare	VERB	VBN	Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	mod@poss	_	_
 8	life	life	NOUN	NN	Number=Sing	6	comp:obj	_	_
-9	so	so	SCONJ	IN	_	5	mod	_	ExtPos=SCONJ|Idiom=Yes
+9	so	so	SCONJ	IN	ExtPos=SCONJ	5	mod	_	Idiom=Yes
 10	that	that	SCONJ	IN	_	9	unk	_	InIdiom=Yes
 11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
 12	might	might	AUX	MD	VerbForm=Fin	9	comp:obj	_	_

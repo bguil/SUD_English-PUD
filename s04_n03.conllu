@@ -179,7 +179,7 @@
 23	votes	vote	NOUN	NNS	Number=Plur	24	subj@pass	_	_
 24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 25	required	require	VERB	VBN	Tense=Past|VerbForm=Part	24	comp:aux@pass	_	_
-26	in	in	ADP	IN	_	24	mod	_	ExtPos=ADP|Idiom=Yes
+26	in	in	ADP	IN	ExtPos=ADP	24	mod	_	Idiom=Yes
 27	order	order	NOUN	NN	Number=Sing	26	unk	_	InIdiom=Yes
 28	to	to	PART	TO	_	27	unk	_	InIdiom=Yes
 29	trigger	trigger	VERB	VB	VerbForm=Inf	26	comp:obj	_	_
@@ -486,7 +486,7 @@
 7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	mod	_	_
 8	hour	hour	NOUN	NN	Number=Sing	5	comp:obj	_	_
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	more	more	ADV	RBR	_	9	mod	_	ExtPos=ADV|Idiom=Yes
+10	more	more	ADV	RBR	ExtPos=ADV	9	mod	_	Idiom=Yes
 11	or	or	CCONJ	CC	_	10	unk	_	InIdiom=Yes
 12	less	less	ADV	RBR	Degree=Cmp	11	unk	_	InIdiom=Yes
 13	equal	equal	ADJ	JJ	Degree=Pos	9	comp:pred	_	_
