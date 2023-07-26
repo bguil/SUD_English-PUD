@@ -270,19 +270,19 @@
 17	fascist	fascist	NOUN	NN	Number=Sing	14	comp:pred	_	SpaceAfter=No
 18	'	'	PUNCT	''	_	17	punct	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	17	punct	_	_
-20	'	'	PUNCT	''	_	25	punct	_	SpaceAfter=No
-21	Minister	minister	NOUN	NN	Number=Sing	25	comp:obj	_	_
+20	'	'	PUNCT	''	_	21	punct	_	SpaceAfter=No
+21	Minister	minister	NOUN	NN	Number=Sing	17	conj	_	_
 22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No
 23	moron	moron	NOUN	NN	Number=Sing	21	conj:appos	_	SpaceAfter=No
 24	)	)	PUNCT	-RRB-	_	23	punct	_	_
-25	of	of	ADP	IN	_	13	conj	_	_
+25	of	of	ADP	IN	_	21	udep	_	_
 26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
 27	Interior	interior	NOUN	NN	Number=Sing|Shared=No	25	mod	_	SpaceAfter=No
-28	'	'	PUNCT	''	Shared=No	25	punct	_	_
+28	'	'	PUNCT	''	Shared=No	21	punct	_	_
 29	and	and	CCONJ	CC	_	32	cc	_	_
 30	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
 31	'	'	PUNCT	``	_	32	punct	_	SpaceAfter=No
-32	thug	thug	NOUN	NN	Number=Sing	17	conj	_	SpaceAfter=No
+32	thug	thug	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
 33	'	'	PUNCT	''	Shared=No	32	punct	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -547,7 +547,7 @@
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
 2	French	French	ADJ	JJ	Degree=Pos	4	mod	_	_
 3	Digital	digital	ADJ	JJ	Degree=Pos	4	mod	_	_
-4	Council	council	PROPN	NN	Number=Sing	18	subj	_	SpaceAfter=No
+4	Council	council	NOUN	NN	Number=Sing	18	subj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
 6	which	which	PRON	WDT	PronType=Rel	7	subj	_	_
 7	advises	advise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
@@ -570,7 +570,7 @@
 # newdoc id = n03010
 # sent_id = n03010012
 # text = According to Le Figaro, this government plan could free up 42 million euros, of which 15.5 million would go towards security.
-1	According	accord	VERB	VBG	VerbForm=Ger	9	udep	_	_
+1	According	accord	VERB	VBG	VerbForm=Ger	9	mod	_	_
 2	to	to	ADP	IN	_	1	comp:obj	_	_
 3	Le	Le	PROPN	NNP	Number=Sing	2	comp:obj	_	_
 4	Figaro	Figaro	PROPN	NNP	Number=Sing	3	flat@name	_	SpaceAfter=No

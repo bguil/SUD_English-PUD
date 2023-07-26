@@ -800,7 +800,7 @@
 12	that	that	SCONJ	IN	_	10	comp:obj	_	_
 13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@pass	_	_
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
-15	convinced	convinced	ADJ	JJ	Degree=Pos	14	comp:aux	_	_
+15	convinced	convinced	VERB	VBN	Tense=Past|VerbForm=Part	14	comp:aux	_	_
 16	that	that	SCONJ	IN	_	15	comp:obl	_	_
 17	one	one	NUM	CD	NumType=Card	21	subj	_	_
 18	of	of	ADP	IN	_	17	udep	_	_
@@ -992,10 +992,10 @@
 7	of	of	ADP	IN	_	6	udep	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
 9	International	international	ADJ	JJ	Degree=Pos	10	mod	_	_
-10	Organization	organization	PROPN	NN	Number=Sing	7	comp:obj	_	_
+10	Organization	organization	NOUN	NN	Number=Sing	7	comp:obj	_	_
 11	for	for	ADP	IN	_	10	udep	_	Proper=True
 12	Renewable	renewable	ADJ	JJ	Degree=Pos	13	mod	_	_
-13	Energies	energy	PROPN	NNS	Number=Plur	11	comp:obj	_	_
+13	Energies	energy	NOUN	NNS	Number=Plur	11	comp:obj	_	_
 14	(	(	PUNCT	-LRB-	_	15	punct	_	SpaceAfter=No
 15	IRENA	IRENA	PROPN	NNP	Number=Sing	10	conj:appos	_	SpaceAfter=No
 16	)	)	PUNCT	-RRB-	_	15	punct	_	_
