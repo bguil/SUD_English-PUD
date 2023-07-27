@@ -2030,9 +2030,9 @@
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
 7	tumour	tumour	NOUN	NN	Number=Sing	14	subj	_	_
 8	in	in	ADP	IN	_	7	udep	_	_
-9	Ms	Ms	PROPN	NNP	Number=Sing	13	mod@poss	_	_
-10	Pugh	Pugh	PROPN	NNP	Number=Sing	11	comp:obj	_	SpaceAfter=No
-11	's	's	PART	POS	_	9	flat@name	_	_
+9	Ms	Ms	PROPN	NNP	Number=Sing	11	comp:obj	_	_
+10	Pugh	Pugh	PROPN	NNP	Number=Sing	9	flat@name	_	SpaceAfter=No
+11	's	's	PART	POS	_	13	mod@poss	_	_
 12	right	right	ADJ	JJ	Degree=Pos	13	mod	_	_
 13	lung	lung	NOUN	NN	Number=Sing	8	comp:obj	_	_
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
@@ -8510,7 +8510,7 @@
 8	eventually	eventually	ADV	RB	_	7	mod	_	_
 9	rival	rival	VERB	VB	VerbForm=Inf	7	comp:aux	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
-11	Carnival	carnival	NOUN	NN	Number=Sing	9	comp:obj	_	_
+11	Carnival	carnival	ADP	NN	Number=Sing	9	comp:obj	_	_
 12	of	of	ADP	IN	_	11	udep	_	Proper=True
 13	Brazil	Brazil	PROPN	NNP	Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	_	_
