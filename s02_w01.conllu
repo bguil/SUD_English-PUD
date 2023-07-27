@@ -11,14 +11,14 @@
 7	of	of	ADP	IN	_	6	udep	_	_
 8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
 9	merchants	merchant	NOUN	NNS	Number=Plur	10	comp:obj	_	SpaceAfter=No
-10	'	'	PART	POS	_	11	nmod@poss	_	_
+10	'	'	PART	POS	_	11	mod@poss	_	_
 11	guild	guild	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	run	run	VERB	VBN	Tense=Past|VerbForm=Part	11	mod	_	_
 14	by	by	ADP	IN	_	13	udep	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 16	town	town	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
-17	's	's	PART	POS	_	18	nmod@poss	_	_
+17	's	's	PART	POS	_	18	mod@poss	_	_
 18	burgesses	burgess	NOUN	NNS	Number=Plur	14	comp:obj	_	_
 19	to	to	PART	TO	_	13	mod	_	_
 20	tax	tax	VERB	VB	VerbForm=Inf	19	comp:obj	_	_
@@ -206,7 +206,7 @@
 # sent_id = w01005020
 # text = Darius's highly regarded commander Megabazus was responsible to fulfill the conquers in the Balkans.
 1	Darius	Darius	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	5	nmod@poss	_	_
+2	's	's	PART	POS	_	5	mod@poss	_	_
 3	highly	highly	ADV	RB	_	4	mod	_	_
 4	regarded	regard	VERB	VBN	Tense=Past|VerbForm=Part	5	mod	_	_
 5	commander	commander	NOUN	NN	Number=Sing	7	subj	_	_
@@ -515,7 +515,7 @@
 15	in	in	ADP	IN	_	14	udep	_	_
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
 17	region	region	NOUN	NN	Number=Sing	18	comp:obj	_	SpaceAfter=No
-18	's	's	PART	POS	_	20	nmod@poss	_	_
+18	's	's	PART	POS	_	20	mod@poss	_	_
 19	rainy	rainy	ADJ	JJ	Degree=Pos	20	mod	_	_
 20	season	season	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
@@ -855,7 +855,7 @@
 6	control	control	NOUN	NN	Number=Sing	4	comp:obj	_	_
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	China	China	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	10	nmod@poss	_	_
+9	's	's	PART	POS	_	10	mod@poss	_	_
 10	preparation	preparation	NOUN	NN	Number=Sing	7	comp:pred	_	_
 11	for	for	ADP	IN	_	10	udep	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
@@ -1035,7 +1035,7 @@
 # text = The Sahel's climate is similar to, but less extreme than, the climate of the Sahara desert located just to the north.
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
 2	Sahel	Sahel	PROPN	NNP	Number=Sing	3	comp:obj	_	SpaceAfter=No
-3	's	's	PART	POS	_	4	nmod@poss	_	_
+3	's	's	PART	POS	_	4	mod@poss	_	_
 4	climate	climate	NOUN	NN	Number=Sing	5	subj	_	_
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	similar	similar	ADJ	JJ	Degree=Pos	5	comp:pred	_	_
@@ -2042,7 +2042,7 @@
 1	During	during	ADP	IN	_	13	mod	_	_
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
 3	family	family	NOUN	NN	Number=Sing	4	comp:obj	_	SpaceAfter=No
-4	's	's	PART	POS	_	5	nmod@poss	_	_
+4	's	's	PART	POS	_	5	mod@poss	_	_
 5	years	year	NOUN	NNS	Number=Plur	1	comp:obj	_	_
 6	in	in	ADP	IN	_	5	udep	_	_
 7	Kentucky	Kentucky	PROPN	NNP	Number=Sing	6	comp:obj	_	_
@@ -2071,7 +2071,7 @@
 4	increases	increase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
 6	area	area	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
-7	's	's	PART	POS	_	8	nmod@poss	_	_
+7	's	's	PART	POS	_	8	mod@poss	_	_
 8	vulnerability	vulnerability	NOUN	NN	Number=Sing	4	comp:obj	_	_
 9	to	to	ADP	IN	_	8	udep	_	_
 10	natural	natural	ADJ	JJ	Degree=Pos	11	mod	_	_
@@ -2648,7 +2648,7 @@
 14	along	along	ADP	IN	_	10	conj	_	_
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
 16	city	city	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
-17	's	's	PART	POS	_	18	nmod@poss	_	_
+17	's	's	PART	POS	_	18	mod@poss	_	_
 18	waterfront	waterfront	NOUN	NN	Number=Sing|Shared=No	14	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -2656,7 +2656,7 @@
 # sent_id = w01044010
 # text = Nevada's industrial outputs are tourism, mining, machinery, printing and publishing, food processing, and electric equipment.
 1	Nevada	Nevada	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	4	nmod@poss	_	_
+2	's	's	PART	POS	_	4	mod@poss	_	_
 3	industrial	industrial	ADJ	JJ	Degree=Pos	4	mod	_	_
 4	outputs	output	NOUN	NNS	Number=Plur	5	subj	_	_
 5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2896,7 +2896,7 @@
 # text = Cape Town's local government is the City of Cape Town, which is a metropolitan municipality.
 1	Cape	Cape	PROPN	NNP	Number=Sing	2	compound	_	_
 2	Town	Town	PROPN	NNP	Number=Sing	3	comp:obj	_	SpaceAfter=No
-3	's	's	PART	POS	_	5	nmod@poss	_	_
+3	's	's	PART	POS	_	5	mod@poss	_	_
 4	local	local	ADJ	JJ	Degree=Pos	5	mod	_	_
 5	government	government	NOUN	NN	Number=Sing	6	subj	_	_
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3099,7 +3099,7 @@
 # sent_id = w01049066
 # text = Australia's Royal National Park, established in 1879, was the world's second officially established national park.
 1	Australia	Australia	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	5	nmod@poss	_	_
+2	's	's	PART	POS	_	5	mod@poss	_	_
 3	Royal	royal	ADJ	JJ	Degree=Pos	5	mod	_	_
 4	National	national	ADJ	JJ	Degree=Pos	5	compound	_	_
 5	Park	park	NOUN	NN	Number=Sing	11	subj	_	SpaceAfter=No
@@ -3111,7 +3111,7 @@
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
 13	world	world	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
-14	's	's	PART	POS	_	19	nmod@poss	_	_
+14	's	's	PART	POS	_	19	mod@poss	_	_
 15	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	19	mod	_	_
 16	officially	officially	ADV	RB	_	17	mod	_	_
 17	established	establish	VERB	VBN	Tense=Past|VerbForm=Part	19	mod	_	_
@@ -3742,7 +3742,7 @@
 7	to	to	PART	TO	_	6	comp:obl	_	_
 8	supervise	supervise	VERB	VB	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising
 9	Wang	Wang	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
-10	's	's	PART	POS	_	11	nmod@poss	_	_
+10	's	's	PART	POS	_	11	mod@poss	_	_
 11	program	program	NOUN	NN	Number=Sing	8	comp:obj	_	_
 12	of	of	SCONJ	IN	_	11	udep	_	_
 13	surveying	survey	VERB	VBG	VerbForm=Ger	12	comp:obj	_	_
@@ -3841,7 +3841,7 @@
 23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
 24	Liao	Liao	PROPN	NNP	Number=Sing	25	compound	_	_
 25	Kingdom	Kingdom	PROPN	NNP	Number=Sing	26	comp:obj	_	SpaceAfter=No
-26	's	's	PART	POS	_	27	nmod@poss	_	_
+26	's	's	PART	POS	_	27	mod@poss	_	_
 27	demands	demand	NOUN	NNS	Number=Plur	22	comp:obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -4111,7 +4111,7 @@
 18	sites	site	NOUN	NNS	Number=Plur	16	comp:obj	_	_
 19	at	at	ADP	IN	_	18	udep	_	_
 20	Thutmose	Thutmose	PROPN	NNP	Number=Sing	21	comp:obj	_	SpaceAfter=No
-21	's	's	PART	POS	_	22	nmod@poss	_	_
+21	's	's	PART	POS	_	22	mod@poss	_	_
 22	temple	temple	NOUN	NN	Number=Sing	19	comp:obj	_	_
 23	at	at	ADP	IN	_	22	udep	_	_
 24	Karnak	Karnak	PROPN	NNP	Number=Sing	23	comp:obj	_	SpaceAfter=No
@@ -4359,7 +4359,7 @@
 22	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
 23	Japanese	Japanese	ADJ	JJ	Degree=Pos	27	mod	_	_
 24	children	child	NOUN	NNS	Number=Plur	25	comp:obj	_	SpaceAfter=No
-25	's	's	PART	POS	_	27	nmod@poss	_	_
+25	's	's	PART	POS	_	27	mod@poss	_	_
 26	television	television	NOUN	NN	Number=Sing	27	compound	_	_
 27	show	show	NOUN	NN	Number=Sing	21	comp:obj	_	_
 28	on	on	ADP	IN	_	27	udep	_	_
@@ -4801,7 +4801,7 @@
 10	,	,	PUNCT	,	_	17	punct	_	_
 11	but	but	CCONJ	CC	_	17	cc	_	_
 12	Kipling	Kipling	PROPN	NNP	Number=Sing	13	comp:obj	_	SpaceAfter=No
-13	's	's	PART	POS	_	14	nmod@poss	_	_
+13	's	's	PART	POS	_	14	mod@poss	_	_
 14	need	need	NOUN	NN	Number=Sing	17	subj	_	_
 15	to	to	PART	TO	_	14	udep	_	_
 16	write	write	VERB	VB	VerbForm=Inf	15	comp:obj	_	_
@@ -5915,7 +5915,7 @@
 2	success	success	NOUN	NN	Number=Sing	11	subj	_	_
 3	American	American	PROPN	NNP	Degree=Pos	4	compound	_	_
 4	Motors	Motor	PROPN	NNPS	Number=Plur	5	comp:obj	_	SpaceAfter=No
-5	'	'	PART	POS	_	10	nmod@poss	_	_
+5	'	'	PART	POS	_	10	mod@poss	_	_
 6	compact	compact	ADJ	JJ	Degree=Pos	8	mod	_	SpaceAfter=No
 7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
 8	sized	sized	VERB	VBN	Tense=Past|VerbForm=Part	10	mod	_	_
@@ -6451,7 +6451,7 @@
 # sent_id = w01101046
 # text = Lamarr's earliest inventions include an improved traffic stoplight and a tablet that would dissolve in water to create a carbonated drink.
 1	Lamarr	Lamarr	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	4	nmod@poss	_	_
+2	's	's	PART	POS	_	4	mod@poss	_	_
 3	earliest	earliest	ADJ	JJS	Degree=Sup	4	mod	_	_
 4	inventions	invention	NOUN	NNS	Number=Plur	5	subj	_	_
 5	include	include	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6564,7 +6564,7 @@
 5	destruction	destruction	NOUN	NN	Number=Sing	3	comp:obj	_	_
 6	of	of	ADP	IN	_	5	udep	_	_
 7	Carangi	Carangi	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
-8	's	's	PART	POS	_	9	nmod@poss	_	_
+8	's	's	PART	POS	_	9	mod@poss	_	_
 9	life	life	NOUN	NN	Number=Sing	6	comp:obj	_	_
 10	and	and	CCONJ	CC	_	11	cc	_	_
 11	career	career	NOUN	NN	Number=Sing	9	conj	_	_
@@ -6668,7 +6668,7 @@
 # text = Using Alvarez's dipole antenna to achieve a very high angular resolution, GCA allows ground-based radar operators watching special precision displays to guide a landing airplane to the runway by transmitting verbal commands to the pilot.
 1	Using	use	VERB	VBG	VerbForm=Ger	15	mod	_	_
 2	Alvarez	Alvarez	PROPN	NNP	Number=Sing	3	comp:obj	_	SpaceAfter=No
-3	's	's	PART	POS	_	5	nmod@poss	_	_
+3	's	's	PART	POS	_	5	mod@poss	_	_
 4	dipole	dipole	NOUN	NN	Number=Sing	5	compound	_	_
 5	antenna	antenna	NOUN	NN	Number=Sing	1	comp:obj	_	_
 6	to	to	PART	TO	_	1	mod	_	_
@@ -6821,7 +6821,7 @@
 2	health	health	NOUN	NN	Number=Sing	3	subj	_	_
 3	reduced	reduce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 4	Hitchcock	Hitchcock	PROPN	NNP	Number=Sing	5	comp:obj	_	SpaceAfter=No
-5	's	's	PART	POS	_	6	nmod@poss	_	_
+5	's	's	PART	POS	_	6	mod@poss	_	_
 6	output	output	NOUN	NN	Number=Sing	3	comp:obj	_	_
 7	during	during	ADP	IN	_	3	udep	_	_
 8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
@@ -6836,7 +6836,7 @@
 # sent_id = w01107063
 # text = Hitchcock's films sometimes feature characters struggling in their relationships with their mothers.
 1	Hitchcock	Hitchcock	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	3	nmod@poss	_	_
+2	's	's	PART	POS	_	3	mod@poss	_	_
 3	films	film	NOUN	NNS	Number=Plur	5	subj	_	_
 4	sometimes	sometimes	ADV	RB	_	5	mod	_	_
 5	feature	feature	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7357,7 +7357,7 @@
 3	scholars	scholar	NOUN	NNS	Number=Plur	4	subj	_	_
 4	criticize	criticize	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	Tolle	Tolle	PROPN	NNP	Number=Sing	6	comp:obj	_	SpaceAfter=No
-6	's	's	PART	POS	_	7	nmod@poss	_	_
+6	's	's	PART	POS	_	7	mod@poss	_	_
 7	teachings	teaching	NOUN	NNS	Number=Plur	4	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	_	_
 9	while	while	SCONJ	IN	_	4	mod	_	_
@@ -7468,7 +7468,7 @@
 6	Jasmine	Jasmine	PROPN	NNP	Number=Sing	7	subj	_	_
 7	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	Disney	Disney	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	12	nmod@poss	_	_
+9	's	's	PART	POS	_	12	mod@poss	_	_
 10	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	12	mod	_	_
 11	non-white	non-white	ADJ	JJ	Degree=Pos	12	mod	_	_
 12	princess	princess	NOUN	NN	Number=Sing	7	comp:pred	_	_
@@ -7710,7 +7710,7 @@
 # sent_id = w01125035
 # text = Grafton's government disintegrated in 1770, allowing the Tories led by Lord North to return to power.
 1	Grafton	Grafton	PROPN	NNP	Number=Sing	2	comp:obj	_	SpaceAfter=No
-2	's	's	PART	POS	_	3	nmod@poss	_	_
+2	's	's	PART	POS	_	3	mod@poss	_	_
 3	government	government	NOUN	NN	Number=Sing	4	subj	_	_
 4	disintegrated	disintegrate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 5	in	in	ADP	IN	_	4	udep	_	_
@@ -7886,7 +7886,7 @@
 6	one	one	NUM	CD	NumType=Card	4	comp:pred	_	_
 7	of	of	ADP	IN	_	6	udep	_	_
 8	LaBeouf	LaBeouf	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	11	nmod@poss	_	_
+9	's	's	PART	POS	_	11	mod@poss	_	_
 10	best	best	ADJ	JJS	Degree=Sup	11	mod	_	_
 11	performances	performance	NOUN	NNS	Number=Plur	7	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
@@ -7913,7 +7913,7 @@
 3	attending	attend	VERB	VBG	Tense=Pres|VerbForm=Part	2	comp:aux	_	_
 4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	mod@poss	_	_
 5	father	father	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
-6	's	's	PART	POS	_	7	nmod@poss	_	_
+6	's	's	PART	POS	_	7	mod@poss	_	_
 7	funeral	funeral	NOUN	NN	Number=Sing	3	comp:obj	_	_
 8	on	on	ADP	IN	_	3	udep	_	_
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
@@ -8022,7 +8022,7 @@
 5	cowritten	cowritten	VERB	VBN	Tense=Past|VerbForm=Part	4	mod	_	_
 6	with	with	ADP	IN	_	5	udep	_	_
 7	Rafferty	Rafferty	PROPN	NNP	Number=Sing	8	comp:obj	_	SpaceAfter=No
-8	's	's	PART	POS	_	9	nmod@poss	_	_
+8	's	's	PART	POS	_	9	mod@poss	_	_
 9	brother	brother	NOUN	NN	Number=Sing	6	comp:obj	_	_
 10	Jim	Jim	PROPN	NNP	Number=Sing	9	conj:appos	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
@@ -8130,7 +8130,7 @@
 15	to	to	PART	TO	_	8	mod	_	_
 16	counter	counter	VERB	VB	VerbForm=Inf	15	comp:obj	_	_
 17	Beria	Beria	PROPN	NNP	Number=Sing	18	comp:obj	_	SpaceAfter=No
-18	's	's	PART	POS	_	19	nmod@poss	_	_
+18	's	's	PART	POS	_	19	mod@poss	_	_
 19	dominance	dominance	NOUN	NN	Number=Sing	16	comp:obj	_	_
 20	of	of	ADP	IN	_	19	udep	_	_
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
@@ -8417,14 +8417,14 @@
 7	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 8	in	in	ADP	IN	_	7	udep	_	_
 9	Disney	Disney	PROPN	NNP	Number=Sing	10	comp:obj	_	SpaceAfter=No
-10	's	's	PART	POS	_	12	nmod@poss	_	_
+10	's	's	PART	POS	_	12	mod@poss	_	_
 11	The	the	DET	DT	Definite=Def|PronType=Art	12	det	_	Proper=True
 12	Muppets	Muppets	PROPN	NNPS	Number=Plur	8	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	7	punct	_	_
 14	as	as	ADP	IN	_	7	udep	_	_
 15	Miss	Miss	PROPN	NNP	Number=Sing	17	comp:obj	_	_
 16	Piggy	Piggy	PROPN	NNP	Number=Sing	15	flat@name	_	SpaceAfter=No
-17	's	's	PART	POS	_	18	nmod@poss	_	_
+17	's	's	PART	POS	_	18	mod@poss	_	_
 18	receptionist	receptionist	NOUN	NN	Number=Sing	14	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -8659,7 +8659,7 @@
 6	until	until	ADP	IN	_	5	udep	_	_
 7	after	after	ADP	IN	_	6	comp:pred	_	_
 8	Smith	Smith	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No
-9	's	's	PART	POS	_	10	nmod@poss	_	_
+9	's	's	PART	POS	_	10	mod@poss	_	_
 10	death	death	NOUN	NN	Number=Sing	6	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -8727,7 +8727,7 @@
 9	to	to	PART	TO	_	8	udep	_	_
 10	pay	pay	VERB	VB	VerbForm=Inf	9	comp:obj	_	_
 11	Rona	Rona	PROPN	NNP	Number=Sing	12	comp:obj	_	SpaceAfter=No
-12	's	's	PART	POS	_	13	nmod@poss	_	_
+12	's	's	PART	POS	_	13	mod@poss	_	_
 13	expenses	expense	NOUN	NNS	Number=Plur	10	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	_	_
 15	Joliot	Joliot	PROPN	NNP	Number=Sing	18	subj	_	SpaceAfter=No
@@ -8817,7 +8817,7 @@
 17	of	of	ADP	IN	_	16	udep	_	_
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
 19	Institute	Institute	PROPN	NNP	Number=Sing	20	comp:obj	_	SpaceAfter=No
-20	's	's	PART	POS	_	22	nmod@poss	_	_
+20	's	's	PART	POS	_	22	mod@poss	_	_
 21	subsequent	subsequent	ADJ	JJ	Degree=Pos	22	mod	_	_
 22	research	research	NOUN	NN	Number=Sing	17	comp:obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	3	punct	_	_
@@ -8973,7 +8973,7 @@
 3	as	as	ADP	IN	_	2	udep	_	_
 4	Humphrey	Humphrey	PROPN	NNP	Number=Sing	6	comp:obj	_	_
 5	Bogart	Bogart	PROPN	NNP	Number=Sing	4	flat@name	_	SpaceAfter=No
-6	's	's	PART	POS	_	8	nmod@poss	_	_
+6	's	's	PART	POS	_	8	mod@poss	_	_
 7	younger	younger	ADJ	JJR	Degree=Cmp	8	mod	_	_
 8	brother	brother	NOUN	NN	Number=Sing	3	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
@@ -9323,7 +9323,7 @@
 22	pictures	picture	NOUN	NNS	Number=Plur	19	conj	_	_
 23	for	for	ADP	IN	Shared=Yes	22	udep	_	_
 24	Edgar	Edgar	PROPN	NNP	Number=Sing	25	comp:obj	_	SpaceAfter=No
-25	's	's	PART	POS	_	26	nmod@poss	_	_
+25	's	's	PART	POS	_	26	mod@poss	_	_
 26	films	film	NOUN	NNS	Number=Plur	23	comp:obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -9347,7 +9347,7 @@
 16	films	film	NOUN	NNS	Number=Plur	14	comp:obj	_	_
 17	The	the	DET	DT	Definite=Def|PronType=Art	18	det	_	Proper=True
 18	Hitchhiker	hitchhiker	NOUN	NN	Number=Sing	19	comp:obj	_	SpaceAfter=No
-19	's	's	PART	POS	_	20	nmod@poss	_	Proper=True
+19	's	's	PART	POS	_	20	mod@poss	_	Proper=True
 20	Guide	guide	NOUN	NN	Number=Sing	16	conj:appos	_	_
 21	to	to	ADP	IN	_	20	udep	_	Proper=True
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	Proper=True

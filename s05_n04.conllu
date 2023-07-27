@@ -473,7 +473,7 @@
 20	to	to	PART	TO	_	19	comp:obl	_	_
 21	anticipate	anticipate	VERB	VB	VerbForm=Inf	20	comp:obj	_	Subject=SubjRaising
 22	drivers	driver	NOUN	NNS	Number=Plur	23	comp:obj	_	SpaceAfter=No
-23	'	'	PART	POS	_	24	nmod@poss	_	_
+23	'	'	PART	POS	_	24	mod@poss	_	_
 24	actions	action	NOUN	NNS	Number=Plur	21	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	7	punct	_	_
 

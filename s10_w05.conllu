@@ -625,7 +625,7 @@
 4	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 5	of	of	ADP	IN	_	4	udep	_	_
 6	Pompey	Pompey	PROPN	NNP	Number=Sing	7	comp:obj	_	SpaceAfter=No
-7	's	's	PART	POS	_	8	nmod@poss	_	_
+7	's	's	PART	POS	_	8	mod@poss	_	_
 8	actions	action	NOUN	NNS	Number=Plur	5	comp:obj	_	_
 9	by	by	ADP	IN	_	4	comp:obl@agent	_	_
 10	Curio	Curio	PROPN	NNP	Number=Sing	9	comp:obj	_	SpaceAfter=No

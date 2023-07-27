@@ -217,7 +217,7 @@
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
 17	Thirty	thirty	NUM	CD	NumType=Card	18	mod	_	Proper=True
 18	Years	year	NOUN	NNS	Number=Plur	19	comp:obj	_	SpaceAfter=No
-19	'	'	PART	POS	_	20	nmod@poss	_	Proper=True
+19	'	'	PART	POS	_	20	mod@poss	_	Proper=True
 20	War	war	NOUN	NN	Number=Sing	15	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -329,7 +329,7 @@
 4	,	,	PUNCT	,	_	9	punct	_	_
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
 6	city	city	NOUN	NN	Number=Sing	7	comp:obj	_	SpaceAfter=No
-7	's	's	PART	POS	_	8	nmod@poss	_	_
+7	's	's	PART	POS	_	8	mod@poss	_	_
 8	economy	economy	NOUN	NN	Number=Sing	9	subj	_	_
 9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	been	be	VERB	VBN	Tense=Past|VerbForm=Part	9	comp:aux	_	_
@@ -392,7 +392,7 @@
 10	announced	announce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 11	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	mod@poss	_	_
 12	government	government	NOUN	NN	Number=Sing	13	comp:obj	_	SpaceAfter=No
-13	's	's	PART	POS	_	14	nmod@poss	_	_
+13	's	's	PART	POS	_	14	mod@poss	_	_
 14	plans	plan	NOUN	NNS	Number=Plur	10	comp:obj	_	_
 15	to	to	PART	TO	_	14	udep	_	_
 16	free	free	VERB	VB	VerbForm=Inf	15	comp:obj	_	_
@@ -862,7 +862,7 @@
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
 8	Thirty	thirty	NUM	CD	NumType=Card	9	mod	_	Proper=True
 9	Years	year	NOUN	NNS	Number=Plur	10	comp:obj	_	SpaceAfter=No
-10	'	'	PART	POS	_	11	nmod@poss	_	Proper=True
+10	'	'	PART	POS	_	11	mod@poss	_	Proper=True
 11	War	war	NOUN	NN	Number=Sing	6	comp:obj	_	_
 12	in	in	ADP	IN	_	11	udep	_	_
 13	1632	1632	NUM	CD	NumType=Card	12	comp:obj	_	_
