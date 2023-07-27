@@ -8510,7 +8510,7 @@
 8	eventually	eventually	ADV	RB	_	7	mod	_	_
 9	rival	rival	VERB	VB	VerbForm=Inf	7	comp:aux	_	_
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
-11	Carnival	carnival	ADP	NN	Number=Sing	9	comp:obj	_	_
+11	Carnival	carnival	NOUN	NN	Number=Sing	9	comp:obj	_	_
 12	of	of	ADP	IN	_	11	udep	_	Proper=True
 13	Brazil	Brazil	PROPN	NNP	Number=Sing	12	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	2	punct	_	_
